@@ -7,17 +7,17 @@
   {
     "idx": 1,
     "text_jp": "よくぞここまで来た\n貴様、…何者だ{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Well done making it this far.\nYou... what are you?{END}"
   },
   {
     "idx": 2,
     "text_jp": "仮面ライダーＢＬＡＣＫ！{END}",
-    "text_en": "Kamen RiderBLACＫ!{END}"
+    "text_en": "Kamen Rider BLACK!{END}"
   },
   {
     "idx": 3,
     "text_jp": "は！ハハハハ！これは驚いた\n奇遇だな我が輩の名も…ブラック！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Ha! Hahahaha! What a surprise.\nWhat a coincidence. My name is... Black!{END}"
   },
   {
     "idx": 4,
@@ -27,16 +27,16 @@
   {
     "idx": 5,
     "text_jp": "まさか仮面ライダーにも我が輩と\n同じ名を持つ者がいるとは…{END}",
-    "text_en": "Kamen Rider... you are here too!{END}"
+    "text_en": "To think a Kamen Rider would bear\nthe same name as I do...{END}"
   },
   {
     "idx": 6,
     "text_jp": "貴様がどんな奴かは知らんが{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "I do not know what sort of man you are,{END}"
   },
   {
     "idx": 7,
     "text_jp": "この世にブラックの名を持つ者は\n１人で十分だ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "but this world needs only one\nwho bears the name Black!{END}"
   }
 ]

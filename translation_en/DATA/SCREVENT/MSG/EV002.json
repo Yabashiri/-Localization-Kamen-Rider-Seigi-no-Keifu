@@ -22,17 +22,17 @@
   {
     "idx": 4,
     "text_jp": "仮面ライダー、今に我々の\n本当の力を思い知らせてやる{END}",
-    "text_en": "Kamen Rider... you are here too!{END}"
+    "text_en": "Kamen Rider, soon we will show you\nour true power.{END}"
   },
   {
     "idx": 5,
     "text_jp": "ドクガンダー、何度再生しようと\nお前たちの野望はオレが打ち砕く！{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Dokugander, no matter how many times\nyou revive, I'll crush your ambitions!{END}"
   },
   {
     "idx": 6,
     "text_jp": "再生？…フン、オレはもはや\nショッカーの一員ではない{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Revive? Hmph. I am no longer\na member of Shocker.{END}"
   },
   {
     "idx": 7,
@@ -42,11 +42,11 @@
   {
     "idx": 8,
     "text_jp": "邪悪な力により再びこの世に生を受けた\n闇の世界の創造者なのだ！{END}",
-    "text_en": "A world of darkness is coming.{END}"
+    "text_en": "By an evil power, I have been reborn\nas creator of the world of darkness!{END}"
   },
   {
     "idx": 9,
     "text_jp": "ショッカーではない…邪悪な…力…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Not Shocker... an evil... power...{END}"
   }
 ]
