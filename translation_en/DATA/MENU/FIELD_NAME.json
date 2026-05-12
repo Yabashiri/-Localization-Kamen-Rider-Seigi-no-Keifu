@@ -12,7 +12,7 @@
   {
     "idx": 2,
     "text_jp": "発電所　搬入口{END}",
-    "text_en": "Power Plant Loading Entrance{END}"
+    "text_en": "Power Plant Loading Bay{END}"
   },
   {
     "idx": 3,
@@ -32,7 +32,7 @@
   {
     "idx": 6,
     "text_jp": "発電所　所長室{END}",
-    "text_en": "Power Plant Directors Office{END}"
+    "text_en": "Power Plant Director's Office{END}"
   },
   {
     "idx": 7,
@@ -107,7 +107,7 @@
   {
     "idx": 210,
     "text_jp": "アジト　素体ドーム{END}",
-    "text_en": "Base Body Dome{END}"
+    "text_en": "Base Specimen Dome{END}"
   },
   {
     "idx": 211,
@@ -127,7 +127,7 @@
   {
     "idx": 22,
     "text_jp": "アジト　素体ドーム{END}",
-    "text_en": "Base Body Dome{END}"
+    "text_en": "Base Specimen Dome{END}"
   },
   {
     "idx": 23,
@@ -162,12 +162,12 @@
   {
     "idx": 29,
     "text_jp": "アジト　海底基地{END}",
-    "text_en": "Base Undersea Base{END}"
+    "text_en": "Undersea Base{END}"
   },
   {
     "idx": 30,
     "text_jp": "？？？　培養装置室{END}",
-    "text_en": "??? Cultivation Device Room{END}"
+    "text_en": "??? Cultivation Chamber{END}"
   },
   {
     "idx": 31,
@@ -197,7 +197,7 @@
   {
     "idx": 1030,
     "text_jp": "発電所　搬入口{END}",
-    "text_en": "Power Plant Loading Entrance{END}"
+    "text_en": "Power Plant Loading Bay{END}"
   },
   {
     "idx": 1040,
@@ -217,7 +217,7 @@
   {
     "idx": 1070,
     "text_jp": "発電所　所長室{END}",
-    "text_en": "Power Plant Directors Office{END}"
+    "text_en": "Power Plant Director's Office{END}"
   },
   {
     "idx": 1080,
@@ -292,7 +292,7 @@
   {
     "idx": 1220,
     "text_jp": "アジト　素体ドーム{END}",
-    "text_en": "Base Body Dome{END}"
+    "text_en": "Base Specimen Dome{END}"
   },
   {
     "idx": 1221,
@@ -342,12 +342,12 @@
   {
     "idx": 1300,
     "text_jp": "アジト　海底基地{END}",
-    "text_en": "Base Undersea Base{END}"
+    "text_en": "Undersea Base{END}"
   },
   {
     "idx": 1310,
     "text_jp": "？？？　培養装置室{END}",
-    "text_en": "??? Cultivation Device Room{END}"
+    "text_en": "??? Cultivation Chamber{END}"
   },
   {
     "idx": 2000,

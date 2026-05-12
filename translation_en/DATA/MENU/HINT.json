@@ -2,237 +2,237 @@
   {
     "offset": "0x0E14",
     "text_jp": "エレベーターの操作",
-    "text_en": ""
+    "text_en": "Elevator Operation"
   },
   {
     "offset": "0x0E27",
     "text_jp": "ゲートコントローラ",
-    "text_en": ""
+    "text_en": "Gate Controller"
   },
   {
     "offset": "0x0E3A",
     "text_jp": "変電器の修理",
-    "text_en": ""
+    "text_en": "Transformer Repair"
   },
   {
     "offset": "0x0E47",
     "text_jp": "パンチカード",
-    "text_en": ""
+    "text_en": "Punch Cards"
   },
   {
     "offset": "0x0E54",
     "text_jp": "電磁ロック",
-    "text_en": ""
+    "text_en": "Magnetic Lock"
   },
   {
     "offset": "0x0E5F",
     "text_jp": "バーコードキー",
-    "text_en": ""
+    "text_en": "Barcode Key"
   },
   {
     "offset": "0x0E6E",
     "text_jp": "プール制御装置",
-    "text_en": ""
+    "text_en": "Pool Control Device"
   },
   {
     "offset": "0x0E7D",
     "text_jp": "リフト",
-    "text_en": ""
+    "text_en": "Lift"
   },
   {
     "offset": "0x0E84",
     "text_jp": "Ａ−３３",
-    "text_en": ""
+    "text_en": "A-33"
   },
   {
     "offset": "0x0E8D",
     "text_jp": "電磁シールド",
-    "text_en": ""
+    "text_en": "Electromagnetic Shield"
   },
   {
     "offset": "0x0E9A",
     "text_jp": "換気システム",
-    "text_en": ""
+    "text_en": "Ventilation System"
   },
   {
     "offset": "0x0EA7",
     "text_jp": "磁場フィールド発生装置",
-    "text_en": ""
+    "text_en": "Magnetic Field Generator"
   },
   {
     "offset": "0x0EBE",
     "text_jp": "赤外線センサー",
-    "text_en": ""
+    "text_en": "Infrared Sensor"
   },
   {
     "offset": "0x0ECD",
     "text_jp": "バリア制御装置",
-    "text_en": ""
+    "text_en": "Barrier Control Device"
   },
   {
     "offset": "0x0EDC",
     "text_jp": "所長室の電源",
-    "text_en": ""
+    "text_en": "Director's Office Power"
   },
   {
     "offset": "0x0EE9",
     "text_jp": "警備担当よりの通達",
-    "text_en": ""
+    "text_en": "Notice from Security"
   },
   {
     "offset": "0x0EFC",
     "text_jp": "ゲートコントローラ",
-    "text_en": ""
+    "text_en": "Gate Controller"
   },
   {
     "offset": "0x0F0F",
     "text_jp": "ゲートコントローラマニュアル",
-    "text_en": ""
+    "text_en": "Gate Controller Manual"
   },
   {
     "offset": "0x0F2C",
     "text_jp": "保管記録の紙片",
-    "text_en": ""
+    "text_en": "Storage Record Fragment"
   },
   {
     "offset": "0x0F3B",
     "text_jp": "「変電器の修理報告」",
-    "text_en": ""
+    "text_en": "\"Transformer Repair Report\""
   },
   {
     "offset": "0x0F50",
     "text_jp": "「発電所所員のメモ」",
-    "text_en": ""
+    "text_en": "\"Power Plant Staff Memo\""
   },
   {
     "offset": "0x0F65",
     "text_jp": "電磁ロック扉",
-    "text_en": ""
+    "text_en": "Magnetic Lock Door"
   },
   {
     "offset": "0x0F72",
     "text_jp": "アジト兵器庫",
-    "text_en": ""
+    "text_en": "Hideout Armory"
   },
   {
     "offset": "0x0F7F",
     "text_jp": "入室許可コード変更指示書",
-    "text_en": ""
+    "text_en": "Room Access Code Change Order"
   },
   {
     "offset": "0x0F98",
     "text_jp": "タービン室",
-    "text_en": ""
+    "text_en": "Turbine Room"
   },
   {
     "offset": "0x0FA3",
     "text_jp": "乱数表",
-    "text_en": ""
+    "text_en": "Random Number Table"
   },
   {
     "offset": "0x0FAA",
     "text_jp": "所長のパソコン",
-    "text_en": ""
+    "text_en": "Director's Computer"
   },
   {
     "offset": "0x0FB9",
     "text_jp": "科学員のメモ",
-    "text_en": ""
+    "text_en": "Scientist's Memo"
   },
   {
     "offset": "0x0FC6",
     "text_jp": "発電所燃料プールの装置",
-    "text_en": ""
+    "text_en": "Power Plant Fuel Pool Device"
   },
   {
     "offset": "0x0FDD",
     "text_jp": "プール制御装置マニュアル",
-    "text_en": ""
+    "text_en": "Pool Control Device Manual"
   },
   {
     "offset": "0x0FF6",
     "text_jp": "作業報告書",
-    "text_en": ""
+    "text_en": "Work Report"
   },
   {
     "offset": "0x1001",
     "text_jp": "ショッカー科学員の日誌",
-    "text_en": ""
+    "text_en": "Shocker Scientist's Diary"
   },
   {
     "offset": "0x1018",
     "text_jp": "研究結果テープの整理",
-    "text_en": ""
+    "text_en": "Research Tape Organization"
   },
   {
     "offset": "0x102D",
     "text_jp": "アジトメイン通路",
-    "text_en": ""
+    "text_en": "Hideout Main Passage"
   },
   {
     "offset": "0x103E",
     "text_jp": "配電盤",
-    "text_en": ""
+    "text_en": "Switchboard"
   },
   {
     "offset": "0x1045",
     "text_jp": "機械の鍵",
-    "text_en": ""
+    "text_en": "Machine Key"
   },
   {
     "offset": "0x104E",
     "text_jp": "電磁シールドの装置",
-    "text_en": ""
+    "text_en": "Electromagnetic Shield Device"
   },
   {
     "offset": "0x1061",
     "text_jp": "対侵入者用プログラム−１−",
-    "text_en": ""
+    "text_en": "Anti-Intruder Program - 1 -"
   },
   {
     "offset": "0x107C",
     "text_jp": "換気システムの説明書",
-    "text_en": ""
+    "text_en": "Ventilation System Manual"
   },
   {
     "offset": "0x1091",
     "text_jp": "換気装置",
-    "text_en": ""
+    "text_en": "Ventilation Device"
   },
   {
     "offset": "0x109A",
     "text_jp": "地獄大使の作戦計画書",
-    "text_en": ""
+    "text_en": "Ambassador Hell's Operation Plan"
   },
   {
     "offset": "0x10AF",
     "text_jp": "海底基地モックアップ",
-    "text_en": ""
+    "text_en": "Undersea Base Mock-Up"
   },
   {
     "offset": "0x10C4",
     "text_jp": "海底基地建設報告書",
-    "text_en": ""
+    "text_en": "Undersea Base Construction Report"
   },
   {
     "offset": "0x10D7",
     "text_jp": "対侵入者用プログラム−２−",
-    "text_en": ""
+    "text_en": "Anti-Intruder Program - 2 -"
   },
   {
     "offset": "0x10F2",
     "text_jp": "時空転移制御装置",
-    "text_en": ""
+    "text_en": "Time-Space Transfer Control Device"
   },
   {
     "offset": "0x1103",
     "text_jp": "……………………………",
-    "text_en": ""
+    "text_en": "..........................."
   },
   {
     "offset": "0x111A",
     "text_jp": "所長室の電源について",
-    "text_en": ""
+    "text_en": "About the Director's Office Power"
   },
   {
     "offset": "0x112F",
@@ -267,222 +267,222 @@
   {
     "offset": "0x11D1",
     "text_jp": "ゲートコントローラマニュアル",
-    "text_en": ""
+    "text_en": "Gate Controller Manual"
   },
   {
     "offset": "0x11EE",
     "text_jp": "プール制御装置マニュアル",
-    "text_en": ""
+    "text_en": "Pool Control Device Manual"
   },
   {
     "offset": "0x1207",
     "text_jp": "警備担当よりの通達",
-    "text_en": ""
+    "text_en": "Notice from Security"
   },
   {
     "offset": "0x121A",
     "text_jp": "入室許可コード変更指示書",
-    "text_en": ""
+    "text_en": "Room Access Code Change Order"
   },
   {
     "offset": "0x1233",
     "text_jp": "対侵入者用プログラム−１−",
-    "text_en": ""
+    "text_en": "Anti-Intruder Program - 1 -"
   },
   {
     "offset": "0x124E",
     "text_jp": "作業報告書",
-    "text_en": ""
+    "text_en": "Work Report"
   },
   {
     "offset": "0x1259",
     "text_jp": "地獄大使の作戦計画書",
-    "text_en": ""
+    "text_en": "Ambassador Hell's Operation Plan"
   },
   {
     "offset": "0x126E",
     "text_jp": "象形文字の遺伝子設計図",
-    "text_en": ""
+    "text_en": "Hieroglyphic Genetic Blueprint"
   },
   {
     "offset": "0x1285",
     "text_jp": "ＩＣレコーダー",
-    "text_en": ""
+    "text_en": "IC Recorder"
   },
   {
     "offset": "0x1294",
     "text_jp": "所長の手記−４−",
-    "text_en": ""
+    "text_en": "Director's Notes - 4 -"
   },
   {
     "offset": "0x12A5",
     "text_jp": "海底基地建設報告書",
-    "text_en": ""
+    "text_en": "Undersea Base Construction Report"
   },
   {
     "offset": "0x12B8",
     "text_jp": "……………………………",
-    "text_en": ""
+    "text_en": "..........................."
   },
   {
     "offset": "0x12CF",
     "text_jp": "保管記録の紙片",
-    "text_en": ""
+    "text_en": "Storage Record Fragment"
   },
   {
     "offset": "0x12DE",
     "text_jp": "新聞の切り抜き",
-    "text_en": ""
+    "text_en": "Newspaper Clipping"
   },
   {
     "offset": "0x12ED",
     "text_jp": "「変電器の修理報告」",
-    "text_en": ""
+    "text_en": "\"Transformer Repair Report\""
   },
   {
     "offset": "0x1302",
     "text_jp": "所長のメモ−１−",
-    "text_en": ""
+    "text_en": "Director's Memo - 1 -"
   },
   {
     "offset": "0x1313",
     "text_jp": "遺伝子融合実験の記録",
-    "text_en": ""
+    "text_en": "Gene Fusion Experiment Record"
   },
   {
     "offset": "0x1328",
     "text_jp": "ブラック将軍の作戦計画書",
-    "text_en": ""
+    "text_en": "General Black's Operation Plan"
   },
   {
     "offset": "0x1341",
     "text_jp": "科学員のメモ",
-    "text_en": ""
+    "text_en": "Scientist's Memo"
   },
   {
     "offset": "0x134E",
     "text_jp": "戦闘員のメモ",
-    "text_en": ""
+    "text_en": "Combatant's Memo"
   },
   {
     "offset": "0x135B",
     "text_jp": "所長の手記−３−",
-    "text_en": ""
+    "text_en": "Director's Notes - 3 -"
   },
   {
     "offset": "0x136C",
     "text_jp": "小型カセットレコーダー",
-    "text_en": ""
+    "text_en": "Small Cassette Recorder"
   },
   {
     "offset": "0x1383",
     "text_jp": "「送電ラインの変更規約」",
-    "text_en": ""
+    "text_en": "\"Transmission Line Change Rules\""
   },
   {
     "offset": "0x139C",
     "text_jp": "所長室の電源について",
-    "text_en": ""
+    "text_en": "About the Director's Office Power"
   },
   {
     "offset": "0x13B1",
     "text_jp": "結城からの手紙",
-    "text_en": ""
+    "text_en": "Letter from Yuki"
   },
   {
     "offset": "0x13C0",
     "text_jp": "書きかけの手紙",
-    "text_en": ""
+    "text_en": "Unfinished Letter"
   },
   {
     "offset": "0x13CF",
     "text_jp": "所長のメモ−２−",
-    "text_en": ""
+    "text_en": "Director's Memo - 2 -"
   },
   {
     "offset": "0x13E0",
     "text_jp": "死神博士の作戦計画書−１−",
-    "text_en": ""
+    "text_en": "Doctor Shinigami's Operation Plan - 1 -"
   },
   {
     "offset": "0x13FB",
     "text_jp": "死神博士の作戦計画書−２−",
-    "text_en": ""
+    "text_en": "Doctor Shinigami's Operation Plan - 2 -"
   },
   {
     "offset": "0x1416",
     "text_jp": "対侵入者用プログラム−２−",
-    "text_en": ""
+    "text_en": "Anti-Intruder Program - 2 -"
   },
   {
     "offset": "0x1431",
     "text_jp": "ショッカー科学員の日誌",
-    "text_en": ""
+    "text_en": "Shocker Scientist's Diary"
   },
   {
     "offset": "0x1448",
     "text_jp": "カセットレコーダー",
-    "text_en": ""
+    "text_en": "Cassette Recorder"
   },
   {
     "offset": "0x145B",
     "text_jp": "所長の手記−２−",
-    "text_en": ""
+    "text_en": "Director's Notes - 2 -"
   },
   {
     "offset": "0x146C",
     "text_jp": "「発電所所員のメモ」",
-    "text_en": ""
+    "text_en": "\"Power Plant Staff Memo\""
   },
   {
     "offset": "0x1481",
     "text_jp": "換気システムの説明書",
-    "text_en": ""
+    "text_en": "Ventilation System Manual"
   },
   {
     "offset": "0x1496",
     "text_jp": "乱数表",
-    "text_en": ""
+    "text_en": "Random Number Table"
   },
   {
     "offset": "0x149D",
     "text_jp": "研究結果テープの整理",
-    "text_en": ""
+    "text_en": "Research Tape Organization"
   },
   {
     "offset": "0x14B2",
     "text_jp": "研究レポート",
-    "text_en": ""
+    "text_en": "Research Report"
   },
   {
     "offset": "0x14BF",
     "text_jp": "ショッカー首領よりの指示書",
-    "text_en": ""
+    "text_en": "Shocker Leader's Orders"
   },
   {
     "offset": "0x14DA",
     "text_jp": "「ＴＩＥＲＲＡ」移送記録",
-    "text_en": ""
+    "text_en": "\"TIERRA\" Transfer Record"
   },
   {
     "offset": "0x14F3",
     "text_jp": "ショッカー科学員の名簿",
-    "text_en": ""
+    "text_en": "Shocker Scientist Roster"
   },
   {
     "offset": "0x150A",
     "text_jp": "ゾル大佐の作戦計画書",
-    "text_en": ""
+    "text_en": "Colonel Zol's Operation Plan"
   },
   {
     "offset": "0x151F",
     "text_jp": "所長の手記−１−",
-    "text_en": ""
+    "text_en": "Director's Notes - 1 -"
   },
   {
     "offset": "0x1530",
     "text_jp": "テープレコーダー",
-    "text_en": ""
+    "text_en": "Tape Recorder"
   },
   {
     "offset": "0x1541",
@@ -572,102 +572,102 @@
   {
     "offset": "0x228E",
     "text_jp": "　この変異空間では行動の結果が　\\n　　全ての時代に影響するぞ！　　\\n　　　　　　　　　　　　　　　　\\n　その時代で開けられない扉が　　\\n　　他の時代で開けられるか　　　\\n　　　　試してみよう！　　　　　",
-    "text_en": ""
+    "text_en": "In this altered space,\nthe results of your actions\naffect every era!\nIf a door will not open\nin one era, try opening it\nin another!"
   },
   {
     "offset": "0x2359",
     "text_jp": "key3200",
-    "text_en": ""
+    "text_en": "key3200"
   },
   {
     "offset": "0x2361",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　ゲートコントローラは各施設の　\\n　ドアのセキュリティを一括管理　\\n　しています。　　　　　　　　　\\n　集中管理型のシステムです。　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "The Gate Controller centrally\nmanages door security\nthroughout each facility.\nIt is a centralized\ncontrol system."
   },
   {
     "offset": "0x242C",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　各施設のドアに対応した　　　　\\n　専用の鍵を使用することで　　　\\n　ドアの開閉を遠隔操作する　　　\\n　ことが可能です。　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "By using the dedicated key\nfor a facility's doors,\nyou can remotely open\nand close those doors."
   },
   {
     "offset": "0x24F7",
     "text_jp": "key0800",
-    "text_en": ""
+    "text_en": "key0800"
   },
   {
     "offset": "0x24FF",
     "text_jp": "＜緊急時における対応＞　　　　　\\n　　　　　　　　　　　　　　　　\\n　燃料プールの水温が、基準値より\\n　上昇している場合、すみやかに　\\n　次の対応を行って下さい。　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "<Emergency Response>\n\nIf the fuel pool water temperature\nrises above the standard value,\nquickly take the following measures."
   },
   {
     "offset": "0x25CA",
     "text_jp": "＜対応措置１＞　　　　　　　　　\\n○貯水冷却システムの起動　　　　\\n　　　　　　　　　　　　　　　　\\n　水温が上昇しイエローゾーンに　\\n　達した場合は貯水冷却システム　\\n　を起動して水温を下げて下さい。",
-    "text_en": ""
+    "text_en": "<Measure 1>\nStart the water cooling system.\n\nIf the water temperature rises\nand reaches the yellow zone,\nstart the water cooling system\nto lower the temperature."
   },
   {
     "offset": "0x2695",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　システムの起動により、水温が　\\n　下がり、安全基準値に到達する　\\n　には数時間を要します。　　　　\\n　安全基準値に達するとシステム　\\n　は自動的に解除されます。　　　",
-    "text_en": ""
+    "text_en": "After system startup,\nit will take several hours\nfor the water temperature\nto drop to the safe standard.\nOnce it reaches that standard,\nthe system will shut off automatically."
   },
   {
     "offset": "0x2760",
     "text_jp": "＜対応措置２＞　　　　　　　　　\\n○貯水の強制入れ替え作業　　　　\\n　　　　　　　　　　　　　　　　\\n　水温がレッドゾーンに達した場合\\n　緊急処置として燃料プール内の　\\n　水を入れ替える必要があります。",
-    "text_en": ""
+    "text_en": "<Measure 2>\nForced water replacement.\n\nIf the water temperature reaches\nthe red zone, the water in the\nfuel pool must be replaced\nas an emergency measure."
   },
   {
     "offset": "0x282B",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　入れ替え作業中、キャスクから　\\n　もれる放射線に対し、安全対策　\\n　が必要です。　　　　　　　　　\\n　放射線検知バッチの着用を忘れ　\\n　ないように行って下さい。　　　",
-    "text_en": ""
+    "text_en": "During replacement work,\nsafety measures are required\nagainst radiation leaking\nfrom the casks.\nBe sure to wear a\nradiation detection badge."
   },
   {
     "offset": "0x28F6",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　この作業には危険性を伴う為　　\\n　所長の許可を必要とします。　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Because this work is dangerous,\nit requires the director's approval."
   },
   {
     "offset": "0x29C1",
     "text_jp": "　　　　　　　　　　　　　　　　\\n警備室のコンソールで制御している\\n兵器庫のエレベーターは、一定の　\\n機密レベルを有する者のみ使用可能\\nとする。　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "The armory elevator controlled\nfrom the security room console\nmay be used only by personnel\nwith the required clearance level."
   },
   {
     "offset": "0x2A8C",
     "text_jp": "　　　　　　　　　　　　　　　　\\n該当者には起動用のカードキーを　\\n配布しているが、該当しない者は　\\n必ず警備担当の許可を得ること。　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　以上。　　　　　　",
-    "text_en": ""
+    "text_en": "Authorized personnel have been\nissued startup card keys.\nAll others must obtain permission\nfrom Security.\n\nEnd of notice."
   },
   {
     "offset": "0x2B57",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　…中心に穴がある　　　　　　\\n　　特殊な鍵が必要なようだ　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "...It looks like a special key\nwith a hole in the center\nis required."
   },
   {
     "offset": "0x2C22",
     "text_jp": "key0610",
-    "text_en": ""
+    "text_en": "key0610"
   },
   {
     "offset": "0x2C2A",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　作戦計画室への入室許可コードを\\n　次のように変更せよ　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Change the access code\nfor the Operations Planning Room\nas follows:"
   },
   {
     "offset": "0x2CF5",
     "text_jp": "　　　　　１・・・「＋」　　　　\\n　　　　　２・・・「−」　　　　\\n　　　　　３・・・「＋」　　　　\\n　　　　　４・・・「−」　　　　\\n　　　　　５・・・「＋」　　　　\\n　　　　　６・・・「＋」　　　　",
-    "text_en": ""
+    "text_en": "1 ... +\n2 ... -\n3 ... +\n4 ... -\n5 ... +\n6 ... +"
   },
   {
     "offset": "0x2DC0",
     "text_jp": "　　＜対侵入者用プログラム＞　　\\n　　　　　　　　　　　　　　　　\\n　アジトへの侵入者が感知された　\\n　場合、自動的に司令室入口の　　\\n　「電磁シールド」が作動する。　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "<Anti-Intruder Program>\n\nIf an intruder is detected\ninside the hideout,\nthe electromagnetic shield\nat the command room entrance\nwill activate automatically."
   },
   {
     "offset": "0x2E8B",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　＜警戒体制時のシステム操作＞　\\n　　　　　　　　　　　　　　　　\\n　「電磁シールド」は司令室の　　\\n　制御装置にて解除できる。　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "<System Operation During Alert>\n\nThe electromagnetic shield\ncan be deactivated from\nthe command room control device."
   },
   {
     "offset": "0x2F56",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　制御装置の「解除スイッチ」を　\\n　押す間のみ「電磁シールド」を　\\n　一時停止することができる。　　\\n　部隊の移動など司令室を通過　　\\n　する場合に使用すること。　　　",
-    "text_en": ""
+    "text_en": "The electromagnetic shield\ncan be temporarily stopped\nonly while the control device's\nRelease Switch is pressed.\nUse this when units need\nto pass through the command room."
   },
   {
     "offset": "0x3021",

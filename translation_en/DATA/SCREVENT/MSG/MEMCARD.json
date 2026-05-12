@@ -12,7 +12,7 @@
   {
     "idx": 3,
     "text_jp": "システム設定ファイルの作成を\n行いませんでした\n\nこのままゲームを開始しますか？{END}",
-    "text_en": "There are documents here.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+    "text_en": "The system settings file\nwas not created.\n\nStart the game anyway?{END}"
   },
   {
     "idx": 4,
@@ -22,27 +22,27 @@
   {
     "idx": 5,
     "text_jp": "オプションの設定をセーブしますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Save option settings?{END}"
   },
   {
     "idx": 6,
     "text_jp": "設定を保存せずにゲームに戻りますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Return to the game\nwithout saving settings?{END}"
   },
   {
     "idx": 7,
     "text_jp": "メモリーカード（ＰＳ２）が\nメモリーカード差込口１に\n差されていません\n\nこのゲームのデータをセーブするには\n３０５ＫＢ以上の空き容量が必要です\n\nこのままゲームを開始しますか？{END}",
-    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+    "text_en": "No Memory Card (PS2)\nis inserted in slot 1.\n\nSaving this game's data requires\nat least 305 KB of free space.\n\nStart the game anyway?{END}"
   },
   {
     "idx": 8,
     "text_jp": "メモリーカード差込口１に差されている\nメモリーカード（ＰＳ２）の\nフォーマットがされていません\n\nフォーマットをしますか？{END}",
-    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+    "text_en": "The Memory Card (PS2)\nin slot 1 is not formatted.\n\nFormat it now?{END}"
   },
   {
     "idx": 9,
     "text_jp": "このゲームのデータをセーブするには\nメモリーカード（ＰＳ２）に\nシステム設定ファイルを\n作成する必要があります\n\nシステム設定ファイルを作成しても\nよろしいですか？{END}",
-    "text_en": "Check this place.\nA key item seems necessary here.\nThere are documents here.\nCheck this place.\nCheck this place.\nThere are documents here.\nCheck this place.{END}"
+    "text_en": "To save this game's data,\na system settings file must be\ncreated on the Memory Card (PS2).\n\nCreate the system settings file?{END}"
   },
   {
     "idx": 10,
@@ -57,7 +57,7 @@
   {
     "idx": 12,
     "text_jp": "データが破損しています\n\nセーブするためには\n新たにシステム設定ファイルを\n作成する必要があります\n\nシステム設定ファイルを作成しても\nよろしいですか？{END}",
-    "text_en": "The data is corrupted.\nCheck this place.\nCheck this place.\nThere are documents here.\nCheck this place.\nCheck this place.\nThere are documents here.\nCheck this place.{END}"
+    "text_en": "The data is corrupted.\n\nTo save, a new system settings\nfile must be created.\n\nCreate the system settings file?{END}"
   },
   {
     "idx": 13,
@@ -67,7 +67,7 @@
   {
     "idx": 14,
     "text_jp": "メモリーカード差込口１に差されている\nメモリーカード（ＰＳ２）の\n空き容量が不足しています\nこのゲームのデータをセーブするには\n３０５ＫＢ以上の空き容量が必要です\n\nこのままゲームを開始しますか？{END}",
-    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+    "text_en": "The Memory Card (PS2)\nin slot 1 does not have\nenough free space.\nSaving this game's data requires\nat least 305 KB.\n\nStart the game anyway?{END}"
   },
   {
     "idx": 15,
@@ -77,12 +77,12 @@
   {
     "idx": 16,
     "text_jp": "フォーマットを行いませんでした\n\nこのままゲームを開始しますか？{END}",
-    "text_en": "Check this place.\nCheck this place.\nCheck this place.{END}"
+    "text_en": "The card was not formatted.\n\nStart the game anyway?{END}"
   },
   {
     "idx": 17,
     "text_jp": "メモリーカード差込口１に差されている\nメモリーカード（ＰＳ２）の\nフォーマットがされていません\n\nメモリーカード差込口１に\nフォーマットのされている\nメモリーカード（ＰＳ２）を\n差してください{END}",
-    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nA key item seems necessary here.\nCheck this place.\nA key item seems necessary here.\nCheck this place.{END}"
+    "text_en": "The Memory Card (PS2)\nin slot 1 is not formatted.\n\nInsert a formatted\nMemory Card (PS2)\ninto slot 1.{END}"
   },
   {
     "idx": 18,
@@ -92,7 +92,7 @@
   {
     "idx": 19,
     "text_jp": "メモリーカード差込口１に差されている\nメモリーカード（ＰＳ２）に\nシステム設定ファイルがありません\n\nメモリーカード差込口１に\nシステム設定ファイルのある\nメモリーカード（ＰＳ２）を\n差してください{END}",
-    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nThere are documents here.\nCheck this place.\nA key item seems necessary here.\nThere are documents here.\nA key item seems necessary here.\nCheck this place.{END}"
+    "text_en": "The Memory Card (PS2)\nin slot 1 has no\nsystem settings file.\n\nInsert a Memory Card (PS2)\nwith a system settings file\ninto slot 1.{END}"
   },
   {
     "idx": 20,
@@ -107,7 +107,7 @@
   {
     "idx": 22,
     "text_jp": "今回のクリア情報を\nシステム設定ファイルにセーブします\nセーブを行うと今回のクリア情報が\n「ＲＥＣＯＲＤ」に登録されます\n\n\n\n\n\n\nセーブしますか？{END}",
-    "text_en": "Check this place.\nThere are documents here.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+    "text_en": "This clear data will be saved\nto the system settings file.\nIf saved, this clear data\nwill be registered in RECORD.\n\n\n\n\n\n\nSave now?{END}"
   },
   {
     "idx": 23,
@@ -127,7 +127,7 @@
   {
     "idx": 26,
     "text_jp": "メモリーカード（ＰＳ２）が\nメモリーカード差込口１に\n差されていません\n\nメモリーカード差込口１に\nメモリーカード（ＰＳ２）を\n差してください{END}",
-    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nA key item seems necessary here.\nA key item seems necessary here.\nCheck this place.{END}"
+    "text_en": "No Memory Card (PS2)\nis inserted in slot 1.\n\nInsert a Memory Card (PS2)\ninto slot 1.{END}"
   },
   {
     "idx": 27,
@@ -137,22 +137,22 @@
   {
     "idx": 28,
     "text_jp": "　番のプレイデータを上書きしますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Overwrite play data No. ?{END}"
   },
   {
     "idx": 29,
     "text_jp": "　番にセーブしますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Save to slot No. ?{END}"
   },
   {
     "idx": 30,
     "text_jp": "　番のプレイデータをロードしますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Load play data No. ?{END}"
   },
   {
     "idx": 31,
     "text_jp": "メモリーカード（ＰＳ２）を\nチェック中です{END}",
-    "text_en": "A key item seems necessary here.\nCheck this place.{END}"
+    "text_en": "Checking Memory Card (PS2).{END}"
   },
   {
     "idx": 32,
@@ -167,12 +167,12 @@
   {
     "idx": 36,
     "text_jp": "システム設定ファイルに\nクリア情報のセーブを\n行いませんでした\n\nこのままゲームを終了しますか？{END}",
-    "text_en": "There are documents here.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+    "text_en": "Clear data was not saved\nto the system settings file.\n\nExit the game anyway?{END}"
   },
   {
     "idx": 37,
     "text_jp": "メモリーカード差込口１に差されている\nメモリーカード（ＰＳ２）の\n空き容量が不足しています\n\n３０５ＫＢ以上の空き容量のある\nメモリーカード（ＰＳ２）を\nメモリーカード差込口１へと\n差してください{END}",
-    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nCheck this place.\nA key item seems necessary here.\nA key item seems necessary here.\nCheck this place.{END}"
+    "text_en": "The Memory Card (PS2)\nin slot 1 does not have\nenough free space.\n\nInsert a Memory Card (PS2)\nwith at least 305 KB free\ninto slot 1.{END}"
   },
   {
     "idx": 38,
@@ -332,7 +332,7 @@
   {
     "idx": 3006,
     "text_jp": "発電所　所長室{END}",
-    "text_en": "Power Plant Directors Office{END}"
+    "text_en": "Power Plant Director's Office{END}"
   },
   {
     "idx": 3007,

@@ -67,7 +67,7 @@
   {
     "idx": 13,
     "text_jp": "『送電切換装置の鍵』\n装置に使用する為の小さな鍵{END}",
-    "text_en": "Power Switch Key\nA small key for\nthe switching device{END}"
+    "text_en": "Power Routing Key\nA small key for\nthe power routing device{END}"
   },
   {
     "idx": 14,
@@ -107,27 +107,27 @@
   {
     "idx": 21,
     "text_jp": "『電磁キー』\n一定間隔で磁気をおびさせた鍵\n専用の機械で磁気の設定ができる{END}",
-    "text_en": "Magnetic Key\nA key magnetized at\nfixed intervals{END}"
+    "text_en": "Magnetic Key\nA key magnetized at\nfixed intervals\nIts pattern can be set\nwith a special machine{END}"
   },
   {
     "idx": 22,
     "text_jp": "『テープレコーダー』\n大型のテープレコーダー\nカセットに所長の声が録音されている{END}",
-    "text_en": "Tape Recorder\nLarge tape recorder\nwith the directors voice{END}"
+    "text_en": "Tape Recorder\nLarge tape recorder\nwith the director's voice{END}"
   },
   {
     "idx": 23,
     "text_jp": "『カセットレコーダー』\nカセットテープ入りのレコーダー\nカセットに所長の声が録音されている{END}",
-    "text_en": "Cassette Recorder\nRecorder with tape\nand directors voice{END}"
+    "text_en": "Cassette Recorder\nRecorder with a tape\nof the director's voice{END}"
   },
   {
     "idx": 24,
     "text_jp": "『小型カセットレコーダー』\n小型のテープレコーダー\nカセットに所長の声が録音されている{END}",
-    "text_en": "Small Cassette Recorder\nSmall tape recorder\nwith directors voice{END}"
+    "text_en": "Small Cassette Recorder\nSmall tape recorder\nwith the director's voice{END}"
   },
   {
     "idx": 25,
     "text_jp": "『ＩＣレコーダー』\n所長の声が録音された\nＩＣ式のレコーダー{END}",
-    "text_en": "IC Recorder\nIC recorder with\nthe directors voice{END}"
+    "text_en": "IC Recorder\nIC recorder with\nthe director's voice{END}"
   },
   {
     "idx": 26,
@@ -152,7 +152,7 @@
   {
     "idx": 30,
     "text_jp": "『データスティック』\nデータを記録する為のものだ\n裏に「所長用」とかかれている{END}",
-    "text_en": "Data Stick\nUsed to record data\nMarked for director{END}"
+    "text_en": "Data Stick\nUsed to record data\nMarked \"For Director\"\non the back{END}"
   },
   {
     "idx": 31,
@@ -177,7 +177,7 @@
   {
     "idx": 35,
     "text_jp": "『機械の鍵』\n鍵のタグに「Ａ−３３」と書かれている{END}",
-    "text_en": "Machine Key\nThe key tag says A33{END}"
+    "text_en": "Machine Key\nThe key tag says A-33{END}"
   },
   {
     "idx": 36,
@@ -222,22 +222,22 @@
   {
     "idx": 1000,
     "text_jp": "体力は満タンです{END}",
-    "text_en": "Health is full{END}"
+    "text_en": "Health is already full.{END}"
   },
   {
     "idx": 1001,
     "text_jp": "エネルギーは満タンです{END}",
-    "text_en": "Energy is full{END}"
+    "text_en": "Energy is already full.{END}"
   },
   {
     "idx": 1002,
     "text_jp": "これ以上アイテムを置けない{END}",
-    "text_en": "No more items can be placed{END}"
+    "text_en": "You cannot place any more items.{END}"
   },
   {
     "idx": 1003,
     "text_jp": "このフロアにアイテムを置けない{END}",
-    "text_en": "Items cannot be placed\non this floor{END}"
+    "text_en": "You cannot place items\non this floor.{END}"
   },
   {
     "idx": 2000,

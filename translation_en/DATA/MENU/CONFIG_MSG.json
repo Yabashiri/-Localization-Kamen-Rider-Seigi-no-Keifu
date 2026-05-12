@@ -2,12 +2,12 @@
   {
     "idx": 100,
     "text_jp": "キーコンフィグを変更します{END}",
-    "text_en": "Change key config{END}"
+    "text_en": "Change controller settings{END}"
   },
   {
     "idx": 200,
     "text_jp": "サウンドモードを変更します{END}",
-    "text_en": "Change sound mode{END}"
+    "text_en": "Change the sound mode{END}"
   },
   {
     "idx": 201,
@@ -22,22 +22,22 @@
   {
     "idx": 300,
     "text_jp": "変身シーンの表示変更をします{END}",
-    "text_en": "Change henshin scene display{END}"
+    "text_en": "Change transformation scene display{END}"
   },
   {
     "idx": 301,
     "text_jp": "すべての変身シーンを表示します{END}",
-    "text_en": "Show all henshin scenes{END}"
+    "text_en": "Show all transformation scenes.{END}"
   },
   {
     "idx": 302,
     "text_jp": "変身シーンのイベントを省略します{END}",
-    "text_en": "Skip event henshin scenes{END}"
+    "text_en": "Skip event transformation scenes{END}"
   },
   {
     "idx": 303,
     "text_jp": "すべての変身シーンを省略します{END}",
-    "text_en": "Skip all henshin scenes{END}"
+    "text_en": "Skip all transformation scenes{END}"
   },
   {
     "idx": 400,
@@ -47,17 +47,17 @@
   {
     "idx": 401,
     "text_jp": "ゲージを表示します{END}",
-    "text_en": "Show gauge{END}"
+    "text_en": "Show gauges{END}"
   },
   {
     "idx": 402,
     "text_jp": "ゲージを表示しません{END}",
-    "text_en": "Hide gauge{END}"
+    "text_en": "Hide gauges{END}"
   },
   {
     "idx": 500,
     "text_jp": "字幕の表示切替を行います{END}",
-    "text_en": "Toggle subtitles{END}"
+    "text_en": "Toggle subtitle display{END}"
   },
   {
     "idx": 501,
@@ -97,17 +97,17 @@
   {
     "idx": 800,
     "text_jp": "すべての環境を初期設定に戻します{END}",
-    "text_en": "Return all settings to default{END}"
+    "text_en": "Restore all settings to default{END}"
   },
   {
     "idx": 801,
     "text_jp": "設定の変更を終了します{END}",
-    "text_en": "Exit settings{END}"
+    "text_en": "Finish changing settings{END}"
   },
   {
     "idx": 900,
     "text_jp": "環境設定を保存中です\nメモリーカードを抜かないでください{END}",
-    "text_en": "Saving options\nDo not remove memory card{END}"
+    "text_en": "Saving options\nDo not remove the memory card{END}"
   },
   {
     "idx": 901,
