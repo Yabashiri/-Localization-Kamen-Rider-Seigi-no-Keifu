@@ -33,6 +33,7 @@ rebuilt_jp/*
 rebuilt_en/*
 translation_en/*
 !translation_en/.gitkeep
+external_tools/
 
 # Editor / OS noise
 .vscode/

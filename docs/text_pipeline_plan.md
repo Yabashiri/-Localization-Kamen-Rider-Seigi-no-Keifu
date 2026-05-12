@@ -54,7 +54,7 @@ DAT -> японский JSON dump -> rebuilt DAT
 - реализовать encoder;
 - проверить round-trip на оригинальном японском тексте.
 
-Статус на 2026-05-12: этапы 4-6 выполнены.
+Статус на 2026-05-12: этапы 4-6 выполнены, этап 7 начат.
 
 - `tools/dump_all_text.py` дампит 249 DAT-like файлов в `dump_jp/DATA/...`.
 - `tools/encode_all_text.py` собирает 249 файлов в `rebuilt_jp/DATA/...`.
@@ -63,6 +63,9 @@ DAT -> японский JSON dump -> rebuilt DAT
 - В dump нет unknown glyph markers вида `[0x....]`.
 - Для точного японского round-trip JSON содержит служебное поле `codes`; при заполненном `text_en` encoder кодирует перевод из текста.
 - Encoder автоматически конвертирует ASCII letters/digits/space и базовую пунктуацию в доступные fullwidth/Japanese glyphs для первого английского прототипа.
+- Для первого menu smoke test заполнены `text_en` в `CONFIG_MSG`, `ITEM_GET_MSG`, `ITEM_MSG`.
+- `python tools/encode_all_text.py --input-root translation_en --output-root rebuilt_en` проходит: 249 JSON, 2388 entries.
+- Проверка в PCSX2 и фиксация переполнений окон пока не выполнены.
 
 ## Этап 4. Создать чистый японский dump
 
@@ -240,15 +243,40 @@ space -> fullwidth space or mapped space
 
 ### Задачи
 
-Для первого теста перевести 2-3 небольших файла:
+Первый тест делать с текстовыми меню, чтобы получить быстрый видимый результат
+без захода в сюжетные event-dialogue:
 
 ```text
 DATA/MENU/CONFIG_MSG.DAT
+DATA/MENU/ITEM_GET_MSG.DAT
+DATA/MENU/ITEM_MSG.DAT
+```
+
+Назначение файлов:
+
+- `CONFIG_MSG.DAT` - options/config descriptions: key config, sound mode, transformation scene display.
+- `ITEM_GET_MSG.DAT` - короткие сообщения получения/использования предметов.
+- `ITEM_MSG.DAT` - названия и описания предметов в inventory.
+
+После первого menu smoke test перевести дополнительные menu DAT:
+
+```text
+DATA/MENU/FIELD_NAME.DAT
+DATA/MENU/STATUS_MSG.DAT
+```
+
+Затем отдельным вторым тестом перейти к event/system messages:
+
+```text
 DATA/SCREVENT/MSG/DOOR_CLOSE.DAT
 DATA/SCREVENT/MSG/EV001.DAT
 ```
 
-Собрать их обратно в отдельный output и проверить в игре/PCSX2.
+Собрать переведенные файлы обратно в отдельный output и проверить в игре/PCSX2.
+
+Важно: часть главного меню, заголовков, telop и кнопок может быть графикой в
+`.TXD` / `.RSC`, а не DAT-текстом. Перевод `DATA/MENU/*.DAT` закрывает только
+текстовые таблицы меню/inventory/status.
 
 ### Что проверять
 
@@ -280,9 +308,12 @@ DATA/EXPORT_TXD/MENU/
 
 Блок считается завершенным, когда:
 
-- есть `tools/dump_all_text.py`;
-- есть чистый японский dump в `dump_jp/`;
-- есть `tools/encode_all_text.py`;
-- round-trip `DAT -> JSON -> DAT` работает для всех 249 DAT-like файлов;
-- rebuilt output не меняет `game_dump/`;
-- можно безопасно начинать английский перевод.
+- заполнены `text_en` для первого menu smoke test:
+  `CONFIG_MSG`, `ITEM_GET_MSG`, `ITEM_MSG`;
+- `python tools/encode_all_text.py --input-root translation_en --output-root rebuilt_en`
+  собирает output без ошибок;
+- переведенные MENU DAT подставлены в тестовую сборку/образ;
+- в PCSX2 подтверждено, что options/inventory text отображается, не крашит игру
+  и не ломает переносы/`{END}`;
+- зафиксированы проблемы переполнения окон и недостающих glyph для следующего
+  прохода.
