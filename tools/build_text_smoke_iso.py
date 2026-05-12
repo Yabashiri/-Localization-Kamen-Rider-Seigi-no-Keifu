@@ -20,6 +20,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--profile", default="menu-smoke", choices=("menu-smoke",))
     parser.add_argument("--output-iso", default="build/out/kamen_rider_text_smoke.iso")
+    parser.add_argument("--patch-latin-spacing", action="store_true")
+    parser.add_argument("--latin-advance", type=float, default=14.0)
     parser.add_argument("--run-pcsx2", action="store_true")
     parser.add_argument("--pcsx2-exe")
     parser.add_argument("--pcsx2-batch", action="store_true")
@@ -29,7 +31,11 @@ def main() -> int:
     run_python("tools/stage_rebuilt_text.py", ["--profile", args.profile])
     run_python("tools/build_data_iso.py", [])
     run_python("tools/build_data_cvm.py", [])
-    run_python("tools/build_patched_iso.py", ["--output-iso", args.output_iso])
+    build_iso_args = ["--output-iso", args.output_iso]
+    if args.patch_latin_spacing:
+        run_python("tools/patch_elf_text_spacing.py", ["--advance", str(args.latin_advance)])
+        build_iso_args.extend(["--patched-elf", "build/stage/SLPS_253.02"])
+    run_python("tools/build_patched_iso.py", build_iso_args)
 
     if args.run_pcsx2:
         pcsx2_args = [args.output_iso]

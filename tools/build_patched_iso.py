@@ -107,17 +107,26 @@ def copy_exact_region(source, dest, source_offset: int, size: int) -> None:
         remaining -= len(chunk)
 
 
-def patch_iso(original_iso: Path, rebuilt_cvm: Path, output_iso: Path) -> None:
+def patch_iso(original_iso: Path, rebuilt_cvm: Path, output_iso: Path, patched_elf: Path | None = None) -> None:
     if not original_iso.is_file():
         raise FileNotFoundError(f"Original ISO not found: {original_iso}")
     if not rebuilt_cvm.is_file():
         raise FileNotFoundError(f"Rebuilt DATA.CVM not found: {rebuilt_cvm}")
+    if patched_elf is not None and not patched_elf.is_file():
+        raise FileNotFoundError(f"Patched ELF not found: {patched_elf}")
 
     _, _, records = parse_root_records(original_iso)
     by_name = {record.name.upper(): record for record in records}
     data_record = by_name.get("DATA.CVM;1")
     if data_record is None:
         raise ValueError("DATA.CVM;1 not found in original ISO root")
+    elf_record = by_name.get("SLPS_253.02;1")
+    if patched_elf is not None and elf_record is None:
+        raise ValueError("SLPS_253.02;1 not found in original ISO root")
+    if patched_elf is not None and patched_elf.stat().st_size != elf_record.size:
+        raise ValueError(
+            f"Patched ELF must keep original size: {patched_elf.stat().st_size} != {elf_record.size}"
+        )
 
     rebuilt_size = rebuilt_cvm.stat().st_size
     rebuilt_sectors = sectors_for_size(rebuilt_size)
@@ -178,10 +187,17 @@ def patch_iso(original_iso: Path, rebuilt_cvm: Path, output_iso: Path) -> None:
         for record in moving_records:
             write_u32_both(out, record.record_offset + 2, new_extents[record.name])
 
+        if patched_elf is not None:
+            out.seek(elf_record.extent * SECTOR_SIZE)
+            with patched_elf.open("rb") as elf:
+                shutil.copyfileobj(elf, out, length=8 * 1024 * 1024)
+
     print(f"Original DATA.CVM LBA: {data_record.extent}")
     print(f"Original DATA.CVM size: {data_record.size} bytes ({old_data_sectors} sectors)")
     print(f"Rebuilt DATA.CVM size:  {rebuilt_size} bytes ({rebuilt_sectors} sectors)")
     print(f"Shifted following files: {len(moving_records)} records (+{delta_sectors} sectors)")
+    if patched_elf is not None:
+        print(f"Patched ELF LBA: {elf_record.extent}")
     print(f"Built patched ISO: {output_iso} ({output_iso.stat().st_size} bytes)")
 
 
@@ -192,6 +208,7 @@ def main() -> int:
         default=r"E:\Download\Minerva_Myrient\Redump\Sony - PlayStation 2\Kamen Rider - Seigi no Keifu (Japan).iso",
     )
     parser.add_argument("--rebuilt-cvm", default="build/stage/DATA.CVM")
+    parser.add_argument("--patched-elf")
     parser.add_argument("--output-iso", default="build/out/kamen_rider_text_smoke.iso")
     args = parser.parse_args()
 
@@ -199,6 +216,7 @@ def main() -> int:
         Path(args.original_iso),
         project_path(args.rebuilt_cvm),
         project_path(args.output_iso),
+        project_path(args.patched_elf) if args.patched_elf else None,
     )
     return 0
 
