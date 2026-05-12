@@ -25,6 +25,7 @@ venv/
 reports/*
 !reports/.gitkeep
 !reports/font_usage.tsv
+!reports/font_map_corrections.md
 dump_jp/*
 !dump_jp/.gitkeep
 translation_en/*
