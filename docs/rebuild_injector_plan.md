@@ -30,6 +30,29 @@ rebuilt_en/DATA/.../*.DAT
 
 `game_dump/DATA.CVM` определен как CRI ROFS/CVM: в заголовке есть `CVMH` и `ROFS`.
 
+## Текущий статус
+
+На 2026-05-12:
+
+- `external_tools/cvm_tool_02/cvm_tool.exe` проверен: `info`, `split`, `mkcvm` работают без пароля.
+- CVM round-trip без изменений побитово совпал с оригиналом:
+
+```text
+SHA-256: A65D7104F85AF0034D69FE219330429906810A1A9E63BFDF6DF516D959A2C9BF
+```
+
+- `external_tools/mkisofs-md5-2.01/MinGW/Gcc-4.4.5/mkisofs.exe` проверен: запускается, показывает version/help, собирает тестовый ISO.
+- `C:\PCSX2 2.3.222\pcsx2-qt.exe` найден.
+- `game_dump/DATA/EXPORT_TXD` вынесен в `dump_jp/EXPORT_TXD`, чтобы `game_dump/DATA` хранил чистое дерево игры.
+- Root-level `game_dump/DATA/*.TXD` не являются экспортом: они есть в оригинальном CVM и должны оставаться в `game_dump/DATA`.
+- В Git уже добавлены wrappers:
+
+```text
+tools/stage_rebuilt_text.py
+tools/build_data_cvm.py
+tools/run_pcsx2_smoke.py
+```
+
 ## Внешние сведения
 
 По найденной документации CVM/ROFS фактически является ISO9660 volume со специальным CVM-заголовком. Для него существует `cvm_tool`, который умеет:
@@ -65,16 +88,16 @@ external_tools/
 Ожидаемые инструменты:
 
 ```text
-external_tools/cvm_tool/cvm_tool.exe
-external_tools/iso/mkisofs.exe или external_tools/iso/ImgBurn/...
-external_tools/pcsx2/pcsx2-qt.exe
+external_tools/cvm_tool_02/cvm_tool.exe
+external_tools/mkisofs-md5-2.01/MinGW/Gcc-4.4.5/mkisofs.exe
+C:/PCSX2 2.3.222/pcsx2-qt.exe
 ```
 
 Критерии готовности:
 
-- `cvm_tool.exe` запускается и показывает help/version;
-- выбран один инструмент для сборки PS2 ISO;
-- путь к PCSX2 можно задать через config/env.
+- `[done]` `cvm_tool.exe` запускается и показывает help/version;
+- `[done]` выбран один инструмент для сборки ISO: `mkisofs.exe`;
+- `[done]` путь к PCSX2 можно задать через `--pcsx2-exe` или `PCSX2_EXE`.
 
 ## Этап B. Проверить round-trip CVM без изменений
 
@@ -89,9 +112,9 @@ cvm_tool mkcvm work_cvm/DATA.roundtrip.CVM work_cvm/DATA.iso work_cvm/DATA.hdr
 
 Проверки:
 
-- `DATA.roundtrip.CVM` создается без ошибок;
-- размер и заголовок выглядят ожидаемо;
-- игра запускается с round-trip CVM, если подставить его в тестовую сборку.
+- `[done]` `DATA.roundtrip.CVM` создается без ошибок;
+- `[done]` размер и SHA-256 совпадают с оригиналом;
+- `[pending]` игра запускается с round-trip CVM, если подставить его в тестовую сборку.
 
 Если `cvm_tool` требует пароль:
 
@@ -131,9 +154,9 @@ game_dump/DATA + rebuilt_en/DATA -> build/stage/DATA
 
 Критерии готовности:
 
-- smoke-test режим заменяет только 3 MENU DAT;
+- `[done]` smoke-test режим заменяет только 3 MENU DAT;
 - full режим может заменить все пересобранные DAT;
-- оригинальный `game_dump/` не изменяется.
+- `[done]` оригинальный `game_dump/` не изменяется во время staging.
 
 ## Этап D. Пересборка ISO9660 payload для CVM
 
@@ -147,14 +170,51 @@ tools/build_data_iso.py
 
 Задачи:
 
-1. Использовать выбранный ISO builder.
+1. Использовать выбранный ISO builder:
+
+```text
+external_tools/mkisofs-md5-2.01/MinGW/Gcc-4.4.5/mkisofs.exe
+```
+
 2. Сохранять порядок файлов по возможности близко к оригинальному.
 3. Делать `build/stage/DATA.iso`.
 4. Логировать команду и итоговый размер.
 
+Подтвержденные параметры оригинального CVM ISO payload:
+
+```text
+System id: CRI ROFS
+Volume id: SAMPLE_GAME_TITLE
+Volume set id: SAMPLE_GAME_TITLE
+Publisher id: PUBLISHER_NAME
+Data preparer id: PUBLISHER_NAME
+NO Joliet present
+NO Rock Ridge present
+Root contains /DATA
+```
+
+Команда-кандидат:
+
+```text
+mkisofs.exe
+  -iso-level 2
+  -l
+  -sysid "CRI ROFS"
+  -V SAMPLE_GAME_TITLE
+  -volset SAMPLE_GAME_TITLE
+  -publisher PUBLISHER_NAME
+  -p PUBLISHER_NAME
+  -graft-points
+  -o build/stage/DATA.iso
+  DATA=build/stage/DATA
+```
+
+Важно: `-iso-level 1` нельзя использовать как основной режим, потому что `mkisofs` массово сокращает длинные имена. `-iso-level 2 -l` все еще может быть недостаточен для некоторых очень длинных экспортных имен, поэтому экспортные артефакты не должны лежать внутри `game_dump/DATA`.
+
 Открытый вопрос:
 
 - насколько критичен порядок файлов внутри `DATA.CVM` для этой игры.
+- насколько критично точное сохранение LBA для root/directories после пересборки `mkisofs`.
 
 Минимальная первая проверка:
 
@@ -191,7 +251,8 @@ cvm_tool mkcvm build/stage/DATA.CVM build/stage/DATA.iso work_cvm/DATA.hdr
 
 Критерии готовности:
 
-- `DATA.CVM` создается автоматически;
+- `[done]` wrapper `tools/build_data_cvm.py` создан;
+- `DATA.CVM` создается автоматически из нового `DATA.iso`;
 - размер может отличаться от оригинала;
 - оригинальный `game_dump/DATA.CVM` не изменяется.
 
@@ -243,6 +304,18 @@ tools/run_pcsx2_smoke.py
 
 ```text
 pcsx2-qt.exe -batch build/out/kamen_rider_text_smoke.iso
+```
+
+Локальный найденный путь:
+
+```text
+C:\PCSX2 2.3.222\pcsx2-qt.exe
+```
+
+Wrapper:
+
+```text
+python tools/run_pcsx2_smoke.py build/out/kamen_rider_text_smoke.iso
 ```
 
 Ручная проверка в игре:
@@ -303,11 +376,36 @@ run_pcsx2_smoke.py
 
 ## Риски
 
-- CVM может использовать пароль или нестандартный TOC.
+- `[low]` CVM может использовать пароль или нестандартный TOC. Текущий `DATA.CVM` читается без пароля, round-trip совпадает.
 - ISO rebuild может нарушить порядок/LBA файлов.
 - Игра может ожидать конкретный размер `DATA.CVM`.
 - QuickBMS reimport не подходит как основной путь из-за увеличения DAT.
 - PCSX2 CLI может отличаться между версиями.
+- `mkisofs` может переименовать файлы при неподходящих ISO options; это уже проявилось на `-iso-level 1`.
+
+## Ближайший следующий шаг
+
+Создать и проверить:
+
+```text
+tools/build_data_iso.py
+```
+
+Затем прогнать:
+
+```text
+python tools/stage_rebuilt_text.py --profile menu-smoke
+python tools/build_data_iso.py
+python tools/build_data_cvm.py
+```
+
+Минимальные проверки после этого:
+
+- `build/stage/DATA.iso` открывается `isoinfo`;
+- root содержит `/DATA`;
+- `DATA/MENU/CONFIG_MSG.DAT`, `ITEM_GET_MSG.DAT`, `ITEM_MSG.DAT` имеют smoke-test размеры;
+- `build/stage/DATA.CVM` читается через `cvm_tool info`;
+- `DATA.CVM` начинается с `CVMH` и содержит `ROFS`.
 
 ## Definition of Done
 
