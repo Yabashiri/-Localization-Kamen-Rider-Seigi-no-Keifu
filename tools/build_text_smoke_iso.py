@@ -25,7 +25,7 @@ def main() -> int:
     parser.add_argument("--pcsx2-batch", action="store_true")
     args = parser.parse_args()
 
-    run_python("tools/encode_all_text.py", [])
+    run_python("tools/encode_all_text.py", ["--input-root", "translation_en", "--output-root", "rebuilt_en"])
     run_python("tools/stage_rebuilt_text.py", ["--profile", args.profile])
     run_python("tools/build_data_iso.py", [])
     run_python("tools/build_data_cvm.py", [])
