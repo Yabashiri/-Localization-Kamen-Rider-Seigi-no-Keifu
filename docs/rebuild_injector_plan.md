@@ -34,6 +34,14 @@ rebuilt_en/DATA/.../*.DAT
 
 На 2026-05-12:
 
+- Рабочий полный ISO теперь собирается через сохранение оригинальной раскладки диска и замену `DATA.CVM` внутри исходного ISO.
+- Исправлен стоп загрузки после `ELF Loading`: новая сборка должна сохранять оригинальный root layout и LBA `DATA.CVM`, а не пересобирать весь диск произвольным `mkisofs`.
+- Английский текст в меню успешно выводится через существующие glyph-коды.
+- Для латиницы найден и применен ELF-патч фиксированного шага glyph cursor: `afMsgDrawString` по умолчанию двигал X на `28.0`, для английского сейчас используем `14.0`.
+- Текущий автоматический wrap для DAT-текстов: `20` колонок (`DEFAULT_WRAP_COLUMNS = 20` в `tools/encode_all_text.py`). Быстрый тест с `28` был отменен, оставляем прежнее значение.
+- `HINT.BIN` оказался не DAT-таблицей, а `CSVS` + Shift-JIS string pool. Для него добавлен отдельный builder `tools/hint_bin.py`.
+- `stage_rebuilt_text.py` теперь накладывает не только `.DAT`, но и `.BIN`, чтобы `rebuilt_en/DATA/MENU/HINT.BIN` попадал в staging.
+- `translation_en/` должен отслеживаться Git, это исходники перевода. Игнорировать нужно build outputs (`rebuilt_en/`, `build/`, `game_dump/`), а не JSON-переводы.
 - `external_tools/cvm_tool_02/cvm_tool.exe` проверен: `info`, `split`, `mkcvm` работают без пароля.
 - CVM round-trip без изменений побитово совпал с оригиналом:
 
@@ -160,8 +168,42 @@ game_dump/DATA + rebuilt_en/DATA -> build/stage/DATA
 Критерии готовности:
 
 - `[done]` smoke-test режим заменяет только 3 MENU DAT;
-- full режим может заменить все пересобранные DAT;
+- `[done]` full режим может заменить все пересобранные `.DAT` и `.BIN`;
 - `[done]` оригинальный `game_dump/` не изменяется во время staging.
+
+## Этап C2. HINT.BIN
+
+`DATA/MENU/HINT.BIN` не проходит через DAT encoder. Формат:
+
+```text
+CSVS header/table + Shift-JIS string pool + tail payload
+```
+
+Скрипт:
+
+```text
+tools/hint_bin.py
+```
+
+Команды:
+
+```text
+python tools/hint_bin.py dump
+python tools/hint_bin.py build
+```
+
+Особенности:
+
+- pointer values внутри таблицы хранятся как `string_offset - 8`;
+- перенос строки в string pool хранится как буквальная последовательность `\n`, не как байт newline;
+- builder обновляет pointers и размер `CSVS`, tail после string pool сохраняется;
+- вывод builder кладет в `rebuilt_en/DATA/MENU/HINT.BIN`.
+
+Статус:
+
+- `[done]` dump/build для `HINT.BIN` добавлен;
+- `[done]` `stage_rebuilt_text.py` умеет staged overlay для `.BIN`;
+- `[in progress]` нужна ручная вычитка/укладка hint-текстов.
 
 ## Этап D. Пересборка ISO9660 payload для CVM
 
@@ -300,9 +342,17 @@ SYSTEM.CNF
 Проверки:
 
 - `[done]` `SYSTEM.CNF` указывает на `SLPS_253.02`;
-- `[pending]` ISO открывается PCSX2;
+- `[done]` ISO открывается PCSX2 при сборке через `tools/build_patched_iso.py`;
 - `[done]` размер ISO разумный: `3,915,173,888` bytes;
 - `[done]` root file order в wrapper выставлен по оригиналу из архива.
+
+Актуальная рабочая сборка полного ISO:
+
+```text
+tools/build_patched_iso.py
+```
+
+Смысл: взять оригинальный ISO как контейнер, заменить внутри него `DATA.CVM`, а при необходимости заменить ELF `SLPS_253.02` на том же месте. Это сохраняет критичную для игры раскладку диска.
 
 ## Этап G. Smoke test в PCSX2
 
@@ -371,10 +421,12 @@ Pipeline:
 
 ```text
 encode_all_text.py
+hint_bin.py build
 stage_rebuilt_text.py
 build_data_iso.py
 build_data_cvm.py
-build_test_iso.py
+patch_elf_text_spacing.py
+build_patched_iso.py
 run_pcsx2_smoke.py
 ```
 
@@ -389,18 +441,75 @@ run_pcsx2_smoke.py
 ## Риски
 
 - `[low]` CVM может использовать пароль или нестандартный TOC. Текущий `DATA.CVM` читается без пароля, round-trip совпадает.
-- ISO rebuild может нарушить порядок/LBA файлов.
+- ISO rebuild может нарушить порядок/LBA файлов. Поэтому рабочий путь сейчас не пересобирает root ISO с нуля, а патчит оригинальный ISO.
 - Игра может ожидать конкретный размер `DATA.CVM`.
 - QuickBMS reimport не подходит как основной путь из-за увеличения DAT.
 - PCSX2 CLI может отличаться между версиями.
 - `mkisofs` может переименовать файлы при неподходящих ISO options; это уже проявилось на `-iso-level 1`.
+- Apostrophe glyph (`'`, `’`, `‘`, `` ` ``) в текущей font map не найден. Encoder сейчас пропускает эти символы, чтобы сборка не падала. Для финального качества лучше переписывать фразы без апострофов или добавить glyph/font mapping отдельно.
+- `+` и `%` мапятся на fullwidth fallbacks (`＋`, `％`).
+- Японские даты вида `１１月` надо переводить смыслом: `November`, а не `Month 11`.
+- Плейсхолдеры вроде `Check this place` нельзя оставлять в `translation_en`; это временный черновик, который должен быть заменен нормальным переводом.
+
+## Памятка сборки
+
+Полная пересборка текущего перевода:
+
+```text
+python tools\encode_all_text.py --input-root translation_en --output-root rebuilt_en --wrap-columns 20
+python tools\hint_bin.py build
+python tools\stage_rebuilt_text.py
+python tools\build_data_iso.py
+python tools\build_data_cvm.py
+python tools\patch_elf_text_spacing.py --advance 14
+python tools\build_patched_iso.py --patched-elf build/stage/SLPS_253.02 --output-iso build/out/kamen_rider_full_translation.iso
+```
+
+Проверка ELF spacing patch внутри итогового ISO:
+
+```text
+6041033c
+```
+
+Это ожидаемые 4 байта инструкции для `advance 14.0` на текущем месте патча.
+
+Если нужен быстрый menu smoke:
+
+```text
+python tools\build_text_smoke_iso.py --profile menu-smoke --patch-latin-spacing --latin-advance 14
+```
+
+## Журнал 2026-05-12
+
+Сделано:
+
+- прочитан внешний tutorial и проверен исходный чистый ISO;
+- выяснено, что ранний нерабочий ISO стопорился после `ELF Loading` из-за некорректной сборки/раскладки ISO, а не из-за текста;
+- рабочий build path переведен на patch-in-place поверх оригинального ISO;
+- меню успешно локализовано сначала через uppercase, затем через lowercase;
+- найдена причина больших пробелов между латинскими буквами: fixed X advance `28.0` в `afMsgDrawString`;
+- добавлен `tools/patch_elf_text_spacing.py`, рабочий параметр сейчас `--advance 14`;
+- добавлен word-wrap английских `text_en` в `tools/encode_all_text.py`;
+- текущий wrap возвращен/оставлен на `20`;
+- добавлены fallbacks для части ASCII punctuation;
+- апострофы временно пропускаются encoder-ом из-за отсутствующего glyph;
+- `HINT.BIN` вынесен в отдельный Shift-JIS builder;
+- `stage_rebuilt_text.py` расширен на `.BIN`;
+- `translation_en/` перестал быть ignored, потому что это исходники перевода.
+
+Текущие открытые проблемы:
+
+- нужна ручная вычитка длинных фраз и переносов;
+- часть экранов может требовать отдельной укладки, потому что разные UI используют разные ширины окна;
+- `HINT.BIN` и DAT-тексты имеют разные encoding pipeline;
+- плейсхолдеры и машинные переводы должны быть вычищены в JSON до финального билда.
 
 ## Ближайший следующий шаг
 
-Запустить smoke test в PCSX2:
+После очередной правки `translation_en` собрать ISO командой из "Памятка сборки" и проверить в PCSX2:
 
 ```text
-python tools/run_pcsx2_smoke.py build/out/kamen_rider_text_smoke.iso
+build/out/kamen_rider_full_translation.iso
 ```
 
 Уже выполненные проверки:

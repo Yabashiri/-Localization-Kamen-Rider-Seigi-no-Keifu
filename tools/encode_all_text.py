@@ -45,6 +45,7 @@ ASCII_PUNCTUATION_FALLBACKS = {
     "/": "／",
     '"': "“",
 }
+SKIPPED_ASCII_CHARS = {"'", "’", "‘", "`"}
 
 DEFAULT_WRAP_COLUMNS = 20
 
@@ -134,6 +135,8 @@ def encode_text(text: str, char_to_code: dict[str, int], source_label: str) -> l
         char = normalized[pos]
         if char == "\n":
             codes.append(CONTROL_NEWLINE)
+        elif char in SKIPPED_ASCII_CHARS:
+            pass
         else:
             char = normalize_ascii_char_for_font(char, char_to_code)
             if char in char_to_code:
