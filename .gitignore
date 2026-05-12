@@ -1,0 +1,36 @@
+# Original game dump / copyrighted assets
+game_dump/
+DATA.CVM
+DATA/
+MODULES/
+*.PSS
+SLPS_253.02
+SYSTEM.CNF
+MODULES.TRA
+*.ISO
+*.iso
+*.BIN
+*.bin
+*.CUE
+*.cue
+
+# Python caches / virtual envs
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Local/generated working output
+reports/*
+!reports/.gitkeep
+dump_jp/*
+!dump_jp/.gitkeep
+translation_en/*
+!translation_en/.gitkeep
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
