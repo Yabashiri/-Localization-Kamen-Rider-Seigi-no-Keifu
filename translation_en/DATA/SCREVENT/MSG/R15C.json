@@ -1,0 +1,12 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "埋まっている…\nもう通ることはできない{END}",
+    "text_en": "Check this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

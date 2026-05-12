@@ -1,0 +1,42 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "こ…これは！{END}",
+    "text_en": "T-this is!{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "よくぞここまで来た\n貴様、…何者だ{END}",
+    "text_en": "What is going on here?{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "仮面ライダーＢＬＡＣＫ！{END}",
+    "text_en": "Kamen RiderBLACＫ!{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "は！ハハハハ！これは驚いた\n奇遇だな我が輩の名も…ブラック！{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "何！？{END}",
+    "text_en": "What!?{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "まさか仮面ライダーにも我が輩と\n同じ名を持つ者がいるとは…{END}",
+    "text_en": "Kamen Rider... you are here too!{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "貴様がどんな奴かは知らんが{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "この世にブラックの名を持つ者は\n１人で十分だ！{END}",
+    "text_en": "We have to stop them here.{END}"
+  }
+]

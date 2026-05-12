@@ -1,0 +1,112 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "電話機が置かれている{END}",
+    "text_en": "There is a telephone.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "外には通じていないようだ{END}",
+    "text_en": "It does not seem to connect outside.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "受け付け用のカウンターだ{END}",
+    "text_en": "This is a reception counter.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "特に変わったところはない{END}",
+    "text_en": "Nothing unusual here.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "ダンボールが置かれている{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "中には書類がおさめられている{END}",
+    "text_en": "There are documents inside.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "役には立ちそうにない{END}",
+    "text_en": "It does not seem useful.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "ダンボールだ{END}",
+    "text_en": "It is a cardboard box.{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "中にはサビ付いたクギが\nたくさん入っている{END}",
+    "text_en": "Check this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "作業机だ{END}",
+    "text_en": "It is a work desk.{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "中身はカラのようだ{END}",
+    "text_en": "It looks empty.{END}"
+  },
+  {
+    "idx": 11,
+    "text_jp": "ひどく汚れている……\n中はよく見えない{END}",
+    "text_en": "Check this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 12,
+    "text_jp": "特に気になるところは無い{END}",
+    "text_en": "Nothing stands out.{END}"
+  },
+  {
+    "idx": 13,
+    "text_jp": "完全に閉ざされている\n開けることはできない{END}",
+    "text_en": "Check this place.\nIt cannot be opened.{END}"
+  },
+  {
+    "idx": 14,
+    "text_jp": "全て売り切れのようだ{END}",
+    "text_en": "Everything is sold out.{END}"
+  },
+  {
+    "idx": 15,
+    "text_jp": "打ち合わせに使うのだろうか……{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 16,
+    "text_jp": "特に何もかかれていない{END}",
+    "text_en": "Nothing useful here.{END}"
+  },
+  {
+    "idx": 17,
+    "text_jp": "何かのみますか？{END}",
+    "text_en": "Drink something?{END}"
+  },
+  {
+    "idx": 18,
+    "text_jp": "　　　→はい　　　　いいえ{END}",
+    "text_en": "Select Yes   No{END}"
+  },
+  {
+    "idx": 19,
+    "text_jp": "　　　　はい　　　→いいえ{END}",
+    "text_en": "Yes   Select No{END}"
+  },
+  {
+    "idx": 20,
+    "text_jp": "『ライフパック（Ｓ）』を入手した{END}",
+    "text_en": "Obtained Life Pack (S).{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

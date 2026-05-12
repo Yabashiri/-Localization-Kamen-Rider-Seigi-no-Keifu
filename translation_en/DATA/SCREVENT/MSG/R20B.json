@@ -1,0 +1,42 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "溶岩が道をふさいでいる{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "爆弾の投下装置のようだ{END}",
+    "text_en": "There is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "『隔壁の鍵』を使用した{END}",
+    "text_en": "A key item seems necessary here.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "換気用の装置だろうか……{END}",
+    "text_en": "There is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "特に操作する必要は無さそうだ{END}",
+    "text_en": "Nothing useful here.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "資材運搬に使用するものだろうか…{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "特に気になるところは無い{END}",
+    "text_en": "Nothing stands out.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "『バーコードキー』を使った{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "ロックは解除された{END}",
+    "text_en": "It is locked and cannot be opened.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

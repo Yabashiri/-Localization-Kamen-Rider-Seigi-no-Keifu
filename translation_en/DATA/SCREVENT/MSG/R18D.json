@@ -1,0 +1,37 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "奇妙な装置だ\n大きなガスボンベのように見えるが…{END}",
+    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "何かの装置のようだが…{END}",
+    "text_en": "There is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "操作の必要は無さそうだ{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "この部屋のコントロール装置だろうか…{END}",
+    "text_en": "There is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "たくさんのガスボンベが置かれている{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "特に役立つものは無さそうだ{END}",
+    "text_en": "Nothing here looks useful.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

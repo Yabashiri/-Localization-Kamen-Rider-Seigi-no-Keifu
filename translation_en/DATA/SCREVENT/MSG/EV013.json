@@ -1,0 +1,37 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "あっ…これは…{END}",
+    "text_en": "Ah... this is...{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "これは…通信機…まさか過去との！？{END}",
+    "text_en": "What is going on here?{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "この時代にも\n仮面ライダーがいるのか！？{END}",
+    "text_en": "Kamen Rider... you are here too!{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "過去にもアギトの力を持つ人がいたと\nしたらきっとこの場所にくるはずだ！{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "第１章　完{END}",
+    "text_en": "Chapter 1 Complete{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "章を第５章に変更してください\n５章ではライダーの変更ができます{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import json
 import struct
+import textwrap
 from pathlib import Path
 from typing import Iterable
 
@@ -30,6 +31,8 @@ DEFAULT_OUTPUT_ROOT = Path("rebuilt_jp")
 
 ASCII_PUNCTUATION_FALLBACKS = {
     " ": "　",
+    "+": "＋",
+    "%": "％",
     ".": "．",
     ",": "、",
     "!": "！",
@@ -42,6 +45,37 @@ ASCII_PUNCTUATION_FALLBACKS = {
     "/": "／",
     '"': "“",
 }
+
+DEFAULT_WRAP_COLUMNS = 20
+
+
+def wrap_translation_text(text: str, columns: int) -> str:
+    """Wrap English text before encoding so fixed-width message boxes fit."""
+
+    if columns <= 0:
+        return text
+
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    suffix = ""
+    if normalized.endswith("{END}"):
+        normalized = normalized[: -len("{END}")]
+        suffix = "{END}"
+
+    wrapped_lines: list[str] = []
+    for line in normalized.split("\n"):
+        if not line or len(line) <= columns:
+            wrapped_lines.append(line)
+            continue
+        wrapped_lines.extend(
+            textwrap.wrap(
+                line,
+                width=columns,
+                break_long_words=False,
+                break_on_hyphens=False,
+            )
+            or [line]
+        )
+    return "\n".join(wrapped_lines) + suffix
 
 
 def load_reverse_font_map(path: Path = CORRECTED_FONT_MAP_PATH) -> dict[str, int]:
@@ -78,7 +112,11 @@ def iter_json_paths(input_root: Path) -> list[Path]:
     """Return all dump JSON files in stable relative order."""
 
     root = project_path(input_root)
-    return sorted(path for path in root.rglob("*.json") if path.is_file())
+    return sorted(
+        path
+        for path in root.rglob("*.json")
+        if path.is_file() and path.name.upper() != "HINT.JSON"
+    )
 
 
 def encode_text(text: str, char_to_code: dict[str, int], source_label: str) -> list[int]:
@@ -156,7 +194,13 @@ def build_dat(entries: Iterable[tuple[int, list[int]]]) -> bytes:
     return struct.pack("<I", count) + table + string_data
 
 
-def encode_json_file(path: Path, input_root: Path, output_root: Path, char_to_code: dict[str, int]) -> int:
+def encode_json_file(
+    path: Path,
+    input_root: Path,
+    output_root: Path,
+    char_to_code: dict[str, int],
+    wrap_columns: int,
+) -> int:
     """Encode one dump JSON file and return the number of entries written."""
 
     with path.open("r", encoding="utf-8") as file:
@@ -168,6 +212,7 @@ def encode_json_file(path: Path, input_root: Path, output_root: Path, char_to_co
         label = f"{path.relative_to(project_path(input_root))} record {record_number} idx {idx}"
         text_en = str(record.get("text_en") or "")
         if text_en:
+            text_en = wrap_translation_text(text_en, wrap_columns)
             codes = encode_text(text_en, char_to_code, label)
         elif "codes" in record:
             codes = parse_raw_codes(record["codes"], label)
@@ -186,6 +231,12 @@ def main() -> int:
     parser.add_argument("--input-root", default=str(DEFAULT_INPUT_ROOT), help="Directory containing JSON dumps")
     parser.add_argument("--output-root", default=str(DEFAULT_OUTPUT_ROOT), help="Directory to write rebuilt DAT files")
     parser.add_argument("--font-map", default=str(CORRECTED_FONT_MAP_PATH), help="Corrected code -> char JSON map")
+    parser.add_argument(
+        "--wrap-columns",
+        type=int,
+        default=DEFAULT_WRAP_COLUMNS,
+        help="Word-wrap non-empty text_en before encoding; use 0 to disable",
+    )
     args = parser.parse_args()
 
     input_root = Path(args.input_root)
@@ -195,7 +246,7 @@ def main() -> int:
     total_entries = 0
 
     for json_path in json_paths:
-        total_entries += encode_json_file(json_path, input_root, output_root, char_to_code)
+        total_entries += encode_json_file(json_path, input_root, output_root, char_to_code, args.wrap_columns)
 
     print(f"JSON files encoded: {len(json_paths)}")
     print(f"Entries encoded: {total_entries}")

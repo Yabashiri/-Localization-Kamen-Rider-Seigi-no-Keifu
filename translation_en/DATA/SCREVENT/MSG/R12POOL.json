@@ -1,0 +1,87 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "モニターに何か表示されている\n「水温がイエローゾーンに達しました」{END}",
+    "text_en": "Check this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "「ガイドシステムに従って\n貯水の冷却を行ってください」{END}",
+    "text_en": "Check this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "「冷却システムを起動しますか？」{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "　　　→はい　　　　いいえ{END}",
+    "text_en": "Select Yes   No{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "　　　　はい　　　→いいえ{END}",
+    "text_en": "Yes   Select No{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "「貯水の冷却を開始します」{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "貯水の冷却処理を行っている\nしばらく時間がかかりそうだ{END}",
+    "text_en": "Check this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "モニターに何か表示されている\n「水温がレッドゾーンに達しました」{END}",
+    "text_en": "Check this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "「貯水の入れ替え作業を行って下さい」{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "『データスティック』を使用した{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "「貯水の入れ替えを開始します」\n水位がさがっていく{END}",
+    "text_en": "Check this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 11,
+    "text_jp": "橋が動いたようだ{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 12,
+    "text_jp": "すでに起動した後だ{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 13,
+    "text_jp": "「水温は安定している」{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 14,
+    "text_jp": "「橋を元の位置に戻してください」{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 15,
+    "text_jp": "「橋を動かしますか？」{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

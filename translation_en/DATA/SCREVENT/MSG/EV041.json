@@ -1,0 +1,27 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "！{END}",
+    "text_en": "!{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "邪魔者、仮面ライダー！{END}",
+    "text_en": "Kamen Rider... you are here too!{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "お前はそこで死になさい！{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "トオッ！{END}",
+    "text_en": "Hah!{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "ホホホホホホ！{END}",
+    "text_en": "Ho ho ho ho ho!{END}"
+  }
+]

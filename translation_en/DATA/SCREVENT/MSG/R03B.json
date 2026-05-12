@@ -1,0 +1,12 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "リフトカーがある\n特に変わった所は無い{END}",
+    "text_en": "Check this place.\nNothing useful here.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

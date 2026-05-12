@@ -1,0 +1,122 @@
+[
+  {
+    "idx": 100,
+    "text_jp": "キーコンフィグを変更します{END}",
+    "text_en": "Change key config{END}"
+  },
+  {
+    "idx": 200,
+    "text_jp": "サウンドモードを変更します{END}",
+    "text_en": "Change sound mode{END}"
+  },
+  {
+    "idx": 201,
+    "text_jp": "ステレオに変更します{END}",
+    "text_en": "Set sound to stereo{END}"
+  },
+  {
+    "idx": 202,
+    "text_jp": "モノラルに変更します{END}",
+    "text_en": "Set sound to mono{END}"
+  },
+  {
+    "idx": 300,
+    "text_jp": "変身シーンの表示変更をします{END}",
+    "text_en": "Change henshin scene display{END}"
+  },
+  {
+    "idx": 301,
+    "text_jp": "すべての変身シーンを表示します{END}",
+    "text_en": "Show all henshin scenes{END}"
+  },
+  {
+    "idx": 302,
+    "text_jp": "変身シーンのイベントを省略します{END}",
+    "text_en": "Skip event henshin scenes{END}"
+  },
+  {
+    "idx": 303,
+    "text_jp": "すべての変身シーンを省略します{END}",
+    "text_en": "Skip all henshin scenes{END}"
+  },
+  {
+    "idx": 400,
+    "text_jp": "ゲージの表示切替を行います{END}",
+    "text_en": "Toggle gauge display{END}"
+  },
+  {
+    "idx": 401,
+    "text_jp": "ゲージを表示します{END}",
+    "text_en": "Show gauge{END}"
+  },
+  {
+    "idx": 402,
+    "text_jp": "ゲージを表示しません{END}",
+    "text_en": "Hide gauge{END}"
+  },
+  {
+    "idx": 500,
+    "text_jp": "字幕の表示切替を行います{END}",
+    "text_en": "Toggle subtitles{END}"
+  },
+  {
+    "idx": 501,
+    "text_jp": "字幕を表示します{END}",
+    "text_en": "Show subtitles{END}"
+  },
+  {
+    "idx": 502,
+    "text_jp": "字幕を表示しません{END}",
+    "text_en": "Hide subtitles{END}"
+  },
+  {
+    "idx": 600,
+    "text_jp": "振動機能の切替を行います{END}",
+    "text_en": "Toggle vibration{END}"
+  },
+  {
+    "idx": 601,
+    "text_jp": "バイブレーション機能を使用します{END}",
+    "text_en": "Use vibration{END}"
+  },
+  {
+    "idx": 602,
+    "text_jp": "バイブレーション機能を使用しません{END}",
+    "text_en": "Do not use vibration{END}"
+  },
+  {
+    "idx": 700,
+    "text_jp": "画面の明るさ調整を行います{END}",
+    "text_en": "Adjust screen brightness{END}"
+  },
+  {
+    "idx": 701,
+    "text_jp": "各色調がはっきりと映るように\nテレビの明るさ調整をしてください{END}",
+    "text_en": "Adjust TV brightness\nuntil each tone is clear{END}"
+  },
+  {
+    "idx": 800,
+    "text_jp": "すべての環境を初期設定に戻します{END}",
+    "text_en": "Return all settings to default{END}"
+  },
+  {
+    "idx": 801,
+    "text_jp": "設定の変更を終了します{END}",
+    "text_en": "Exit settings{END}"
+  },
+  {
+    "idx": 900,
+    "text_jp": "環境設定を保存中です\nメモリーカードを抜かないでください{END}",
+    "text_en": "Saving options\nDo not remove memory card{END}"
+  },
+  {
+    "idx": 901,
+    "text_jp": "環境設定の保存中が終了しました{END}",
+    "text_en": "Finished saving options{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "オプションの設定をセーブしますか？{END}",
+    "text_en": "Save option settings?{END}"
+  }
+]

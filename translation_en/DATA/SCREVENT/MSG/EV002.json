@@ -1,0 +1,52 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "！！{END}",
+    "text_en": "!!{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "ドクガンダー！{END}",
+    "text_en": "Dokugander!{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "あれは！？{END}",
+    "text_en": "What was that!?{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "今のは…なんだ？{END}",
+    "text_en": "What was that just now?{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "仮面ライダー、今に我々の\n本当の力を思い知らせてやる{END}",
+    "text_en": "Kamen Rider... you are here too!{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "ドクガンダー、何度再生しようと\nお前たちの野望はオレが打ち砕く！{END}",
+    "text_en": "What is going on here?{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "再生？…フン、オレはもはや\nショッカーの一員ではない{END}",
+    "text_en": "What is going on here?{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "何！？{END}",
+    "text_en": "What!?{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "邪悪な力により再びこの世に生を受けた\n闇の世界の創造者なのだ！{END}",
+    "text_en": "A world of darkness is coming.{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "ショッカーではない…邪悪な…力…{END}",
+    "text_en": "We have to stop them here.{END}"
+  }
+]

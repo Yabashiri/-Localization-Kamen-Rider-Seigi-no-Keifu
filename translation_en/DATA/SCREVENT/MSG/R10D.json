@@ -1,0 +1,62 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "汚れた作業着が入っている{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "最近までつかわれていたようだ{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "特に使えそうなものは無い{END}",
+    "text_en": "There is nothing useful here.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "鍵が置かれている{END}",
+    "text_en": "A key item seems necessary here.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "『ロック解除キー』を取りますか？{END}",
+    "text_en": "It is locked and cannot be opened.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "　　　→はい　　　　いいえ{END}",
+    "text_en": "Select Yes   No{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "　　　　はい　　　→いいえ{END}",
+    "text_en": "Yes   Select No{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "もう使えそうなものは無い{END}",
+    "text_en": "There is nothing useful left.{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "特に気になるところは無い{END}",
+    "text_en": "Nothing stands out.{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "『ロック解除キー』を入手した{END}",
+    "text_en": "Obtained Unlock Key.{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "棚がある{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

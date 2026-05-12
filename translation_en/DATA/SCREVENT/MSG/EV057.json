@@ -1,0 +1,22 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "！！{END}",
+    "text_en": "!!{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "どこへ行く気だ、仮面ライダー…{END}",
+    "text_en": "Kamen Rider... you are here too!{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "貴様は…仮面ライダー２号！！{END}",
+    "text_en": "Kamen Rider... you are here too!{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "貴様も邪魔しに来たか…死ね！{END}",
+    "text_en": "This place will be your grave!{END}"
+  }
+]

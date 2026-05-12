@@ -1,0 +1,27 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "「エレベーターの起動について」\nとかかれたファイルを入手した{END}",
+    "text_en": "Check this place.\nThere are documents here.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "「ドア管理マニュアル」\nとかかれたファイルを入手した{END}",
+    "text_en": "Check this place.\nThere are documents here.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "「変電器の修理報告」\nとかかれたファイルを入手した{END}",
+    "text_en": "Check this place.\nThere are documents here.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "「送電ラインの変更規約」\nとかかれたファイルを入手した{END}",
+    "text_en": "Check this place.\nThere are documents here.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "「発電所所員のメモ」を入手した{END}",
+    "text_en": "Check this place.{END}"
+  }
+]

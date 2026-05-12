@@ -1,0 +1,242 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "ファイル『警備担当よりの通達』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "『ゲートコントローラマニュアル』\nを入手した{END}",
+    "text_en": "Check this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "ファイル『保管記録の紙片』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "ファイル『変電器の修理報告』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "ファイル『送電ラインの変更規約』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "ファイル『発電所所員のメモ』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "ファイル『入出許可コード変更指示書』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "ファイル『乱数表』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "ファイル『プール制御装置マニュアル』を\n入手した{END}",
+    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "ファイル『作業報告書』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "ファイル『ショッカー科学員の日誌』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 11,
+    "text_jp": "ファイル『研究結果テープの整理』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 12,
+    "text_jp": "ファイル『対侵入者用プログラム−２−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 13,
+    "text_jp": "ファイル『換気システムの説明書』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 14,
+    "text_jp": "ファイル『地獄大使の作戦計画書』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 15,
+    "text_jp": "ファイル『海底基地建設報告書』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 16,
+    "text_jp": "ファイル『対侵入者用プログラム−１−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 17,
+    "text_jp": "ファイル『……………………………』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 18,
+    "text_jp": "ファイル『研究レポート』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 19,
+    "text_jp": "ファイル『結城からの手紙』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 20,
+    "text_jp": "ファイル『所長の手記−３−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 22,
+    "text_jp": "ファイル『新聞の切り抜き』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 23,
+    "text_jp": "ファイル『所長のメモ−１−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 24,
+    "text_jp": "ファイル『遺伝子融合実験の記録』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 25,
+    "text_jp": "ファイル『ブラック将軍の作戦計画書』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 26,
+    "text_jp": "ファイル『書きかけの手紙』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 27,
+    "text_jp": "ファイル『所長のメモ−２−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 28,
+    "text_jp": "ファイル『ショッカー首領よりの指示書』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 29,
+    "text_jp": "ファイル『ＴＩＥＲＲＡ　移送記録』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 30,
+    "text_jp": "ファイル『戦闘員のメモ』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 31,
+    "text_jp": "ファイル『所長の手記−４−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 32,
+    "text_jp": "ファイル『ショッカー科学員の名簿』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 33,
+    "text_jp": "ファイル『プレイングマニュアル−１−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 34,
+    "text_jp": "ファイル『プレイングマニュアル−３−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 35,
+    "text_jp": "ファイル『プレイングマニュアル−４−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 36,
+    "text_jp": "ファイル『プレイングマニュアル−５−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 37,
+    "text_jp": "ファイル『プレイングマニュアル−６−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 38,
+    "text_jp": "ファイル『所長室の電源について』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 39,
+    "text_jp": "ファイル『死神博士の作戦計画書−１−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 40,
+    "text_jp": "ファイル『所長の手記−２−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 41,
+    "text_jp": "ファイル『ゾル大佐の作戦計画書』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 42,
+    "text_jp": "ファイル『所長の手記−１−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 43,
+    "text_jp": "ファイル『科学員のメモ』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 44,
+    "text_jp": "ファイル『プレイングマニュアル−２−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 45,
+    "text_jp": "ファイル『死神博士の作戦計画書−２−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 46,
+    "text_jp": "足元に何か落ちている……{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 47,
+    "text_jp": "壊れたカプセルの下に何か埋まっている……{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

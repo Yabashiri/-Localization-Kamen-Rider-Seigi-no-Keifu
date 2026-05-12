@@ -1,0 +1,42 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "モニターが施設内の扉を映し出している\nここは発電所を管理する部屋のようだ{END}",
+    "text_en": "It is locked and cannot be opened.\nCheck this place.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "鍵穴がならんでいる\n扉の開閉を制御しているようだ{END}",
+    "text_en": "A key item seems necessary here.\nIt is locked and cannot be opened.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "モニターから電子音が聞こえた{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "扉のロックが外れたようだ{END}",
+    "text_en": "It is locked and cannot be opened.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "すでにロックは外れている{END}",
+    "text_en": "It is locked and cannot be opened.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "もうここですることはないようだ{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "『ロック解除キー』を使用した{END}",
+    "text_en": "It is locked and cannot be opened.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

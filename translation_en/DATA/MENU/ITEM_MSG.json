@@ -1,0 +1,262 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "　{END}",
+    "text_en": " {END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "『レバー』\n２つのでっぱりがついているレバー{END}",
+    "text_en": "Lever\nA lever with two protrusions{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "『発電所ＩＤカードＬＶ２』\n燃料など危険物を貯蔵している\n部屋用のカード{END}",
+    "text_en": "Plant ID Card LV2\nCard for rooms storing\nfuel and hazards{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "『発電所ＩＤカードＬＶ１』\n発電所内の通路を使用する為の\nＩＤカード{END}",
+    "text_en": "Plant ID Card LV1\nID card for passages\ninside the power plant{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "『エレベーター起動キー』\nエレベーターを動かすのに使用する\nカード式の鍵{END}",
+    "text_en": "Elevator Start Key\nCard key used to\noperate the elevator{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "『ショッカーカード』\nカードに大ワシのマークがかかれている{END}",
+    "text_en": "Shocker Card\nA card marked with\na great eagle symbol{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "『ショッカーカード』\nカードに大ワシのマークがかかれている{END}",
+    "text_en": "Shocker Card\nA card marked with\na great eagle symbol{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "『ガス室の鍵』\nタグに『ガス室内壁』とかかれている{END}",
+    "text_en": "Gas Room Key\nThe tag says gas room\ninner wall{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "『ショッカーカード』\nカードに大ワシのマークがかかれている{END}",
+    "text_en": "Shocker Card\nA card marked with\na great eagle symbol{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "『エレベーター起動キー』\nエレベーターを動かすのに使用する\nカード式の鍵{END}",
+    "text_en": "Elevator Start Key\nCard key used to\noperate the elevator{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "『ロック解除キー』\nタグに中央制御室とかかれている{END}",
+    "text_en": "Unlock Key\nThe tag says\ncentral control room{END}"
+  },
+  {
+    "idx": 11,
+    "text_jp": "『ロック解除キー』\nタグに変電器室とかかれている{END}",
+    "text_en": "Unlock Key\nThe tag says\nsubstation room{END}"
+  },
+  {
+    "idx": 12,
+    "text_jp": "『ロック解除キー』\nタグにＡ６とかかれている{END}",
+    "text_en": "Unlock Key\nThe tag says A6{END}"
+  },
+  {
+    "idx": 13,
+    "text_jp": "『送電切換装置の鍵』\n装置に使用する為の小さな鍵{END}",
+    "text_en": "Power Switch Key\nA small key for\nthe switching device{END}"
+  },
+  {
+    "idx": 14,
+    "text_jp": "『隔壁の鍵』\nシルバーカラーのカードキー{END}",
+    "text_en": "Bulkhead Key\nA silver card key{END}"
+  },
+  {
+    "idx": 15,
+    "text_jp": "『エスケープキー』\n赤いマークがあしらわれたカードキー{END}",
+    "text_en": "Escape Key\nA card key with\na red mark{END}"
+  },
+  {
+    "idx": 16,
+    "text_jp": "『ジャンパーケーブル』\n水色のゴムでコーティングされた\n配電用のケーブル{END}",
+    "text_en": "Jumper Cable\nPower cable coated\nwith light blue rubber{END}"
+  },
+  {
+    "idx": 17,
+    "text_jp": "『タービン室の鍵』\nよくあるタイプの鍵{END}",
+    "text_en": "Turbine Room Key\nAn ordinary key{END}"
+  },
+  {
+    "idx": 18,
+    "text_jp": "『パンチカード赤』\nコンピューター読み取り用の穴があいた\n赤い色のカード{END}",
+    "text_en": "Red Punch Card\nA red card with holes\nfor computer reading{END}"
+  },
+  {
+    "idx": 19,
+    "text_jp": "『パンチカード青』\nコンピューター読み取り用の穴があいた\n青い色のカード{END}",
+    "text_en": "Blue Punch Card\nA blue card with holes\nfor computer reading{END}"
+  },
+  {
+    "idx": 20,
+    "text_jp": "『パンチカード緑』\nコンピューター読み取り用の穴があいた\n緑色のカード{END}",
+    "text_en": "Green Punch Card\nA green card with holes\nfor computer reading{END}"
+  },
+  {
+    "idx": 21,
+    "text_jp": "『電磁キー』\n一定間隔で磁気をおびさせた鍵\n専用の機械で磁気の設定ができる{END}",
+    "text_en": "Magnetic Key\nA key magnetized at\nfixed intervals{END}"
+  },
+  {
+    "idx": 22,
+    "text_jp": "『テープレコーダー』\n大型のテープレコーダー\nカセットに所長の声が録音されている{END}",
+    "text_en": "Tape Recorder\nLarge tape recorder\nwith the directors voice{END}"
+  },
+  {
+    "idx": 23,
+    "text_jp": "『カセットレコーダー』\nカセットテープ入りのレコーダー\nカセットに所長の声が録音されている{END}",
+    "text_en": "Cassette Recorder\nRecorder with tape\nand directors voice{END}"
+  },
+  {
+    "idx": 24,
+    "text_jp": "『小型カセットレコーダー』\n小型のテープレコーダー\nカセットに所長の声が録音されている{END}",
+    "text_en": "Small Cassette Recorder\nSmall tape recorder\nwith directors voice{END}"
+  },
+  {
+    "idx": 25,
+    "text_jp": "『ＩＣレコーダー』\n所長の声が録音された\nＩＣ式のレコーダー{END}",
+    "text_en": "IC Recorder\nIC recorder with\nthe directors voice{END}"
+  },
+  {
+    "idx": 26,
+    "text_jp": "パスコード（書き込み前）{END}",
+    "text_en": "Passcode Blank{END}"
+  },
+  {
+    "idx": 27,
+    "text_jp": "パスコード（失敗）{END}",
+    "text_en": "Passcode Failed{END}"
+  },
+  {
+    "idx": 28,
+    "text_jp": "『バーコードキー』\n表にバーコードがかかれたカード{END}",
+    "text_en": "Barcode Key\nA card with a barcode\non the front{END}"
+  },
+  {
+    "idx": 29,
+    "text_jp": "『ＩＣチップカード』\nＩＣチップが埋め込まれた\n特殊なカード{END}",
+    "text_en": "IC Chip Card\nA special card with\nan embedded IC chip{END}"
+  },
+  {
+    "idx": 30,
+    "text_jp": "『データスティック』\nデータを記録する為のものだ\n裏に「所長用」とかかれている{END}",
+    "text_en": "Data Stick\nUsed to record data\nMarked for director{END}"
+  },
+  {
+    "idx": 31,
+    "text_jp": "『ゴールドプレート』\n真中にメダルがはめこまれた\n金のカード{END}",
+    "text_en": "Gold Plate\nA gold card with\na medal in the center{END}"
+  },
+  {
+    "idx": 32,
+    "text_jp": "『グリーンプレート』\n真中にメダルがはめこまれた\n緑のカード{END}",
+    "text_en": "Green Plate\nA green card with\na medal in the center{END}"
+  },
+  {
+    "idx": 33,
+    "text_jp": "『ブラックプレート』\n真中にメダルがはめこまれた\n黒いカード{END}",
+    "text_en": "Black Plate\nA black card with\na medal in the center{END}"
+  },
+  {
+    "idx": 34,
+    "text_jp": "『ショッカーメダル』\nショッカーのマークがきざまれた\n金属製の赤いメダル{END}",
+    "text_en": "Shocker Medal\nA red metal medal with\nthe Shocker mark{END}"
+  },
+  {
+    "idx": 35,
+    "text_jp": "『機械の鍵』\n鍵のタグに「Ａ−３３」と書かれている{END}",
+    "text_en": "Machine Key\nThe key tag says A33{END}"
+  },
+  {
+    "idx": 36,
+    "text_jp": "『発電所ＩＤカードＬＶ１』\n発電所内の通路を使用する為の\nＩＤカード{END}",
+    "text_en": "Plant ID Card LV1\nID card for passages\ninside the power plant{END}"
+  },
+  {
+    "idx": 37,
+    "text_jp": "『重力磁場停止カード』\nムラサキ色のカード{END}",
+    "text_en": "Gravity Stop Card\nA purple card{END}"
+  },
+  {
+    "idx": 38,
+    "text_jp": "『ゴールドプレート』\n真中にメダルがはめこまれた\n金のカード{END}",
+    "text_en": "Gold Plate\nA gold card with\na medal in the center{END}"
+  },
+  {
+    "idx": 39,
+    "text_jp": "『ショッカーキー』\nショッカーのマークがきざまれた\n金属製の鍵{END}",
+    "text_en": "Shocker Key\nA metal key engraved\nwith the Shocker mark{END}"
+  },
+  {
+    "idx": 101,
+    "text_jp": "『ライフパック（Ｌ）』\n体力を大きく回復することができる{END}",
+    "text_en": "Life Pack L\nRestores a large\namount of health{END}"
+  },
+  {
+    "idx": 102,
+    "text_jp": "『ライダーエネルギー（Ｓ）』\nライダーエネルギーを少し回復できる{END}",
+    "text_en": "Rider Energy S\nRestores a small amount\nof Rider Energy{END}"
+  },
+  {
+    "idx": 103,
+    "text_jp": "『ライダーエネルギー（Ｌ）』\nライダーエネルギーを大きく回復できる{END}",
+    "text_en": "Rider Energy L\nRestores a large amount\nof Rider Energy{END}"
+  },
+  {
+    "idx": 104,
+    "text_jp": "『ライフパック（Ｓ）』\n体力を少し回復することができる{END}",
+    "text_en": "Life Pack S\nRestores a small\namount of health{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "体力は満タンです{END}",
+    "text_en": "Health is full{END}"
+  },
+  {
+    "idx": 1001,
+    "text_jp": "エネルギーは満タンです{END}",
+    "text_en": "Energy is full{END}"
+  },
+  {
+    "idx": 1002,
+    "text_jp": "これ以上アイテムを置けない{END}",
+    "text_en": "No more items can be placed{END}"
+  },
+  {
+    "idx": 1003,
+    "text_jp": "このフロアにアイテムを置けない{END}",
+    "text_en": "Items cannot be placed\non this floor{END}"
+  },
+  {
+    "idx": 2000,
+    "text_jp": "を手に入れた{END}",
+    "text_en": " obtained{END}"
+  },
+  {
+    "idx": 2001,
+    "text_jp": "は持てない{END}",
+    "text_en": " cannot be carried{END}"
+  },
+  {
+    "idx": 2002,
+    "text_jp": "気を失っている{END}",
+    "text_en": " is unconscious{END}"
+  },
+  {
+    "idx": 2003,
+    "text_jp": "を受け取った{END}",
+    "text_en": " received{END}"
+  }
+]

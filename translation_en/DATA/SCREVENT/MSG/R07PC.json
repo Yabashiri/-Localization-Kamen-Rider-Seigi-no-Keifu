@@ -1,0 +1,47 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "パソコンがあります{END}",
+    "text_en": "There is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "操作しますか？{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "　　　→はい　　　　いいえ{END}",
+    "text_en": "Select Yes   No{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "　　　　はい　　　→いいえ{END}",
+    "text_en": "Yes   Select No{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "キーを押しても反応しない\nパソコンは処理中のようだ{END}",
+    "text_en": "Check this place.\nThere is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "パソコンの電源が入っていない{END}",
+    "text_en": "There is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "パソコンが起動している{END}",
+    "text_en": "There is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "ファイル『乱数表』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

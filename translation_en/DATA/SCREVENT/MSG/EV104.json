@@ -1,0 +1,37 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "！？{END}",
+    "text_en": "!?{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "…博士、何故こんな事に…{END}",
+    "text_en": "What is going on here?{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "ライダーマン！どうしてここに！？{END}",
+    "text_en": "What is going on here?{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "Ｖ３…お前こそ{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "ライダーマン！{END}",
+    "text_en": "Riderman!{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "たのむ…俺に構わないでくれ{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "…{END}",
+    "text_en": "...{END}"
+  }
+]

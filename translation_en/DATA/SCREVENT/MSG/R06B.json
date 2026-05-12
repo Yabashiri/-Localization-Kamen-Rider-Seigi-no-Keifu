@@ -1,0 +1,67 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "何の装置だろうか\n画面に何か映し出されている…{END}",
+    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "１９７２{END}",
+    "text_en": "1972{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "１９７４{END}",
+    "text_en": "1974{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "１９８８{END}",
+    "text_en": "1988{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "２００４{END}",
+    "text_en": "2004{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "現代と、過去、そして未来の年だ{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "閉まっている…\n再びパソコンの操作が必要なようだ{END}",
+    "text_en": "Check this place.\nThere is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "特に役に立ちそうなものは無い{END}",
+    "text_en": "Nothing here looks useful.{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "発電所の管理に使用する装置だ{END}",
+    "text_en": "This device controls the power plant.{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "特に変わったところは無い{END}",
+    "text_en": "Nothing unusual here.{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "書類が散らばっている{END}",
+    "text_en": "Documents are scattered around.{END}"
+  },
+  {
+    "idx": 11,
+    "text_jp": "操作できるようになった{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

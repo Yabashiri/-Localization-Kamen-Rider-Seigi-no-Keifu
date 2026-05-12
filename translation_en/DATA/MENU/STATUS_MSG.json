@@ -1,0 +1,77 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "操作\nＬ１ボタン（チャージ）＋パンチ\nチャージ率１〜５０％の必殺技{END}",
+    "text_en": "Controls\nL1 Charge + Punch\nSpecial: charge 1-50%{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "操作\nＬ１ボタン（チャージ）＋キック\nチャージ率１〜５０％の必殺技{END}",
+    "text_en": "Controls\nL1 Charge + Kick\nSpecial: charge 1-50%{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "操作\nＬ１ボタン（チャージ）＋パンチ\nチャージ率５１〜１００％の必殺技{END}",
+    "text_en": "Controls\nL1 Charge + Punch\nSpecial: charge 51-100%{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "操作\nＬ１ボタン（チャージ）＋キック\nチャージ率５１〜１００％の必殺技{END}",
+    "text_en": "Controls\nL1 Charge + Kick\nSpecial: charge 51-100%{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "破壊力\nＬ１ボタン（チャージ）で強化される\n必殺技の破壊力をテストせよ{END}",
+    "text_en": "Power\nTest the destructive power\nof L1 charged specials{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "操作\nＬ２ボタン（チャージ）＋パンチ\nチャージ率１〜５０％の必殺技{END}",
+    "text_en": "Controls\nL2 Charge + Punch\nSpecial: charge 1-50%{END}"
+  },
+  {
+    "idx": 11,
+    "text_jp": "操作\nＬ２ボタン（チャージ）＋キック\nチャージ率１〜５０％の必殺技{END}",
+    "text_en": "Controls\nL2 Charge + Kick\nSpecial: charge 1-50%{END}"
+  },
+  {
+    "idx": 12,
+    "text_jp": "操作\nＬ２ボタン（チャージ）＋パンチ\nチャージ率５１〜１００％の必殺技{END}",
+    "text_en": "Controls\nL2 Charge + Punch\nSpecial: charge 51-100%{END}"
+  },
+  {
+    "idx": 13,
+    "text_jp": "操作\nＬ２ボタン（チャージ）＋キック\nチャージ率５１〜１００％の必殺技{END}",
+    "text_en": "Controls\nL2 Charge + Kick\nSpecial: charge 51-100%{END}"
+  },
+  {
+    "idx": 14,
+    "text_jp": "破壊力\nＬ２ボタン（チャージ）で強化される\n必殺技の破壊力をテストせよ{END}",
+    "text_en": "Power\nTest the destructive power\nof L2 charged specials{END}"
+  },
+  {
+    "idx": 20,
+    "text_jp": "操作\nＲ２ボタン（チャージ）＋パンチ\nチャージ率１〜５０％の必殺技{END}",
+    "text_en": "Controls\nR2 Charge + Punch\nSpecial: charge 1-50%{END}"
+  },
+  {
+    "idx": 21,
+    "text_jp": "操作\nＲ２ボタン（チャージ）＋キック\nチャージ率１〜５０％の必殺技{END}",
+    "text_en": "Controls\nR2 Charge + Kick\nSpecial: charge 1-50%{END}"
+  },
+  {
+    "idx": 22,
+    "text_jp": "操作\nＲ２ボタン（チャージ）＋パンチ\nチャージ率５１〜１００％の必殺技{END}",
+    "text_en": "Controls\nR2 Charge + Punch\nSpecial: charge 51-100%{END}"
+  },
+  {
+    "idx": 23,
+    "text_jp": "操作\nＲ２ボタン（チャージ）＋キック\nチャージ率５１〜１００％の必殺技{END}",
+    "text_en": "Controls\nR2 Charge + Kick\nSpecial: charge 51-100%{END}"
+  },
+  {
+    "idx": 24,
+    "text_jp": "破壊力\nＲ２ボタン（チャージ）で強化される\n必殺技の破壊力をテストせよ{END}",
+    "text_en": "Power\nTest the destructive power\nof R2 charged specials{END}"
+  }
+]

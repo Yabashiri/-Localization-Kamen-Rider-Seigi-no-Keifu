@@ -1,0 +1,272 @@
+[
+  {
+    "idx": 500,
+    "text_jp": "を手に入れた{END}",
+    "text_en": " obtained{END}"
+  },
+  {
+    "idx": 501,
+    "text_jp": "は持てない{END}",
+    "text_en": " cannot be carried{END}"
+  },
+  {
+    "idx": 502,
+    "text_jp": "気を失っている{END}",
+    "text_en": " is unconscious{END}"
+  },
+  {
+    "idx": 503,
+    "text_jp": "を受け取った{END}",
+    "text_en": " received{END}"
+  },
+  {
+    "idx": 504,
+    "text_jp": "返事がない{END}",
+    "text_en": "No answer{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "『レバー』{END}",
+    "text_en": "Lever{END}"
+  },
+  {
+    "idx": 1001,
+    "text_jp": "『発電所ＩＤカードＬＶ２』{END}",
+    "text_en": "Plant ID Card LV2{END}"
+  },
+  {
+    "idx": 1002,
+    "text_jp": "『発電所ＩＤカードＬＶ１』{END}",
+    "text_en": "Plant ID Card LV1{END}"
+  },
+  {
+    "idx": 1003,
+    "text_jp": "『エレベーター起動キー』{END}",
+    "text_en": "Elevator Start Key{END}"
+  },
+  {
+    "idx": 1004,
+    "text_jp": "『ショッカーカード』{END}",
+    "text_en": "Shocker Card{END}"
+  },
+  {
+    "idx": 1005,
+    "text_jp": "『ショッカーカード』{END}",
+    "text_en": "Shocker Card{END}"
+  },
+  {
+    "idx": 1006,
+    "text_jp": "『ガス室の鍵』{END}",
+    "text_en": "Gas Room Key{END}"
+  },
+  {
+    "idx": 1007,
+    "text_jp": "『ショッカーカード』{END}",
+    "text_en": "Shocker Card{END}"
+  },
+  {
+    "idx": 1008,
+    "text_jp": "『エレベーター起動キー』{END}",
+    "text_en": "Elevator Start Key{END}"
+  },
+  {
+    "idx": 1009,
+    "text_jp": "『ロック解除キー』{END}",
+    "text_en": "Unlock Key{END}"
+  },
+  {
+    "idx": 1010,
+    "text_jp": "『ロック解除キー』{END}",
+    "text_en": "Unlock Key{END}"
+  },
+  {
+    "idx": 1011,
+    "text_jp": "『ロック解除キー』{END}",
+    "text_en": "Unlock Key{END}"
+  },
+  {
+    "idx": 1012,
+    "text_jp": "『送電切換装置の鍵』{END}",
+    "text_en": "Power Switch Key{END}"
+  },
+  {
+    "idx": 1013,
+    "text_jp": "『隔壁の鍵』{END}",
+    "text_en": "Bulkhead Key{END}"
+  },
+  {
+    "idx": 1014,
+    "text_jp": "『エスケープキー』{END}",
+    "text_en": "Escape Key{END}"
+  },
+  {
+    "idx": 1015,
+    "text_jp": "『ジャンパーケーブル』{END}",
+    "text_en": "Jumper Cable{END}"
+  },
+  {
+    "idx": 1016,
+    "text_jp": "『タービン室の鍵』{END}",
+    "text_en": "Turbine Room Key{END}"
+  },
+  {
+    "idx": 1017,
+    "text_jp": "『パンチカード赤』{END}",
+    "text_en": "Red Punch Card{END}"
+  },
+  {
+    "idx": 1018,
+    "text_jp": "『パンチカード青』{END}",
+    "text_en": "Blue Punch Card{END}"
+  },
+  {
+    "idx": 1019,
+    "text_jp": "『パンチカード緑』{END}",
+    "text_en": "Green Punch Card{END}"
+  },
+  {
+    "idx": 1020,
+    "text_jp": "『電磁キー』{END}",
+    "text_en": "Magnetic Key{END}"
+  },
+  {
+    "idx": 1021,
+    "text_jp": "『テープレコーダー』{END}",
+    "text_en": "Tape Recorder{END}"
+  },
+  {
+    "idx": 1022,
+    "text_jp": "『カセットレコーダー』{END}",
+    "text_en": "Cassette Recorder{END}"
+  },
+  {
+    "idx": 1023,
+    "text_jp": "『小型カセットレコーダー』{END}",
+    "text_en": "Small Cassette Recorder{END}"
+  },
+  {
+    "idx": 1024,
+    "text_jp": "『ＩＣレコーダー』{END}",
+    "text_en": "IC Recorder{END}"
+  },
+  {
+    "idx": 1025,
+    "text_jp": "『パスコード（書き込み前）』{END}",
+    "text_en": "Passcode Blank{END}"
+  },
+  {
+    "idx": 1026,
+    "text_jp": "『パスコード（失敗）』{END}",
+    "text_en": "Passcode Failed{END}"
+  },
+  {
+    "idx": 1027,
+    "text_jp": "『バーコードキー』{END}",
+    "text_en": "Barcode Key{END}"
+  },
+  {
+    "idx": 1028,
+    "text_jp": "『ＩＣチップカード』{END}",
+    "text_en": "IC Chip Card{END}"
+  },
+  {
+    "idx": 1029,
+    "text_jp": "『データスティック』{END}",
+    "text_en": "Data Stick{END}"
+  },
+  {
+    "idx": 1030,
+    "text_jp": "『ゴールドプレート』{END}",
+    "text_en": "Gold Plate{END}"
+  },
+  {
+    "idx": 1031,
+    "text_jp": "『グリーンプレート』{END}",
+    "text_en": "Green Plate{END}"
+  },
+  {
+    "idx": 1032,
+    "text_jp": "『ブラックプレート』{END}",
+    "text_en": "Black Plate{END}"
+  },
+  {
+    "idx": 1033,
+    "text_jp": "『ショッカーメダル』{END}",
+    "text_en": "Shocker Medal{END}"
+  },
+  {
+    "idx": 1034,
+    "text_jp": "『機械の鍵』{END}",
+    "text_en": "Machine Key{END}"
+  },
+  {
+    "idx": 1035,
+    "text_jp": "『発電所ＩＤカードＬＶ１』{END}",
+    "text_en": "Plant ID Card LV1{END}"
+  },
+  {
+    "idx": 1036,
+    "text_jp": "『重力磁場停止カード』{END}",
+    "text_en": "Gravity Stop Card{END}"
+  },
+  {
+    "idx": 1037,
+    "text_jp": "『ゴールドプレート』{END}",
+    "text_en": "Gold Plate{END}"
+  },
+  {
+    "idx": 1038,
+    "text_jp": "『ショッカーキー』{END}",
+    "text_en": "Shocker Key{END}"
+  },
+  {
+    "idx": 2001,
+    "text_jp": "『ライフパック（Ｌ）』{END}",
+    "text_en": "Life Pack L{END}"
+  },
+  {
+    "idx": 2002,
+    "text_jp": "『ライダーエネルギー（Ｓ）』{END}",
+    "text_en": "Rider Energy S{END}"
+  },
+  {
+    "idx": 2003,
+    "text_jp": "『ライダーエネルギー（Ｌ）』{END}",
+    "text_en": "Rider Energy L{END}"
+  },
+  {
+    "idx": 2004,
+    "text_jp": "『ライフパック（Ｓ）』{END}",
+    "text_en": "Life Pack S{END}"
+  },
+  {
+    "idx": 3000,
+    "text_jp": "『ヒントファイル』{END}",
+    "text_en": "Hint File{END}"
+  },
+  {
+    "idx": 3001,
+    "text_jp": "『ファイルフォルダ』{END}",
+    "text_en": "File Folder{END}"
+  },
+  {
+    "idx": 3002,
+    "text_jp": "『作戦指示書』{END}",
+    "text_en": "Operation Orders{END}"
+  },
+  {
+    "idx": 3003,
+    "text_jp": "『作戦指示書』{END}",
+    "text_en": "Operation Orders{END}"
+  },
+  {
+    "idx": 4000,
+    "text_jp": "『怪人ファイル』{END}",
+    "text_en": "Monster File{END}"
+  },
+  {
+    "idx": 4001,
+    "text_jp": "『怪人ファイル』{END}",
+    "text_en": "Monster File{END}"
+  }
+]

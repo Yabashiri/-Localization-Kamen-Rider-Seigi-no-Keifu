@@ -1,0 +1,27 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "ん！{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "仮面ライダー\nちょうど良いところへ来た{END}",
+    "text_en": "Kamen Rider... you are here too!{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "たった今、私の最高傑作が完成した所だ{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "ザンジオー、お前の力を試すがよい{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

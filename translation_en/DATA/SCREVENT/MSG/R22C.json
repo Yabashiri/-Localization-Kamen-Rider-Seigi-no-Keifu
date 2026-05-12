@@ -1,0 +1,67 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "特に役立つものは無い{END}",
+    "text_en": "There is nothing useful here.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "何かの鍵が置かれている{END}",
+    "text_en": "A key item seems necessary here.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "『機械の鍵』を取りますか？{END}",
+    "text_en": "A key item seems necessary here.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "　　　→はい　　　　いいえ{END}",
+    "text_en": "Select Yes   No{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "　　　　はい　　　→いいえ{END}",
+    "text_en": "Yes   Select No{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "『機械の鍵』を入手した{END}",
+    "text_en": "Obtained Machine Key.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "ガス用のタンクだ{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "ここでもガスの実験を\n行っているのだろうか……{END}",
+    "text_en": "Check this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "ガスの調合装置だろうか……\n特に操作の必要は無さそうだ{END}",
+    "text_en": "There is a device here. It may need to be operated.\nNothing useful here.{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "この部屋のコントロール装置のようだ{END}",
+    "text_en": "There is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "ブラック将軍の計画は阻止した……{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 11,
+    "text_jp": "あとは邪眼の復活を止めなければ！{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

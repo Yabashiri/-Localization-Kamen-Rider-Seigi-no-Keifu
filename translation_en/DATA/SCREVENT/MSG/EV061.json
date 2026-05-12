@@ -1,0 +1,32 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "あれは…？{END}",
+    "text_en": "What is going on here?{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "この模型は…基地？…{END}",
+    "text_en": "What is going on here?{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "そうか！\nこれが、この時代の計画なんだ{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "きっと、奴らが運んでたのは\n基地を造るための資材なんだ{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "ファイル『地獄大使の作戦計画書』を\n入手した{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

@@ -1,12 +1,12 @@
 # Original game dump / copyrighted assets
 game_dump/
-DATA.CVM
-DATA/
-MODULES/
+/DATA.CVM
+/DATA/
+/MODULES/
 *.PSS
-SLPS_253.02
-SYSTEM.CNF
-MODULES.TRA
+/SLPS_253.02
+/SYSTEM.CNF
+/MODULES.TRA
 *.ISO
 *.iso
 *.BIN
@@ -31,8 +31,6 @@ dump_jp/*
 rebuilt_jp/*
 !rebuilt_jp/.gitkeep
 rebuilt_en/*
-translation_en/*
-!translation_en/.gitkeep
 external_tools/
 build/
 work_cvm/

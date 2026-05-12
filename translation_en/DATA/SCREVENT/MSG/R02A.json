@@ -1,0 +1,12 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "特に役に立ちそうなものは無い{END}",
+    "text_en": "Nothing here looks useful.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

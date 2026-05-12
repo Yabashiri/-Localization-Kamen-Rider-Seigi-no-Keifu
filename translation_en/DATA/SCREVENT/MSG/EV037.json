@@ -1,0 +1,12 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "いったい、この装置は何だ？{END}",
+    "text_en": "There is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "！？{END}",
+    "text_en": "!?{END}"
+  }
+]

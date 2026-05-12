@@ -1,0 +1,407 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "発電所　エントランス{END}",
+    "text_en": "Power Plant Entrance{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "発電所　煙突{END}",
+    "text_en": "Power Plant Chimney{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "発電所　搬入口{END}",
+    "text_en": "Power Plant Loading Entrance{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "発電所　送電設備{END}",
+    "text_en": "Power Plant Transmission Facility{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "発電所　Ｂ１Ｆ通路{END}",
+    "text_en": "Power Plant B1F Passage{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "発電所　中央制御室{END}",
+    "text_en": "Power Plant Central Control Room{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "発電所　所長室{END}",
+    "text_en": "Power Plant Directors Office{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "発電所　変電器室{END}",
+    "text_en": "Power Plant Transformer Room{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "発電所　燃料貯蔵庫{END}",
+    "text_en": "Power Plant Fuel Storage{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "発電所　Ｂ２Ｆ通路{END}",
+    "text_en": "Power Plant B2F Passage{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "発電所　タービン室{END}",
+    "text_en": "Power Plant Turbine Room{END}"
+  },
+  {
+    "idx": 11,
+    "text_jp": "発電所　燃料プール{END}",
+    "text_en": "Power Plant Fuel Pool{END}"
+  },
+  {
+    "idx": 12,
+    "text_jp": "アジト　地下通路{END}",
+    "text_en": "Base Underground Passage{END}"
+  },
+  {
+    "idx": 13,
+    "text_jp": "アジト　地下通路{END}",
+    "text_en": "Base Underground Passage{END}"
+  },
+  {
+    "idx": 14,
+    "text_jp": "アジト　坑道跡{END}",
+    "text_en": "Base Old Mine Tunnel{END}"
+  },
+  {
+    "idx": 15,
+    "text_jp": "アジト　地下搬送路{END}",
+    "text_en": "Base Underground Transport Route{END}"
+  },
+  {
+    "idx": 16,
+    "text_jp": "アジト　通路{END}",
+    "text_en": "Base Passage{END}"
+  },
+  {
+    "idx": 17,
+    "text_jp": "アジト　ガス実験室{END}",
+    "text_en": "Base Gas Laboratory{END}"
+  },
+  {
+    "idx": 18,
+    "text_jp": "アジト　兵器庫{END}",
+    "text_en": "Base Armory{END}"
+  },
+  {
+    "idx": 19,
+    "text_jp": "発電所　坑井{END}",
+    "text_en": "Power Plant Shaft{END}"
+  },
+  {
+    "idx": 20,
+    "text_jp": "アジト　メイン通路{END}",
+    "text_en": "Base Main Passage{END}"
+  },
+  {
+    "idx": 210,
+    "text_jp": "アジト　素体ドーム{END}",
+    "text_en": "Base Body Dome{END}"
+  },
+  {
+    "idx": 211,
+    "text_jp": "アジト　強化実験室{END}",
+    "text_en": "Base Enhancement Laboratory{END}"
+  },
+  {
+    "idx": 212,
+    "text_jp": "アジト　作戦計画室{END}",
+    "text_en": "Base Operations Planning Room{END}"
+  },
+  {
+    "idx": 213,
+    "text_jp": "アジト　作戦計画室{END}",
+    "text_en": "Base Operations Planning Room{END}"
+  },
+  {
+    "idx": 22,
+    "text_jp": "アジト　素体ドーム{END}",
+    "text_en": "Base Body Dome{END}"
+  },
+  {
+    "idx": 23,
+    "text_jp": "アジト　司令室{END}",
+    "text_en": "Base Command Room{END}"
+  },
+  {
+    "idx": 24,
+    "text_jp": "？？？　時空制御室{END}",
+    "text_en": "??? Time-Space Control Room{END}"
+  },
+  {
+    "idx": 25,
+    "text_jp": "採石場{END}",
+    "text_en": "Quarry{END}"
+  },
+  {
+    "idx": 26,
+    "text_jp": "アジト　毒ガス工場{END}",
+    "text_en": "Base Poison Gas Plant{END}"
+  },
+  {
+    "idx": 27,
+    "text_jp": "アジト　灯台{END}",
+    "text_en": "Base Lighthouse{END}"
+  },
+  {
+    "idx": 28,
+    "text_jp": "海岸{END}",
+    "text_en": "Coast{END}"
+  },
+  {
+    "idx": 29,
+    "text_jp": "アジト　海底基地{END}",
+    "text_en": "Base Undersea Base{END}"
+  },
+  {
+    "idx": 30,
+    "text_jp": "？？？　培養装置室{END}",
+    "text_en": "??? Cultivation Device Room{END}"
+  },
+  {
+    "idx": 31,
+    "text_jp": "気密室（作業員室）{END}",
+    "text_en": "Airtight Room (Worker Room){END}"
+  },
+  {
+    "idx": 32,
+    "text_jp": "バイクアクション岸壁コース{END}",
+    "text_en": "Bike Action Cliff Course{END}"
+  },
+  {
+    "idx": 33,
+    "text_jp": "バイクアクション採石場コース{END}",
+    "text_en": "Bike Action Quarry Course{END}"
+  },
+  {
+    "idx": 1010,
+    "text_jp": "発電所　エントランス{END}",
+    "text_en": "Power Plant Entrance{END}"
+  },
+  {
+    "idx": 1020,
+    "text_jp": "発電所　煙突{END}",
+    "text_en": "Power Plant Chimney{END}"
+  },
+  {
+    "idx": 1030,
+    "text_jp": "発電所　搬入口{END}",
+    "text_en": "Power Plant Loading Entrance{END}"
+  },
+  {
+    "idx": 1040,
+    "text_jp": "発電所　送電設備{END}",
+    "text_en": "Power Plant Transmission Facility{END}"
+  },
+  {
+    "idx": 1050,
+    "text_jp": "発電所　Ｂ１Ｆ通路{END}",
+    "text_en": "Power Plant B1F Passage{END}"
+  },
+  {
+    "idx": 1060,
+    "text_jp": "発電所　中央制御室{END}",
+    "text_en": "Power Plant Central Control Room{END}"
+  },
+  {
+    "idx": 1070,
+    "text_jp": "発電所　所長室{END}",
+    "text_en": "Power Plant Directors Office{END}"
+  },
+  {
+    "idx": 1080,
+    "text_jp": "発電所　変電器室{END}",
+    "text_en": "Power Plant Transformer Room{END}"
+  },
+  {
+    "idx": 1090,
+    "text_jp": "発電所　燃料貯蔵庫{END}",
+    "text_en": "Power Plant Fuel Storage{END}"
+  },
+  {
+    "idx": 1100,
+    "text_jp": "発電所　Ｂ２Ｆ通路{END}",
+    "text_en": "Power Plant B2F Passage{END}"
+  },
+  {
+    "idx": 1110,
+    "text_jp": "発電所　タービン室{END}",
+    "text_en": "Power Plant Turbine Room{END}"
+  },
+  {
+    "idx": 1120,
+    "text_jp": "発電所　燃料プール{END}",
+    "text_en": "Power Plant Fuel Pool{END}"
+  },
+  {
+    "idx": 1130,
+    "text_jp": "アジト　地下通路{END}",
+    "text_en": "Base Underground Passage{END}"
+  },
+  {
+    "idx": 1140,
+    "text_jp": "アジト　地下通路{END}",
+    "text_en": "Base Underground Passage{END}"
+  },
+  {
+    "idx": 1150,
+    "text_jp": "アジト　坑道跡{END}",
+    "text_en": "Base Old Mine Tunnel{END}"
+  },
+  {
+    "idx": 1160,
+    "text_jp": "アジト　地下搬送路{END}",
+    "text_en": "Base Underground Transport Route{END}"
+  },
+  {
+    "idx": 1170,
+    "text_jp": "アジト　通路{END}",
+    "text_en": "Base Passage{END}"
+  },
+  {
+    "idx": 1180,
+    "text_jp": "アジト　ガス実験室{END}",
+    "text_en": "Base Gas Laboratory{END}"
+  },
+  {
+    "idx": 1190,
+    "text_jp": "アジト　兵器庫{END}",
+    "text_en": "Base Armory{END}"
+  },
+  {
+    "idx": 1200,
+    "text_jp": "発電所　坑井{END}",
+    "text_en": "Power Plant Shaft{END}"
+  },
+  {
+    "idx": 1210,
+    "text_jp": "アジト　メイン通路{END}",
+    "text_en": "Base Main Passage{END}"
+  },
+  {
+    "idx": 1220,
+    "text_jp": "アジト　素体ドーム{END}",
+    "text_en": "Base Body Dome{END}"
+  },
+  {
+    "idx": 1221,
+    "text_jp": "アジト　強化実験室{END}",
+    "text_en": "Base Enhancement Laboratory{END}"
+  },
+  {
+    "idx": 1222,
+    "text_jp": "アジト　作戦計画室{END}",
+    "text_en": "Base Operations Planning Room{END}"
+  },
+  {
+    "idx": 1223,
+    "text_jp": "アジト　作戦計画室{END}",
+    "text_en": "Base Operations Planning Room{END}"
+  },
+  {
+    "idx": 1240,
+    "text_jp": "アジト　司令室{END}",
+    "text_en": "Base Command Room{END}"
+  },
+  {
+    "idx": 1250,
+    "text_jp": "？？？　時空制御室{END}",
+    "text_en": "??? Time-Space Control Room{END}"
+  },
+  {
+    "idx": 1260,
+    "text_jp": "採石場{END}",
+    "text_en": "Quarry{END}"
+  },
+  {
+    "idx": 1270,
+    "text_jp": "アジト　毒ガス工場{END}",
+    "text_en": "Base Poison Gas Plant{END}"
+  },
+  {
+    "idx": 1280,
+    "text_jp": "アジト　灯台{END}",
+    "text_en": "Base Lighthouse{END}"
+  },
+  {
+    "idx": 1290,
+    "text_jp": "海岸{END}",
+    "text_en": "Coast{END}"
+  },
+  {
+    "idx": 1300,
+    "text_jp": "アジト　海底基地{END}",
+    "text_en": "Base Undersea Base{END}"
+  },
+  {
+    "idx": 1310,
+    "text_jp": "？？？　培養装置室{END}",
+    "text_en": "??? Cultivation Device Room{END}"
+  },
+  {
+    "idx": 2000,
+    "text_jp": "Ｂ６{END}",
+    "text_en": "B6{END}"
+  },
+  {
+    "idx": 2001,
+    "text_jp": "Ｂ５{END}",
+    "text_en": "B5{END}"
+  },
+  {
+    "idx": 2002,
+    "text_jp": "Ｂ４Ｍ{END}",
+    "text_en": "B4M{END}"
+  },
+  {
+    "idx": 2003,
+    "text_jp": "Ｂ４{END}",
+    "text_en": "B4{END}"
+  },
+  {
+    "idx": 2004,
+    "text_jp": "Ｂ３Ｍ{END}",
+    "text_en": "B3M{END}"
+  },
+  {
+    "idx": 2005,
+    "text_jp": "Ｂ３{END}",
+    "text_en": "B3{END}"
+  },
+  {
+    "idx": 2006,
+    "text_jp": "Ｂ２{END}",
+    "text_en": "B2{END}"
+  },
+  {
+    "idx": 2007,
+    "text_jp": "Ｂ１{END}",
+    "text_en": "B1{END}"
+  },
+  {
+    "idx": 2008,
+    "text_jp": "１Ｆ{END}",
+    "text_en": "1F{END}"
+  },
+  {
+    "idx": 2009,
+    "text_jp": "２Ｆ{END}",
+    "text_en": "2F{END}"
+  },
+  {
+    "idx": 2010,
+    "text_jp": "３Ｆ{END}",
+    "text_en": "3F{END}"
+  }
+]

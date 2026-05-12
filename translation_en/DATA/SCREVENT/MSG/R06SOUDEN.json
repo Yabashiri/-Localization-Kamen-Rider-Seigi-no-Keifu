@@ -1,0 +1,72 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "電力の供給先を変える切換装置のようだ\n今は電源が落ちているため動かない{END}",
+    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "この装置を使って電力の供給ラインを\n切り換えることができそうだ{END}",
+    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "スイッチがある{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "切り換えますか？{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "　　　→はい　　　　いいえ{END}",
+    "text_en": "Select Yes   No{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "　　　　はい　　　→いいえ{END}",
+    "text_en": "Yes   Select No{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "ラインが切り換わったようだ…{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "変電器室側が通れるようになった{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "燃料貯蔵庫側が通れるようになった{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "電力の供給先を変える切換装置のようだ{END}",
+    "text_en": "There is a device here. It may need to be operated.{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "ロックされている\n切り換えるには鍵が必要なようだが…{END}",
+    "text_en": "It is locked and cannot be opened.\nA key item seems necessary here.{END}"
+  },
+  {
+    "idx": 11,
+    "text_jp": "今は操作する必要が無さそうだ{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 12,
+    "text_jp": "ロックされている\n切り換えるには鍵が必要なようだ{END}",
+    "text_en": "It is locked and cannot be opened.\nA key item seems necessary here.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

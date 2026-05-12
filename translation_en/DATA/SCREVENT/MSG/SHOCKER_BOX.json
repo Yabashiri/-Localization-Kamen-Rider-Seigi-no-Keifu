@@ -1,0 +1,62 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "大ワシのマークがかかれているハコがある{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "『ショッカーメダル』を取りますか？{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "　　　→はい　　　　いいえ{END}",
+    "text_en": "Select Yes   No{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "　　　　はい　　　→いいえ{END}",
+    "text_en": "Yes   Select No{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "『ショッカーメダル』を入手した{END}",
+    "text_en": "Obtained Shocker Medal.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "鍵がかかっていて開かない{END}",
+    "text_en": "A key item seems necessary here.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "鍵を使った{END}",
+    "text_en": "A key item seems necessary here.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "ハコの中に金属製のメダルが入っている{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "もう使えそうなものは無い{END}",
+    "text_en": "There is nothing useful left.{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "ハコの鍵が外れた{END}",
+    "text_en": "A key item seems necessary here.{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "ファイル『死神博士の作戦計画書−２−』を\n入手した{END}",
+    "text_en": "There are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

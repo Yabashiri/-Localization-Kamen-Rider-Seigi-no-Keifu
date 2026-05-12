@@ -1,0 +1,17 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "配電盤だ\n特に変わったところはない{END}",
+    "text_en": "Check this place.\nNothing unusual here.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "特に気になるところは無い{END}",
+    "text_en": "Nothing stands out.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

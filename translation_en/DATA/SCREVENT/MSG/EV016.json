@@ -1,0 +1,22 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "！！{END}",
+    "text_en": "!!{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "お前は！？{END}",
+    "text_en": "Who are you!?{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "ゴルゴム怪人！！{END}",
+    "text_en": "Gorgommonster!!{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "ゴルゴム？\n何のことだ…死ね！！{END}",
+    "text_en": "What is going on here?{END}"
+  }
+]

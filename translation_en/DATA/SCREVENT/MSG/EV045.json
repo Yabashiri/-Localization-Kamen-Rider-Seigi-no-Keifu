@@ -1,0 +1,32 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "２００４年{END}",
+    "text_en": "2004{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "こちら２００４年、誰か聞こえますか？{END}",
+    "text_en": "This is 2004. Can anyone hear me?{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "こちらは１９７２年、聞こえるぞ！{END}",
+    "text_en": "This is 1972. I can hear you!{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "やった！{END}",
+    "text_en": "We did it!{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "私は仮面ライダー。君は？{END}",
+    "text_en": "Kamen Rider... you are here too!{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "仮面ライダー　アギト！{END}",
+    "text_en": "Kamen Rider Agito!{END}"
+  }
+]

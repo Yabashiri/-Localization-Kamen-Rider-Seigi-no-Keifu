@@ -1,0 +1,12 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "扉を開けた…{END}",
+    "text_en": "It is locked and cannot be opened.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

@@ -1,0 +1,472 @@
+[
+  {
+    "idx": 1,
+    "text_jp": "フォーマット中です{END}",
+    "text_en": "Formatting.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "システム設定ファイルを\n作成中です{END}",
+    "text_en": "Creating system settings file.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "システム設定ファイルの作成を\n行いませんでした\n\nこのままゲームを開始しますか？{END}",
+    "text_en": "There are documents here.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "セーブ中です{END}",
+    "text_en": "Saving.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "オプションの設定をセーブしますか？{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "設定を保存せずにゲームに戻りますか？{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "メモリーカード（ＰＳ２）が\nメモリーカード差込口１に\n差されていません\n\nこのゲームのデータをセーブするには\n３０５ＫＢ以上の空き容量が必要です\n\nこのままゲームを開始しますか？{END}",
+    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "メモリーカード差込口１に差されている\nメモリーカード（ＰＳ２）の\nフォーマットがされていません\n\nフォーマットをしますか？{END}",
+    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "このゲームのデータをセーブするには\nメモリーカード（ＰＳ２）に\nシステム設定ファイルを\n作成する必要があります\n\nシステム設定ファイルを作成しても\nよろしいですか？{END}",
+    "text_en": "Check this place.\nA key item seems necessary here.\nThere are documents here.\nCheck this place.\nCheck this place.\nThere are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "新たにメモリーカード（ＰＳ２）が\n差されました{END}",
+    "text_en": "A new Memory Card (PS2)\nhas been inserted.{END}"
+  },
+  {
+    "idx": 11,
+    "text_jp": "ロードに失敗しました{END}",
+    "text_en": "Load failed.{END}"
+  },
+  {
+    "idx": 12,
+    "text_jp": "データが破損しています\n\nセーブするためには\n新たにシステム設定ファイルを\n作成する必要があります\n\nシステム設定ファイルを作成しても\nよろしいですか？{END}",
+    "text_en": "The data is corrupted.\nCheck this place.\nCheck this place.\nThere are documents here.\nCheck this place.\nCheck this place.\nThere are documents here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 13,
+    "text_jp": "フォーマットに失敗しました{END}",
+    "text_en": "Format failed.{END}"
+  },
+  {
+    "idx": 14,
+    "text_jp": "メモリーカード差込口１に差されている\nメモリーカード（ＰＳ２）の\n空き容量が不足しています\nこのゲームのデータをセーブするには\n３０５ＫＢ以上の空き容量が必要です\n\nこのままゲームを開始しますか？{END}",
+    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 15,
+    "text_jp": "システム設定ファイルの作成に\n失敗しました{END}",
+    "text_en": "Failed to create the\nsystem settings file.{END}"
+  },
+  {
+    "idx": 16,
+    "text_jp": "フォーマットを行いませんでした\n\nこのままゲームを開始しますか？{END}",
+    "text_en": "Check this place.\nCheck this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 17,
+    "text_jp": "メモリーカード差込口１に差されている\nメモリーカード（ＰＳ２）の\nフォーマットがされていません\n\nメモリーカード差込口１に\nフォーマットのされている\nメモリーカード（ＰＳ２）を\n差してください{END}",
+    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nA key item seems necessary here.\nCheck this place.\nA key item seems necessary here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 18,
+    "text_jp": "データが破損しています{END}",
+    "text_en": "The data is corrupted.{END}"
+  },
+  {
+    "idx": 19,
+    "text_jp": "メモリーカード差込口１に差されている\nメモリーカード（ＰＳ２）に\nシステム設定ファイルがありません\n\nメモリーカード差込口１に\nシステム設定ファイルのある\nメモリーカード（ＰＳ２）を\n差してください{END}",
+    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nThere are documents here.\nCheck this place.\nA key item seems necessary here.\nThere are documents here.\nA key item seems necessary here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 20,
+    "text_jp": "フォーマットが終了しました{END}",
+    "text_en": "Format complete.{END}"
+  },
+  {
+    "idx": 21,
+    "text_jp": "システム設定ファイルの作成が\n終了しました{END}",
+    "text_en": "System settings file\ncreated.{END}"
+  },
+  {
+    "idx": 22,
+    "text_jp": "今回のクリア情報を\nシステム設定ファイルにセーブします\nセーブを行うと今回のクリア情報が\n「ＲＥＣＯＲＤ」に登録されます\n\n\n\n\n\n\nセーブしますか？{END}",
+    "text_en": "Check this place.\nThere are documents here.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 23,
+    "text_jp": "メモリーカード（ＰＳ２）を\n抜かないでください{END}",
+    "text_en": "Do not remove the\nMemory Card (PS2).{END}"
+  },
+  {
+    "idx": 24,
+    "text_jp": "ロードするデータがありません{END}",
+    "text_en": "There is no data to load.{END}"
+  },
+  {
+    "idx": 25,
+    "text_jp": "セーブに失敗しました{END}",
+    "text_en": "Save failed.{END}"
+  },
+  {
+    "idx": 26,
+    "text_jp": "メモリーカード（ＰＳ２）が\nメモリーカード差込口１に\n差されていません\n\nメモリーカード差込口１に\nメモリーカード（ＰＳ２）を\n差してください{END}",
+    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nA key item seems necessary here.\nA key item seems necessary here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 27,
+    "text_jp": "ロード中です{END}",
+    "text_en": "Loading.{END}"
+  },
+  {
+    "idx": 28,
+    "text_jp": "　番のプレイデータを上書きしますか？{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 29,
+    "text_jp": "　番にセーブしますか？{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 30,
+    "text_jp": "　番のプレイデータをロードしますか？{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 31,
+    "text_jp": "メモリーカード（ＰＳ２）を\nチェック中です{END}",
+    "text_en": "A key item seems necessary here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 32,
+    "text_jp": "セーブが終了しました{END}",
+    "text_en": "Save complete.{END}"
+  },
+  {
+    "idx": 33,
+    "text_jp": "ロードが終了しました{END}",
+    "text_en": "Load complete.{END}"
+  },
+  {
+    "idx": 36,
+    "text_jp": "システム設定ファイルに\nクリア情報のセーブを\n行いませんでした\n\nこのままゲームを終了しますか？{END}",
+    "text_en": "There are documents here.\nCheck this place.\nCheck this place.\nCheck this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 37,
+    "text_jp": "メモリーカード差込口１に差されている\nメモリーカード（ＰＳ２）の\n空き容量が不足しています\n\n３０５ＫＢ以上の空き容量のある\nメモリーカード（ＰＳ２）を\nメモリーカード差込口１へと\n差してください{END}",
+    "text_en": "A key item seems necessary here.\nA key item seems necessary here.\nCheck this place.\nCheck this place.\nCheck this place.\nA key item seems necessary here.\nA key item seems necessary here.\nCheck this place.{END}"
+  },
+  {
+    "idx": 38,
+    "text_jp": "このままタイトルに戻りますか？{END}",
+    "text_en": "Return to the title screen?{END}"
+  },
+  {
+    "idx": 39,
+    "text_jp": "このままゲームに戻りますか？{END}",
+    "text_en": "Return to the game?{END}"
+  },
+  {
+    "idx": 50,
+    "text_jp": "データがありません{END}",
+    "text_en": "No data.{END}"
+  },
+  {
+    "idx": 100,
+    "text_jp": "→{END}",
+    "text_en": "Select{END}"
+  },
+  {
+    "idx": 101,
+    "text_jp": "はい{END}",
+    "text_en": "Yes{END}"
+  },
+  {
+    "idx": 102,
+    "text_jp": "いいえ{END}",
+    "text_en": "No{END}"
+  },
+  {
+    "idx": 103,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  },
+  {
+    "idx": 500,
+    "text_jp": "１{END}",
+    "text_en": "1{END}"
+  },
+  {
+    "idx": 501,
+    "text_jp": "２{END}",
+    "text_en": "2{END}"
+  },
+  {
+    "idx": 502,
+    "text_jp": "３{END}",
+    "text_en": "3{END}"
+  },
+  {
+    "idx": 503,
+    "text_jp": "４{END}",
+    "text_en": "4{END}"
+  },
+  {
+    "idx": 504,
+    "text_jp": "５{END}",
+    "text_en": "5{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "序章{END}",
+    "text_en": "Prologue{END}"
+  },
+  {
+    "idx": 1001,
+    "text_jp": "１章{END}",
+    "text_en": "Chapter 1{END}"
+  },
+  {
+    "idx": 1002,
+    "text_jp": "２章{END}",
+    "text_en": "Chapter 2{END}"
+  },
+  {
+    "idx": 1003,
+    "text_jp": "３章{END}",
+    "text_en": "Chapter 3{END}"
+  },
+  {
+    "idx": 1004,
+    "text_jp": "４章{END}",
+    "text_en": "Chapter 4{END}"
+  },
+  {
+    "idx": 1005,
+    "text_jp": "５章{END}",
+    "text_en": "Chapter 5{END}"
+  },
+  {
+    "idx": 1006,
+    "text_jp": "５章{END}",
+    "text_en": "Chapter 5{END}"
+  },
+  {
+    "idx": 1007,
+    "text_jp": "６章{END}",
+    "text_en": "Chapter 6{END}"
+  },
+  {
+    "idx": 2000,
+    "text_jp": "１号{END}",
+    "text_en": "Rider 1{END}"
+  },
+  {
+    "idx": 2001,
+    "text_jp": "Ｖ３{END}",
+    "text_en": "V3{END}"
+  },
+  {
+    "idx": 2002,
+    "text_jp": "ＢＬＡＣＫ{END}",
+    "text_en": "BLACK{END}"
+  },
+  {
+    "idx": 2003,
+    "text_jp": "アギト{END}",
+    "text_en": "Agito{END}"
+  },
+  {
+    "idx": 2004,
+    "text_jp": "２号{END}",
+    "text_en": "Rider 2{END}"
+  },
+  {
+    "idx": 3000,
+    "text_jp": "発電所　エントランス{END}",
+    "text_en": "Power Plant Entrance{END}"
+  },
+  {
+    "idx": 3001,
+    "text_jp": "発電所　煙突{END}",
+    "text_en": "Power Plant Chimney{END}"
+  },
+  {
+    "idx": 3002,
+    "text_jp": "発電所　搬入口{END}",
+    "text_en": "Power Plant Loading Entrance{END}"
+  },
+  {
+    "idx": 3003,
+    "text_jp": "発電所　送電設備{END}",
+    "text_en": "Power Plant Transmission Facility{END}"
+  },
+  {
+    "idx": 3004,
+    "text_jp": "発電所　Ｂ１Ｆ通路{END}",
+    "text_en": "Power Plant B1F Passage{END}"
+  },
+  {
+    "idx": 3005,
+    "text_jp": "発電所　中央制御室{END}",
+    "text_en": "Power Plant Central Control Room{END}"
+  },
+  {
+    "idx": 3006,
+    "text_jp": "発電所　所長室{END}",
+    "text_en": "Power Plant Directors Office{END}"
+  },
+  {
+    "idx": 3007,
+    "text_jp": "発電所　変電器室{END}",
+    "text_en": "Power Plant Transformer Room{END}"
+  },
+  {
+    "idx": 3008,
+    "text_jp": "発電所　燃料貯蔵庫{END}",
+    "text_en": "Power Plant Fuel Storage{END}"
+  },
+  {
+    "idx": 3009,
+    "text_jp": "発電所　Ｂ２Ｆ通路{END}",
+    "text_en": "Power Plant B2F Passage{END}"
+  },
+  {
+    "idx": 3010,
+    "text_jp": "発電所　タービン室{END}",
+    "text_en": "Power Plant Turbine Room{END}"
+  },
+  {
+    "idx": 3011,
+    "text_jp": "発電所　燃料プール{END}",
+    "text_en": "Power Plant Fuel Pool{END}"
+  },
+  {
+    "idx": 3012,
+    "text_jp": "アジト　地下通路{END}",
+    "text_en": "Base Underground Passage{END}"
+  },
+  {
+    "idx": 3013,
+    "text_jp": "アジト　地下通路{END}",
+    "text_en": "Base Underground Passage{END}"
+  },
+  {
+    "idx": 3014,
+    "text_jp": "アジト　坑道跡{END}",
+    "text_en": "Base Old Mine Tunnel{END}"
+  },
+  {
+    "idx": 3015,
+    "text_jp": "アジト　地下搬送路{END}",
+    "text_en": "Base Underground Transport Route{END}"
+  },
+  {
+    "idx": 3016,
+    "text_jp": "アジト　通路{END}",
+    "text_en": "Base Passage{END}"
+  },
+  {
+    "idx": 3017,
+    "text_jp": "アジト　ガス実験室{END}",
+    "text_en": "Base Gas Laboratory{END}"
+  },
+  {
+    "idx": 3018,
+    "text_jp": "アジト　兵器庫{END}",
+    "text_en": "Base Armory{END}"
+  },
+  {
+    "idx": 3019,
+    "text_jp": "発電所　坑井{END}",
+    "text_en": "Power Plant Shaft{END}"
+  },
+  {
+    "idx": 3020,
+    "text_jp": "アジト　メイン通路{END}",
+    "text_en": "Base Main Passage{END}"
+  },
+  {
+    "idx": 3021,
+    "text_jp": "アジト　作戦計画室{END}",
+    "text_en": "Base Operations Planning Room{END}"
+  },
+  {
+    "idx": 3022,
+    "text_jp": "欠番{END}",
+    "text_en": "Missing Number{END}"
+  },
+  {
+    "idx": 3023,
+    "text_jp": "アジト　司令室{END}",
+    "text_en": "Base Command Room{END}"
+  },
+  {
+    "idx": 3024,
+    "text_jp": "？？？　時空制御室{END}",
+    "text_en": "??? Time-Space Control Room{END}"
+  },
+  {
+    "idx": 3025,
+    "text_jp": "採石場{END}",
+    "text_en": "Quarry{END}"
+  },
+  {
+    "idx": 3026,
+    "text_jp": "アジト　毒ガス工場{END}",
+    "text_en": "Base Poison Gas Plant{END}"
+  },
+  {
+    "idx": 3027,
+    "text_jp": "アジト　灯台{END}",
+    "text_en": "Base Lighthouse{END}"
+  },
+  {
+    "idx": 3028,
+    "text_jp": "海岸{END}",
+    "text_en": "Coast{END}"
+  },
+  {
+    "idx": 3029,
+    "text_jp": "アジト　海底基地{END}",
+    "text_en": "Base Undersea Base{END}"
+  },
+  {
+    "idx": 3030,
+    "text_jp": "？？？　培養装置室{END}",
+    "text_en": "??? Cultivation Device Room{END}"
+  },
+  {
+    "idx": 3031,
+    "text_jp": "アジト　素体ドーム{END}",
+    "text_en": "Base Body Dome{END}"
+  },
+  {
+    "idx": 3032,
+    "text_jp": "アジト　強化実験室{END}",
+    "text_en": "Base Enhancement Laboratory{END}"
+  },
+  {
+    "idx": 4000,
+    "text_jp": "★{END}",
+    "text_en": "Star{END}"
+  }
+]

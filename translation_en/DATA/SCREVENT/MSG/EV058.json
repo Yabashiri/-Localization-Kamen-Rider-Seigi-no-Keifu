@@ -1,0 +1,82 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "一文字！{END}",
+    "text_en": "Ichimonji!{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "本郷、作業員は無事だぞ{END}",
+    "text_en": "The workers are being controlled.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "うむ…{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "？…どうした{END}",
+    "text_en": "What is going on here?{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "…妙だ{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "あれだけの数の素体…{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "この部屋のウルフビールスガスだけでは\nあれだけの数の素体に対しては少なすぎる{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "だとすると、どこか別の場所に\n保管されているのか？{END}",
+    "text_en": "What is going on here?{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "！{END}",
+    "text_en": "!{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "奴らがいた、あの場所…{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "心当たりがあるのか？{END}",
+    "text_en": "What is going on here?{END}"
+  },
+  {
+    "idx": 11,
+    "text_jp": "ああ、俺はそこへ行ってみる{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 12,
+    "text_jp": "よし\n俺はここの作業員を逃がしたら後を追う{END}",
+    "text_en": "The workers are being controlled.{END}"
+  },
+  {
+    "idx": 13,
+    "text_jp": "頼む{END}",
+    "text_en": "We have to stop them here.{END}"
+  },
+  {
+    "idx": 14,
+    "text_jp": "第５章１号編　完{END}",
+    "text_en": "Chapter 5 Complete{END}"
+  },
+  {
+    "idx": 15,
+    "text_jp": "ここでライダー交代となります{END}",
+    "text_en": "The Rider will switch here.{END}"
+  }
+]

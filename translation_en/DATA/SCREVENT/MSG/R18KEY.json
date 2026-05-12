@@ -1,0 +1,32 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "ロックされている{END}",
+    "text_en": "It is locked and cannot be opened.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "横に鍵穴がある{END}",
+    "text_en": "A key item seems necessary here.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "鍵が無いと\n開けることができないようだ{END}",
+    "text_en": "A key item seems necessary here.\nIt is locked and cannot be opened.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "『ガス室の鍵』を使用した{END}",
+    "text_en": "A key item seems necessary here.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "扉が開いた{END}",
+    "text_en": "It is locked and cannot be opened.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "閉まっている…\nこちらから開けることはできない{END}",
+    "text_en": "Check this place.\nIt is locked and cannot be opened.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "水槽がある\n中で何かがうごめいているようだ…{END}",
+    "text_en": "Check this place.\nCheck this place.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "書類が乱雑につまれている{END}",
+    "text_en": "There are documents here.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "役に立ちそうなデータは無い{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "何かの研究資料のようだが…{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "特に役にたちそうなものはない{END}",
+    "text_en": "Nothing useful here.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "特に変わったところは無い{END}",
+    "text_en": "Nothing unusual here.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "ＤＮＡモデルのかかれたポスターだ\n特に気になるところは無い{END}",
+    "text_en": "Check this place.\nNothing stands out.{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "サンプルが収められたビンが並んでいる\n特に気になるところは無い{END}",
+    "text_en": "Check this place.\nNothing stands out.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

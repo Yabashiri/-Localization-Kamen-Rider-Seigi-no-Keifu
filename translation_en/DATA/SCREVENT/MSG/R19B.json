@@ -1,0 +1,62 @@
+[
+  {
+    "idx": 0,
+    "text_jp": "バイクがならべられている{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 1,
+    "text_jp": "特に変わったところは無い{END}",
+    "text_en": "Nothing unusual here.{END}"
+  },
+  {
+    "idx": 2,
+    "text_jp": "ミサイルが並べられている……{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 3,
+    "text_jp": "こんなものは必要ない{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 4,
+    "text_jp": "アサルトライフルが並べられている{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 5,
+    "text_jp": "物陰に何か置いてある…{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 6,
+    "text_jp": "取りますか？{END}",
+    "text_en": "Check this place.{END}"
+  },
+  {
+    "idx": 7,
+    "text_jp": "　　　→はい　　　　いいえ{END}",
+    "text_en": "Select Yes   No{END}"
+  },
+  {
+    "idx": 8,
+    "text_jp": "　　　　はい　　　→いいえ{END}",
+    "text_en": "Yes   Select No{END}"
+  },
+  {
+    "idx": 9,
+    "text_jp": "『ライフパック（Ｓ）』を入手した{END}",
+    "text_en": "Obtained Life Pack (S).{END}"
+  },
+  {
+    "idx": 10,
+    "text_jp": "これ以上持つことはできない{END}",
+    "text_en": "You cannot carry any more.{END}"
+  },
+  {
+    "idx": 1000,
+    "text_jp": "↓{END}",
+    "text_en": "v{END}"
+  }
+]

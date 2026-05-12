@@ -36,7 +36,11 @@ def normalize_overlay_path(path_text: str) -> Path:
 def iter_rebuilt_files(rebuilt_data: Path, only: list[str] | None) -> list[Path]:
     if only:
         return [normalize_overlay_path(path_text) for path_text in only]
-    return sorted(path.relative_to(rebuilt_data) for path in rebuilt_data.rglob("*.DAT") if path.is_file())
+    return sorted(
+        path.relative_to(rebuilt_data)
+        for path in rebuilt_data.rglob("*")
+        if path.is_file() and path.suffix.upper() in {".DAT", ".BIN"}
+    )
 
 
 def stage_rebuilt_text(source_data: Path, rebuilt_data: Path, output_data: Path, only: list[str] | None) -> int:
