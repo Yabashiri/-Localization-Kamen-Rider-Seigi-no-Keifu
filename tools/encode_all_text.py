@@ -60,8 +60,10 @@ def normalize_ascii_char_for_font(char: str, char_to_code: dict[str, int]) -> st
     """Convert one prototype ASCII translation character to an in-game glyph."""
 
     replacement = char
-    if "A" <= char <= "Z" or "a" <= char <= "z":
-        replacement = chr(ord(char.upper()) + 0xFEE0)
+    if "A" <= char <= "Z":
+        replacement = chr(ord(char) + 0xFEE0)
+    elif "a" <= char <= "z":
+        replacement = char
     elif "0" <= char <= "9":
         replacement = chr(ord(char) + 0xFEE0)
     elif char in ASCII_PUNCTUATION_FALLBACKS:
