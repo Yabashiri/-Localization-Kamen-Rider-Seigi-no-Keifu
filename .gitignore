@@ -28,6 +28,8 @@ reports/*
 !reports/font_map_corrections.md
 dump_jp/*
 !dump_jp/.gitkeep
+rebuilt_jp/*
+!rebuilt_jp/.gitkeep
 translation_en/*
 !translation_en/.gitkeep
 
