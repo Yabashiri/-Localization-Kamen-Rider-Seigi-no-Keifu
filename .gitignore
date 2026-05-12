@@ -34,6 +34,8 @@ rebuilt_en/*
 translation_en/*
 !translation_en/.gitkeep
 external_tools/
+build/
+work_cvm/
 
 # Editor / OS noise
 .vscode/
