@@ -42,6 +42,7 @@ SHA-256: A65D7104F85AF0034D69FE219330429906810A1A9E63BFDF6DF516D959A2C9BF
 ```
 
 - `external_tools/mkisofs-md5-2.01/MinGW/Gcc-4.4.5/mkisofs.exe` проверен: запускается, показывает version/help, собирает тестовый ISO.
+- `external_tools/mkisofs-md5-2.01/Cygwin/Gcc-3.4.4/mkisofs.exe` выбран для полного PS2 ISO: MinGW-сборка падает на большом `DATA.CVM` с `Implementation botch`.
 - `C:\PCSX2 2.3.222\pcsx2-qt.exe` найден.
 - `game_dump/DATA/EXPORT_TXD` вынесен в `dump_jp/EXPORT_TXD`, чтобы `game_dump/DATA` хранил чистое дерево игры.
 - Root-level `game_dump/DATA/*.TXD` не являются экспортом: они есть в оригинальном CVM и должны оставаться в `game_dump/DATA`.
@@ -49,7 +50,10 @@ SHA-256: A65D7104F85AF0034D69FE219330429906810A1A9E63BFDF6DF516D959A2C9BF
 
 ```text
 tools/stage_rebuilt_text.py
+tools/build_data_iso.py
 tools/build_data_cvm.py
+tools/build_test_iso.py
+tools/build_text_smoke_iso.py
 tools/run_pcsx2_smoke.py
 ```
 
@@ -96,7 +100,8 @@ C:/PCSX2 2.3.222/pcsx2-qt.exe
 Критерии готовности:
 
 - `[done]` `cvm_tool.exe` запускается и показывает help/version;
-- `[done]` выбран один инструмент для сборки ISO: `mkisofs.exe`;
+- `[done]` выбран один инструмент для сборки DATA ISO: MinGW `mkisofs.exe`;
+- `[done]` выбран один инструмент для сборки полного PS2 ISO: Cygwin `mkisofs.exe`;
 - `[done]` путь к PCSX2 можно задать через `--pcsx2-exe` или `PCSX2_EXE`.
 
 ## Этап B. Проверить round-trip CVM без изменений
@@ -228,6 +233,13 @@ mkisofs.exe
 - генерировать sort file для ISO builder;
 - проверить LBA/sector alignment.
 
+Статус:
+
+- `[done]` wrapper `tools/build_data_iso.py` создан;
+- `[done]` `build/stage/DATA.iso` собран из `build/stage/DATA`;
+- `[done]` root payload содержит `/DATA`;
+- `[done]` smoke-test DAT имеют ожидаемые размеры в staged tree.
+
 ## Этап E. Пересборка DATA.CVM
 
 Создать wrapper:
@@ -252,9 +264,9 @@ cvm_tool mkcvm build/stage/DATA.CVM build/stage/DATA.iso work_cvm/DATA.hdr
 Критерии готовности:
 
 - `[done]` wrapper `tools/build_data_cvm.py` создан;
-- `DATA.CVM` создается автоматически из нового `DATA.iso`;
-- размер может отличаться от оригинала;
-- оригинальный `game_dump/DATA.CVM` не изменяется.
+- `[done]` `DATA.CVM` создается автоматически из нового `DATA.iso`;
+- `[done]` размер может отличаться от оригинала;
+- `[done]` оригинальный `game_dump/DATA.CVM` не изменяется.
 
 ## Этап F. Сборка полного PS2 ISO
 
@@ -273,8 +285,8 @@ game_dump root + build/stage/DATA.CVM -> build/out/kamen_rider_text_smoke.iso
 Файлы корня диска:
 
 ```text
-DATA.CVM
 MODULES/
+DATA.CVM
 MODULES.TRA
 OPENING.PSS
 PLAY_A.PSS
@@ -287,10 +299,10 @@ SYSTEM.CNF
 
 Проверки:
 
-- `SYSTEM.CNF` указывает на `SLPS_253.02`;
-- ISO открывается PCSX2;
-- размер ISO разумный;
-- root file order при необходимости повторяет оригинал.
+- `[done]` `SYSTEM.CNF` указывает на `SLPS_253.02`;
+- `[pending]` ISO открывается PCSX2;
+- `[done]` размер ISO разумный: `3,915,173,888` bytes;
+- `[done]` root file order в wrapper выставлен по оригиналу из архива.
 
 ## Этап G. Smoke test в PCSX2
 
@@ -368,10 +380,10 @@ run_pcsx2_smoke.py
 
 Критерии готовности:
 
-- одной командой создается тестовый ISO;
-- `game_dump/` остается read-only source;
-- все outputs лежат в `build/`;
-- внешние инструменты задаются через config/env;
+- `[done]` одной командой создается тестовый ISO;
+- `[done]` `game_dump/` остается read-only source;
+- `[done]` все outputs лежат в `build/`;
+- `[done]` внешние инструменты задаются через config/env;
 - ошибки внешних инструментов выводятся с понятным сообщением.
 
 ## Риски
@@ -385,27 +397,20 @@ run_pcsx2_smoke.py
 
 ## Ближайший следующий шаг
 
-Создать и проверить:
+Запустить smoke test в PCSX2:
 
 ```text
-tools/build_data_iso.py
+python tools/run_pcsx2_smoke.py build/out/kamen_rider_text_smoke.iso
 ```
 
-Затем прогнать:
+Уже выполненные проверки:
 
-```text
-python tools/stage_rebuilt_text.py --profile menu-smoke
-python tools/build_data_iso.py
-python tools/build_data_cvm.py
-```
-
-Минимальные проверки после этого:
-
-- `build/stage/DATA.iso` открывается `isoinfo`;
-- root содержит `/DATA`;
-- `DATA/MENU/CONFIG_MSG.DAT`, `ITEM_GET_MSG.DAT`, `ITEM_MSG.DAT` имеют smoke-test размеры;
-- `build/stage/DATA.CVM` читается через `cvm_tool info`;
-- `DATA.CVM` начинается с `CVMH` и содержит `ROFS`.
+- `[done]` `build/stage/DATA.iso` собран;
+- `[done]` root CVM payload содержит `/DATA`;
+- `[done]` `DATA/MENU/CONFIG_MSG.DAT`, `ITEM_GET_MSG.DAT`, `ITEM_MSG.DAT` имеют smoke-test размеры;
+- `[done]` `build/stage/DATA.CVM` читается через `cvm_tool info`;
+- `[done]` `DATA.CVM` начинается с `CVMH` и содержит `ROFS`;
+- `[done]` `build/out/kamen_rider_text_smoke.iso` собран и открывается `isoinfo`.
 
 ## Definition of Done
 
