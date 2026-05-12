@@ -29,7 +29,7 @@ def main() -> int:
     run_python("tools/stage_rebuilt_text.py", ["--profile", args.profile])
     run_python("tools/build_data_iso.py", [])
     run_python("tools/build_data_cvm.py", [])
-    run_python("tools/build_test_iso.py", ["--output-iso", args.output_iso])
+    run_python("tools/build_patched_iso.py", ["--output-iso", args.output_iso])
 
     if args.run_pcsx2:
         pcsx2_args = [args.output_iso]
