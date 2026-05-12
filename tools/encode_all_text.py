@@ -1,10 +1,12 @@
-"""Rebuild DAT-like text tables from Japanese JSON dumps.
+"""Rebuild DAT-like text tables from Japanese or translation JSON dumps.
 
-The encoder reads JSON files created by ``dump_all_text.py`` and writes rebuilt
-DAT files into ``rebuilt_jp`` without modifying ``game_dump``. It encodes:
+The encoder reads JSON files created by ``dump_all_text.py`` or
+``prepare_translation_dump.py`` and writes rebuilt DAT files without modifying
+``game_dump``. It encodes:
 
 * newline -> ``0x8100``
 * ``{END}`` -> ``0x8000``
+* ASCII letters/digits/spaces/punctuation -> available fullwidth equivalents
 
 If a JSON string has no ``{END}``, the encoder appends one automatically. When
 ``text_en`` is empty and a record has ``codes`` from the Japanese dump, those
@@ -26,6 +28,21 @@ CORRECTED_FONT_MAP_PATH = Path("localization/font_maps/font_map_corrected.json")
 DEFAULT_INPUT_ROOT = Path("dump_jp")
 DEFAULT_OUTPUT_ROOT = Path("rebuilt_jp")
 
+ASCII_PUNCTUATION_FALLBACKS = {
+    " ": "　",
+    ".": "．",
+    ",": "、",
+    "!": "！",
+    "?": "？",
+    ":": "：",
+    ";": "；",
+    "-": "ー",
+    "(": "（",
+    ")": "）",
+    "/": "／",
+    '"': "“",
+}
+
 
 def load_reverse_font_map(path: Path = CORRECTED_FONT_MAP_PATH) -> dict[str, int]:
     """Load the reviewed font map as ``char -> lowest DAT code``."""
@@ -37,6 +54,20 @@ def load_reverse_font_map(path: Path = CORRECTED_FONT_MAP_PATH) -> dict[str, int
     for code_text, char in sorted(data.items(), key=lambda item: int(item[0], 16)):
         char_to_code.setdefault(char, int(code_text, 16))
     return char_to_code
+
+
+def normalize_ascii_char_for_font(char: str, char_to_code: dict[str, int]) -> str:
+    """Convert one prototype ASCII translation character to an in-game glyph."""
+
+    replacement = char
+    if "A" <= char <= "Z" or "a" <= char <= "z" or "0" <= char <= "9":
+        replacement = chr(ord(char) + 0xFEE0)
+    elif char in ASCII_PUNCTUATION_FALLBACKS:
+        replacement = ASCII_PUNCTUATION_FALLBACKS[char]
+
+    if replacement != char and replacement not in char_to_code:
+        return char
+    return replacement
 
 
 def iter_json_paths(input_root: Path) -> list[Path]:
@@ -61,10 +92,12 @@ def encode_text(text: str, char_to_code: dict[str, int], source_label: str) -> l
         char = normalized[pos]
         if char == "\n":
             codes.append(CONTROL_NEWLINE)
-        elif char in char_to_code:
-            codes.append(char_to_code[char])
         else:
-            raise ValueError(f"{source_label}: cannot encode character {char!r} at position {pos}")
+            char = normalize_ascii_char_for_font(char, char_to_code)
+            if char in char_to_code:
+                codes.append(char_to_code[char])
+            else:
+                raise ValueError(f"{source_label}: cannot encode character {char!r} at position {pos}")
         pos += 1
 
     if CONTROL_END not in codes:

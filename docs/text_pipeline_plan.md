@@ -54,13 +54,15 @@ DAT -> японский JSON dump -> rebuilt DAT
 - реализовать encoder;
 - проверить round-trip на оригинальном японском тексте.
 
-Статус на 2026-05-12: этапы 4-5 выполнены.
+Статус на 2026-05-12: этапы 4-6 выполнены.
 
 - `tools/dump_all_text.py` дампит 249 DAT-like файлов в `dump_jp/DATA/...`.
 - `tools/encode_all_text.py` собирает 249 файлов в `rebuilt_jp/DATA/...`.
+- `tools/prepare_translation_dump.py` готовит 249 файлов в `translation_en/DATA/...`.
 - Проверка `DAT -> JSON -> DAT` дала 0 бинарных отличий относительно `game_dump/DATA`.
 - В dump нет unknown glyph markers вида `[0x....]`.
 - Для точного японского round-trip JSON содержит служебное поле `codes`; при заполненном `text_en` encoder кодирует перевод из текста.
+- Encoder автоматически конвертирует ASCII letters/digits/space и базовую пунктуацию в доступные fullwidth/Japanese glyphs для первого английского прототипа.
 
 ## Этап 4. Создать чистый японский dump
 
@@ -170,6 +172,13 @@ rebuilt_jp/
 - Нет unknown chars при обратном кодировании.
 
 ## Этап 6. Подготовить английский translation dump
+
+Статус: выполнено.
+
+- `translation_en/` создан из `dump_jp/` через `tools/prepare_translation_dump.py`.
+- Формат рабочих файлов: `idx`, `text_jp`, `text_en`.
+- Повторный запуск скрипта сохраняет уже заполненные `text_en` по `idx`; `--overwrite` очищает переводы.
+- Проверка `python tools/encode_all_text.py --input-root translation_en --output-root rebuilt_en` собирает 249 файлов без ошибок.
 
 ### Задачи
 

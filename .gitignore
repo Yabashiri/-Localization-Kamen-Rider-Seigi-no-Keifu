@@ -30,6 +30,7 @@ dump_jp/*
 !dump_jp/.gitkeep
 rebuilt_jp/*
 !rebuilt_jp/.gitkeep
+rebuilt_en/*
 translation_en/*
 !translation_en/.gitkeep
 
