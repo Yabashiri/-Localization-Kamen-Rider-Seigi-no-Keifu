@@ -24,6 +24,7 @@ venv/
 # Local/generated working output
 reports/*
 !reports/.gitkeep
+!reports/font_usage.tsv
 dump_jp/*
 !dump_jp/.gitkeep
 translation_en/*
