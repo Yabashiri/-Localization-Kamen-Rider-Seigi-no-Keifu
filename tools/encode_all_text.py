@@ -47,7 +47,28 @@ ASCII_PUNCTUATION_FALLBACKS = {
 }
 SKIPPED_ASCII_CHARS = {"'", "’", "‘", "`"}
 
-DEFAULT_WRAP_COLUMNS = 20
+DEFAULT_WRAP_COLUMNS = 0
+
+WRAP_PROFILES = {
+    "none": (),
+    "game": (
+        # Menu option/help text is drawn in fixed rows; injected newlines make
+        # different records overlap. Keep these single-line unless a string is
+        # manually broken in translation_en.
+        ("DATA/MENU/CONFIG_MSG.json", 0),
+        ("DATA/MENU/FIELD_NAME.json", 0),
+        ("DATA/MENU/ITEM_GET_MSG.json", 0),
+        # Item/status descriptions have dedicated text areas and can tolerate
+        # controlled wrapping better than option rows.
+        ("DATA/MENU/ITEM_MSG.json", 22),
+        ("DATA/MENU/STATUS_MSG.json", 22),
+        # Cutscene/event subtitles need an ELF-side X/start-position fix.
+        # Keep this only as a guard against very long single lines; do not use
+        # aggressive wrapping to hide the renderer bug.
+        ("DATA/SCREVENT/MSG/", 32),
+        ("DATA/MEMCARD.json", 24),
+    ),
+}
 
 
 def wrap_translation_text(text: str, columns: int) -> str:
@@ -77,6 +98,25 @@ def wrap_translation_text(text: str, columns: int) -> str:
             or [line]
         )
     return "\n".join(wrapped_lines) + suffix
+
+
+def wrap_columns_for_path(relative_path: Path, wrap_columns: int, wrap_profile: str) -> int:
+    """Pick a wrap width for one JSON file.
+
+    A single global width is not valid for this game: menu help strings,
+    field names, item descriptions, and cutscene subtitles are drawn in
+    different windows with different anchoring. Explicit ``--wrap-columns``
+    keeps the old force-wrap behavior for experiments; profiles are safer.
+    """
+
+    if wrap_columns > 0:
+        return wrap_columns
+
+    relative_text = relative_path.as_posix()
+    for prefix, columns in WRAP_PROFILES[wrap_profile]:
+        if relative_text == prefix or relative_text.startswith(prefix):
+            return columns
+    return 0
 
 
 def load_reverse_font_map(path: Path = CORRECTED_FONT_MAP_PATH) -> dict[str, int]:
@@ -203,19 +243,22 @@ def encode_json_file(
     output_root: Path,
     char_to_code: dict[str, int],
     wrap_columns: int,
+    wrap_profile: str,
 ) -> int:
     """Encode one dump JSON file and return the number of entries written."""
 
     with path.open("r", encoding="utf-8") as file:
         records = json.load(file)
 
+    relative_path = path.relative_to(project_path(input_root))
+    file_wrap_columns = wrap_columns_for_path(relative_path, wrap_columns, wrap_profile)
     entries: list[tuple[int, list[int]]] = []
     for record_number, record in enumerate(records, start=1):
         idx = int(record["idx"])
-        label = f"{path.relative_to(project_path(input_root))} record {record_number} idx {idx}"
+        label = f"{relative_path} record {record_number} idx {idx}"
         text_en = str(record.get("text_en") or "")
         if text_en:
-            text_en = wrap_translation_text(text_en, wrap_columns)
+            text_en = wrap_translation_text(text_en, file_wrap_columns)
             codes = encode_text(text_en, char_to_code, label)
         elif "codes" in record:
             codes = parse_raw_codes(record["codes"], label)
@@ -238,7 +281,13 @@ def main() -> int:
         "--wrap-columns",
         type=int,
         default=DEFAULT_WRAP_COLUMNS,
-        help="Word-wrap non-empty text_en before encoding; use 0 to disable",
+        help="Force word-wrap for all non-empty text_en; use 0 for profile/default behavior",
+    )
+    parser.add_argument(
+        "--wrap-profile",
+        choices=sorted(WRAP_PROFILES),
+        default="none",
+        help="Optional layout-aware wrap profile; ignored when --wrap-columns is greater than 0",
     )
     args = parser.parse_args()
 
@@ -249,7 +298,14 @@ def main() -> int:
     total_entries = 0
 
     for json_path in json_paths:
-        total_entries += encode_json_file(json_path, input_root, output_root, char_to_code, args.wrap_columns)
+        total_entries += encode_json_file(
+            json_path,
+            input_root,
+            output_root,
+            char_to_code,
+            args.wrap_columns,
+            args.wrap_profile,
+        )
 
     print(f"JSON files encoded: {len(json_paths)}")
     print(f"Entries encoded: {total_entries}")
