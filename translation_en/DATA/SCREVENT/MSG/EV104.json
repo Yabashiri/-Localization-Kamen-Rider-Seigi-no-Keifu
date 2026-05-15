@@ -7,17 +7,17 @@
   {
     "idx": 1,
     "text_jp": "…博士、何故こんな事に…{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "...Doctor, why did this happen...?{END}"
   },
   {
     "idx": 2,
     "text_jp": "ライダーマン！どうしてここに！？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Riderman! Why are you here!?{END}"
   },
   {
     "idx": 3,
     "text_jp": "Ｖ３…お前こそ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "V3... Why are you here?{END}"
   },
   {
     "idx": 4,
@@ -27,7 +27,7 @@
   {
     "idx": 5,
     "text_jp": "たのむ…俺に構わないでくれ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Please... do not worry about me.{END}"
   },
   {
     "idx": 6,

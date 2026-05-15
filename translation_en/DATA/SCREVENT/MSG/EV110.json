@@ -2,17 +2,17 @@
   {
     "idx": 0,
     "text_jp": "奴は？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Where is he?{END}"
   },
   {
     "idx": 1,
     "text_jp": "…消滅した…！\n博士…田所博士は？！{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "...He vanished...!\nDoctor... What about Dr Tadokoro!?{END}"
   },
   {
     "idx": 2,
     "text_jp": "…そうか{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...I see.{END}"
   },
   {
     "idx": 3,
@@ -22,36 +22,36 @@
   {
     "idx": 4,
     "text_jp": "Ｖ３、博士は…\n闇に心をとらわれた人間は悪なのか？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "V3, the doctor...\nIf darkness captures a person's heart,\ndoes that make him evil?{END}"
   },
   {
     "idx": 5,
     "text_jp": "人の心には光と闇、どちらもある…\nしかしそれが人間だ…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "The human heart holds both\nlight and darkness...\nBut that is what makes us human...{END}"
   },
   {
     "idx": 6,
     "text_jp": "そして悪は、その心に付け込み利用する\n私はそいつらと戦う！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "And evil preys on that heart\nand uses it.\nThat is what I fight!{END}"
   },
   {
     "idx": 7,
     "text_jp": "…俺にもっと力があれば…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...If only I had more power...{END}"
   },
   {
     "idx": 8,
     "text_jp": "悪と戦うのに必要なのは力じゃない\n悪に負けない心の強さだ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "What you need to fight evil\nis not power,\nbut a heart strong enough\nnot to lose to evil!{END}"
   },
   {
     "idx": 9,
     "text_jp": "…そうか…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...I see...{END}"
   },
   {
     "idx": 10,
     "text_jp": "結城、…待っているぞ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Yuki... I will be waiting.{END}"
   }
 ]

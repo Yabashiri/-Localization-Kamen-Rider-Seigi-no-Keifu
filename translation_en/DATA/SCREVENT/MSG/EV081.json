@@ -7,22 +7,22 @@
   {
     "idx": 1,
     "text_jp": "お前は！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "You!{END}"
   },
   {
     "idx": 2,
     "text_jp": "うはははは…。わしの名は地獄大使。\nよくも海底基地を破壊してくれたな…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Wahahahaha... My name is\nAmbassador Hell.\nHow dare you destroy\nthe undersea base...{END}"
   },
   {
     "idx": 3,
     "text_jp": "このうらみ晴らさせてもらうぞ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "I will have my revenge!{END}"
   },
   {
     "idx": 4,
     "text_jp": "イィーチ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Eeeech!{END}"
   },
   {
     "idx": 5,
@@ -32,12 +32,12 @@
   {
     "idx": 6,
     "text_jp": "ニィーチ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Neeeech!{END}"
   },
   {
     "idx": 7,
     "text_jp": "ターツッ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Taaatsu!{END}"
   },
   {
     "idx": 8,
@@ -47,7 +47,7 @@
   {
     "idx": 9,
     "text_jp": "ぐ…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Guh...{END}"
   },
   {
     "idx": 10,
@@ -57,37 +57,37 @@
   {
     "idx": 11,
     "text_jp": "ウオォォォ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Uoooooh!{END}"
   },
   {
     "idx": 12,
     "text_jp": "おい！何者なんだこいつらは！{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Hey! Who are these guys!?{END}"
   },
   {
     "idx": 13,
     "text_jp": "葦原さん！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Mr Ashihara!{END}"
   },
   {
     "idx": 14,
     "text_jp": "ニィーチッ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Neeeech!{END}"
   },
   {
     "idx": 15,
     "text_jp": "話は後だ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Talk later!{END}"
   },
   {
     "idx": 16,
     "text_jp": "はいっ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Right!{END}"
   },
   {
     "idx": 17,
     "text_jp": "なんと！この時代にも\n２人の仮面ライダー！…くそぅ！{END}",
-    "text_en": "Kamen Rider... you are here too!{END}"
+    "text_en": "What!? Two Kamen Riders\neven in this era! ...Damn it!{END}"
   },
   {
     "idx": 18,
@@ -97,6 +97,6 @@
   {
     "idx": 19,
     "text_jp": "イィーチッ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Eeeech!{END}"
   }
 ]

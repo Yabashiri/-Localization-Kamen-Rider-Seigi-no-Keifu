@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "…邪眼…貴様の野望もここまでだ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...Jagan...\nyour ambitions end here.{END}"
   },
   {
     "idx": 1,
@@ -12,16 +12,16 @@
   {
     "idx": 2,
     "text_jp": "ライダーキーック！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Rider Kick!{END}"
   },
   {
     "idx": 3,
     "text_jp": "あっ！！…無い！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Ah!! ...It is gone!{END}"
   },
   {
     "idx": 4,
     "text_jp": "ま…間に合わなかったのか…？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Was I... too late...?{END}"
   }
 ]

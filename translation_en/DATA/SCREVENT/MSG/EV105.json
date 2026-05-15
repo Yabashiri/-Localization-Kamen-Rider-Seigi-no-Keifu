@@ -2,26 +2,26 @@
   {
     "idx": 0,
     "text_jp": "あっ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Ah!{END}"
   },
   {
     "idx": 1,
     "text_jp": "戻る時が来たようだ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "It seems the time has come\nto return.{END}"
   },
   {
     "idx": 2,
     "text_jp": "会えて良かったです{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "I am glad I got to meet you.{END}"
   },
   {
     "idx": 3,
     "text_jp": "たとえ、ほんの少しでも…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Even if only for a little while...{END}"
   },
   {
     "idx": 4,
     "text_jp": "いや。いつかまた、必ず会えるさ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "No. Someday, we will surely\nmeet again.{END}"
   }
 ]

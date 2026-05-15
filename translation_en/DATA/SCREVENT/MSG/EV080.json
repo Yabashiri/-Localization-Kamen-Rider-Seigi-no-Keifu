@@ -2,12 +2,12 @@
   {
     "idx": 0,
     "text_jp": "くっ！…何も見えない…{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "Ngh! ...I cannot see anything...{END}"
   },
   {
     "idx": 1,
     "text_jp": "こっちだ！！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "This way!!{END}"
   },
   {
     "idx": 2,
@@ -17,16 +17,16 @@
   {
     "idx": 3,
     "text_jp": "ハァ…ハァ…助かった{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Hah... hah... I am saved.{END}"
   },
   {
     "idx": 4,
     "text_jp": "…あの声はいったい…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...Whose voice was that...?{END}"
   },
   {
     "idx": 5,
     "text_jp": "まずは、奴らの計画を止めたことを\nみんなに知らせなくちゃ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "First, I have to tell everyone\nthat their plan has been stopped!{END}"
   }
 ]

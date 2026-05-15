@@ -2,12 +2,12 @@
   {
     "idx": 0,
     "text_jp": "…ここは…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...Where am I...?{END}"
   },
   {
     "idx": 1,
     "text_jp": "あれは…人間か？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Is that... a human?{END}"
   },
   {
     "idx": 2,
@@ -17,36 +17,36 @@
   {
     "idx": 3,
     "text_jp": "…貴様ここで何を企んでいる！{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "...What are you plotting here!?{END}"
   },
   {
     "idx": 4,
     "text_jp": "…ここは我が復活の祭壇…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...This is the altar\nof my revival...{END}"
   },
   {
     "idx": 5,
     "text_jp": "何だと！？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "What!?{END}"
   },
   {
     "idx": 6,
     "text_jp": "…つかの間の命…好きにするがよい…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...Your life is brief...\ndo as you wish with it...{END}"
   },
   {
     "idx": 7,
     "text_jp": "何！…待て！{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "What! ...Wait!{END}"
   },
   {
     "idx": 8,
     "text_jp": "…まさか、この人が田所博士…{END}",
-    "text_en": "Dr Tadokoro is involved in this.{END}"
+    "text_en": "...Could this man be\nDr Tadokoro...?{END}"
   },
   {
     "idx": 9,
     "text_jp": "皆に…先輩に知らせなくては{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "I have to tell everyone...\ntell my seniors.{END}"
   }
 ]

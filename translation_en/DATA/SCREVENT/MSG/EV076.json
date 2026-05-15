@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "まだ人が…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "There are still people...{END}"
   },
   {
     "idx": 1,
@@ -12,61 +12,61 @@
   {
     "idx": 2,
     "text_jp": "大丈夫か！？早く…{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Are you all right!? Hurry...{END}"
   },
   {
     "idx": 3,
     "text_jp": "ぐっ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Guh!{END}"
   },
   {
     "idx": 4,
     "text_jp": "ぐっ…う…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Guh... ugh...{END}"
   },
   {
     "idx": 5,
     "text_jp": "ハハハハ…馬鹿め\n性懲りもなく、また現れたな{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Ha ha ha ha... fool.\nYou never learn, do you?\nHere you are again.{END}"
   },
   {
     "idx": 6,
     "text_jp": "くっ…きさ…ま{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Ngh... you...{END}"
   },
   {
     "idx": 7,
     "text_jp": "どうだ。我が計画のできばえは{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Well?\nHow do you like my plan's results?{END}"
   },
   {
     "idx": 8,
     "text_jp": "…これ…が{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...This... is...{END}"
   },
   {
     "idx": 9,
     "text_jp": "実験は成功だ。今はわずかだが\nやがて全ての素体が怪人軍団となるのだ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "The experiment is a success.\nThere are few now, but soon\nall base bodies will become\na kaijin army.{END}"
   },
   {
     "idx": 10,
     "text_jp": "…そうは…させん！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...I will... not let you!{END}"
   },
   {
     "idx": 11,
     "text_jp": "ライダー変身！{END}",
-    "text_en": "Ridertransform!{END}"
+    "text_en": "Rider Transform!{END}"
   },
   {
     "idx": 12,
     "text_jp": "ライダーパンチ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Rider Punch!{END}"
   },
   {
     "idx": 13,
     "text_jp": "ぐおっ！…ええいよくも…やれ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Guoh! ...Damn you... Do it!{END}"
   }
 ]
