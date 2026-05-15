@@ -7,12 +7,12 @@
   {
     "idx": 1,
     "text_jp": "どうした、仮面ライダー{END}",
-    "text_en": "Kamen Rider... you are here too!{END}"
+    "text_en": "What is wrong, Kamen Rider?{END}"
   },
   {
     "idx": 2,
     "text_jp": "俺が、このサボテン爆弾で\nあの世へ送ってやろう{END}",
-    "text_en": "This must be their bomb plan.{END}"
+    "text_en": "I will send you to the next world\nwith this cactus bomb!{END}"
   },
   {
     "idx": 3,
@@ -27,37 +27,37 @@
   {
     "idx": 5,
     "text_jp": "本郷！…まだガスの影響が{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Hongo! ...The gas is still\naffecting you.{END}"
   },
   {
     "idx": 6,
     "text_jp": "すまん…もう大丈夫だ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Sorry... I am all right now.{END}"
   },
   {
     "idx": 7,
     "text_jp": "おのれ！仮面ライダー２号！{END}",
-    "text_en": "Kamen Rider... you are here too!{END}"
+    "text_en": "Damn you, Kamen Rider 2!{END}"
   },
   {
     "idx": 8,
     "text_jp": "いくぞ！本郷！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Let's go, Hongo!{END}"
   },
   {
     "idx": 9,
     "text_jp": "おう！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Yeah!{END}"
   },
   {
     "idx": 10,
     "text_jp": "ライダー変身！{END}",
-    "text_en": "Ridertransform!{END}"
+    "text_en": "Rider Transform!{END}"
   },
   {
     "idx": 11,
     "text_jp": "変身！{END}",
-    "text_en": "transform!{END}"
+    "text_en": "Transform!{END}"
   },
   {
     "idx": 12,
@@ -67,7 +67,7 @@
   {
     "idx": 13,
     "text_jp": "イーッ…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Eee...{END}"
   },
   {
     "idx": 14,
@@ -87,6 +87,6 @@
   {
     "idx": 17,
     "text_jp": "ライダーダブルキーック！！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Rider Double Kick!!{END}"
   }
 ]

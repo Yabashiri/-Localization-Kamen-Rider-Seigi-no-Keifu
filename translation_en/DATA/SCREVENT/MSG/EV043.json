@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "…こち…２０…年…聞こえ…か{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...This... 20... year...\nCan you hear... me?{END}"
   },
   {
     "idx": 1,
@@ -17,11 +17,11 @@
   {
     "idx": 3,
     "text_jp": "こちらは１９７２年、\n聞こえるぞ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "This is 1972.\nI can hear you!{END}"
   },
   {
     "idx": 10,
     "text_jp": "４章１号編完\n続いて５章前半です{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Chapter 4, Rider 1 part complete.\nNext is the first half of Chapter 5.{END}"
   }
 ]

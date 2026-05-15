@@ -2,22 +2,22 @@
   {
     "idx": 0,
     "text_jp": "この感覚は…？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "This feeling... what is it?{END}"
   },
   {
     "idx": 1,
     "text_jp": "デストロン、ここで何を企んでいる！{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Destron, what are you plotting here!?{END}"
   },
   {
     "idx": 2,
     "text_jp": "…蘇った我々は\nもはや組織の一員などではない{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...Now that we have been revived,\nwe are no longer members\nof any organization.{END}"
   },
   {
     "idx": 3,
     "text_jp": "…やがて来る闇の世界の住人なのだ{END}",
-    "text_en": "A world of darkness is coming.{END}"
+    "text_en": "...We are residents\nof the coming world of darkness.{END}"
   },
   {
     "idx": 4,
@@ -27,7 +27,7 @@
   {
     "idx": 5,
     "text_jp": "やがてお前達の世界は、大地の叫びと\n共に終りを告げる…{END}",
-    "text_en": "A world of darkness is coming.{END}"
+    "text_en": "Before long, your world\nwill end along with\nthe cry of the earth...{END}"
   },
   {
     "idx": 6,
@@ -37,7 +37,7 @@
   {
     "idx": 7,
     "text_jp": "デストロンではない…闇の世界…\n世界の終り…{END}",
-    "text_en": "A world of darkness is coming.{END}"
+    "text_en": "Not Destron...\nA world of darkness...\nThe end of the world...{END}"
   },
   {
     "idx": 8,
@@ -47,6 +47,6 @@
   {
     "idx": 9,
     "text_jp": "これは…奴等の仕業に間違いない！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "This has to be their doing!{END}"
   }
 ]

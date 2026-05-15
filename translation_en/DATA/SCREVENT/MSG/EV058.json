@@ -7,37 +7,37 @@
   {
     "idx": 1,
     "text_jp": "本郷、作業員は無事だぞ{END}",
-    "text_en": "The workers are being controlled.{END}"
+    "text_en": "Hongo, the workers are safe.{END}"
   },
   {
     "idx": 2,
     "text_jp": "うむ…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Yes...{END}"
   },
   {
     "idx": 3,
     "text_jp": "？…どうした{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "...? What is it?{END}"
   },
   {
     "idx": 4,
     "text_jp": "…妙だ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...Something is strange.{END}"
   },
   {
     "idx": 5,
     "text_jp": "あれだけの数の素体…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "That many base bodies...{END}"
   },
   {
     "idx": 6,
     "text_jp": "この部屋のウルフビールスガスだけでは\nあれだけの数の素体に対しては少なすぎる{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "The Wolf Virus gas in this room\nis far too little for\nthat many base bodies.{END}"
   },
   {
     "idx": 7,
     "text_jp": "だとすると、どこか別の場所に\n保管されているのか？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Then is it being stored\nsomewhere else?{END}"
   },
   {
     "idx": 8,
@@ -47,32 +47,32 @@
   {
     "idx": 9,
     "text_jp": "奴らがいた、あの場所…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "That place where they were...{END}"
   },
   {
     "idx": 10,
     "text_jp": "心当たりがあるのか？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Do you have an idea?{END}"
   },
   {
     "idx": 11,
     "text_jp": "ああ、俺はそこへ行ってみる{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Yes. I will go there\nand check it out.{END}"
   },
   {
     "idx": 12,
     "text_jp": "よし\n俺はここの作業員を逃がしたら後を追う{END}",
-    "text_en": "The workers are being controlled.{END}"
+    "text_en": "All right.\nOnce I get the workers here out,\nI will follow you.{END}"
   },
   {
     "idx": 13,
     "text_jp": "頼む{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "I'm counting on you.{END}"
   },
   {
     "idx": 14,
     "text_jp": "第５章１号編　完{END}",
-    "text_en": "Chapter 5 Complete{END}"
+    "text_en": "Chapter 5, Rider 1 part complete.{END}"
   },
   {
     "idx": 15,

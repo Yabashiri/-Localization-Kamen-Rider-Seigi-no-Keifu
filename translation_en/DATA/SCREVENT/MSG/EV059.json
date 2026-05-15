@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "…やはり…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...I knew it...{END}"
   },
   {
     "idx": 1,
@@ -12,7 +12,7 @@
   {
     "idx": 2,
     "text_jp": "仮面ライダー\n我々の計画の邪魔はさせん！…やれ！{END}",
-    "text_en": "Kamen Rider... you are here too!{END}"
+    "text_en": "Kamen Rider!\nWe will not let you interfere\nwith our plan! ...Do it!{END}"
   },
   {
     "idx": 3,
@@ -22,6 +22,6 @@
   {
     "idx": 10,
     "text_jp": "５章１号編完\nキャラをチェンジしてください{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Chapter 5, Rider 1 part complete.\nPlease change characters.{END}"
   }
 ]

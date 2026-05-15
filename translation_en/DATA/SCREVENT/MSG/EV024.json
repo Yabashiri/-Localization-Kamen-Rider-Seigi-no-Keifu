@@ -2,51 +2,51 @@
   {
     "idx": 0,
     "text_jp": "ライダーマン…いや結城丈二\n君は…田所博士を知っているのか？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Riderman... no, Joji Yuki.\nDo you know Dr Tadokoro?{END}"
   },
   {
     "idx": 1,
     "text_jp": "…俺は、デストロンが組織されるまでは\n科学者として田所博士のもとにいた{END}",
-    "text_en": "Dr Tadokoro is involved in this.{END}"
+    "text_en": "...Until Destron was formed,\nI worked under Dr Tadokoro\nas a scientist.{END}"
   },
   {
     "idx": 2,
     "text_jp": "やはり…あの写真に写っていたのは\n君か…教えてくれ。博士は一体何者なんだ？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "I knew it...\nThat was you in the photograph...\nTell me. Who exactly is the doctor?{END}"
   },
   {
     "idx": 3,
     "text_jp": "博士の研究は、遺伝子の合成に\nよる究極の人工生命体の生成…{END}",
-    "text_en": "Dr Tadokoro is involved in this.{END}"
+    "text_en": "The doctor's research was to create\nthe ultimate artificial life-form\nthrough gene synthesis...{END}"
   },
   {
     "idx": 4,
     "text_jp": "究極の生命体…{END}",
-    "text_en": "ultimate lifeform...{END}"
+    "text_en": "The ultimate life-form...{END}"
   },
   {
     "idx": 5,
     "text_jp": "だが、今の博士はもう…俺の知っている\n博士ではない…{END}",
-    "text_en": "Dr Tadokoro is involved in this.{END}"
+    "text_en": "But the doctor now...\nis no longer the doctor I knew...{END}"
   },
   {
     "idx": 6,
     "text_jp": "来るのが遅かった…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "I came too late...{END}"
   },
   {
     "idx": 7,
     "text_jp": "唯一の望みは…俺が…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "The only hope is... if I...{END}"
   },
   {
     "idx": 8,
     "text_jp": "何？どういう事だ？\n…結城、君は何を知っている！？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "What? What do you mean?\n...Yuki, what do you know!?{END}"
   },
   {
     "idx": 9,
     "text_jp": "…俺は博士を助ける為にここへ来た…\nお前に協力する為ではない…{END}",
-    "text_en": "Dr Tadokoro is involved in this.{END}"
+    "text_en": "...I came here to save the doctor...\nNot to help you...{END}"
   }
 ]

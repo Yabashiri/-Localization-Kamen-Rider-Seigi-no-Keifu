@@ -672,656 +672,656 @@
   {
     "offset": "0x3021",
     "text_jp": "　　　　　＜作業報告＞　　　　　\\n２００３年１１月２７日　　　　　\\n　　　　　　　　　　　　　　　　\\n　所長の指示により　　　　　　　\\n　燃料プール内の貯水の入れ替え　\\n　作業を行いました。　　　　　　",
-    "text_en": ""
+    "text_en": "<Work Report>\nNovember 27, 2003\n\nAt the director's order,\nwe replaced the water\nin the fuel pool."
   },
   {
     "offset": "0x30EC",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　なお、プール制御装置の　　　　\\n　制御用データスティックは　　　\\n　所定の場所に返却済みです。　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　以上　　",
-    "text_en": ""
+    "text_en": "The data stick used\nto control the pool system\nhas already been returned\nto its designated location.\n\nEnd of report."
   },
   {
     "offset": "0x31B7",
     "text_jp": "　　＜日本列島沈没作戦計画＞　　\\n　　　　−作戦目的−　　　　　　\\n　　　　　　　　　　　　　　　　\\n磁場フィールド発生装置を利用して\\n大津波を発生させ、日本列島の　　\\n沿岸都市を水没させる。　　　　　",
-    "text_en": ""
+    "text_en": "<Japan Sinking Operation>\n- Objective -\n\nUse the magnetic field generator\nto create a massive tsunami\nand submerge Japan's coastal cities."
   },
   {
     "offset": "0x3282",
     "text_jp": "　−磁場フィールド発生装置−　　\\n　　　　　　　　　　　　　　　　\\n海中に巨大磁場フィールド発生装置\\nを建造する。まずは、その基盤に　\\nなる海底基地を造り巨大装置を　　\\nその中心部に設置する。　　　　　",
-    "text_en": ""
+    "text_en": "- Magnetic Field Generator -\n\nBuild a huge magnetic field generator\nunder the sea. First, construct\nan undersea base as its foundation\nand place the device at its center."
   },
   {
     "offset": "0x334D",
     "text_jp": "　　　　　−海底基地−　　　　　\\n　　　　　　　　　　　　　　　　\\n海底基地は葛義村沖に建設。　　　\\n基地は水圧による圧壊を防ぐため　\\n中型の磁場フィールド発生装置を　\\n使い安定させ計画後の拠点とする。",
-    "text_en": ""
+    "text_en": "- Undersea Base -\n\nThe base will be built off Kazura Village.\nTo prevent collapse from water pressure,\nit will be stabilized with\na medium magnetic field generator."
   },
   {
     "offset": "0x3418",
     "text_jp": "　　　−作戦スケジュール−　　　\\n　　　　　　　　　　　　　　　　\\n第１段階　　　　　　　　　　　　\\n　２００４年４月３０日までに　　\\n　海底基地建設を完了する。　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "- Operation Schedule -\n\nPhase 1\nComplete construction\nof the undersea base\nby April 30, 2004."
   },
   {
     "offset": "0x34E3",
     "text_jp": "　　　　　　　　　　　　　　　　\\n第２段階　　　　　　　　　　　　\\n　２００４年５月１０日までに　　\\n　磁場フィールドを調整し　　　　\\n　大津波発生の実験を行う。　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Phase 2\nAdjust the magnetic field\nand conduct a tsunami-generation test\nby May 10, 2004."
   },
   {
     "offset": "0x35AE",
     "text_jp": "　　　　　　　　　　　　　　　　\\n第３段階　　　　　　　　　　　　\\n　２００４年５月１５日　　　　　\\n　本作戦実行。指令発動には　　　\\n　『ゴールドプレート』が必要。　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Phase 3\nExecute the operation\non May 15, 2004.\nA Gold Plate is required\nto issue the command."
   },
   {
     "offset": "0x3679",
     "text_jp": "key1310",
-    "text_en": ""
+    "text_en": "key1310"
   },
   {
     "offset": "0x3681",
     "text_jp": "HFi0000",
-    "text_en": ""
+    "text_en": "HFi0000"
   },
   {
     "offset": "0x3689",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　おおっ、遂に…遂に出来たぞ！　\\n　　これこそが我が完全なる　　　\\n　　新生命体の遺伝子設計図！！　\\n　これで私の長年の夢が…かなう　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Oh... at last... at last!\nThis is the genetic blueprint\nfor my perfect new life-form!\nWith this, my lifelong dream\nwill finally come true..."
   },
   {
     "offset": "0x3754",
     "text_jp": "２００１年　１月　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n何ということだ。　　　　　　　　\\n全てが分かったというのに　　　　\\nまさかこんな事になろうとは…。　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "January 2001\n\nWhat has happened?\nJust when I finally understood everything,\nI never imagined it would come to this..."
   },
   {
     "offset": "0x381F",
     "text_jp": "　　　　　　　　　　　　　　　　\\n時間が…時間が足りない…。　　　\\n新生命体を作るために「３０年」　\\nという時間が必要とは…。　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Time... I do not have enough time...\nTo create the new life-form,\nI need thirty years..."
   },
   {
     "offset": "0x38EA",
     "text_jp": "４月１５日　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n海底基地の建設は予定通り進行して\\nおります。　　　　　　　　　　　\\n緊急事態に備え、以下の機能の確認\\n調整を行いました。　　　　　　　",
-    "text_en": ""
+    "text_en": "April 15\n\nConstruction of the undersea base\nis proceeding on schedule.\nIn preparation for emergencies,\nwe checked and adjusted\nthe following functions."
   },
   {
     "offset": "0x39B5",
     "text_jp": "『磁場制御停止カード』を使用した\\n磁場フィールド発生装置の仮想停止\\n試験を行いました。　　　　　　　\\n停止信号に反応した防壁による　　\\n移動ルートの制限が正常に行われて\\nいることを確認しました。　　　　",
-    "text_en": ""
+    "text_en": "We performed a simulated shutdown\nof the magnetic field generator\nusing the Magnetic Control Stop Card.\nThe barriers responded to the stop signal\nand restricted movement routes normally."
   },
   {
     "offset": "0x3A80",
     "text_jp": "　　　　　　　　　　　　　　　　\\nまた『ゴールドプレート』で　　　\\n脱出路の防壁の解除が行えることも\\nあわせて確認いたしました。　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "We also confirmed that\nthe Gold Plate can release\nthe barriers on the escape route."
   },
   {
     "offset": "0x3B4B",
     "text_jp": "　　　　　　　　　　　　　　　　\\n試験後『磁場制御停止カード』は　\\n規定通り科学部構成員のものが　　\\n管理するべく回収しました。　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　以上。　　　　　　",
-    "text_en": ""
+    "text_en": "After the test,\nthe Magnetic Control Stop Card\nwas recovered as required\nfor management by Science Division staff.\n\nEnd."
   },
   {
     "offset": "0x3C16",
     "text_jp": "key1500",
-    "text_en": ""
+    "text_en": "key1500"
   },
   {
     "offset": "0x3C1E",
     "text_jp": "………　　　　　　　　　　　　　\\n私が復活するまでは誰にも　　　　\\n邪魔はさせぬ。　　　　　　　　　\\nその為には今一度我が下僕に　　　\\n働いてもらおう。　　　　　　　　\\n………　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "...\nUntil I am revived,\nno one will interfere.\nFor that purpose,\nI shall have my servant\nwork for me once more.\n..."
   },
   {
     "offset": "0x3CE9",
     "text_jp": "　　　　　　　　　　　　　　　　\\n…………　　　　　　　　　　　　\\n…………………　　　　　　　　　\\n…………………………　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "...\n......\n.........\n............"
   },
   {
     "offset": "0x3DB4",
     "text_jp": "　　　　　　　　　　　　　　　　\\n…これは私だけのものだ…　　　　\\n誰にも触らせはしない。　そうだ　\\n「バリア」を「時空転移制御装置」\\nに連結させよう。　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "...This is mine alone...\nI will not let anyone touch it.\nYes. I will link the barrier\nto the space-time transfer control device."
   },
   {
     "offset": "0x3E7F",
     "text_jp": "　　　　　　　　　　　　　　　　\\nそうすれば「時空転移制御装置」に\\n接続できる私だけが３０年という　\\n時間を超えて、「バリア」を解除　\\nできる。　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Then only I, who can connect\nto the space-time transfer control device,\nwill be able to cross thirty years\nand release the barrier."
   },
   {
     "offset": "0x3F4A",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　解除のための「パスワード」は　\\n私「１人」が分かるものにする　　\\n　　忘れないよう…　ここに…　　\\n書きとめて…　　おくことにする　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "The password to release it\nwill be something only I know.\nSo I do not forget...\nI will write it down here..."
   },
   {
     "offset": "0x4015",
     "text_jp": "「パスワード」　　　　　　　　　\\n１．全てを理解した年　　　　　　\\n２．真の支配者の証　　　　　　　\\n３．私の愛する弟子　　　　　　　\\n４．遺伝子融合の触媒となった素体\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Password\n1. The year I understood everything\n2. Proof of the true ruler\n3. My beloved pupil\n4. The body used as the catalyst\n   for genetic fusion"
   },
   {
     "offset": "0x40E0",
     "text_jp": "　　「バリア」が解かれる時……　\\n　　　　　　　　　　　　　　　　\\n　とうとう私の夢が……　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　かなう……　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "When the barrier is undone...\n\nAt last, my dream...\n\nwill come true..."
   },
   {
     "offset": "0x41AB",
     "text_jp": "１９８０年２月４日　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　管理室にて私が管理していた　　\\n　Ａ６の鍵は田所所長が　　　　　\\n　持っていってしまった。　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "February 4, 1980\n\nThe A6 key I kept\nin the management room\nwas taken away\nby Director Tadokoro."
   },
   {
     "offset": "0x4276",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　これから始まる予定の拡張工事と\\n　何か関係があるのだろうか？　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "I wonder if it has something to do\nwith the expansion work\nthat is about to begin."
   },
   {
     "offset": "0x4341",
     "text_jp": "１９８７年７月２７日　　　　　　\\n　　　　　　　　　　　　　　　　\\n　本日未明、葛義村の海岸に　　　\\n白衣を着た男性３人の遺体が　　　\\n流れ着いているのが発見された。　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "July 27, 1987\n\nBefore dawn today,\nthe bodies of three men in lab coats\nwashed ashore on the coast\nof Kazura Village."
   },
   {
     "offset": "0x440C",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　１人「二宮」と書かれた名札の　\\nようなものを所持しており、警察　\\nでは本人の名前ではないかとみて　\\n身元の確認を急いでいる。　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "One of them carried something\nlike a name tag reading \"Ninomiya.\"\nPolice believe it may be his name\nand are rushing to identify him."
   },
   {
     "offset": "0x44D7",
     "text_jp": "　　　　　＜報告書＞　　　　　　\\n１９８７年６月２７日　　　　　　\\n　　　　　　　　　　　　　　　　\\n　一部施設内への送電がストップ　\\n　した件に関する調査報告。　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "<Report>\nJune 27, 1987\n\nInvestigation report on the stoppage\nof power to part of the facility."
   },
   {
     "offset": "0x45A2",
     "text_jp": "○被害個所　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　復旧までの間、次の設備が　　　\\n　機能を停止した。　　　　　　　\\n　　　　１．エレベーター　　　　\\n　　　　２．中央制御室　　　　　",
-    "text_en": ""
+    "text_en": "Affected Areas\n\nUntil repairs were completed,\nthe following systems were disabled:\n1. Elevator\n2. Central Control Room"
   },
   {
     "offset": "0x466D",
     "text_jp": "○原因　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　変電器のケーブルの一部が　　　\\n　金属疲労により断線したことに　\\n　よる停電。　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Cause\n\nA blackout caused by metal fatigue\nsevering part of the transformer cable."
   },
   {
     "offset": "0x4738",
     "text_jp": "○対応　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　断線しているケーブルを　　　　\\n　タービン室内の倉庫にある　　　\\n　補修用のケーブルと交換した。　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Response\n\nThe severed cable was replaced\nwith a repair cable stored\nin the turbine room warehouse."
   },
   {
     "offset": "0x4803",
     "text_jp": "　その際、中央制御室にある　　　\\n　本発電所の管理システムが　　　\\n　初期化されたので、送電ラインが\\n　変電器室に切り換わった。　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　以上　　　",
-    "text_en": ""
+    "text_en": "During this work,\nthe plant management system\nin the Central Control Room\nwas initialized, so the power line\nswitched to the transformer room.\n\nEnd."
   },
   {
     "offset": "0x48CE",
     "text_jp": "　　　　　　　　　　　　　　　　\\n今までアレから得られる断片的な　\\n情報を元に実験を繰り返してきたが\\nその全てが失敗に終わった。　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Until now, I repeated experiments\nbased on fragments of information\nobtained from that thing,\nbut every one of them failed."
   },
   {
     "offset": "0x4999",
     "text_jp": "　　　　　　　　　　　　　　　　\\n私の夢を叶える為にはバラバラの　\\n情報ではなく全てが必要だ。　　　\\nアレの中にある全てを引き出す　　\\nことが……。　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "To fulfill my dream,\nI need all of the information,\nnot scattered fragments.\nI must draw out everything\ninside that thing..."
   },
   {
     "offset": "0x4A64",
     "text_jp": "　　　　　　　　　　　　　　　　\\n明日の実験は一つの賭けだ。　　　\\n成功すれば夢をかなえる為の　　　\\n全てがアレから手に入る。　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Tomorrow's experiment is a gamble.\nIf it succeeds, I will obtain\neverything I need\nto realize my dream."
   },
   {
     "offset": "0x4B2F",
     "text_jp": "　　　　　　　　　　　　　　　　\\nだが、失敗すれば……　　　　　　\\n　　　　　　　　　　　　　　　　\\n全てが終わる……。　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "But if it fails...\n\nEverything will end..."
   },
   {
     "offset": "0x4BFA",
     "text_jp": "　　　　　−実験記録−　　　　　\\n　　　　　　　　　　　　　　　　\\n１９８４年１０月５日　　　　　　\\n　　　　　　　　　　　　　　　　\\n例の制限酵素を使用して、３種類の\\n生物の遺伝子の融合実験を行う。　",
-    "text_en": ""
+    "text_en": "- Experiment Log -\n\nOctober 5, 1984\n\nUsing the restriction enzyme,\nconduct a fusion experiment\non the genes of three organisms."
   },
   {
     "offset": "0x4CC5",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　切断した遺伝子を融合する機能を\\n持つ酵素である「ＤＮＡリガーゼ」\\nを使用する。　　　　　　　　　　\\n「ＤＮＡリガーゼ」が正常に機能　\\nせず、融合に失敗。　　　　　　　",
-    "text_en": ""
+    "text_en": "Use DNA ligase,\nan enzyme that can join\ncut strands of DNA.\nThe DNA ligase did not function normally,\nand the fusion failed."
   },
   {
     "offset": "0x4D90",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　３種類以上の遺伝子の融合には　\\n現在の「ＤＮＡリガーゼ」の能力で\\nは対応しきれないようだ。　　　　\\n「ＤＮＡリガーゼ」の性能向上を　\\n優先事項とする。　　　　　　　　",
-    "text_en": ""
+    "text_en": "It seems the current DNA ligase\ncannot handle the fusion\nof three or more genetic types.\nImproving DNA ligase performance\nwill be the top priority."
   },
   {
     "offset": "0x4E5B",
     "text_jp": "１９８６年６月２３日　　　　　　\\n　　　　　　　　　　　　　　　　\\n　３種類以上の遺伝子の融合が可能\\nなように「ＤＮＡリガーゼ」に改良\\nを加えたが、実際に実験に使用する\\nには耐久度が足りない。　　　　　",
-    "text_en": ""
+    "text_en": "June 23, 1986\n\nDNA ligase was modified\nto allow the fusion\nof three or more genetic types,\nbut it lacks the durability\nneeded for actual experiments."
   },
   {
     "offset": "0x4F26",
     "text_jp": "１９８６年１２月１４日　　　　　\\n　　　　　　　　　　　　　　　　\\n　アレから得られた情報を解析した\\n結果「ＤＮＡリガーゼ」の改良方法\\nに問題があることが判明した。　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "December 14, 1986\n\nAnalysis of the information\nobtained from that thing revealed\na flaw in the method\nused to improve DNA ligase."
   },
   {
     "offset": "0x4FF1",
     "text_jp": "１９８７年５月２９日　　　　　　\\n　　　　　　　　　　　　　　　　\\n　これまでアレから収集した情報を\\n整理して再度ＤＮＡリガーゼの改良\\nを試みたが、まだ耐久度が足りない\\nようだ。　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "May 29, 1987\n\nI organized the data gathered so far\nfrom that thing and tried again\nto improve DNA ligase,\nbut it still lacks durability."
   },
   {
     "offset": "0x50BC",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　耐久度の問題を解決する為には　\\n現時点で私の手元にある情報だけ　\\nでは不足している。　　　　　　　\\n　アレにはまだ私の知らない情報が\\n隠されている事は分かっている。　",
-    "text_en": ""
+    "text_en": "To solve the durability problem,\nthe information currently in my hands\nis not enough.\nI know there is still information\nhidden within that thing."
   },
   {
     "offset": "0x5187",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　まずは、アレから全ての情報を　\\n引き出す必要があるだろう。　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "First, I must draw out\nall of the information\nfrom that thing."
   },
   {
     "offset": "0x5252",
     "text_jp": "　　　＜人間溶解殺戮計画＞　　　\\n　　　　　−作戦目的−　　　　　\\n　　　　　　　　　　　　　　　　\\n「人間溶解ガス」を空気中に大量に\\n散布して日本中、世界中の邪魔な　\\n人類どもを抹殺する。　　　　　　",
-    "text_en": ""
+    "text_en": "<Human-Dissolving Slaughter Plan>\n- Objective -\n\nDisperse massive quantities\nof human-dissolving gas into the air\nand wipe out the humans\nwho stand in our way."
   },
   {
     "offset": "0x531D",
     "text_jp": "　　　　−人間溶解ガス−　　　　\\n　　　　　　　　　　　　　　　　\\nこのガスを吸い込んだ人間は体内　\\nから侵食され細胞レベルでの溶解を\\n起こす。改造手術を受けていても　\\n危険である。取り扱いに注意せよ。",
-    "text_en": ""
+    "text_en": "- Human-Dissolving Gas -\n\nHumans who inhale this gas\nare corroded from within\nand dissolved at the cellular level.\nIt is dangerous even to cyborgs.\nHandle with care."
   },
   {
     "offset": "0x53E8",
     "text_jp": "　　　　−プラント工場−　　　　\\n　　　　　　　　　　　　　　　　\\n「人間溶解ガス」を大量生産する為\\nの巨大プラントを建設する。　　　\\n建設はＡ６トンネル、坑道の奥に　\\n発見された鍾乳洞で行う。　　　　",
-    "text_en": ""
+    "text_en": "- Plant Factory -\n\nBuild a giant plant\nto mass-produce human-dissolving gas.\nConstruction will take place\nin the limestone cave\nbeyond the A6 tunnel."
   },
   {
     "offset": "0x54B3",
     "text_jp": "　　　−噴霧計画Ａプラン−　　　\\n　　　　　　　　　　　　　　　　\\nプラントに直結された大型噴霧装置\\nを地上へとバイパスさせ、そこから\\n空気中へと散布する。　　　　　　\\n５基の噴霧装置の建造を行う。　　",
-    "text_en": ""
+    "text_en": "- Spraying Plan A -\n\nBypass the large sprayers\nconnected directly to the plant\nto the surface, and disperse the gas\ninto the atmosphere from there.\nBuild five sprayers."
   },
   {
     "offset": "0x557E",
     "text_jp": "　　　−噴霧計画Ｂプラン−　　　\\n　　　　　　　　　　　　　　　　\\nさらに大型で出力の高い噴霧装置を\\n建造し、高高度のジェット気流へ　\\n「人間溶解ガス」を到達させる。　\\nこれで世界中への散布を実現する。",
-    "text_en": ""
+    "text_en": "- Spraying Plan B -\n\nBuild larger, higher-output sprayers\nto send the human-dissolving gas\nup into the high-altitude jet stream.\nThis will enable global dispersal."
   },
   {
     "offset": "0x5649",
     "text_jp": "　　　　　　−訓示−　　　　　　\\n　　　　　　　　　　　　　　　　\\n我々を闇の中から復活させてくれた\\n　　「新たな首領」の為に　　　　\\n　この「人間溶解殺戮計画」は　　\\n　必ず成功させなくてはならぬ。　",
-    "text_en": ""
+    "text_en": "- Admonition -\n\nFor the New Leader\nwho revived us from the darkness,\nthis human-dissolving slaughter plan\nmust succeed."
   },
   {
     "offset": "0x5714",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　この計画の成功を、来るべき　　\\n　怪人世界への布石とするのだ。　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "The success of this plan\nwill be the foundation\nfor the coming world of kaijin."
   },
   {
     "offset": "0x57DF",
     "text_jp": "key0700",
-    "text_en": ""
+    "text_en": "key0700"
   },
   {
     "offset": "0x57E7",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　計画室の博士の研究室から　　　\\n　うめき声が聞こえてくる。　　　\\n　　　　　　　　　　　　　　　　\\n　それも毎晩だ。　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "I can hear groaning\nfrom the doctor's laboratory\nin the planning room.\n\nEvery night, without fail."
   },
   {
     "offset": "0x58B2",
     "text_jp": "　いったい、何をしているのだろう\\n　気になってしょうがない。　　　\\n　　　　　　　　　　　　　　　　\\n　中をのぞこうにも、専用の　　　\\n　特殊な鍵を使用しないと　　　　\\n　入れない細工がしてあるようだ。",
-    "text_en": ""
+    "text_en": "What on earth is he doing?\nI cannot stop wondering.\nEven if I wanted to peek inside,\nit seems the room is rigged\nso only a special key can open it."
   },
   {
     "offset": "0x597D",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　博士がこの間もっていた　　　　\\n　「バーコード」がプリント　　　\\n　されたカード　　　　　　　　　\\n　あれがあやしいと思うのだが……\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "The card the doctor had recently,\nwith a barcode printed on it...\nI think that is suspicious."
   },
   {
     "offset": "0x5A48",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　鍵のタグに　　　　　　　　　　\\n　「Ａ−３３」と書かれている　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "The key tag\nhas \"A-33\" written on it."
   },
   {
     "offset": "0x5B13",
     "text_jp": "key1010",
-    "text_en": ""
+    "text_en": "key1010"
   },
   {
     "offset": "0x5B1B",
     "text_jp": "key1020",
-    "text_en": ""
+    "text_en": "key1020"
   },
   {
     "offset": "0x5B23",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　ブラック将軍から命令され　　　\\n　田所博士の実験の後始末を　　　\\n　してきた。　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "On General Black's orders,\nI cleaned up after\nDr Tadokoro's experiment."
   },
   {
     "offset": "0x5BEE",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　博士は一体何の実験をしたんだ？\\n　凄い爆発だったようだ。　　　　\\n　部屋の中にいた科学員は　　　　\\n　みんな死んでしまったが、博士は\\n　奇跡的に無傷で良かった。　　　",
-    "text_en": ""
+    "text_en": "What kind of experiment\ndid the doctor perform?\nIt sounded like a tremendous explosion.\nThe scientists inside all died,\nbut thankfully the doctor\nwas miraculously unharmed."
   },
   {
     "offset": "0x5CB9",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　海岸で処分した科学員や　　　　\\n　俺のような戦闘員は補充が　　　\\n　きくから良いが　　　　　　　　\\n　博士のような偉大な研究者は　　\\n　他にいないからな。　　　　　　",
-    "text_en": ""
+    "text_en": "The scientists we disposed of\non the coast, and soldiers like me,\ncan be replaced.\nBut there is no other researcher\nas great as the doctor."
   },
   {
     "offset": "0x5D84",
     "text_jp": "１９８７年７月　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　何が起こったのだ？　　　　　　\\n　あの惨状は一体どういうことだ。\\n　実験で意識を失っている間に　　\\n　私は何をしてしまったのだ。　　",
-    "text_en": ""
+    "text_en": "July 1987\n\nWhat happened?\nWhat was that horrific scene?\nWhat did I do while I was unconscious\nfrom the experiment?"
   },
   {
     "offset": "0x5E4F",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　成功だ！融合は成功だ。　　　　\\n　　　　　　　　　　　　　　　　\\n　これで全てが上手くいく！　　　\\n　　　　　　　　　　　　　　　　\\n　……　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Success! The fusion succeeded!\n\nNow everything will go well!\n\n..."
   },
   {
     "offset": "0x5F1A",
     "text_jp": "　ふ、ふははは…　　　　　　　　\\n　これで新たな生命体を　　　　　\\n　創り出せるのだ！　　　　　　　\\n　後は「ＫＩＮＧＳＴＯＮＥ」さえ\\n　あれば！…全ての生命を従える　\\n　王となる日も近い！　　　　　　",
-    "text_en": ""
+    "text_en": "Heh... heh heh heh...\nNow I can create a new life-form!\nAll I need is KINGSTONE!\nThe day I become king,\ncommanding all life, is near!"
   },
   {
     "offset": "0x5FE5",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　防災上の都合から　　　　　　　\\n　「燃料貯蔵庫」と「変電器室」の\\n　ドアへの送電は一つのラインで　\\n　行っている。　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "For fire-safety reasons,\nthe doors to the fuel storage room\nand transformer room\nare powered by a single line."
   },
   {
     "offset": "0x60B0",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　該当する施設のドアの電源が　　\\n　入っていない場合は送電ラインを\\n　管理している責任者の許可を　　\\n　得た上で切り換えること。　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "If the doors to those facilities\nhave no power, switch the line\nonly after receiving permission\nfrom the person responsible\nfor managing power distribution."
   },
   {
     "offset": "0x617B",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　「所長室」の電源は　　　　　　\\n　多量の電気使用を想定して　　　\\n　「送電設備」から直接、配電を　\\n　行う仕組みになっています。　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "The Director's Office\nis designed to receive power\ndirectly from the power supply facility,\nin anticipation of heavy electricity use."
   },
   {
     "offset": "0x6246",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　停電時には直接　　　　　　　　\\n　「送電設備」から再供給を　　　\\n　行うようにして下さい。　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "During an outage,\nrestore supply directly\nfrom the power supply facility."
   },
   {
     "offset": "0x6311",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　お久しぶりです。　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　博士の研究チームを離れてから　\\n　３ヶ月が経ちました。　　　　　\\n　博士はお元気でしょうか？　　　",
-    "text_en": ""
+    "text_en": "It has been a long time.\n\nThree months have passed\nsince I left the doctor's research team.\nHow is the doctor doing?"
   },
   {
     "offset": "0x63DC",
     "text_jp": "…（中略）…　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　僕はある研究機関から加わって　\\n　欲しいと誘われています。　　　\\n　その研究機関はまだ世間に　　　\\n　知られてはいませんが　　　　　",
-    "text_en": ""
+    "text_en": "...<omitted>...\n\nI have been invited to join\na certain research institute.\nThe institute is not yet known\nto the public, but..."
   },
   {
     "offset": "0x64A7",
     "text_jp": "　ショッカーとは違って、平和的な\\n　研究を行う組織だそうです。　　\\n　僕の研究の成果が世界平和の　　\\n　為に役に立つのなら、その機関に\\n　参加しようと思います。　　　　\\n　　　　　　　　　　ＹＵＵＫＩ　",
-    "text_en": ""
+    "text_en": "Unlike Shocker,\nit is apparently an organization\nthat conducts peaceful research.\nIf my work can help world peace,\nI intend to join them.\n\nYUKI"
   },
   {
     "offset": "0x6572",
     "text_jp": "　　　　　　　　　　　　　　　　\\n「ＴＩＥＲＲＡ」とのシンクロ実験\\nを行うようになってから、博士は　\\n人が変わってしまったようだ。　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Since the synchronization experiments\nwith TIERRA began,\nthe doctor seems to have become\na different person."
   },
   {
     "offset": "0x663D",
     "text_jp": "　　　　　　　　　　　　　　　　\\n研究室から出てくる博士はいつも　\\n疲労困憊している。　　　　　　　\\n博士は命を削ってでもこの研究を　\\n実現させたいようだ。　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Whenever the doctor leaves the lab,\nhe is utterly exhausted.\nIt seems he wants to complete this research\neven if it costs him his life."
   },
   {
     "offset": "0x6708",
     "text_jp": "　　　　　　　　　　　　　　　　\\n俺や二宮が何度忠告しても　　　　\\n聞いちゃくれない。　　　　　　　\\n結城からも身体に気をつけるよう　\\nに言ってくれないだろうか。　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "No matter how often Ninomiya and I\nwarn him, he will not listen.\nCould you tell him as well, Yuki,\nto take care of himself?"
   },
   {
     "offset": "0x67D3",
     "text_jp": "　　　　　　　　　　　　　　　　\\n次に行われる実験が　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "The next experiment is..."
   },
   {
     "offset": "0x689E",
     "text_jp": "ゲルショッカーが壊滅した……　　\\nだが、私は研究を続けるつもりだ。\\n完全なる新生命体の創造は私の　　\\n長年の夢なのだ。　　　　　　　　\\n何があろうとも止める訳には　　　\\nいかない。　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Gel-Shocker has been destroyed...\nEven so, I intend to continue my research.\nCreating a perfect new life-form\nhas been my lifelong dream.\nNothing can make me stop."
   },
   {
     "offset": "0x6969",
     "text_jp": "　助手たちの中には賛同して　　　\\n残ると言ってくれている者もいる。\\n　　　　　　　　　　　　　　　　\\n結城君が私の元を去ってしまった　\\nのは残念だが……　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Some of my assistants agree with me\nand have said they will remain.\n\nIt is regrettable\nthat Yuki has left me, but..."
   },
   {
     "offset": "0x6A34",
     "text_jp": "　　　　＜地殻変動計画＞　　　　\\n　　　　　−作戦目的−　　　　　\\n　　　　　　　　　　　　　　　　\\n地殻に強い刺激を与えて、大地震を\\n誘発させ人類文明を混乱、破壊する\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "<Crustal Deformation Plan>\n- Objective -\n\nApply powerful stimulation\nto the Earth's crust,\ntrigger great earthquakes,\nand throw human civilization\ninto chaos and ruin."
   },
   {
     "offset": "0x6AFF",
     "text_jp": "　　　　　−地震作戦−　　　　　\\n　　　　　　　　　　　　　　　　\\n地殻下マントルの粘性流動に刺激を\\n与えマントルの挙動(レオロジー)に\\n変化を起こさせ大地震を起こす。　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "- Earthquake Operation -\n\nStimulate viscous flow\nin the mantle below the crust,\nalter mantle rheology,\nand cause a great earthquake."
   },
   {
     "offset": "0x6BCA",
     "text_jp": "　　　　−コバルト爆弾−　　　　\\n　　　　　　　　　　　　　　　　\\nこの計画における地殻変動の起爆剤\\nとして「コバルト爆弾」を使用する\\nマントルへの投下は抗井テラスに　\\n設置した爆雷投下機にて行う。　　",
-    "text_en": ""
+    "text_en": "- Cobalt Bomb -\n\nUse cobalt bombs as the trigger\nfor crustal movement in this plan.\nThey will be dropped into the mantle\nfrom the depth-charge launcher\non the well terrace."
   },
   {
     "offset": "0x6C95",
     "text_jp": "　　　　−爆弾の使用法−　　　　\\n　　　　　　　　　　　　　　　　\\n「コバルト爆弾」は岬の灯台地下に\\nある「爆弾工場」から支給される。\\n運搬の振動で破裂することはないが\\n取り扱いは慎重をきすること。　　",
-    "text_en": ""
+    "text_en": "- Bomb Handling -\n\nCobalt bombs are supplied\nfrom the bomb factory\nbeneath the lighthouse on the cape.\nTransport vibration will not detonate them,\nbut handle them with great care."
   },
   {
     "offset": "0x6D60",
     "text_jp": "　　　＜地殻変動最終計画＞　　　\\n　　　　　−作戦目的−　　　　　\\n　　　　　　　　　　　　　　　　\\n　地殻変動により引き起こされるで\\nあろう「環境気候の激変」において\\n人類の地上からの完全な抹殺を行う",
-    "text_en": ""
+    "text_en": "<Final Crustal Deformation Plan>\n- Objective -\n\nCompletely wipe humanity\nfrom the surface\nthrough the extreme environmental\nand climatic changes\ncaused by crustal deformation."
   },
   {
     "offset": "0x6E2B",
     "text_jp": "　　　−地殻変動最終作戦−　　　\\n　　　　　　　　　　　　　　　　\\n　地殻マントル内を行動可能な怪人\\n「ゴースター」が地殻マントル内の\\n各所に「コバルト爆弾」を設置。　\\n一斉に破裂させ大地震を起こす。　",
-    "text_en": ""
+    "text_en": "- Final Crustal Operation -\n\nThe kaijin Ghoster, capable of moving\nwithin the crust and mantle,\nwill place cobalt bombs throughout them\nand detonate them simultaneously\nto cause a great earthquake."
   },
   {
     "offset": "0x6EF6",
     "text_jp": "　　　　−強化改造計画−　　　　\\n　　　　　　　　　　　　　　　　\\n　大地震後の激的変化した環境下で\\n活動できる怪人、戦闘員を開発し　\\n地上世界から人類を排除して我々の\\n帝国を築き上げる。　　　　　　　",
-    "text_en": ""
+    "text_en": "- Enhanced Remodeling Plan -\n\nDevelop kaijin and combatants\ncapable of operating\nin the drastically changed environment\nafter the great earthquake,\nthen drive humanity from the surface\nand build our empire."
   },
   {
     "offset": "0x6FC1",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　　この最終計画の実行により　　\\n　「新たな首領」の指令である　　\\n「闇の世界」の礎を築くものとする\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "By carrying out this final plan,\nwe shall lay the foundation\nfor the \"World of Darkness\"\ncommanded by the New Leader."
   },
   {
     "offset": "0x708C",
     "text_jp": "　　＜対侵入者用プログラム＞　　\\n　　　　　　　　　　　　　　　　\\n　アジトへの侵入者が感知された　\\n　場合、自動的にメイン通路の　　\\n　「赤外線センサー」が作動する。\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "<Anti-Intruder Program>\n\nIf an intruder is detected\ninside the hideout,\nthe infrared sensors\nin the main passage\nwill activate automatically."
   },
   {
     "offset": "0x7157",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　このシステムが発動した場合は　\\n　部隊規定に従い発見場所に近い　\\n　警備部隊がすみやかに侵入者を　\\n　捜索、排除、駆逐する。　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "When this system activates,\nsecurity units closest to the detection site\nshall follow unit regulations\nand promptly search for, eliminate,\nand drive out the intruder."
   },
   {
     "offset": "0x7222",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　侵入者の排除、駆逐を確認後　　\\n　警報および「赤外線センサー」　\\n　を解除し全部隊は通常作戦行動　\\n　に戻る事とする。　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "After confirming the intruder\nhas been eliminated and driven out,\ndeactivate the alarm and infrared sensors.\nAll units shall return\nto normal operations."
   },
   {
     "offset": "0x72ED",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　＜警戒体制時のシステム操作＞　\\n　　　　　　　　　　　　　　　　\\n　「赤外線センサー」は警備室と　\\n　司令室にて監視、制御する。　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "<System Operation During Alert>\n\nThe infrared sensors are monitored\nand controlled from the guard room\nand the command room."
   },
   {
     "offset": "0x73B8",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　制御装置の「解除スイッチ」を　\\n　押す間のみ「赤外線センサー」　\\n　を一時停止することができる。　\\n　部隊の移動など設置個所を通過　\\n　する場合に使用すること。　　　",
-    "text_en": ""
+    "text_en": "The infrared sensors can be\ntemporarily stopped only while\nthe control device's Release Switch\nis pressed. Use this when units\nneed to pass through sensor areas."
   },
   {
     "offset": "0x7483",
     "text_jp": "　　　　　　　　　　　　　　　　\\n１９７３年９月２日　　　　　　　\\n　　　　　　　　　　　　　　　　\\n田所博士がメイン通路の奥のドアを\\n開けて、中に入っていくのを見た。\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "September 2, 1973\n\nI saw Dr Tadokoro open the door\nat the back of the main passage\nand go inside."
   },
   {
     "offset": "0x754E",
     "text_jp": "　　　　　　　　　　　　　　　　\\nあの博士は我々が来る以前から　　\\n組織の為に研究をしていたらしい。\\nその功績は大きく、死神博士も　　\\n一目置いているようだ。　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "That doctor seems to have been\nconducting research for the organization\neven before we arrived.\nHis achievements are great,\nand even Doctor Shinigami\nappears to hold him in high regard."
   },
   {
     "offset": "0x7619",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　彼ぐらいの立場になれば　　　　\\n作戦計画室にあるような自分専用の\\n設備をもらい好きな研究に没頭　　\\nできるのか…。　　　　　　　　　\\n　私も早くああなりたいものだ。　",
-    "text_en": ""
+    "text_en": "When someone reaches his position,\nI suppose he gets private equipment\nlike the kind in the Operations Planning Room\nand can devote himself to any research he likes.\nI hope I get there soon."
   },
   {
     "offset": "0x76E4",
     "text_jp": "……　　　　　　　　　　　　　　\\n　こ、これは！？　　　　　　　　\\n遺伝子の配列情報ではないのか？　\\n一体何故こんな情報が　　　　　　\\n「ＴＩＥＲＲＡ」　　　　　　　　\\nから流れ込んでくるのだ…？　　　",
-    "text_en": ""
+    "text_en": "...\nWh-what is this!?\nIs this genetic sequence data?\nWhy is this information\nflowing in from TIERRA...?"
   },
   {
     "offset": "0x77AF",
     "text_jp": "　いや、理由などどうでも良い。　\\nそれよりもこの情報からどんな生物\\nが創り出せるのか。その方が重要だ\\n　この情報を上手く利用すれば究極\\nの生命体を創る事が出来るかもしれ\\nない。　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "No, the reason does not matter.\nWhat matters is what kind of organism\ncan be created from this information.\nIf I use it well,\nI may be able to create\nthe ultimate life-form."
   },
   {
     "offset": "0x787A",
     "text_jp": "　　　　　　　　　　　　　　　　\\n……今日も気を失っていたらしい。\\n　　　　　　　　　　　　　　　　\\nアレから情報を得るとき　　　　　\\n決まって意識を失ってしまうようだ\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "...It seems I lost consciousness\nagain today.\n\nWhenever I obtain information\nfrom that thing,\nI always seem to black out."
   },
   {
     "offset": "0x7945",
     "text_jp": "　　　　　　　　　　　　　　　　\\n私は疲れているのだろうか？　　　\\n　　　　　　　　　　　　　　　　\\n……それとも、副作用なのか？　　\\n　　　　　　　　　　　　　　　　\\n…自分では、よくわからない…　　",
-    "text_en": ""
+    "text_en": "Am I simply exhausted?\n\n...Or is this a side effect?\n\n...I do not really know myself..."
   },
   {
     "offset": "0x7A10",
     "text_jp": "　　　　　　　　　　　　　　　　\\nいずれにしても、アレから得られる\\n情報は有益なものだ。　　　　　　\\n　　　　　　　　　　　　　　　　\\n止める訳には行かない。　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "In any case,\nthe information obtained from that thing\nis valuable.\n\nI cannot stop now."
   },
   {
     "offset": "0x7ADB",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　所長が変わってからというもの　\\n何か発電所の様子がおかしい。　　\\n妙にセキュリティが厳しくなった。\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Ever since the director changed,\nsomething about the power plant\nhas felt strange.\nSecurity has become oddly strict."
   },
   {
     "offset": "0x7BA6",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　所長室にまで特殊なセキュリティ\\n装置が設置された。　　　　　　　\\n　しかも、その所長の姿を見た者が\\nほとんどいないときてる。　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Even the Director's Office\nhas been fitted with\na special security device.\nAnd almost no one\nhas even seen the director himself."
   },
   {
     "offset": "0x7C71",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　聞いたところによれば資材部主任\\nと変電器室室長、タービン室室長の\\n３人だけが所長室に入ることが出来\\nるそうだ。　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "From what I hear,\nonly three people can enter\nthe Director's Office:\nthe Materials Section chief,\nthe Transformer Room chief,\nand the Turbine Room chief."
   },
   {
     "offset": "0x7D3C",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　新しい所長やあいつらは　　　　\\nいったい何をしているんだ？　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "What on earth are\nthe new director and those people\ndoing?"
   },
   {
     "offset": "0x7E07",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　この換気システムは遠隔操作で　\\n　「燃料貯蔵庫」と「タービン室」\\n　の換気装置を起動できます。　　\\n　各モニターで各部屋の換気状態　\\n　を確認することができます。　　",
-    "text_en": ""
+    "text_en": "This ventilation system\ncan remotely start\nthe ventilation devices\nin the Fuel Storage Room\nand the Turbine Room.\nEach room's ventilation status\ncan be checked on the monitors."
   },
   {
     "offset": "0x7ED2",
     "text_jp": "key1210",
-    "text_en": ""
+    "text_en": "key1210"
   },
   {
     "offset": "0x7EDA",
     "text_jp": "コード表　　　　　　　　　　　　\\n　“３つで１つ“　　　　　　　　\\n　　　『０』←『Ｒ９Ｑ』　　　　\\n　　　『１』←『Ｋ５Ｏ』　　　　\\n　　　『２』←『Ｆ７Ｍ』　　　　\\n　　　『３』←『Ｕ１Ｃ』　　　　",
-    "text_en": ""
+    "text_en": "Code Table\n\"Three Make One\"\n0 <- R9Q\n1 <- K5O\n2 <- F7M\n3 <- U1C"
   },
   {
     "offset": "0x7FA5",
     "text_jp": "　　　『４』←『Ｎ２Ｖ』　　　　\\n　　　『５』←『Ｄ８Ｈ』　　　　\\n　　　『６』←『Ｊ４Ｔ』　　　　\\n　　　『７』←『Ｇ３Ｓ』　　　　\\n　　　『８』←『Ｚ０Ｘ』　　　　\\n　　　『９』←『Ｉ６Ｅ』　　　　",
-    "text_en": ""
+    "text_en": "4 <- N2V\n5 <- D8H\n6 <- J4T\n7 <- G3S\n8 <- Z0X\n9 <- I6E"
   },
   {
     "offset": "0x8070",
     "text_jp": "○残作業　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n今日中に研究結果を記録した　　　\\nテープの整理をする　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　中間報告書の作成（明後日まで）",
-    "text_en": ""
+    "text_en": "Remaining Tasks\n\nOrganize the tapes\nrecording the research results\nby the end of today.\n\nPrepare the interim report\nby the day after tomorrow."
   },
   {
     "offset": "0x813B",
     "text_jp": "　　　　　＜レポート＞　　　　　\\n　　　　　　　　　　　　　　　　\\n　究極の生命体を創造する為に　　\\n様々な生物の遺伝子の解析作業を　\\n行いました。　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "<Report>\n\nWe analyzed the genes\nof various organisms\nin order to create\nthe ultimate life-form."
   },
   {
     "offset": "0x8206",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　その結果　　　　　　　　　　　\\n素体コード「ＨＳ−１８４」から　\\n抽出された制限酵素に、非常に　　\\n興味深い特徴があることを　　　　\\n発見しました。　　　　　　　　　",
-    "text_en": ""
+    "text_en": "As a result,\nwe discovered a very interesting trait\nin the restriction enzyme extracted\nfrom base-body code HS-184."
   },
   {
     "offset": "0x82D1",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　その特徴とは　　　　　　　　　\\n「あらゆる生物の遺伝子の塩基　　\\n　配列上の同一箇所を切断する　　\\n　事が出来る」　　　　　　　　　\\nというものです。　　　　　　　　",
-    "text_en": ""
+    "text_en": "That trait is:\n\"It can cut the same location\nin the base sequence\nof any organism's genes.\""
   },
   {
     "offset": "0x839C",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　このような特徴を持つ　　　　　\\n「ＨＳ−１８４」の制限酵素を　　\\n利用すれば、あらゆる生物を融合　\\nさせて究極の生命体を創造できる　\\nのではないかと考えております。　",
-    "text_en": ""
+    "text_en": "We believe that by using\nthe restriction enzyme from HS-184,\nwith this special trait,\nit may be possible to fuse any organisms\nand create the ultimate life-form."
   },
   {
     "offset": "0x8467",
     "text_jp": "　現在、田所研究チームでは　　　\\n切断した遺伝子の融合にむけた　　\\n方法論構築作業に入っております。\\n　　　　　　　　　　　　　　　　\\n　　　　　　　１９７１年１月９日\\n　　　田所研究チーム　結城　丈二",
-    "text_en": ""
+    "text_en": "The Tadokoro research team\nis now developing a methodology\nfor fusing cut genes.\n\nJanuary 9, 1971\nTadokoro Research Team\nJoji Yuki"
   },
   {
     "offset": "0x8532",
     "text_jp": "　　　　　　　　　　　　　　　　\\n我がショッカーの秘密基地建設中に\\n科学班が発見した謎の物体は　　　\\nその後の調査で約５万年前のものと\\n推定されている。　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "During construction\nof our Shocker secret base,\nthe Science Division discovered\na mysterious object.\nLater investigation estimates it\nto be about 50,000 years old."
   },
   {
     "offset": "0x85FD",
     "text_jp": "HFI0001",
-    "text_en": ""
+    "text_en": "HFI0001"
   },
   {
     "offset": "0x8605",
     "text_jp": "　　　　　　　　　　　　　　　　\\n５万年前にこのような複雑な形状の\\n物体を造ることが可能であった知性\\nを持った生命体がいたことになる。\\n　　　　　　　　　　　　　　　　\\nそこで科学班、田所博士に命じる。",
-    "text_en": ""
+    "text_en": "This means intelligent life\ncapable of creating such a complex object\nexisted 50,000 years ago.\n\nTherefore, I order\nthe Science Division and Dr Tadokoro:"
   },
   {
     "offset": "0x86D0",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　この物体を研究し、５万年前に　\\n存在した知性を持った生命体の謎を\\n探り、我がショッカーの怪人製造　\\n技術の向上を図るのだ。　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "Research this object,\nuncover the mystery of the intelligent life\nthat existed 50,000 years ago,\nand use it to improve\nour Shocker kaijin production technology."
   },
   {
     "offset": "0x879B",
     "text_jp": "１９７１年９月１６日　　　　　　\\n　　　　　　　　　　　　　　　　\\n秘密基地建設中に発見された　　　\\nオーパーツ（場違いな遺物）である\\nコードネーム「ＴＩＥＲＲＡ」の　\\n田所研究チームへの移送を完了。　",
-    "text_en": ""
+    "text_en": "September 16, 1971\n\nTransfer of the out-of-place artifact\ndiscovered during secret base construction,\ncodenamed TIERRA,\nto the Tadokoro research team\nis complete."
   },
   {
     "offset": "0x8866",
     "text_jp": "HFI0002",
-    "text_en": ""
+    "text_en": "HFI0002"
   },
   {
     "offset": "0x886E",
     "text_jp": "＜ショッカー科学部構成メンバー＞\\n　　　　緑川　博士　　　　　　　\\n　　　　ハインリッヒ博士　　　　\\n　　　　綾小路　博士　　　　　　\\n　　　　田所　博士　　　　　　　\\n　　　　ディー博士　　　　　　　",
-    "text_en": ""
+    "text_en": "<Shocker Science Division Members>\nDr Midorikawa\nDr Heinrich\nDr Ayanokoji\nDr Tadokoro\nDr D"
   },
   {
     "offset": "0x8939",
     "text_jp": "　　　＜怪人軍団製造計画＞　　　\\n　　　　　−作戦目的−　　　　　\\n　　　　　　　　　　　　　　　　\\n開発された「素体製造システム」を\\n使い「怪人軍団」を造り出す。　　\\n世界各地に送り込み人類を殲滅する",
-    "text_en": ""
+    "text_en": "<Kaijin Army Production Plan>\n- Objective -\n\nUse the developed\nBase-Body Production System\nto create a kaijin army,\nsend it around the world,\nand annihilate humanity."
   },
   {
     "offset": "0x8A04",
     "text_jp": "　　　−素体製造システム−　　　\\n　　　　　　　　　　　　　　　　\\n怪人にもっとも適した遺伝子を培養\\nし、多数の「素体」を造り出す。　\\nこれにより、劣勢遺伝子を持たない\\n怪人を製造可能にする。　　　　　",
-    "text_en": ""
+    "text_en": "- Base-Body Production System -\n\nCultivate the genes best suited\nfor kaijin and produce many base bodies.\nThis will make it possible\nto create kaijin without recessive genes."
   },
   {
     "offset": "0x8ACF",
     "text_jp": "　　　　−怪人軍団製造−　　　　\\n　　　　　　　　　　　　　　　　\\n「素体製造システム」で培養された\\n「素体」に「ウルフビールス」を　\\n注入し大量の狼人間を製造する。　\\nこの方法で「怪人軍団」を完成する",
-    "text_en": ""
+    "text_en": "- Kaijin Army Production -\n\nInject Wolf Virus into base bodies\ncultivated by the Base-Body Production System\nto mass-produce wolfmen.\nThis method will complete the kaijin army."
   },
   {
     "offset": "0x8B9A",
     "text_jp": "　　　−ウルフビールス−　　　　\\n　　　　　　　　　　　　　　　　\\n　狼の遺伝子コードを組み込んだ　\\n「ウルフビールス」は浴びた人間を\\n狼人間へと変貌させる。科学班は　\\nこれを大量に生産し本作戦に備える",
-    "text_en": ""
+    "text_en": "- Wolf Virus -\n\nWolf Virus, incorporating wolf genetic code,\nturns any human exposed to it\ninto a wolfman.\nThe Science Division will mass-produce it\nfor this operation."
   },
   {
     "offset": "0x8C65",
     "text_jp": "　「ＴＩＥＲＲＡ」から送られて　\\nくるあの情報を何とかして鮮明に　\\nする必要がある。　　　　　　　　\\nその為には「ＴＩＥＲＲＡ」から　\\n送られてくるエネルギーを増幅　　\\nさせることが必要だろう。　　　　",
-    "text_en": ""
+    "text_en": "We must somehow clarify\nthe information transmitted by TIERRA.\nTo do that,\nwe will likely need to amplify\nthe energy sent from TIERRA."
   },
   {
     "offset": "0x8D30",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　その為の装置の完成まで後少し。\\nもう少しで何らかの手がかりを　　\\n得ることが出来るのだ。　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "The device for that purpose\nis almost complete.\nSoon, I will be able to obtain\nsome kind of clue."
   },
   {
     "offset": "0x8DFB",
     "text_jp": "………この「ＴＩＥＲＲＡ」は　　\\n脳波に反応して微弱なエネルギー　\\nを放出していること　　　　　　　\\n更には生物の脳の思考力を高める　\\n効果があることがこれまでの調査　\\nから判明している。　　　　　　　",
-    "text_en": ""
+    "text_en": "...Our investigation so far\nhas shown that TIERRA reacts\nto brain waves and emits faint energy.\nIt also appears to enhance\nthe thinking power of living brains."
   },
   {
     "offset": "0x8EC6",
     "text_jp": "しかし、これらが実際に人間の脳に\\n対してどのような影響を与えるのか\\nは実際に試してみるしかないだろう\\nこれから行う実験は私自らの脳波と\\n「ＴＩＥＲＲＡ」のエネルギーを　\\n融合させるというものである。　　",
-    "text_en": ""
+    "text_en": "However, we can only learn\nwhat effects these phenomena\nactually have on the human brain\nby testing them directly.\nThe coming experiment will fuse\nmy own brain waves\nwith TIERRA's energy."
   },
   {
     "offset": "0x8F91",
     "text_jp": "何だこれは？　　　　　　　　　　\\n不鮮明な映像と音声が私の脳の中に\\n流れ込んできているようだ。　　　\\nこんな経験は初めてだ。　　　　　\\nこれは更に深く研究してみる必要が\\nありそうだ。　　　　　　　　　　",
-    "text_en": ""
+    "text_en": "What is this?\nIndistinct images and sounds\nseem to be flowing into my brain.\nI have never experienced this before.\nThis will require deeper study."
   },
   {
     "offset": "0x905C",
     "text_jp": "key0720",
-    "text_en": ""
+    "text_en": "key0720"
   }
 ]

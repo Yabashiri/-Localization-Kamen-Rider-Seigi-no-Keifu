@@ -2,51 +2,51 @@
   {
     "idx": 0,
     "text_jp": "これが！？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "This is it!?{END}"
   },
   {
     "idx": 1,
     "text_jp": "驚いたか…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Surprised, are you...?{END}"
   },
   {
     "idx": 2,
     "text_jp": "お前は……{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "You are...{END}"
   },
   {
     "idx": 3,
     "text_jp": "ブラック将軍！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "General Black!{END}"
   },
   {
     "idx": 4,
     "text_jp": "これが邪魔な人間どもを消し去る…\nいわば駆除装置だ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "This will erase\nthe humans who stand in our way...\nCall it an extermination device.{END}"
   },
   {
     "idx": 5,
     "text_jp": "どうだ、素晴らしかろう{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Well? Splendid, is it not?{END}"
   },
   {
     "idx": 6,
     "text_jp": "そうはさせん！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "I will not let you!{END}"
   },
   {
     "idx": 7,
     "text_jp": "ハハハハ…おもしろい{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Ha ha ha ha... amusing.{END}"
   },
   {
     "idx": 8,
     "text_jp": "貴様ごときに何ができる{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "What can someone like you do?{END}"
   },
   {
     "idx": 9,
     "text_jp": "まずは貴様から消えてもらおう{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "First, you will be the one\nto disappear.{END}"
   }
 ]

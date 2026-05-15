@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "基地は…海の底なのか！？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "The base is...\nat the bottom of the sea!?{END}"
   },
   {
     "idx": 1,
@@ -12,16 +12,16 @@
   {
     "idx": 2,
     "text_jp": "な…なんだ！？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Wh-what is that!?{END}"
   },
   {
     "idx": 3,
     "text_jp": "うわっ！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Uwah!{END}"
   },
   {
     "idx": 10,
     "text_jp": "ＥＶ０６３が発生します{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "EV063 occurs.{END}"
   }
 ]

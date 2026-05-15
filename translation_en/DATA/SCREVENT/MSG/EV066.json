@@ -2,17 +2,17 @@
   {
     "idx": 0,
     "text_jp": "お前は！？…死神博士！{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "You are...!?\nDoctor Shinigami!{END}"
   },
   {
     "idx": 1,
     "text_jp": "ライダーＶ３…今の出来そこないだけが\n我が計画ではない{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Rider V3...\nThat failed specimen\nwas not my only plan.{END}"
   },
   {
     "idx": 2,
     "text_jp": "お見せしよう私の作品{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Let me show you my creations.{END}"
   },
   {
     "idx": 3,
@@ -22,21 +22,21 @@
   {
     "idx": 4,
     "text_jp": "…こいつらは…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...These are...{END}"
   },
   {
     "idx": 5,
     "text_jp": "これが貴様の計画なのか！？{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Is this your plan!?{END}"
   },
   {
     "idx": 6,
     "text_jp": "気づくのが遅すぎたようだな…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "It seems you noticed\nfar too late...{END}"
   },
   {
     "idx": 7,
     "text_jp": "…やれ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "...Do it.{END}"
   }
 ]

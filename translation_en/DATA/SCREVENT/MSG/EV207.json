@@ -2,22 +2,22 @@
   {
     "idx": 0,
     "text_jp": "ＢＥＳＴ　ＴＩＭＥ{END}",
-    "text_en": "BEST TＩME{END}"
+    "text_en": "BEST TIME{END}"
   },
   {
     "idx": 1,
     "text_jp": "ＴＩＭＥ{END}",
-    "text_en": "TＩME{END}"
+    "text_en": "TIME{END}"
   },
   {
     "idx": 2,
     "text_jp": "ＲＡＮＫ{END}",
-    "text_en": "RAＮＫ{END}"
+    "text_en": "RANK{END}"
   },
   {
     "idx": 3,
     "text_jp": "怪人ファイル『サボテグロン』\nを入手した{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Obtained kaijin file\n'Sabotegron'.{END}"
   },
   {
     "idx": 1000,

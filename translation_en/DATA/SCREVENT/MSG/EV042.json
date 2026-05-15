@@ -7,12 +7,12 @@
   {
     "idx": 1,
     "text_jp": "作業員を操っているのはお前だな！{END}",
-    "text_en": "The workers are being controlled.{END}"
+    "text_en": "You are the one\ncontrolling the workers!{END}"
   },
   {
     "idx": 2,
     "text_jp": "蜂女！ここで何を企んでいる！{END}",
-    "text_en": "What is going on here?{END}"
+    "text_en": "Bee Woman!\nWhat are you plotting here!?{END}"
   },
   {
     "idx": 3,
@@ -22,27 +22,27 @@
   {
     "idx": 4,
     "text_jp": "間もなくやって来る理想の世界{END}",
-    "text_en": "A world of darkness is coming.{END}"
+    "text_en": "The ideal world\nwill soon arrive.{END}"
   },
   {
     "idx": 5,
     "text_jp": "その住人となる我々、怪人軍団の前には{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "And before us, the kaijin army\nwho will live in that world...{END}"
   },
   {
     "idx": 6,
     "text_jp": "お前など石ころ同然{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "you are no more than a pebble.{END}"
   },
   {
     "idx": 7,
     "text_jp": "怪人軍団！？{END}",
-    "text_en": "monster army!?{END}"
+    "text_en": "A kaijin army!?{END}"
   },
   {
     "idx": 8,
     "text_jp": "それにこの計画はお前の手の届かない\n未来でも進められているのよ{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "And this plan is also moving forward\nin a future beyond your reach.{END}"
   },
   {
     "idx": 9,
@@ -52,7 +52,7 @@
   {
     "idx": 10,
     "text_jp": "あきらめて死になさい{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Give up and die.{END}"
   },
   {
     "idx": 11,
@@ -62,12 +62,12 @@
   {
     "idx": 12,
     "text_jp": "私はね地獄でも決して忘れなかった。\nお前に倒された…{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "Even in hell,\nI never forgot how you defeated me...{END}"
   },
   {
     "idx": 13,
     "text_jp": "この悔しさをね！！{END}",
-    "text_en": "We have to stop them here.{END}"
+    "text_en": "I never forgot this humiliation!!{END}"
   },
   {
     "idx": 14,

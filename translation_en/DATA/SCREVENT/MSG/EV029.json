@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "爆弾は上から運んでいるのか{END}",
-    "text_en": "This must be their bomb plan.{END}"
+    "text_en": "So they are carrying\nthe bombs down from above.{END}"
   },
   {
     "idx": 1,
@@ -12,6 +12,6 @@
   {
     "idx": 2,
     "text_jp": "あのトラックを追えば、コバルト爆弾の\nありかを突き止められるに違いない！{END}",
-    "text_en": "This must be their bomb plan.{END}"
+    "text_en": "If I follow that truck,\nI should be able to find\nwhere the cobalt bombs are kept!{END}"
   }
 ]
