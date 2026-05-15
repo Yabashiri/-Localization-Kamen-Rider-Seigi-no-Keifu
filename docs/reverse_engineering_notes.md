@@ -154,6 +154,42 @@ Observed player/work address:
 This means the observed health address is inside global `g_Wk`, not a random
 heap allocation.
 
+## Enemy / combatant life
+
+Enemy/character work slots appear to be stored as a static struct array.
+
+- observed array base: `0x0049DEA0`
+- observed stride: `0x94F0`
+- `slot_base + 0x6374 = current life`
+- `slot_base + 0x6378 = max life`
+
+The first observed enemy current-life addresses:
+
+- `0x004A4214`
+- `0x004AD704`
+- `0x004B6BF4`
+
+These are spaced by `0x94F0`.
+
+`g_iCombatantLifeTable` appears to be the startup/base HP table for combatants.
+
+- symbol: `g_iCombatantLifeTable`
+- address: `0x003F7650`
+- size: `0xC0`
+- format: 48 `int32` values
+
+`afCharacterModelPartsInit` indexes this table, adds the selected table value to
+the current base life value, then writes:
+
+```asm
+sw ..., 0x6374(s1) ; current life
+sw ..., 0x6378(s1) ; max life
+sw ..., 0x637c(s1) ; cached/copy life
+```
+
+This confirms that the enemy life fields use 32-bit integer values, not floats
+or 16-bit values.
+
 ## Quick workflow for future addresses
 
 For a runtime address:
