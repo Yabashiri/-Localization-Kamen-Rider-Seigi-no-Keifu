@@ -32,13 +32,15 @@ rebuilt_en/DATA/.../*.DAT
 
 ## Текущий статус
 
-На 2026-05-12:
+На 2026-05-15:
 
 - Рабочий полный ISO теперь собирается через сохранение оригинальной раскладки диска и замену `DATA.CVM` внутри исходного ISO.
 - Исправлен стоп загрузки после `ELF Loading`: новая сборка должна сохранять оригинальный root layout и LBA `DATA.CVM`, а не пересобирать весь диск произвольным `mkisofs`.
 - Английский текст в меню успешно выводится через существующие glyph-коды.
 - Для латиницы найден и применен ELF-патч фиксированного шага glyph cursor: `afMsgDrawString` по умолчанию двигал X на `28.0`, для английского сейчас используем `14.0`.
-- Текущий автоматический wrap для DAT-текстов: `20` колонок (`DEFAULT_WRAP_COLUMNS = 20` в `tools/encode_all_text.py`). Быстрый тест с `28` был отменен, оставляем прежнее значение.
+- Текущий рабочий wrap для полной сборки: `--wrap-profile game`. Не использовать глобальный `--wrap-columns 20` для full build: он ломает разные UI-ширины одним общим правилом.
+- Нижний textbox в event/cutscene сообщениях исправлен ELF-патчем в `tools/patch_elf_text_spacing.py`: отрицательное центрирование `(18 - maxLineLen) * 14` теперь clamp-ится к нулю для длинных английских строк.
+- Проверено в PCSX2: длинные нижние строки вроде `That feeling right now... What / was it?` и `Kamen Rider, soon we will show / you our true power.` отображаются внутри бокса.
 - `HINT.BIN` оказался не DAT-таблицей, а `CSVS` + Shift-JIS string pool. Для него добавлен отдельный builder `tools/hint_bin.py`.
 - `stage_rebuilt_text.py` теперь накладывает не только `.DAT`, но и `.BIN`, чтобы `rebuilt_en/DATA/MENU/HINT.BIN` попадал в staging.
 - `translation_en/` должен отслеживаться Git, это исходники перевода. Игнорировать нужно build outputs (`rebuilt_en/`, `build/`, `game_dump/`), а не JSON-переводы.
@@ -456,7 +458,7 @@ run_pcsx2_smoke.py
 Полная пересборка текущего перевода:
 
 ```text
-python tools\encode_all_text.py --input-root translation_en --output-root rebuilt_en --wrap-columns 20
+python tools\encode_all_text.py --input-root translation_en --output-root rebuilt_en --wrap-profile game
 python tools\hint_bin.py build
 python tools\stage_rebuilt_text.py
 python tools\build_data_iso.py
@@ -472,6 +474,19 @@ python tools\build_patched_iso.py --patched-elf build/stage/SLPS_253.02 --output
 ```
 
 Это ожидаемые 4 байта инструкции для `advance 14.0` на текущем месте патча.
+
+Проверка ELF scenario anchor clamp внутри итогового ISO:
+
+```text
+232085002a0880000019040023186400231864000b180100000883446008804606080046
+```
+
+Это патч `afScenarioMsgKind`: короткие строки центрируются как раньше, а для
+строк длиннее 18 glyph отрицательная X-поправка clamp-ится к нулю.
+
+Важно: ELF-only diagnostic ISO с оригинальным `game_dump/DATA.CVM` не содержит
+перевода. Для проверки переведенных строк нужен именно full build с новым
+`build/stage/DATA.CVM`.
 
 Если нужен быстрый menu smoke:
 
@@ -503,6 +518,28 @@ python tools\build_text_smoke_iso.py --profile menu-smoke --patch-latin-spacing 
 - часть экранов может требовать отдельной укладки, потому что разные UI используют разные ширины окна;
 - `HINT.BIN` и DAT-тексты имеют разные encoding pipeline;
 - плейсхолдеры и машинные переводы должны быть вычищены в JSON до финального билда.
+
+## Журнал 2026-05-15
+
+Сделано:
+
+- найдена причина смещения нижнего event/cutscene textbox: в `afScenarioMsgKind`
+  игра добавляла к X `(18 - maxLineLen) * 14`, что для длинного английского
+  текста становилось отрицательным сдвигом влево;
+- `tools/patch_elf_text_spacing.py` расширен: вместе с `--advance 14` он теперь
+  патчит scenario centering clamp;
+- подтвержден рабочий full build с переводом через `--wrap-profile game`;
+- проверено в PCSX2: длинные нижние строки больше не уезжают влево и остаются
+  в нужном боксе.
+
+Проверенная сборка:
+
+```text
+build/out/kamen_rider_full_translation.iso
+iso_size 3915411456
+advance_14 6041033c OK
+scenario_anchor_clamp 232085002a0880000019040023186400231864000b180100000883446008804606080046 OK
+```
 
 ## Ближайший следующий шаг
 
