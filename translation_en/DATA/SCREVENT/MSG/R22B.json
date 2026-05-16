@@ -2,27 +2,27 @@
   {
     "idx": 0,
     "text_jp": "特に役立つものは無い{END}",
-    "text_en": "There is nothing useful here.{END}"
+    "text_en": "Nothing useful remains.{END}"
   },
   {
     "idx": 1,
     "text_jp": "カセットレコーダーが置かれている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "A cassette recorder has been placed here.{END}"
   },
   {
     "idx": 2,
     "text_jp": "『カセットレコーダー』を取りますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Take the Cassette Recorder?{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 4,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 5,
@@ -32,31 +32,31 @@
   {
     "idx": 6,
     "text_jp": "これは…！{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "This is...!{END}"
   },
   {
     "idx": 7,
     "text_jp": "特殊な強化ガラスだ\n壊せそうにない{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "It is special reinforced glass.\nIt does not seem breakable.{END}"
   },
   {
     "idx": 8,
     "text_jp": "この部屋のコントロール装置のようだ{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "It seems to control this room.{END}"
   },
   {
     "idx": 9,
     "text_jp": "死神の計画は阻止した……{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Dr Shinigami plan has been stopped...{END}"
   },
   {
     "idx": 10,
     "text_jp": "あとは邪眼の復活を止めなければ！{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Now we must stop Jagan's revival!{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

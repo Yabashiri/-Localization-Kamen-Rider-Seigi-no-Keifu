@@ -2,41 +2,41 @@
   {
     "idx": 0,
     "text_jp": "何かのボタンがある{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is some kind of button.{END}"
   },
   {
     "idx": 1,
     "text_jp": "ボタンを押しても、前にいないと\nもとに戻ってしまうようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "It resets unless someone\nstands in front after pressing.{END}"
   },
   {
     "idx": 2,
     "text_jp": "ボタンを押しますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Press the button?{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　→はい　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 4,
     "text_jp": "　　　　はい　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 5,
     "text_jp": "特に何もおきないようだ…{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "Nothing in particular happens...{END}"
   },
   {
     "idx": 6,
     "text_jp": "罠を解除中だが……\n前にいないと再び作動するようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The trap is being disabled,\nbut it will reactivate if you move.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

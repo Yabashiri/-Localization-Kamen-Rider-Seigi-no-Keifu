@@ -2,22 +2,22 @@
   {
     "idx": 0,
     "text_jp": "『ロック解除キー』が置いてある{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "The Lock Release Key has been placed here.{END}"
   },
   {
     "idx": 1,
     "text_jp": "拾いますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Pick it up?{END}"
   },
   {
     "idx": 2,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 4,
@@ -27,21 +27,21 @@
   {
     "idx": 5,
     "text_jp": "汚れた作業着が入っている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Dirty work clothes are inside.{END}"
   },
   {
     "idx": 6,
     "text_jp": "少しアセくさい{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "They smell faintly of sweat.{END}"
   },
   {
     "idx": 7,
     "text_jp": "特に変わったところは無い{END}",
-    "text_en": "Nothing unusual here.{END}"
+    "text_en": "Nothing unusual.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

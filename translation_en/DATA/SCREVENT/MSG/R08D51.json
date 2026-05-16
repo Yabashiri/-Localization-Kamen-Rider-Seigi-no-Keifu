@@ -2,21 +2,21 @@
   {
     "idx": 0,
     "text_jp": "電源が入っていない\n送電されていないようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The power is off.\nNo electricity is being supplied.{END}"
   },
   {
     "idx": 1,
     "text_jp": "特におかしな所は無い{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "Nothing seems strange.{END}"
   },
   {
     "idx": 2,
     "text_jp": "ホワイトボードにグラフが書いてある{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "A graph is drawn on the whiteboard.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

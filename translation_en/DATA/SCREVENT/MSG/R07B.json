@@ -2,62 +2,62 @@
   {
     "idx": 0,
     "text_jp": "写真に二人の男が写っている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There are two men in the photo.{END}"
   },
   {
     "idx": 1,
     "text_jp": "１人は良く知っている男…\n結城　丈二　のようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "One of them looks like someone\nI know well... Joji Yuki.{END}"
   },
   {
     "idx": 2,
     "text_jp": "壁に金庫がある\nどうやら電動のようだが…{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "There is a safe in the wall.\nIt seems to be electric...{END}"
   },
   {
     "idx": 3,
     "text_jp": "ランプが消えている\n今は開かないようだ…{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The lamp is off.\nIt does not seem to open now...{END}"
   },
   {
     "idx": 4,
     "text_jp": "水槽に水が張られている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The tank is filled with water.{END}"
   },
   {
     "idx": 5,
     "text_jp": "何か生物が入っている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is some kind of creature inside.{END}"
   },
   {
     "idx": 6,
     "text_jp": "研究用のフィルムや書類が\n無造作に置かれている{END}",
-    "text_en": "There are documents here.\nCheck this place.{END}"
+    "text_en": "Research films and papers\nare scattered around carelessly.{END}"
   },
   {
     "idx": 7,
     "text_jp": "研究ファイルが整然とならべられている{END}",
-    "text_en": "There are documents here.{END}"
+    "text_en": "Research files are arranged neatly.{END}"
   },
   {
     "idx": 8,
     "text_jp": "『ＤＮＡ解析表』『ホヤの研究』\n『ゲノムレポート』『水棲生物研究書』{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "'DNA Analysis Chart,' 'Ascidian Study,'\n'Genome Report,' 'Aquatic Life Studies.'{END}"
   },
   {
     "idx": 9,
     "text_jp": "生物に関する研究ファイルが多いようだ{END}",
-    "text_en": "There are documents here.{END}"
+    "text_en": "Many files seem to concern living organisms.{END}"
   },
   {
     "idx": 10,
     "text_jp": "金庫が開いている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The safe is open.{END}"
   },
   {
     "idx": 11,
     "text_jp": "中に何か置かれているようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Something seems to be inside.{END}"
   },
   {
     "idx": 12,
@@ -67,27 +67,27 @@
   {
     "idx": 13,
     "text_jp": "写真立ての横に何か置かれている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Something is lying beside the photo frame.{END}"
   },
   {
     "idx": 14,
     "text_jp": "何かの鍵のようだ{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "It looks like some kind of key.{END}"
   },
   {
     "idx": 15,
     "text_jp": "『送電切換装置の鍵』を取りますか？{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Take the Power Routing Key?{END}"
   },
   {
     "idx": 16,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 17,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 18,
@@ -97,7 +97,7 @@
   {
     "idx": 19,
     "text_jp": "ファイル『所長の手記−２−』を\n入手した{END}",
-    "text_en": "There are documents here.\nCheck this place.{END}"
+    "text_en": "Obtained file\n'Director's Journal - 2 -'.{END}"
   },
   {
     "idx": 20,
@@ -107,12 +107,12 @@
   {
     "idx": 21,
     "text_jp": "特に気になるところはない{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 22,
     "text_jp": "ファイル『結城からの手紙』を\n入手した{END}",
-    "text_en": "There are documents here.\nCheck this place.{END}"
+    "text_en": "Obtained file\n'Letter from Yuki'.{END}"
   },
   {
     "idx": 23,
@@ -122,6 +122,6 @@
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

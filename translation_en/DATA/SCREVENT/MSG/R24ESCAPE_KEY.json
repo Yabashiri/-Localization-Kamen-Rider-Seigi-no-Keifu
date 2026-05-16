@@ -2,16 +2,16 @@
   {
     "idx": 0,
     "text_jp": "『エスケープキー』を使用した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Used the Escape Key.{END}"
   },
   {
     "idx": 1,
     "text_jp": "ロックを解除した{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "Unlocked it.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

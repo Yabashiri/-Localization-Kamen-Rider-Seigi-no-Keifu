@@ -2,16 +2,16 @@
   {
     "idx": 0,
     "text_jp": "何かの操作パネルのようだが…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It seems to be some kind of panel...{END}"
   },
   {
     "idx": 1,
     "text_jp": "特に操作の必要は無さそうだ{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "There seems to be no need to operate it.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

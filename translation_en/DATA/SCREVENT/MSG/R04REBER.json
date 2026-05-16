@@ -2,66 +2,66 @@
   {
     "idx": 0,
     "text_jp": "装置は稼動していない\n何かをはめるような突起が２つある{END}",
-    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+    "text_en": "The device is not running.\nThere are two fitting pegs.{END}"
   },
   {
     "idx": 1,
     "text_jp": "『レバー』をはめた{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Fitted the Lever.{END}"
   },
   {
     "idx": 2,
     "text_jp": "装置が稼動した{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "The device started running.{END}"
   },
   {
     "idx": 3,
     "text_jp": "電力が供給されたようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Power seems to have been supplied.{END}"
   },
   {
     "idx": 4,
     "text_jp": "レバーがある{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is a lever.{END}"
   },
   {
     "idx": 5,
     "text_jp": "レバーを動かしますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Move the lever?{END}"
   },
   {
     "idx": 6,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 7,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 8,
     "text_jp": "レバーを動かした{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Moved the lever.{END}"
   },
   {
     "idx": 9,
     "text_jp": "すでに電力は供給されている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Power is already being supplied.{END}"
   },
   {
     "idx": 10,
     "text_jp": "レバーは固定されている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The lever is fixed in place.{END}"
   },
   {
     "idx": 11,
     "text_jp": "動かす必要はないようだ…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "No need to move it...{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

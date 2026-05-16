@@ -2,62 +2,62 @@
   {
     "idx": 0,
     "text_jp": "写真立てが置かれている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is a photo frame here.{END}"
   },
   {
     "idx": 1,
     "text_jp": "研究者風の男たちが写っている……{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It shows men who look like researchers...{END}"
   },
   {
     "idx": 2,
     "text_jp": "壁に金庫がある\nどうやら電動のようだが…{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "There is a safe in the wall.\nIt seems to be electric...{END}"
   },
   {
     "idx": 3,
     "text_jp": "ランプが消えている\n今は開かないようだ…{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The lamp is off.\nIt does not seem to open now...{END}"
   },
   {
     "idx": 4,
     "text_jp": "水槽に水が張られている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The tank is filled with water.{END}"
   },
   {
     "idx": 5,
     "text_jp": "何か生物が入っている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is some kind of creature inside.{END}"
   },
   {
     "idx": 6,
     "text_jp": "研究用のフィルムや書類が\n無造作に置かれている{END}",
-    "text_en": "There are documents here.\nCheck this place.{END}"
+    "text_en": "Research films and papers\nare scattered around carelessly.{END}"
   },
   {
     "idx": 7,
     "text_jp": "研究ファイルが整然とならべられている{END}",
-    "text_en": "There are documents here.{END}"
+    "text_en": "Research files are arranged neatly.{END}"
   },
   {
     "idx": 8,
     "text_jp": "『ＤＮＡ解析表』『ホヤの研究』\n『ゲノムレポート』『水棲生物研究書』{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "'DNA Analysis Chart,' 'Ascidian Study,'\n'Genome Report,' 'Aquatic Life Studies.'{END}"
   },
   {
     "idx": 9,
     "text_jp": "生物に関する研究ファイルが多いようだ{END}",
-    "text_en": "There are documents here.{END}"
+    "text_en": "Many files seem to concern living organisms.{END}"
   },
   {
     "idx": 10,
     "text_jp": "金庫が開いている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The safe is open.{END}"
   },
   {
     "idx": 11,
     "text_jp": "中に何か置かれているようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Something seems to be inside.{END}"
   },
   {
     "idx": 12,
@@ -77,12 +77,12 @@
   {
     "idx": 15,
     "text_jp": "特に役立つものは無い{END}",
-    "text_en": "There is nothing useful here.{END}"
+    "text_en": "Nothing useful remains.{END}"
   },
   {
     "idx": 16,
     "text_jp": "特に気になるところはない{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 17,
@@ -92,6 +92,6 @@
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "何の装置だろうか\n画面に何か映し出されている…{END}",
-    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+    "text_en": "What kind of device is this?\nSomething is shown on the screen...{END}"
   },
   {
     "idx": 1,
@@ -27,12 +27,12 @@
   {
     "idx": 5,
     "text_jp": "現代と、過去、そして未来の年だ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It shows present, past, and future years.{END}"
   },
   {
     "idx": 6,
     "text_jp": "閉まっている…\n再びパソコンの操作が必要なようだ{END}",
-    "text_en": "Check this place.\nThere is a device here. It may need to be operated.{END}"
+    "text_en": "It is closed...\nThe computer must be operated again.{END}"
   },
   {
     "idx": 7,
@@ -47,7 +47,7 @@
   {
     "idx": 9,
     "text_jp": "特に変わったところは無い{END}",
-    "text_en": "Nothing unusual here.{END}"
+    "text_en": "Nothing unusual.{END}"
   },
   {
     "idx": 10,
@@ -57,11 +57,11 @@
   {
     "idx": 11,
     "text_jp": "操作できるようになった{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It can now be operated.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

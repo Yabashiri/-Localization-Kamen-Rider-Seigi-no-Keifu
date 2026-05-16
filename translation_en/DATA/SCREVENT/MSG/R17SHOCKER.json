@@ -2,36 +2,36 @@
   {
     "idx": 0,
     "text_jp": "モニターがアジトの扉を映し出している\n装置にカードスロットがある{END}",
-    "text_en": "It is locked and cannot be opened.\nA key item seems necessary here.{END}"
+    "text_en": "The monitor shows the base door.\nThe device has a card slot.{END}"
   },
   {
     "idx": 1,
     "text_jp": "ここで扉のロックを解除できそうだ{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "The door lock can be released here.{END}"
   },
   {
     "idx": 2,
     "text_jp": "『ショッカーカード』を使用した{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Used the Shocker Card.{END}"
   },
   {
     "idx": 3,
     "text_jp": "すでに切換え済みだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It has already been switched.{END}"
   },
   {
     "idx": 4,
     "text_jp": "電源が落ちているようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The power seems to be off.{END}"
   },
   {
     "idx": 5,
     "text_jp": "モニターがアジトの扉を映し出している{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "The monitor shows the base door.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

@@ -2,11 +2,11 @@
   {
     "idx": 0,
     "text_jp": "特に何も無い{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "There is nothing in particular.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

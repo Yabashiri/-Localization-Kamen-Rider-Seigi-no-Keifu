@@ -2,31 +2,31 @@
   {
     "idx": 0,
     "text_jp": "バイクがならべられている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Bikes are lined up.{END}"
   },
   {
     "idx": 1,
     "text_jp": "特に変わったところは無い{END}",
-    "text_en": "Nothing unusual here.{END}"
+    "text_en": "Nothing unusual.{END}"
   },
   {
     "idx": 2,
     "text_jp": "アサルトライフルが並べられている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Assault rifles are lined up.{END}"
   },
   {
     "idx": 3,
     "text_jp": "こんなものは必要ない{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "I do not need these.{END}"
   },
   {
     "idx": 4,
     "text_jp": "ミサイルが並べられている……{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Missiles are lined up...{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

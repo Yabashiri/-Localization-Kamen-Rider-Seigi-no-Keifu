@@ -2,26 +2,26 @@
   {
     "idx": 0,
     "text_jp": "『電磁キー』を使用した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Used the Magnetic Key.{END}"
   },
   {
     "idx": 1,
     "text_jp": "扉が開かない{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "The door will not open.{END}"
   },
   {
     "idx": 2,
     "text_jp": "『電磁キー』の電極設定を間違えたようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The Magnetic Key electrode setting seems wrong.{END}"
   },
   {
     "idx": 3,
     "text_jp": "扉が開いた{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "The door opened.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

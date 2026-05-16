@@ -2,67 +2,67 @@
   {
     "idx": 0,
     "text_jp": "閉まっている…\nこちらから開けることはできない{END}",
-    "text_en": "Check this place.\nIt is locked and cannot be opened.{END}"
+    "text_en": "It is closed...\nIt cannot be opened from this side.{END}"
   },
   {
     "idx": 1,
     "text_jp": "水槽がある\n中で何かがうごめいているようだ…{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "There is a tank.\nSomething seems to be moving inside...{END}"
   },
   {
     "idx": 2,
     "text_jp": "書類が乱雑につまれている{END}",
-    "text_en": "There are documents here.{END}"
+    "text_en": "Documents are piled up messily.{END}"
   },
   {
     "idx": 3,
     "text_jp": "役に立ちそうなデータは無い{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is no useful data.{END}"
   },
   {
     "idx": 4,
     "text_jp": "何かの研究資料のようだが…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It seems to be research material...{END}"
   },
   {
     "idx": 5,
     "text_jp": "特に役にたちそうなものはない{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "Nothing seems useful.{END}"
   },
   {
     "idx": 6,
     "text_jp": "特に変わったところは無い{END}",
-    "text_en": "Nothing unusual here.{END}"
+    "text_en": "Nothing unusual.{END}"
   },
   {
     "idx": 7,
     "text_jp": "ＤＮＡモデルのかかれたポスターだ\n特に気になるところは無い{END}",
-    "text_en": "Check this place.\nNothing stands out.{END}"
+    "text_en": "It is a poster of a DNA model.\nNothing catches your eye.{END}"
   },
   {
     "idx": 8,
     "text_jp": "サンプルが収められたビンが並んでいる\n特に気になるところは無い{END}",
-    "text_en": "Check this place.\nNothing stands out.{END}"
+    "text_en": "Bottles holding samples are lined up.\nNothing catches your eye.{END}"
   },
   {
     "idx": 9,
     "text_jp": "ビンの陰に何か置いてある…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Something is behind the bottles...{END}"
   },
   {
     "idx": 10,
     "text_jp": "取りますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Take it?{END}"
   },
   {
     "idx": 11,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 12,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 13,
@@ -77,6 +77,6 @@
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

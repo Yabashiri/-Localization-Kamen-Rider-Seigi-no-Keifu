@@ -2,61 +2,61 @@
   {
     "idx": 0,
     "text_jp": "電源が入っていない\n送電されていないようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The power is off.\nNo electricity is being supplied.{END}"
   },
   {
     "idx": 1,
     "text_jp": "変電器だ\nケーブルがはまっている{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "It is a transformer.\nA cable is attached.{END}"
   },
   {
     "idx": 2,
     "text_jp": "変電器だ\nケーブルが外されている{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "It is a transformer.\nThe cable is removed.{END}"
   },
   {
     "idx": 3,
     "text_jp": "電圧が安定している…\n今ならケーブルを取り外せそうだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The voltage is stable...\nThe cable can be removed now.{END}"
   },
   {
     "idx": 4,
     "text_jp": "『ジャンパーケーブル』を外しますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Remove the Jumper Cable?{END}"
   },
   {
     "idx": 5,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 6,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 7,
     "text_jp": "『ジャンパーケーブル』を外した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Removed the Jumper Cable.{END}"
   },
   {
     "idx": 8,
     "text_jp": "『ジャンパーケーブル』を使用した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Used the Jumper Cable.{END}"
   },
   {
     "idx": 9,
     "text_jp": "変電器だ\nケーブルが切断されている…{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "It is a transformer.\nThe cable is cut...{END}"
   },
   {
     "idx": 10,
     "text_jp": "今はまだ電圧が安定していない…\nケーブルは抜かない方がよさそうだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The voltage is not stable yet...\nBetter not remove the cable.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

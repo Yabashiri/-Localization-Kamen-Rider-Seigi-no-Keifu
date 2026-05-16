@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "倉庫棚のようだが…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It seems to be storage shelves...{END}"
   },
   {
     "idx": 1,
@@ -12,27 +12,27 @@
   {
     "idx": 2,
     "text_jp": "向こう側にコンピュータがみえる\nこちらからは行けないようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "A computer is visible beyond.\nNo way to reach it from here.{END}"
   },
   {
     "idx": 3,
     "text_jp": "何か置かれている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Something has been placed here.{END}"
   },
   {
     "idx": 4,
     "text_jp": "『データステック』を取りますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Take the Data Stick?{END}"
   },
   {
     "idx": 5,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 6,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 7,
@@ -42,7 +42,7 @@
   {
     "idx": 8,
     "text_jp": "下にファイルが置かれている{END}",
-    "text_en": "There are documents here.{END}"
+    "text_en": "A file has been placed below.{END}"
   },
   {
     "idx": 9,
@@ -52,16 +52,16 @@
   {
     "idx": 10,
     "text_jp": "特に使えそうなものは無い{END}",
-    "text_en": "There is nothing useful here.{END}"
+    "text_en": "Nothing seems usable.{END}"
   },
   {
     "idx": 11,
     "text_jp": "特に気になるところは無い{END}",
-    "text_en": "Nothing stands out.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

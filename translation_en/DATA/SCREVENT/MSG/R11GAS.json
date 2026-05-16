@@ -2,41 +2,41 @@
   {
     "idx": 0,
     "text_jp": "バルブが無い\n動かすことはできないようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "There is no valve.\nIt does not seem movable.{END}"
   },
   {
     "idx": 1,
     "text_jp": "バルブがある{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is a valve.{END}"
   },
   {
     "idx": 2,
     "text_jp": "バルブを操作しますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Operate the valve?{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 4,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 5,
     "text_jp": "ガスを止めた{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Stopped the gas.{END}"
   },
   {
     "idx": 6,
     "text_jp": "ガスはすでに止まっている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The gas is already stopped.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

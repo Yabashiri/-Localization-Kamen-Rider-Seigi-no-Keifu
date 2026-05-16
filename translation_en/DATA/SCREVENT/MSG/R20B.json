@@ -2,41 +2,41 @@
   {
     "idx": 0,
     "text_jp": "溶岩が道をふさいでいる{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Lava is blocking the path.{END}"
   },
   {
     "idx": 1,
     "text_jp": "爆弾の投下装置のようだ{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "It seems to be a bomb drop device.{END}"
   },
   {
     "idx": 2,
     "text_jp": "『隔壁の鍵』を使用した{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Used the Bulkhead Key.{END}"
   },
   {
     "idx": 3,
     "text_jp": "換気用の装置だろうか……{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "Maybe it is a ventilation device...{END}"
   },
   {
     "idx": 4,
     "text_jp": "特に操作する必要は無さそうだ{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "No need to operate it.{END}"
   },
   {
     "idx": 5,
     "text_jp": "資材運搬に使用するものだろうか…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Maybe it is used to carry materials...{END}"
   },
   {
     "idx": 6,
     "text_jp": "特に気になるところは無い{END}",
-    "text_en": "Nothing stands out.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

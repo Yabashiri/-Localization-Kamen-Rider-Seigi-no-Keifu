@@ -2,56 +2,56 @@
   {
     "idx": 0,
     "text_jp": "カードを差し込む場所が\n３つある{END}",
-    "text_en": "A key item seems necessary here.\nCheck this place.{END}"
+    "text_en": "There are three places\nfor inserting cards.{END}"
   },
   {
     "idx": 1,
     "text_jp": "『パンチカード』を使用した{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Used the Punch Card.{END}"
   },
   {
     "idx": 2,
     "text_jp": "扉が開いたようだ{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "The door seems to have opened.{END}"
   },
   {
     "idx": 3,
     "text_jp": "まだ扉は開かないようだ{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "The door still will not open.{END}"
   },
   {
     "idx": 4,
     "text_jp": "もう扉は開いている{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "The door is already open.{END}"
   },
   {
     "idx": 5,
     "text_jp": "扉のセキュリティーシステムのようだが{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "It seems to be the door security system.{END}"
   },
   {
     "idx": 6,
     "text_jp": "今はロックが解除されている\n特に操作する必要は無い{END}",
-    "text_en": "It is locked and cannot be opened.\nNothing useful here.{END}"
+    "text_en": "It is unlocked now.\nNo need to operate it.{END}"
   },
   {
     "idx": 7,
     "text_jp": "『パンチカード赤』を使用した{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Used the Red Punch Card.{END}"
   },
   {
     "idx": 8,
     "text_jp": "『パンチカード青』を使用した{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Used the Blue Punch Card.{END}"
   },
   {
     "idx": 9,
     "text_jp": "『パンチカード緑』を使用した{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Used the Green Punch Card.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

@@ -7,16 +7,16 @@
   {
     "idx": 1,
     "text_jp": "階段がサビて崩れ落ちている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The stairs have rusted and collapsed.{END}"
   },
   {
     "idx": 2,
     "text_jp": "とても渡れそうにない{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It does not look passable.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

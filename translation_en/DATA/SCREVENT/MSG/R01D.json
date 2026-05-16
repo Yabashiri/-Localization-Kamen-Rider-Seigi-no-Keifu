@@ -17,12 +17,12 @@
   {
     "idx": 3,
     "text_jp": "特に変わったところはない{END}",
-    "text_en": "Nothing unusual here.{END}"
+    "text_en": "Nothing seems out of the ordinary.{END}"
   },
   {
     "idx": 4,
     "text_jp": "書類棚だ{END}",
-    "text_en": "There are documents here.{END}"
+    "text_en": "It is a document shelf.{END}"
   },
   {
     "idx": 5,
@@ -42,7 +42,7 @@
   {
     "idx": 8,
     "text_jp": "中にはサビ付いたクギが\nたくさん入っている{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "Inside are many\nrusty nails.{END}"
   },
   {
     "idx": 9,
@@ -57,17 +57,17 @@
   {
     "idx": 11,
     "text_jp": "中はくらくてよく見えない{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It is dark inside and hard to see.{END}"
   },
   {
     "idx": 12,
     "text_jp": "特に気になるところは無い{END}",
-    "text_en": "Nothing stands out.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 13,
     "text_jp": "完全に閉ざされている\n開けることはできない{END}",
-    "text_en": "Check this place.\nIt cannot be opened.{END}"
+    "text_en": "It is completely sealed.\nIt cannot be opened.{END}"
   },
   {
     "idx": 14,
@@ -77,12 +77,12 @@
   {
     "idx": 15,
     "text_jp": "ホワイトボードだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It is a whiteboard.{END}"
   },
   {
     "idx": 16,
     "text_jp": "何かの予定が書かれている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Some kind of schedule is written on it.{END}"
   },
   {
     "idx": 17,
@@ -92,12 +92,12 @@
   {
     "idx": 18,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 19,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 20,
@@ -107,11 +107,11 @@
   {
     "idx": 21,
     "text_jp": "もうこれ以上持つことはできない{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "You cannot carry any more.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

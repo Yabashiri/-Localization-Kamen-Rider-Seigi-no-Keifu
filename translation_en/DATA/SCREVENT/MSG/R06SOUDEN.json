@@ -2,71 +2,71 @@
   {
     "idx": 0,
     "text_jp": "電力の供給先を変える切換装置のようだ\n今は電源が落ちているため動かない{END}",
-    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+    "text_en": "It seems to switch power output.\nIt is off now and will not move.{END}"
   },
   {
     "idx": 1,
     "text_jp": "この装置を使って電力の供給ラインを\n切り換えることができそうだ{END}",
-    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+    "text_en": "This device seems able to switch\nthe power supply line.{END}"
   },
   {
     "idx": 2,
     "text_jp": "スイッチがある{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is a switch.{END}"
   },
   {
     "idx": 3,
     "text_jp": "切り換えますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Switch it?{END}"
   },
   {
     "idx": 4,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 5,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 6,
     "text_jp": "ラインが切り換わったようだ…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The line seems to have switched...{END}"
   },
   {
     "idx": 7,
     "text_jp": "変電器室側が通れるようになった{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The transformer room side is passable now.{END}"
   },
   {
     "idx": 8,
     "text_jp": "燃料貯蔵庫側が通れるようになった{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The fuel storage side is passable now.{END}"
   },
   {
     "idx": 9,
     "text_jp": "電力の供給先を変える切換装置のようだ{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "It seems to switch power output.{END}"
   },
   {
     "idx": 10,
     "text_jp": "ロックされている\n切り換えるには鍵が必要なようだが…{END}",
-    "text_en": "It is locked and cannot be opened.\nA key item seems necessary here.{END}"
+    "text_en": "It is locked.\nA key seems needed to switch it...{END}"
   },
   {
     "idx": 11,
     "text_jp": "今は操作する必要が無さそうだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "No need to operate it now.{END}"
   },
   {
     "idx": 12,
     "text_jp": "ロックされている\n切り換えるには鍵が必要なようだ{END}",
-    "text_en": "It is locked and cannot be opened.\nA key item seems necessary here.{END}"
+    "text_en": "It is locked.\nA key seems needed to switch it.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

@@ -2,51 +2,51 @@
   {
     "idx": 0,
     "text_jp": "何かを制御する装置のようだ\nカードスロットのランプが消えている{END}",
-    "text_en": "There is a device here. It may need to be operated.\nA key item seems necessary here.{END}"
+    "text_en": "It seems to control something.\nThe card slot lamp is off.{END}"
   },
   {
     "idx": 1,
     "text_jp": "何かを制御する装置のようだ\nカードスロットのランプが点いている{END}",
-    "text_en": "There is a device here. It may need to be operated.\nA key item seems necessary here.{END}"
+    "text_en": "It seems to control something.\nThe card slot lamp is on.{END}"
   },
   {
     "idx": 2,
     "text_jp": "『ＩＣチップカード』を使った{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Used the IC Chip Card.{END}"
   },
   {
     "idx": 3,
     "text_jp": "装置が起動した{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "The device started up.{END}"
   },
   {
     "idx": 4,
     "text_jp": "となりのパソコンに灯が入ったようだ{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "The computer beside it seems lit.{END}"
   },
   {
     "idx": 5,
     "text_jp": "すでに装置は起動している{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "The device is already running.{END}"
   },
   {
     "idx": 6,
     "text_jp": "パソコンがある{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "There is a computer.{END}"
   },
   {
     "idx": 7,
     "text_jp": "反応がない…\n今は使用できないようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "No response...\nIt seems unusable now.{END}"
   },
   {
     "idx": 8,
     "text_jp": "すでにパスワードは入力済みだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The password has already been entered.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

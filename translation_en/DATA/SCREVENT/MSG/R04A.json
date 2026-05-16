@@ -2,16 +2,16 @@
   {
     "idx": 0,
     "text_jp": "配電盤だ\n特に変わったところはない{END}",
-    "text_en": "Check this place.\nNothing unusual here.{END}"
+    "text_en": "It is a switchboard.\nNothing unusual.{END}"
   },
   {
     "idx": 1,
     "text_jp": "特に気になるところは無い{END}",
-    "text_en": "Nothing stands out.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

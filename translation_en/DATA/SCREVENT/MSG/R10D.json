@@ -2,37 +2,37 @@
   {
     "idx": 0,
     "text_jp": "汚れた作業着が入っている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Dirty work clothes are inside.{END}"
   },
   {
     "idx": 1,
     "text_jp": "最近までつかわれていたようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "They seem to have been used recently.{END}"
   },
   {
     "idx": 2,
     "text_jp": "特に使えそうなものは無い{END}",
-    "text_en": "There is nothing useful here.{END}"
+    "text_en": "Nothing seems usable.{END}"
   },
   {
     "idx": 3,
     "text_jp": "鍵が置かれている{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "A key has been placed here.{END}"
   },
   {
     "idx": 4,
     "text_jp": "『ロック解除キー』を取りますか？{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "Take the Lock Release Key?{END}"
   },
   {
     "idx": 5,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 6,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 7,
@@ -42,7 +42,7 @@
   {
     "idx": 8,
     "text_jp": "特に気になるところは無い{END}",
-    "text_en": "Nothing stands out.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 9,
@@ -52,11 +52,11 @@
   {
     "idx": 10,
     "text_jp": "棚がある{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is a shelf.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

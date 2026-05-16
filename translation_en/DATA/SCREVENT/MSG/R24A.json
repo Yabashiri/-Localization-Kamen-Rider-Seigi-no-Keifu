@@ -2,22 +2,22 @@
   {
     "idx": 0,
     "text_jp": "通信機が稼動している{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The communicator is running.{END}"
   },
   {
     "idx": 1,
     "text_jp": "特に気になるところは無い{END}",
-    "text_en": "Nothing stands out.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 2,
     "text_jp": "換気用のファンだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It is a ventilation fan.{END}"
   },
   {
     "idx": 3,
     "text_jp": "様々なボタンが付いている\n特に操作する必要は無さそうだ{END}",
-    "text_en": "Check this place.\nNothing useful here.{END}"
+    "text_en": "It has various buttons.\nNo need to operate it.{END}"
   },
   {
     "idx": 4,
@@ -32,6 +32,6 @@
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

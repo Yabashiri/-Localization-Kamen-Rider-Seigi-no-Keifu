@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "棚がある{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is a shelf.{END}"
   },
   {
     "idx": 1,
@@ -17,11 +17,11 @@
   {
     "idx": 3,
     "text_jp": "特に気になるところは無い{END}",
-    "text_en": "Nothing stands out.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

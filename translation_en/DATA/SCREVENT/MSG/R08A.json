@@ -7,7 +7,7 @@
   {
     "idx": 1,
     "text_jp": "特に気になるところは無い{END}",
-    "text_en": "Nothing stands out.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 2,
@@ -17,7 +17,7 @@
   {
     "idx": 3,
     "text_jp": "何か置かれている…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Something has been placed here...{END}"
   },
   {
     "idx": 4,
@@ -27,26 +27,26 @@
   {
     "idx": 5,
     "text_jp": "もう何もない…{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "There is nothing left...{END}"
   },
   {
     "idx": 6,
     "text_jp": "『タービン室の鍵』を取りますか？{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Take the Turbine Room Key?{END}"
   },
   {
     "idx": 7,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 8,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

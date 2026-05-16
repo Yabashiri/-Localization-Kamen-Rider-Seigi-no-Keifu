@@ -2,31 +2,31 @@
   {
     "idx": 0,
     "text_jp": "まだ通れないようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It seems you still cannot pass.{END}"
   },
   {
     "idx": 1,
     "text_jp": "『ゴールドプレート』を使用した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Used the Gold Plate.{END}"
   },
   {
     "idx": 2,
     "text_jp": "『ブラックプレート』を使用した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Used the Black Plate.{END}"
   },
   {
     "idx": 3,
     "text_jp": "『グリーンプレート』を使用した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Used the Green Plate.{END}"
   },
   {
     "idx": 4,
     "text_jp": "『ショッカーメダル』を使用した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Used the Shocker Medal.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

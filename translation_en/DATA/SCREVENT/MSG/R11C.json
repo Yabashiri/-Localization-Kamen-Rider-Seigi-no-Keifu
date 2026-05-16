@@ -2,27 +2,27 @@
   {
     "idx": 0,
     "text_jp": "倉庫棚のようだが…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It seems to be storage shelves...{END}"
   },
   {
     "idx": 1,
     "text_jp": "上にケーブルが置いてある{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "A cable has been placed on top.{END}"
   },
   {
     "idx": 6,
     "text_jp": "『ジャンパーケーブル』を取りますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Take the Jumper Cable?{END}"
   },
   {
     "idx": 7,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 8,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 9,
@@ -32,16 +32,16 @@
   {
     "idx": 10,
     "text_jp": "もう使えそうなものはない{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Nothing usable remains.{END}"
   },
   {
     "idx": 11,
     "text_jp": "特に気になるところは無い{END}",
-    "text_en": "Nothing stands out.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

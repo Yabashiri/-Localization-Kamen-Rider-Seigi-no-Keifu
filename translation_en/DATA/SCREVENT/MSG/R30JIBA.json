@@ -2,31 +2,31 @@
   {
     "idx": 0,
     "text_jp": "作戦計画書に書かれていた装置がある\n…片方のスロットが空いている{END}",
-    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+    "text_en": "There is the device from the plan.\n...One slot is empty.{END}"
   },
   {
     "idx": 1,
     "text_jp": "操作するには何かが必要なようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Something seems needed to operate it.{END}"
   },
   {
     "idx": 2,
     "text_jp": "『磁場制御停止カード』を使用した{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Used the Magnetic Field Stop Card.{END}"
   },
   {
     "idx": 3,
     "text_jp": "『ゴールドプレート』を手に入れた{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Got the Gold Plate.{END}"
   },
   {
     "idx": 15,
     "text_jp": "ファイル『海底基地建設報告書』を\n入手した{END}",
-    "text_en": "There are documents here.\nCheck this place.{END}"
+    "text_en": "Obtained file\nUndersea Base Build Report.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

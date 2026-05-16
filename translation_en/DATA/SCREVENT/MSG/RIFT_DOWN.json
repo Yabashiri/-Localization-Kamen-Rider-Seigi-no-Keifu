@@ -2,22 +2,22 @@
   {
     "idx": 0,
     "text_jp": "リフトがあります{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is a lift.{END}"
   },
   {
     "idx": 1,
     "text_jp": "下に行きますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Go down?{END}"
   },
   {
     "idx": 2,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 4,
@@ -27,6 +27,6 @@
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

@@ -2,41 +2,41 @@
   {
     "idx": 0,
     "text_jp": "何かのボタンがある{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is some kind of button.{END}"
   },
   {
     "idx": 1,
     "text_jp": "前に立って押さえていないと\n戻ってしまうタイプのボタンだ…{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "It must be held from the front,\nor it will return...{END}"
   },
   {
     "idx": 2,
     "text_jp": "ボタンを押しますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Press the button?{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 4,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 5,
     "text_jp": "トラップが解除された{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The trap was disabled.{END}"
   },
   {
     "idx": 6,
     "text_jp": "トラップは解除されているようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The trap seems to be disabled.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

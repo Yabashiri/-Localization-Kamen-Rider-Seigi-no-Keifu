@@ -2,31 +2,31 @@
   {
     "idx": 0,
     "text_jp": "パイプやコードがむき出しになっている\n…何かを設置する場所のようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "Pipes and cables are exposed.\n...Something seems installed here.{END}"
   },
   {
     "idx": 1,
     "text_jp": "たくさんの計器がならんでいる\n…何かの調整パネルのようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "Many meters are lined up.\n...Some kind of adjustment panel.{END}"
   },
   {
     "idx": 2,
     "text_jp": "大きなカプセルが設置されている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "A large capsule is installed.{END}"
   },
   {
     "idx": 3,
     "text_jp": "中にあやしげな生物が入っている\nバリアに守られているようだ……{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "A suspicious creature is inside.\nIt seems protected by a barrier...{END}"
   },
   {
     "idx": 4,
     "text_jp": "操作パネルからツタのようにパイプが\n床下へとのびている{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "Vine-like pipes from the panel\nextend under the floor.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

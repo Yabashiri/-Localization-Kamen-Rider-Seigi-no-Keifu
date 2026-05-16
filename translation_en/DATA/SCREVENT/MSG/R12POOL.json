@@ -2,86 +2,86 @@
   {
     "idx": 0,
     "text_jp": "モニターに何か表示されている\n「水温がイエローゾーンに達しました」{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "Monitor display:\n\"Water temperature reached yellow zone.\"{END}"
   },
   {
     "idx": 1,
     "text_jp": "「ガイドシステムに従って\n貯水の冷却を行ってください」{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "\"Please cool the stored water\naccording to the guide system.\"{END}"
   },
   {
     "idx": 2,
     "text_jp": "「冷却システムを起動しますか？」{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "\"Start the cooling system?\"{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 4,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 5,
     "text_jp": "「貯水の冷却を開始します」{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "\"Starting stored-water cooling.\"{END}"
   },
   {
     "idx": 6,
     "text_jp": "貯水の冷却処理を行っている\nしばらく時間がかかりそうだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The stored water is being cooled.\nIt looks like it will take some time.{END}"
   },
   {
     "idx": 7,
     "text_jp": "モニターに何か表示されている\n「水温がレッドゾーンに達しました」{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "Monitor display:\n\"Water temperature reached red zone.\"{END}"
   },
   {
     "idx": 8,
     "text_jp": "「貯水の入れ替え作業を行って下さい」{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "\"Please replace the stored water.\"{END}"
   },
   {
     "idx": 9,
     "text_jp": "『データスティック』を使用した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Used the Data Stick.{END}"
   },
   {
     "idx": 10,
     "text_jp": "「貯水の入れ替えを開始します」\n水位がさがっていく{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "\"Starting stored-water replacement.\"\nThe water level is dropping.{END}"
   },
   {
     "idx": 11,
     "text_jp": "橋が動いたようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The bridge seems to have moved.{END}"
   },
   {
     "idx": 12,
     "text_jp": "すでに起動した後だ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It has already been activated.{END}"
   },
   {
     "idx": 13,
     "text_jp": "「水温は安定している」{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "\"Water temperature is stable.\"{END}"
   },
   {
     "idx": 14,
     "text_jp": "「橋を元の位置に戻してください」{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "\"Please return the bridge to its original position.\"{END}"
   },
   {
     "idx": 15,
     "text_jp": "「橋を動かしますか？」{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "\"Move the bridge?\"{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

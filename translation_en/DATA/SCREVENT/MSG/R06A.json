@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "何の装置だろうか\n画面に何か映し出されている…{END}",
-    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+    "text_en": "What kind of device is this?\nSomething is shown on the screen...{END}"
   },
   {
     "idx": 1,
@@ -27,12 +27,12 @@
   {
     "idx": 5,
     "text_jp": "現代と、そして未来の年だ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It shows the present and future years.{END}"
   },
   {
     "idx": 6,
     "text_jp": "閉まっている…\n再びパソコンの操作が必要なようだ{END}",
-    "text_en": "Check this place.\nThere is a device here. It may need to be operated.{END}"
+    "text_en": "It is closed...\nThe computer must be operated again.{END}"
   },
   {
     "idx": 7,
@@ -47,27 +47,27 @@
   {
     "idx": 9,
     "text_jp": "特に変わったところは無い{END}",
-    "text_en": "Nothing unusual here.{END}"
+    "text_en": "Nothing unusual.{END}"
   },
   {
     "idx": 10,
     "text_jp": "何か置かれている…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Something has been placed here...{END}"
   },
   {
     "idx": 11,
     "text_jp": "『ロック解除キー』を取りますか？{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "Take the Lock Release Key?{END}"
   },
   {
     "idx": 12,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 13,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 14,
@@ -77,7 +77,7 @@
   {
     "idx": 15,
     "text_jp": "もう役に立ちそうなものは無い{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Nothing useful remains.{END}"
   },
   {
     "idx": 16,
@@ -87,11 +87,11 @@
   {
     "idx": 17,
     "text_jp": "ファイル『換気システムの説明書』を\n入手した{END}",
-    "text_en": "There are documents here.\nCheck this place.{END}"
+    "text_en": "Obtained file\nVentilation System Manual.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

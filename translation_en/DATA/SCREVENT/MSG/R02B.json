@@ -2,22 +2,22 @@
   {
     "idx": 0,
     "text_jp": "『発電所ＩＤカードＬＶ２』が\n置かれている{END}",
-    "text_en": "A key item seems necessary here.\nCheck this place.{END}"
+    "text_en": "A Plant ID Card LV2\nhas been placed here.{END}"
   },
   {
     "idx": 1,
     "text_jp": "『発電所ＩＤカードＬＶ２』を取りますか？{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Take the Plant ID Card LV2?{END}"
   },
   {
     "idx": 2,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 4,
@@ -27,11 +27,11 @@
   {
     "idx": 5,
     "text_jp": "他に役にたちそうな物はない{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Nothing else seems useful.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

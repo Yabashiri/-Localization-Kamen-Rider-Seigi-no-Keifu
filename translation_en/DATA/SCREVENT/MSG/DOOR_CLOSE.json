@@ -37,17 +37,17 @@
   {
     "idx": 7,
     "text_jp": "シャッターが閉まっている\nリフトは上にあるようだ{END}",
-    "text_en": "The shutter is closed.\nCheck this place.{END}"
+    "text_en": "The shutter is closed.\nThe lift seems to be above.{END}"
   },
   {
     "idx": 8,
     "text_jp": "シャッターが閉まっている\nリフトは下にあるようだ{END}",
-    "text_en": "The shutter is closed.\nCheck this place.{END}"
+    "text_en": "The shutter is closed.\nThe lift seems to be below.{END}"
   },
   {
     "idx": 9,
     "text_jp": "開けることはできない\nロックされているようだ{END}",
-    "text_en": "It cannot be opened.\nIt is locked and cannot be opened.{END}"
+    "text_en": "It cannot be opened.\nIt seems to be locked.{END}"
   },
   {
     "idx": 10,
@@ -72,42 +72,42 @@
   {
     "idx": 14,
     "text_jp": "電力が供給されていない\n開けることはできないようだ{END}",
-    "text_en": "Check this place.\nIt does not seem to open.{END}"
+    "text_en": "No power is being supplied.\nIt does not seem to open.{END}"
   },
   {
     "idx": 15,
     "text_jp": "電源が入っていない\n送電されていないようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The power is off.\nIt seems no electricity is being supplied.{END}"
   },
   {
     "idx": 16,
     "text_jp": "電力が途切れている\nどこかで断線しているようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The power is cut.\nA cable seems to be severed somewhere.{END}"
   },
   {
     "idx": 17,
     "text_jp": "何かの装置で厳重に閉められている…\nいくつかのスロットがついている…{END}",
-    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+    "text_en": "It is sealed tightly by some device...\nThere are several slots...{END}"
   },
   {
     "idx": 18,
     "text_jp": "壁にわずかなスキマがある…\n…だが動かせないようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "There is a slight gap in the wall...\n...but it does not seem to move.{END}"
   },
   {
     "idx": 19,
     "text_jp": "扉はロックされている\n鍵穴のようなものは見当たらない…{END}",
-    "text_en": "The door is locked.\nA key item seems necessary here.{END}"
+    "text_en": "The door is locked.\nThere is no sign of a keyhole...{END}"
   },
   {
     "idx": 20,
     "text_jp": "扉がなくなっている…\nこちらから開けることはできない{END}",
-    "text_en": "It is locked and cannot be opened.\nIt is locked and cannot be opened.{END}"
+    "text_en": "The door is gone...\nIt cannot be opened from this side.{END}"
   },
   {
     "idx": 21,
     "text_jp": "…反応がない\nここでは操作できないようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "...No response.\nIt cannot be operated from here.{END}"
   },
   {
     "idx": 22,
@@ -117,7 +117,7 @@
   {
     "idx": 23,
     "text_jp": "…中心に穴がある\n特殊な鍵が必要なようだ{END}",
-    "text_en": "Check this place.\nA key item seems necessary here.{END}"
+    "text_en": "...There is a hole in the center.\nA special key seems necessary.{END}"
   },
   {
     "idx": 24,
@@ -127,22 +127,22 @@
   {
     "idx": 25,
     "text_jp": "…スロットにそれぞれ色がついている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "...Each slot has a color.{END}"
   },
   {
     "idx": 26,
     "text_jp": "装置の中央に何かをはめる\nまるいくぼみがある{END}",
-    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+    "text_en": "There is a round recess\nfor fitting something in the device.{END}"
   },
   {
     "idx": 27,
     "text_jp": "…落盤でふさがれている\nこの先は行くことができない{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "...A cave-in blocks the way.\nYou cannot go any farther.{END}"
   },
   {
     "idx": 28,
     "text_jp": "…床が落ちている\n闇の奥にわずかな光がみえる…{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "...The floor has collapsed.\nA faint light glimmers below...{END}"
   },
   {
     "idx": 29,
@@ -152,66 +152,66 @@
   {
     "idx": 30,
     "text_jp": "防壁が下りている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The barrier is down.{END}"
   },
   {
     "idx": 31,
     "text_jp": "電力は供給されている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Power is being supplied.{END}"
   },
   {
     "idx": 32,
     "text_jp": "カードスロットがある\n現在はロックされている{END}",
-    "text_en": "A key item seems necessary here.\nIt is locked and cannot be opened.{END}"
+    "text_en": "There is a card slot.\nIt is currently locked.{END}"
   },
   {
     "idx": 33,
     "text_jp": "今は先に進まなければ…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "I have to keep going now...{END}"
   },
   {
     "idx": 34,
     "text_jp": "反応が無い…どうやら開かないようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "No response... It does not seem to open.{END}"
   },
   {
     "idx": 35,
     "text_jp": "扉の向こうから不気味な声が聞こえる{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "An eerie voice comes from beyond the door.{END}"
   },
   {
     "idx": 36,
     "text_jp": "マイクのような装置がついている{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "There is a device like a microphone.{END}"
   },
   {
     "idx": 37,
     "text_jp": "音声入力装置がついている\n声紋を判定する装置のようだ{END}",
-    "text_en": "There is a device here. It may need to be operated.\nThere is a device here. It may need to be operated.{END}"
+    "text_en": "There is a voice input device.\nIt seems to check voiceprints.{END}"
   },
   {
     "idx": 38,
     "text_jp": "切り裂かれたような\n大きな傷がついている{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "There is a large mark\nlike something slashed through it.{END}"
   },
   {
     "idx": 39,
     "text_jp": "この傷はいったい……{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "What is this mark...?{END}"
   },
   {
     "idx": 40,
     "text_jp": "配電盤がある{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is a switchboard.{END}"
   },
   {
     "idx": 41,
     "text_jp": "何者かの手によって閉められたようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It seems to have been closed by someone.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

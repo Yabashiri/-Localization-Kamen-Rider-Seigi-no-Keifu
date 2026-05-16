@@ -2,27 +2,27 @@
   {
     "idx": 0,
     "text_jp": "奇妙な装置だ\nボンベから太いパイプがのびている…{END}",
-    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+    "text_en": "It is a strange device.\nThick pipes extend from the cylinders...{END}"
   },
   {
     "idx": 1,
     "text_jp": "防壁を動かす装置のようだが…{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "It seems to move the barrier...{END}"
   },
   {
     "idx": 2,
     "text_jp": "もう動かすことはできないようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It does not seem movable anymore.{END}"
   },
   {
     "idx": 3,
     "text_jp": "この部屋のコントロール装置だろうか…{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "Could it control this room...{END}"
   },
   {
     "idx": 4,
     "text_jp": "たくさんのガスボンベが置かれている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Many gas cylinders are placed here.{END}"
   },
   {
     "idx": 5,
@@ -32,11 +32,11 @@
   {
     "idx": 6,
     "text_jp": "特に気になるところは無い{END}",
-    "text_en": "Nothing stands out.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

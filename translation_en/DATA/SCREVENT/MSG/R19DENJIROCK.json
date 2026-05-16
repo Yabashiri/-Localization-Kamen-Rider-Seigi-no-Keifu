@@ -2,57 +2,57 @@
   {
     "idx": 0,
     "text_jp": "ボタンとランプが配置されている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Buttons and lamps are arranged here.{END}"
   },
   {
     "idx": 1,
     "text_jp": "どうやら何かを作成する装置のようだ{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "It seems to make something.{END}"
   },
   {
     "idx": 2,
     "text_jp": "操作しますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Operate it?{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 4,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 5,
     "text_jp": "１回目の操作を行ってください{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Perform the first operation.{END}"
   },
   {
     "idx": 6,
     "text_jp": "２回目の操作を行ってください{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Perform the second operation.{END}"
   },
   {
     "idx": 7,
     "text_jp": "３回目の操作を行ってください{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Perform the third operation.{END}"
   },
   {
     "idx": 8,
     "text_jp": "４回目の操作を行ってください{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Perform the fourth operation.{END}"
   },
   {
     "idx": 9,
     "text_jp": "５回目の操作を行ってください{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Perform the fifth operation.{END}"
   },
   {
     "idx": 10,
     "text_jp": "６回目の操作を行ってください{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Perform the sixth operation.{END}"
   },
   {
     "idx": 11,
@@ -72,51 +72,51 @@
   {
     "idx": 14,
     "text_jp": "すでに鍵は入手している{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "You already have the key.{END}"
   },
   {
     "idx": 15,
     "text_jp": "『電磁キー』の調整が終了した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The Magnetic Key has been adjusted.{END}"
   },
   {
     "idx": 16,
     "text_jp": "鍵を抜いた穴が開いている{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "There is a hole where the key was removed.{END}"
   },
   {
     "idx": 17,
     "text_jp": "何かを作る為の装置のようだが…{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "It seems to make something, but...{END}"
   },
   {
     "idx": 18,
     "text_jp": "穴がぽっかり空いている\n使用することはできないようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "There is a gaping hole.\nIt does not seem usable.{END}"
   },
   {
     "idx": 19,
     "text_jp": "コントロールパネルがある\n特に何もなさそうだ…{END}",
-    "text_en": "Check this place.\nNothing useful here.{END}"
+    "text_en": "There is a control panel.\nNothing in particular stands out...{END}"
   },
   {
     "idx": 20,
     "text_jp": "『電磁キー』をはめなおした{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Reinserted the Magnetic Key.{END}"
   },
   {
     "idx": 21,
     "text_jp": "すでに『電磁キー』は使用済みだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The Magnetic Key has already been used.{END}"
   },
   {
     "idx": 22,
     "text_jp": "ランプが緑色に光っている\nもう操作する必要はないようだ{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The lamp is glowing green.\nThere is no need to operate it anymore.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

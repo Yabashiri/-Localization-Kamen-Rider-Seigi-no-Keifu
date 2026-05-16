@@ -2,27 +2,27 @@
   {
     "idx": 0,
     "text_jp": "パソコンがある\nそばに変わった装置が置かれている{END}",
-    "text_en": "There is a device here. It may need to be operated.\nThere is a device here. It may need to be operated.{END}"
+    "text_en": "There is a computer.\nAn unusual device is beside it.{END}"
   },
   {
     "idx": 1,
     "text_jp": "どうやらバーコードをカードに\nプリントする装置のようだ{END}",
-    "text_en": "A key item seems necessary here.\nThere is a device here. It may need to be operated.{END}"
+    "text_en": "It seems to print barcodes\nonto cards.{END}"
   },
   {
     "idx": 2,
     "text_jp": "プリントしますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Print?{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 4,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 5,
@@ -32,12 +32,12 @@
   {
     "idx": 6,
     "text_jp": "操作をやめた…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Stopped operation...{END}"
   },
   {
     "idx": 7,
     "text_jp": "すでに『バーコードキー』は作成済だ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The Barcode Key has already been made.{END}"
   },
   {
     "idx": 9,
@@ -47,6 +47,6 @@
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

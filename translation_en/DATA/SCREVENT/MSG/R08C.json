@@ -7,17 +7,17 @@
   {
     "idx": 1,
     "text_jp": "特に気になるところは無い{END}",
-    "text_en": "Nothing stands out.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 2,
     "text_jp": "特に使えそうなものは無い{END}",
-    "text_en": "There is nothing useful here.{END}"
+    "text_en": "Nothing seems usable.{END}"
   },
   {
     "idx": 3,
     "text_jp": "何か置かれている…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Something has been placed here...{END}"
   },
   {
     "idx": 4,
@@ -27,31 +27,31 @@
   {
     "idx": 5,
     "text_jp": "もう使えそうなものは無さそうだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Nothing usable seems left.{END}"
   },
   {
     "idx": 6,
     "text_jp": "『発電所ＩＤカードＬＶ１』を取りますか？{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "Take the Plant ID Card LV1?{END}"
   },
   {
     "idx": 7,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 8,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 9,
     "text_jp": "ファイル『変電器の修理報告』を\n入手した{END}",
-    "text_en": "There are documents here.\nCheck this place.{END}"
+    "text_en": "Obtained file\nTransformer Repair Report.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

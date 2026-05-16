@@ -2,22 +2,22 @@
   {
     "idx": 0,
     "text_jp": "何かのレバーが置かれている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Some kind of lever has been placed here.{END}"
   },
   {
     "idx": 1,
     "text_jp": "『レバー』を取りますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Take the Lever?{END}"
   },
   {
     "idx": 2,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 4,
@@ -27,26 +27,26 @@
   {
     "idx": 5,
     "text_jp": "もう使えそうな物は無い{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Nothing usable remains.{END}"
   },
   {
     "idx": 6,
     "text_jp": "特に役に立ちそうなものはない{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "Nothing seems useful.{END}"
   },
   {
     "idx": 7,
     "text_jp": "階段がサビて崩れ落ちている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The stairs have rusted and collapsed.{END}"
   },
   {
     "idx": 8,
     "text_jp": "先に進むことはできない{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "You cannot go ahead.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

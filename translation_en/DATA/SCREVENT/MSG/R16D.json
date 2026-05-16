@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "もう戻ることはできない{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "You cannot go back anymore.{END}"
   },
   {
     "idx": 1,
@@ -12,11 +12,11 @@
   {
     "idx": 2,
     "text_jp": "トロッコが道をふさいでいる{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "A trolley is blocking the path.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

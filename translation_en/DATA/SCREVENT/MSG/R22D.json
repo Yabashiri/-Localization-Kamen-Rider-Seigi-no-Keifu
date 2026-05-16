@@ -7,22 +7,22 @@
   {
     "idx": 1,
     "text_jp": "何か置かれている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Something has been placed here.{END}"
   },
   {
     "idx": 2,
     "text_jp": "『ＩＣレコーダー』を取りますか？{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Take the IC Recorder?{END}"
   },
   {
     "idx": 3,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "Select Yes   No{END}"
+    "text_en": "→ Yes        No{END}"
   },
   {
     "idx": 4,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "Yes   Select No{END}"
+    "text_en": "   Yes     → No{END}"
   },
   {
     "idx": 5,
@@ -32,61 +32,61 @@
   {
     "idx": 6,
     "text_jp": "何かの模型がある…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is some kind of model...{END}"
   },
   {
     "idx": 7,
     "text_jp": "基地か何かのように見えるが…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It looks like a base or something...{END}"
   },
   {
     "idx": 8,
     "text_jp": "手前にムラサキと金の\nスロットがある{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "There are purple and gold slots\nin front of it.{END}"
   },
   {
     "idx": 9,
     "text_jp": "書類が散乱している…{END}",
-    "text_en": "There are documents here.{END}"
+    "text_en": "Documents are scattered around...{END}"
   },
   {
     "idx": 10,
     "text_jp": "何かの設計図のようだが…\n{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It seems to be\nsome kind of blueprint...{END}"
   },
   {
     "idx": 11,
     "text_jp": "文字は象形文字のようで\n読むことができない{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "The writing looks like pictographs,\nand cannot be read.{END}"
   },
   {
     "idx": 12,
     "text_jp": "特に気になるものは無い{END}",
-    "text_en": "Nothing useful here.{END}"
+    "text_en": "Nothing catches your eye.{END}"
   },
   {
     "idx": 13,
     "text_jp": "コンピューターが並んでいる\n特に気になるところは無い{END}",
-    "text_en": "Check this place.\nNothing stands out.{END}"
+    "text_en": "Computers are lined up.\nNothing in particular catches your eye.{END}"
   },
   {
     "idx": 14,
     "text_jp": "この部屋のコントロール装置のようだ{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "It seems to control this room.{END}"
   },
   {
     "idx": 15,
     "text_jp": "地獄大使の計画は阻止した……{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Ambassador Hell's plan has been stopped...{END}"
   },
   {
     "idx": 16,
     "text_jp": "あとは邪眼の復活を止めなければ！{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Now we must stop Jagan's revival!{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

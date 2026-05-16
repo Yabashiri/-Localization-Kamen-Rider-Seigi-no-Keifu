@@ -2,36 +2,36 @@
   {
     "idx": 0,
     "text_jp": "装置にカードスロットがある{END}",
-    "text_en": "A key item seems necessary here.{END}"
+    "text_en": "The device has a card slot.{END}"
   },
   {
     "idx": 1,
     "text_jp": "『エレベーター起動キー』を使用した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Used the Elevator Start Key.{END}"
   },
   {
     "idx": 2,
     "text_jp": "配電盤のケーブルがちぎれた{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The switchboard cable snapped.{END}"
   },
   {
     "idx": 3,
     "text_jp": "老朽化していたようだ…{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It seems to have deteriorated...{END}"
   },
   {
     "idx": 4,
     "text_jp": "電源が落ちている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The power is off.{END}"
   },
   {
     "idx": 5,
     "text_jp": "このままでは使用できない{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It cannot be used like this.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]

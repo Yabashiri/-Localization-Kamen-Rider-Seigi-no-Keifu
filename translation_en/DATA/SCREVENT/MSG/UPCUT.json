@@ -2,171 +2,171 @@
   {
     "idx": 0,
     "text_jp": "何かのレバーのようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It looks like a lever.{END}"
   },
   {
     "idx": 1,
     "text_jp": "２つの突起に\n何かがはまっていた跡がある{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "There are marks where something\nwas fitted onto the two protrusions.{END}"
   },
   {
     "idx": 2,
     "text_jp": "この装置を使って電力の供給ラインを\n切り換えることができそうだ{END}",
-    "text_en": "There is a device here. It may need to be operated.\nCheck this place.{END}"
+    "text_en": "This device seems able to switch\nthe power supply line.{END}"
   },
   {
     "idx": 3,
     "text_jp": "システムが起動していないようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The system is not running.{END}"
   },
   {
     "idx": 4,
     "text_jp": "マグマに爆弾を射出する装置だ{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "Device for launching bombs into magma.{END}"
   },
   {
     "idx": 5,
     "text_jp": "厳重にロックされている\n開けることができない{END}",
-    "text_en": "It is locked and cannot be opened.\nIt is locked and cannot be opened.{END}"
+    "text_en": "It is tightly locked.\nIt cannot be opened.{END}"
   },
   {
     "idx": 6,
     "text_jp": "モニターに様々な部屋が映っている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Various rooms are shown on the monitor.{END}"
   },
   {
     "idx": 7,
     "text_jp": "何かのレバーのようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "It looks like a lever.{END}"
   },
   {
     "idx": 8,
     "text_jp": "何かを射出する装置のようだ{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "It seems to launch something.{END}"
   },
   {
     "idx": 9,
     "text_jp": "装置から扉へとケーブルが\nつながっている{END}",
-    "text_en": "It is locked and cannot be opened.\nCheck this place.{END}"
+    "text_en": "A cable runs from the device\nto the door.{END}"
   },
   {
     "idx": 10,
     "text_jp": "電力が供給されていないようだ\n使用することはできない{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "No power is being supplied.\nIt cannot be used.{END}"
   },
   {
     "idx": 11,
     "text_jp": "装置にはディスクの差込口がある{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "The device has a disk slot.{END}"
   },
   {
     "idx": 12,
     "text_jp": "起動ディスクを差し込んだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Inserted the startup disk.{END}"
   },
   {
     "idx": 13,
     "text_jp": "クレーン起動中・・・{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Crane starting...{END}"
   },
   {
     "idx": 14,
     "text_jp": "移動を完了しました{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Movement complete.{END}"
   },
   {
     "idx": 15,
     "text_jp": "レバーを取り出した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Removed the lever.{END}"
   },
   {
     "idx": 16,
     "text_jp": "装置にはいくつかのスイッチと\n鍵穴がついている{END}",
-    "text_en": "There is a device here. It may need to be operated.\nA key item seems necessary here.{END}"
+    "text_en": "The device has several switches\nand a keyhole.{END}"
   },
   {
     "idx": 17,
     "text_jp": "搬入出口のロックを解除した{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "Unlocked the loading entrance.{END}"
   },
   {
     "idx": 18,
     "text_jp": "厳重にロックされている{END}",
-    "text_en": "It is locked and cannot be opened.{END}"
+    "text_en": "It is tightly locked.{END}"
   },
   {
     "idx": 19,
     "text_jp": "使えそうな物はもう無い{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "There is nothing useful left.{END}"
   },
   {
     "idx": 20,
     "text_jp": "電力が供給されたようだ{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Power seems to have been supplied.{END}"
   },
   {
     "idx": 21,
     "text_jp": "装置の起動にはキーが必要なようだ{END}",
-    "text_en": "There is a device here. It may need to be operated.{END}"
+    "text_en": "A key seems necessary to start the device.{END}"
   },
   {
     "idx": 22,
     "text_jp": "ディスプレイには\n４つの年号が表示されている{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "Four years are displayed\non the screen.{END}"
   },
   {
     "idx": 23,
     "text_jp": "２００４年{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "2004{END}"
   },
   {
     "idx": 24,
     "text_jp": "１９８８年{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "1988{END}"
   },
   {
     "idx": 25,
     "text_jp": "１９７４年{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "1974{END}"
   },
   {
     "idx": 26,
     "text_jp": "１９７２年{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "1972{END}"
   },
   {
     "idx": 27,
     "text_jp": "マグマが通路をふさいでいる{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Magma is blocking the passage.{END}"
   },
   {
     "idx": 28,
     "text_jp": "４つの年号を表示したディスプレイと\n通信装置がある{END}",
-    "text_en": "Check this place.\nThere is a device here. It may need to be operated.{END}"
+    "text_en": "There is a display showing four years\nand a communication device.{END}"
   },
   {
     "idx": 29,
     "text_jp": "起動ディスクを入手した{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Obtained Startup Disk.{END}"
   },
   {
     "idx": 30,
     "text_jp": "何かが上に置かれている{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "Something is placed on top.{END}"
   },
   {
     "idx": 31,
     "text_jp": "レバーを取りつけた\n電力供給開始{END}",
-    "text_en": "Check this place.\nCheck this place.{END}"
+    "text_en": "Attached the lever.\nPower supply starting.{END}"
   },
   {
     "idx": 32,
     "text_jp": "すでにクレーンは移動している{END}",
-    "text_en": "Check this place.{END}"
+    "text_en": "The crane has already moved.{END}"
   },
   {
     "idx": 1000,
     "text_jp": "↓{END}",
-    "text_en": "v{END}"
+    "text_en": "↓{END}"
   }
 ]
