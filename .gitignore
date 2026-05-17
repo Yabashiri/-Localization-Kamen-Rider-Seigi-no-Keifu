@@ -34,6 +34,15 @@ rebuilt_en/*
 external_tools/
 build/
 work_cvm/
+textures_en/*
+!textures_en/.gitkeep
+!textures_en/EXPORT_TXD/
+textures_en/EXPORT_TXD/*
+!textures_en/EXPORT_TXD/.gitkeep
+!textures_en/EXPORT_TXD/MENU/
+!textures_en/EXPORT_TXD/MENU/.gitkeep
+!textures_en/EXPORT_TXD/BIKE/
+!textures_en/EXPORT_TXD/BIKE/.gitkeep
 
 # Editor / OS noise
 .vscode/

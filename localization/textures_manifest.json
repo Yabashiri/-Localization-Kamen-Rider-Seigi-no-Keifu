@@ -1,0 +1,1205 @@
+{
+  "version": 1,
+  "source_data": "game_dump/DATA",
+  "export_root": "dump_jp/EXPORT_TXD",
+  "textures_root": "textures_en/EXPORT_TXD",
+  "rebuilt_data": "rebuilt_en/DATA",
+  "entries": [
+    {
+      "txd_path": "DATA/BIKE/RESOURCEAA.TXD",
+      "original_size": 1124064,
+      "exported_pngs": [
+        "DATA/BIKE/RESOURCEAA_en70a000.png",
+        "DATA/BIKE/RESOURCEAA_pl30a000.png",
+        "DATA/BIKE/RESOURCEAA_r33b0000.png",
+        "DATA/BIKE/RESOURCEAA_r33b0033.png",
+        "DATA/BIKE/RESOURCEAA_r33b0036.png",
+        "DATA/BIKE/RESOURCEAA_r33b0037.png",
+        "DATA/BIKE/RESOURCEAA_r33b0044.png",
+        "DATA/BIKE/RESOURCEAA_r33b0050.png",
+        "DATA/BIKE/RESOURCEAA_r33b0051.png",
+        "DATA/BIKE/RESOURCEAA_r33b0052.png",
+        "DATA/BIKE/RESOURCEAA_r33b0053.png",
+        "DATA/BIKE/RESOURCEAA_r33b0057.png",
+        "DATA/BIKE/RESOURCEAA_r33b0058.png",
+        "DATA/BIKE/RESOURCEAA_r33b0059.png",
+        "DATA/BIKE/RESOURCEAA_r33b0060.png",
+        "DATA/BIKE/RESOURCEAA_r33b0061.png",
+        "DATA/BIKE/RESOURCEAA_r33b0062.png",
+        "DATA/BIKE/RESOURCEAA_r33b0063.png",
+        "DATA/BIKE/RESOURCEAA_tex_sky00.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/BIKE",
+      "rebuilt_txd_path": "rebuilt_en/DATA/BIKE/RESOURCEAA.TXD",
+      "needs_localization": null,
+      "status": "reference",
+      "notes": "bike/gameplay texture; inspect before translating"
+    },
+    {
+      "txd_path": "DATA/BIKE/RESOURCEAB.TXD",
+      "original_size": 753928,
+      "exported_pngs": [
+        "DATA/BIKE/RESOURCEAB_pl30a000.png",
+        "DATA/BIKE/RESOURCEAB_r33b0001.png",
+        "DATA/BIKE/RESOURCEAB_r33b0002.png",
+        "DATA/BIKE/RESOURCEAB_r33b0003.png",
+        "DATA/BIKE/RESOURCEAB_r33b0021.png",
+        "DATA/BIKE/RESOURCEAB_r33b0030.png",
+        "DATA/BIKE/RESOURCEAB_r33b0032.png",
+        "DATA/BIKE/RESOURCEAB_r33b0035.png",
+        "DATA/BIKE/RESOURCEAB_r33b0038.png",
+        "DATA/BIKE/RESOURCEAB_r33b0049.png",
+        "DATA/BIKE/RESOURCEAB_r33b0069.png",
+        "DATA/BIKE/RESOURCEAB_tex_sky00.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/BIKE",
+      "rebuilt_txd_path": "rebuilt_en/DATA/BIKE/RESOURCEAB.TXD",
+      "needs_localization": null,
+      "status": "reference",
+      "notes": "bike/gameplay texture; inspect before translating"
+    },
+    {
+      "txd_path": "DATA/BIKE/RESOURCEAC.TXD",
+      "original_size": 1338440,
+      "exported_pngs": [
+        "DATA/BIKE/RESOURCEAC_pl30a000.png",
+        "DATA/BIKE/RESOURCEAC_r33b0001.png",
+        "DATA/BIKE/RESOURCEAC_r33b0002.png",
+        "DATA/BIKE/RESOURCEAC_r33b0007.png",
+        "DATA/BIKE/RESOURCEAC_r33b0009.png",
+        "DATA/BIKE/RESOURCEAC_r33b0010.png",
+        "DATA/BIKE/RESOURCEAC_r33b0011.png",
+        "DATA/BIKE/RESOURCEAC_r33b0012.png",
+        "DATA/BIKE/RESOURCEAC_r33b0014.png",
+        "DATA/BIKE/RESOURCEAC_r33b0017.png",
+        "DATA/BIKE/RESOURCEAC_r33b0018.png",
+        "DATA/BIKE/RESOURCEAC_r33b0019.png",
+        "DATA/BIKE/RESOURCEAC_r33b0022.png",
+        "DATA/BIKE/RESOURCEAC_r33b0031.png",
+        "DATA/BIKE/RESOURCEAC_r33b0037.png",
+        "DATA/BIKE/RESOURCEAC_r33b0042.png",
+        "DATA/BIKE/RESOURCEAC_r33b0043.png",
+        "DATA/BIKE/RESOURCEAC_r33b0046.png",
+        "DATA/BIKE/RESOURCEAC_r33b0047.png",
+        "DATA/BIKE/RESOURCEAC_r33b0048.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/BIKE",
+      "rebuilt_txd_path": "rebuilt_en/DATA/BIKE/RESOURCEAC.TXD",
+      "needs_localization": null,
+      "status": "reference",
+      "notes": "bike/gameplay texture; inspect before translating"
+    },
+    {
+      "txd_path": "DATA/BIKE/RESOURCEBB.TXD",
+      "original_size": 771696,
+      "exported_pngs": [
+        "DATA/BIKE/RESOURCEBB_pl30a000.png",
+        "DATA/BIKE/RESOURCEBB_r33b0054.png",
+        "DATA/BIKE/RESOURCEBB_r33b0055.png",
+        "DATA/BIKE/RESOURCEBB_r33b0056.png",
+        "DATA/BIKE/RESOURCEBB_r33b0064.png",
+        "DATA/BIKE/RESOURCEBB_r33b0065.png",
+        "DATA/BIKE/RESOURCEBB_r33b0066.png",
+        "DATA/BIKE/RESOURCEBB_r33b0067.png",
+        "DATA/BIKE/RESOURCEBB_r33b0068.png",
+        "DATA/BIKE/RESOURCEBB_r33b0070.png",
+        "DATA/BIKE/RESOURCEBB_r33b0072.png",
+        "DATA/BIKE/RESOURCEBB_r33b0073.png",
+        "DATA/BIKE/RESOURCEBB_tex_sky00.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/BIKE",
+      "rebuilt_txd_path": "rebuilt_en/DATA/BIKE/RESOURCEBB.TXD",
+      "needs_localization": null,
+      "status": "reference",
+      "notes": "bike/gameplay texture; inspect before translating"
+    },
+    {
+      "txd_path": "DATA/BIKE/RESOURCEBC.TXD",
+      "original_size": 789464,
+      "exported_pngs": [
+        "DATA/BIKE/RESOURCEBC_en71a000.png",
+        "DATA/BIKE/RESOURCEBC_pl30a000.png",
+        "DATA/BIKE/RESOURCEBC_r33b0001.png",
+        "DATA/BIKE/RESOURCEBC_r33b0002.png",
+        "DATA/BIKE/RESOURCEBC_r33b0003.png",
+        "DATA/BIKE/RESOURCEBC_r33b0037.png",
+        "DATA/BIKE/RESOURCEBC_r33b0044.png",
+        "DATA/BIKE/RESOURCEBC_r33b0045.png",
+        "DATA/BIKE/RESOURCEBC_r33b0057.png",
+        "DATA/BIKE/RESOURCEBC_r33b0061.png",
+        "DATA/BIKE/RESOURCEBC_r33b0074.png",
+        "DATA/BIKE/RESOURCEBC_r33b0075.png",
+        "DATA/BIKE/RESOURCEBC_tex_sea00.png",
+        "DATA/BIKE/RESOURCEBC_tex_sky01.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/BIKE",
+      "rebuilt_txd_path": "rebuilt_en/DATA/BIKE/RESOURCEBC.TXD",
+      "needs_localization": null,
+      "status": "reference",
+      "notes": "bike/gameplay texture; inspect before translating"
+    },
+    {
+      "txd_path": "DATA/BIKE/SKY.TXD",
+      "original_size": 200800,
+      "exported_pngs": [
+        "DATA/BIKE/SKY_en70a000.png",
+        "DATA/BIKE/SKY_pl30a000.png",
+        "DATA/BIKE/SKY_tex_sky00.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/BIKE",
+      "rebuilt_txd_path": "rebuilt_en/DATA/BIKE/SKY.TXD",
+      "needs_localization": null,
+      "status": "reference",
+      "notes": "bike/gameplay texture; inspect before translating"
+    },
+    {
+      "txd_path": "DATA/FONT.TXD",
+      "original_size": 465120,
+      "exported_pngs": [
+        "DATA/FONT_font_00.png",
+        "DATA/FONT_font_01.png",
+        "DATA/FONT_font_02.png",
+        "DATA/FONT_font_03.png",
+        "DATA/FONT_font_04.png",
+        "DATA/FONT_font_05.png",
+        "DATA/FONT_font_06.png",
+        "DATA/FONT_font_07.png",
+        "DATA/FONT_font_08.png",
+        "DATA/FONT_font_09.png",
+        "DATA/FONT_font_10.png",
+        "DATA/FONT_font_11.png",
+        "DATA/FONT_font_12.png",
+        "DATA/FONT_font_13.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/FONT.TXD",
+      "needs_localization": false,
+      "status": "reference",
+      "notes": "font atlas handled by text/glyph pipeline"
+    },
+    {
+      "txd_path": "DATA/LOGO_00.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/LOGO_00_00.png",
+        "DATA/LOGO_00_01.png",
+        "DATA/LOGO_00_02.png",
+        "DATA/LOGO_00_03.png",
+        "DATA/LOGO_00_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/LOGO_00.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/LOGO_01.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/LOGO_01_00.png",
+        "DATA/LOGO_01_01.png",
+        "DATA/LOGO_01_02.png",
+        "DATA/LOGO_01_03.png",
+        "DATA/LOGO_01_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/LOGO_01.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/LOGO_02.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/LOGO_02_00.png",
+        "DATA/LOGO_02_01.png",
+        "DATA/LOGO_02_02.png",
+        "DATA/LOGO_02_03.png",
+        "DATA/LOGO_02_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/LOGO_02.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/LOGO_03.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/LOGO_03_00.png",
+        "DATA/LOGO_03_01.png",
+        "DATA/LOGO_03_02.png",
+        "DATA/LOGO_03_03.png",
+        "DATA/LOGO_03_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/LOGO_03.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/LOGO_04.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/LOGO_04_00.png",
+        "DATA/LOGO_04_01.png",
+        "DATA/LOGO_04_02.png",
+        "DATA/LOGO_04_03.png",
+        "DATA/LOGO_04_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/LOGO_04.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/MENU/SUB_RESULT_01.TXD",
+      "original_size": 66964,
+      "exported_pngs": [
+        "DATA/MENU/SUB_RESULT_01_tex_result_01.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/SUB_RESULT_01.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_A_TEX.TXD",
+      "original_size": 133880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_A_TEX_tex_te_01_1.png",
+        "DATA/MENU/TELOP_A_TEX_tex_te_01_2.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_A_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_B_TEX.TXD",
+      "original_size": 133880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_B_TEX_tex_te_02_1.png",
+        "DATA/MENU/TELOP_B_TEX_tex_te_02_2.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_B_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_BATTLE_01_TEX.TXD",
+      "original_size": 529880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_BATTLE_01_TEX_telop_battle_01.png",
+        "DATA/MENU/TELOP_BATTLE_01_TEX_telop_battle_02.png",
+        "DATA/MENU/TELOP_BATTLE_01_TEX_telop_battle_03.png",
+        "DATA/MENU/TELOP_BATTLE_01_TEX_telop_battle_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_BATTLE_01_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_BATTLE_02_TEX.TXD",
+      "original_size": 529880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_BATTLE_02_TEX_telop_battle_01.png",
+        "DATA/MENU/TELOP_BATTLE_02_TEX_telop_battle_02.png",
+        "DATA/MENU/TELOP_BATTLE_02_TEX_telop_battle_03.png",
+        "DATA/MENU/TELOP_BATTLE_02_TEX_telop_battle_05.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_BATTLE_02_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_BATTLE_03_TEX.TXD",
+      "original_size": 529880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_BATTLE_03_TEX_telop_battle_01.png",
+        "DATA/MENU/TELOP_BATTLE_03_TEX_telop_battle_02.png",
+        "DATA/MENU/TELOP_BATTLE_03_TEX_telop_battle_03.png",
+        "DATA/MENU/TELOP_BATTLE_03_TEX_telop_battle_06.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_BATTLE_03_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_BATTLE_04_TEX.TXD",
+      "original_size": 529880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_BATTLE_04_TEX_telop_battle_01.png",
+        "DATA/MENU/TELOP_BATTLE_04_TEX_telop_battle_02.png",
+        "DATA/MENU/TELOP_BATTLE_04_TEX_telop_battle_03.png",
+        "DATA/MENU/TELOP_BATTLE_04_TEX_telop_battle_07.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_BATTLE_04_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_BATTLE_05_TEX.TXD",
+      "original_size": 529880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_BATTLE_05_TEX_telop_battle_01.png",
+        "DATA/MENU/TELOP_BATTLE_05_TEX_telop_battle_02.png",
+        "DATA/MENU/TELOP_BATTLE_05_TEX_telop_battle_03.png",
+        "DATA/MENU/TELOP_BATTLE_05_TEX_telop_battle_08.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_BATTLE_05_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_BATTLE_06_TEX.TXD",
+      "original_size": 529880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_BATTLE_06_TEX_telop_battle_01.png",
+        "DATA/MENU/TELOP_BATTLE_06_TEX_telop_battle_02.png",
+        "DATA/MENU/TELOP_BATTLE_06_TEX_telop_battle_03.png",
+        "DATA/MENU/TELOP_BATTLE_06_TEX_telop_battle_09.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_BATTLE_06_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_BATTLE_07_TEX.TXD",
+      "original_size": 529880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_BATTLE_07_TEX_telop_battle_01.png",
+        "DATA/MENU/TELOP_BATTLE_07_TEX_telop_battle_02.png",
+        "DATA/MENU/TELOP_BATTLE_07_TEX_telop_battle_03.png",
+        "DATA/MENU/TELOP_BATTLE_07_TEX_telop_battle_10.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_BATTLE_07_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_BATTLE_08_TEX.TXD",
+      "original_size": 529880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_BATTLE_08_TEX_telop_battle_01.png",
+        "DATA/MENU/TELOP_BATTLE_08_TEX_telop_battle_02.png",
+        "DATA/MENU/TELOP_BATTLE_08_TEX_telop_battle_03.png",
+        "DATA/MENU/TELOP_BATTLE_08_TEX_telop_battle_11.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_BATTLE_08_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_BATTLE_09_TEX.TXD",
+      "original_size": 529880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_BATTLE_09_TEX_telop_battle_01.png",
+        "DATA/MENU/TELOP_BATTLE_09_TEX_telop_battle_02.png",
+        "DATA/MENU/TELOP_BATTLE_09_TEX_telop_battle_03.png",
+        "DATA/MENU/TELOP_BATTLE_09_TEX_telop_battle_12.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_BATTLE_09_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_BIKE_RUNK_TEX.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_BIKE_RUNK_TEX_tex_history_02.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_BIKE_RUNK_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_C_TEX.TXD",
+      "original_size": 133880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_C_TEX_tex_te_03_1.png",
+        "DATA/MENU/TELOP_C_TEX_tex_te_03_2.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_C_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_D_TEX.TXD",
+      "original_size": 133880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_D_TEX_tex_te_04_1.png",
+        "DATA/MENU/TELOP_D_TEX_tex_te_04_2.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_D_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TELOP_E_TEX.TXD",
+      "original_size": 133880,
+      "exported_pngs": [
+        "DATA/MENU/TELOP_E_TEX_tex_te_05_1.png",
+        "DATA/MENU/TELOP_E_TEX_tex_te_05_2.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TELOP_E_TEX.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_IT_000.TXD",
+      "original_size": 66960,
+      "exported_pngs": [
+        "DATA/MENU/TEX_IT_000_tex_it_000.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_IT_000.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_001.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_001_tex_k_it_001.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_001.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_002.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_002_tex_k_it_002.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_002.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_003.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_003_tex_k_it_003.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_003.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_004.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_004_tex_k_it_004.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_004.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_005.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_005_tex_k_it_005.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_005.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_006.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_006_tex_k_it_006.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_006.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_007.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_007_tex_k_it_007.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_007.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_008.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_008_tex_k_it_008.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_008.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_009.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_009_tex_k_it_009.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_009.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_010.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_010_tex_k_it_010.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_010.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_011.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_011_tex_k_it_011.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_011.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_012.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_012_tex_k_it_012.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_012.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_013.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_013_tex_k_it_013.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_013.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_014.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_014_tex_k_it_014.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_014.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_015.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_015_tex_k_it_015.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_015.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_016.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_016_tex_k_it_016.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_016.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_017.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_017_tex_k_it_017.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_017.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_018.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_018_tex_k_it_018.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_018.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_019.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_019_tex_k_it_019.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_019.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_020.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_020_tex_k_it_020.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_020.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_021.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_021_tex_k_it_021.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_021.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_022.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_022_tex_k_it_022.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_022.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_023.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_023_tex_k_it_023.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_023.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_024.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_024_tex_k_it_024.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_024.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_025.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_025_tex_k_it_025.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_025.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_026.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_026_tex_k_it_026.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_026.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_027.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_027_tex_k_it_027.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_027.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_028.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_028_tex_k_it_028.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_028.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_029.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_029_tex_k_it_029.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_029.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_030.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_030_tex_k_it_030.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_030.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_031.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_031_tex_k_it_031.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_031.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_032.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_032_tex_k_it_032.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_032.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_033.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_033_tex_k_it_033.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_033.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_034.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_034_tex_k_it_034.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_034.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_035.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_035_tex_k_it_035.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_035.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_036.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_036_tex_k_it_036.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_036.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_037.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_037_tex_k_it_037.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_037.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_038.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_038_tex_k_it_038.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_038.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/MENU/TEX_K_IT_039.TXD",
+      "original_size": 17812,
+      "exported_pngs": [
+        "DATA/MENU/TEX_K_IT_039_tex_k_it_039.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD/MENU",
+      "rebuilt_txd_path": "rebuilt_en/DATA/MENU/TEX_K_IT_039.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "menu texture"
+    },
+    {
+      "txd_path": "DATA/SHADOW.TXD",
+      "original_size": 16700,
+      "exported_pngs": [
+        "DATA/SHADOW_kage.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/SHADOW.TXD",
+      "needs_localization": null,
+      "status": "reference",
+      "notes": "inspect manually"
+    },
+    {
+      "txd_path": "DATA/STAF00.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF00_00.png",
+        "DATA/STAF00_01.png",
+        "DATA/STAF00_02.png",
+        "DATA/STAF00_03.png",
+        "DATA/STAF00_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF00.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/STAF01.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF01_00.png",
+        "DATA/STAF01_01.png",
+        "DATA/STAF01_02.png",
+        "DATA/STAF01_03.png",
+        "DATA/STAF01_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF01.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/STAF02.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF02_00.png",
+        "DATA/STAF02_01.png",
+        "DATA/STAF02_02.png",
+        "DATA/STAF02_03.png",
+        "DATA/STAF02_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF02.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/STAF03.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF03_00.png",
+        "DATA/STAF03_01.png",
+        "DATA/STAF03_02.png",
+        "DATA/STAF03_03.png",
+        "DATA/STAF03_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF03.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/STAF04.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF04_00.png",
+        "DATA/STAF04_01.png",
+        "DATA/STAF04_02.png",
+        "DATA/STAF04_03.png",
+        "DATA/STAF04_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF04.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/STAF05.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF05_00.png",
+        "DATA/STAF05_01.png",
+        "DATA/STAF05_02.png",
+        "DATA/STAF05_03.png",
+        "DATA/STAF05_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF05.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/STAF06.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF06_00.png",
+        "DATA/STAF06_01.png",
+        "DATA/STAF06_02.png",
+        "DATA/STAF06_03.png",
+        "DATA/STAF06_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF06.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/STAF07.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF07_00.png",
+        "DATA/STAF07_01.png",
+        "DATA/STAF07_02.png",
+        "DATA/STAF07_03.png",
+        "DATA/STAF07_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF07.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/STAF08.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF08_00.png",
+        "DATA/STAF08_01.png",
+        "DATA/STAF08_02.png",
+        "DATA/STAF08_03.png",
+        "DATA/STAF08_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF08.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/STAF09.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF09_00.png",
+        "DATA/STAF09_01.png",
+        "DATA/STAF09_02.png",
+        "DATA/STAF09_03.png",
+        "DATA/STAF09_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF09.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/STAF10.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF10_00.png",
+        "DATA/STAF10_01.png",
+        "DATA/STAF10_02.png",
+        "DATA/STAF10_03.png",
+        "DATA/STAF10_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF10.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/STAF11.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/STAF11_00.png",
+        "DATA/STAF11_01.png",
+        "DATA/STAF11_02.png",
+        "DATA/STAF11_03.png",
+        "DATA/STAF11_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/STAF11.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/TITLE.TXD",
+      "original_size": 922432,
+      "exported_pngs": [
+        "DATA/TITLE_title_00_00.png",
+        "DATA/TITLE_title_00_01.png",
+        "DATA/TITLE_title_00_02.png",
+        "DATA/TITLE_title_00_03.png",
+        "DATA/TITLE_title_00_04.png",
+        "DATA/TITLE_title_01.png",
+        "DATA/TITLE_title_02.png",
+        "DATA/TITLE_title_03.png",
+        "DATA/TITLE_title_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/TITLE.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    },
+    {
+      "txd_path": "DATA/WARNING.TXD",
+      "original_size": 656760,
+      "exported_pngs": [
+        "DATA/WARNING_00.png",
+        "DATA/WARNING_01.png",
+        "DATA/WARNING_02.png",
+        "DATA/WARNING_03.png",
+        "DATA/WARNING_04.png"
+      ],
+      "translated_png_dir": "textures_en/EXPORT_TXD",
+      "rebuilt_txd_path": "rebuilt_en/DATA/WARNING.TXD",
+      "needs_localization": true,
+      "status": "pending",
+      "notes": "front-end or staff texture"
+    }
+  ]
+}
