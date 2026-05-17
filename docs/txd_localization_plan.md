@@ -43,6 +43,12 @@ Check what is still missing:
 python tools\txd_manifest.py validate
 ```
 
+Inspect TXD RenderWare chunk structure:
+
+```text
+python tools\txd_inspect.py game_dump\DATA\MENU\TEX_K_IT_001.TXD
+```
+
 Stage rebuilt text and texture files:
 
 ```text
@@ -68,3 +74,46 @@ The staging script overlays `.DAT`, `.BIN`, and `.TXD` files from
 
 If a no-op editor save breaks rendering, the next task is a custom PS2
 RenderWare TXD importer/round-trip tool rather than more image editing.
+
+## TXD structure findings
+
+All 83 current `game_dump/DATA/**/*.TXD` files parse as RenderWare texture
+dictionaries with version `0x1005ffff`.
+
+Observed structure:
+
+```text
+Texture Dictionary
+  Struct                  texture count
+  Texture Native
+    Struct                platform = "PS2"
+    String                texture name
+    String                alpha/mask name, usually empty
+    Struct                PS2 native payload
+      Struct              64-byte raster header
+      Struct              raster/CLUT data payload
+    Extension
+  Extension
+```
+
+Examples:
+
+```text
+DATA/MENU/TEX_K_IT_001.TXD
+  texture_count = 1
+  tex_k_it_001 = 128x128 8bpp
+
+DATA/MENU/TELOP_A_TEX.TXD
+  texture_count = 2
+  tex_te_01_2 = 256x256 8bpp
+  tex_te_01_1 = 256x256 8bpp
+
+DATA/FONT.TXD
+  texture_count = 14
+  font_13..font_00 = 256x256 4bpp
+```
+
+This confirms that the next importer task is PS2 indexed texture replacement:
+preserve the RenderWare chunk tree, texture names, extensions, and native
+header values, then replace the raster/CLUT payload in-place for matching
+dimensions and bit depth.
