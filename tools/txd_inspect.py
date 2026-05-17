@@ -144,6 +144,63 @@ def inspect_txd(path: Path) -> dict[str, Any]:
     }
 
 
+def find_first(items: list[dict[str, Any]], name: str) -> dict[str, Any] | None:
+    for item in items:
+        if item["name"] == name:
+            return item
+    return None
+
+
+def texture_summaries(report: dict[str, Any]) -> list[dict[str, Any]]:
+    summaries: list[dict[str, Any]] = []
+    for root in report["chunks"]:
+        if root["name"] != "Texture Dictionary":
+            continue
+        for native in root.get("children", []):
+            if native["name"] != "Texture Native":
+                continue
+            children = native.get("children", [])
+            strings = [child["string"] for child in children if child["name"] == "String"]
+            texture_name = strings[0] if strings else ""
+            native_payload = next(
+                (
+                    child
+                    for child in children
+                    if child["name"] == "Struct" and child.get("children")
+                ),
+                None,
+            )
+            if not native_payload:
+                continue
+            native_children = native_payload["children"]
+            header = find_first(native_children, "Struct")
+            data_chunk = None
+            struct_seen = 0
+            for child in native_children:
+                if child["name"] == "Struct":
+                    struct_seen += 1
+                    if struct_seen == 2:
+                        data_chunk = child
+                        break
+            if not header or not data_chunk:
+                continue
+            header_info = header.get("struct", {})
+            summaries.append(
+                {
+                    "txd": report["path"],
+                    "texture": texture_name,
+                    "width": header_info.get("width"),
+                    "height": header_info.get("height"),
+                    "bpp": header_info.get("bit_depth"),
+                    "native_offset": native["offset"],
+                    "header_offset": header["offset"],
+                    "data_offset": data_chunk["offset"],
+                    "data_size": data_chunk["size"],
+                }
+            )
+    return summaries
+
+
 def print_tree(items: list[dict[str, Any]], indent: int = 0) -> None:
     pad = "  " * indent
     for item in items:
@@ -176,11 +233,21 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("txd", nargs="+", help="TXD files to inspect")
     parser.add_argument("--json", action="store_true", help="Print machine-readable JSON")
+    parser.add_argument("--textures", action="store_true", help="Print one texture summary per line")
     args = parser.parse_args()
 
     reports = [inspect_txd(Path(path)) for path in args.txd]
     if args.json:
         print(json.dumps(reports, ensure_ascii=False, indent=2))
+    elif args.textures:
+        print("txd\ttexture\twidth\theight\tbpp\tnative_offset\theader_offset\tdata_offset\tdata_size")
+        for report in reports:
+            for item in texture_summaries(report):
+                print(
+                    f"{item['txd']}\t{item['texture']}\t{item['width']}\t{item['height']}\t{item['bpp']}\t"
+                    f"0x{item['native_offset']:x}\t0x{item['header_offset']:x}\t"
+                    f"0x{item['data_offset']:x}\t{item['data_size']}"
+                )
     else:
         for report in reports:
             print(f"{report['path']} ({report['size']} bytes)")

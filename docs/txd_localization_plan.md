@@ -47,6 +47,7 @@ Inspect TXD RenderWare chunk structure:
 
 ```text
 python tools\txd_inspect.py game_dump\DATA\MENU\TEX_K_IT_001.TXD
+python tools\txd_inspect.py --textures game_dump\DATA\MENU\TEX_K_IT_001.TXD
 ```
 
 Stage rebuilt text and texture files:
