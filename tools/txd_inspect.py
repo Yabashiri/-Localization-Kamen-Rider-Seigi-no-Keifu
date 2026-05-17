@@ -195,6 +195,7 @@ def texture_summaries(report: dict[str, Any]) -> list[dict[str, Any]]:
                     "native_offset": native["offset"],
                     "header_offset": header["offset"],
                     "data_offset": data_chunk["offset"],
+                    "data_payload_offset": data_chunk["offset"] + 12,
                     "data_size": data_chunk["size"],
                 }
             )

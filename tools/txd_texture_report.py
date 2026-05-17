@@ -20,6 +20,14 @@ PNG_COLOR_TYPES = {
 }
 
 
+EXPECTED_NATIVE_HEADER_SIZE = {
+    4: 192,
+    8: 160,
+    16: 80,
+    32: 80,
+}
+
+
 def read_png_ihdr(path: Path) -> dict[str, Any]:
     data = path.read_bytes()[:33]
     if len(data) < 33 or data[:8] != b"\x89PNG\r\n\x1a\n":
@@ -72,6 +80,13 @@ def report_rows(source_root: Path, export_root: Path) -> list[dict[str, Any]]:
         relative_txd = txd_path.relative_to(source_root)
         report = inspect_txd(txd_path)
         for texture in texture_summaries(report):
+            pixel_size = texture["width"] * texture["height"] * texture["bpp"] // 8
+            expected_header_size = EXPECTED_NATIVE_HEADER_SIZE.get(texture["bpp"])
+            native_header_size = expected_header_size if expected_header_size is not None else 0
+            clut_size = texture["data_size"] - pixel_size - native_header_size
+            native_header_size = texture["data_size"] - pixel_size - clut_size
+            pixel_offset = texture["data_payload_offset"] + native_header_size
+            clut_offset = pixel_offset + pixel_size
             png_path = find_exported_png(relative_txd, texture["texture"], export_root)
             png_info = read_png_ihdr(png_path) if png_path else {}
             rows.append(
@@ -82,6 +97,11 @@ def report_rows(source_root: Path, export_root: Path) -> list[dict[str, Any]]:
                     "height": texture["height"],
                     "bpp": texture["bpp"],
                     "data_size": texture["data_size"],
+                    "native_header_size": native_header_size,
+                    "pixel_offset": f"0x{pixel_offset:x}",
+                    "pixel_size": pixel_size,
+                    "clut_offset": f"0x{clut_offset:x}",
+                    "clut_size": clut_size,
                     "png": Path("DATA", png_path.relative_to(export_root)).as_posix() if png_path else "",
                     "png_width": png_info.get("width", ""),
                     "png_height": png_info.get("height", ""),
@@ -91,6 +111,12 @@ def report_rows(source_root: Path, export_root: Path) -> list[dict[str, Any]]:
                         png_info
                         and texture["width"] == png_info["width"]
                         and texture["height"] == png_info["height"]
+                    ),
+                    "layout_match": bool(
+                        expected_header_size is not None
+                        and clut_size >= 0
+                        and clut_size % 16 == 0
+                        and (texture["bpp"] in {4, 8} or clut_size == 0)
                     ),
                 }
             )
@@ -105,12 +131,18 @@ def print_tsv(rows: list[dict[str, Any]]) -> None:
         "height",
         "bpp",
         "data_size",
+        "native_header_size",
+        "pixel_offset",
+        "pixel_size",
+        "clut_offset",
+        "clut_size",
         "png",
         "png_width",
         "png_height",
         "png_bit_depth",
         "png_color_type",
         "dimension_match",
+        "layout_match",
     ]
     print("\t".join(headers))
     for row in rows:
@@ -128,12 +160,15 @@ def main() -> int:
     print_tsv(rows)
     missing = [row for row in rows if not row["png"]]
     mismatched = [row for row in rows if row["png"] and not row["dimension_match"]]
+    layout_mismatched = [row for row in rows if not row["layout_match"]]
     if args.check:
         if missing:
             print(f"Missing PNG matches: {len(missing)}")
         if mismatched:
             print(f"Dimension mismatches: {len(mismatched)}")
-        if missing or mismatched:
+        if layout_mismatched:
+            print(f"Layout mismatches: {len(layout_mismatched)}")
+        if missing or mismatched or layout_mismatched:
             return 1
     return 0
 

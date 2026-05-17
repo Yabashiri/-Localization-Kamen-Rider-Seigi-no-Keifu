@@ -142,4 +142,16 @@ python tools\txd_texture_report.py --check
   texture rows: 283
   all exported PNGs found
   all exported PNG dimensions match TXD native headers
+  native layouts:
+    14 rows:  4bpp, header 0xc0, CLUT 0x40
+    169 rows: 8bpp, header 0xa0, CLUT 0x400
+    4 rows:   8bpp, header 0xa0, CLUT 0x200
+    95 rows:  16bpp, header 0x50, no CLUT
+    1 row:    32bpp, header 0x50, no CLUT
 ```
+
+For indexed textures, the exported PNG dimensions and palette type match the
+native headers, but the PNG index stream is not always byte-identical to the
+native pixel region.  A direct check on `TEX_K_IT_001` matched 14434 of 16384
+positions, so importer work must handle PS2/native swizzle or the external
+exporter's unswizzle behavior instead of copying PNG scanlines directly.
