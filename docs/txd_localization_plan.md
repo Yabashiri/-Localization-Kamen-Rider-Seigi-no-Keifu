@@ -50,6 +50,18 @@ python tools\txd_inspect.py game_dump\DATA\MENU\TEX_K_IT_001.TXD
 python tools\txd_inspect.py --textures game_dump\DATA\MENU\TEX_K_IT_001.TXD
 ```
 
+Run a byte-identical no-op RenderWare round-trip:
+
+```text
+python tools\txd_roundtrip.py --check
+```
+
+Compare TXD texture entries against exported PNG dimensions:
+
+```text
+python tools\txd_texture_report.py --check
+```
+
 Stage rebuilt text and texture files:
 
 ```text
@@ -118,3 +130,16 @@ This confirms that the next importer task is PS2 indexed texture replacement:
 preserve the RenderWare chunk tree, texture names, extensions, and native
 header values, then replace the raster/CLUT payload in-place for matching
 dimensions and bit depth.
+
+Current validation:
+
+```text
+python tools\txd_roundtrip.py --check
+  Processed TXD files: 83
+  all rebuilt outputs byte-identical
+
+python tools\txd_texture_report.py --check
+  texture rows: 283
+  all exported PNGs found
+  all exported PNG dimensions match TXD native headers
+```
