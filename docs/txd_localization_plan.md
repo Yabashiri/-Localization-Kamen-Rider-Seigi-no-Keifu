@@ -62,6 +62,12 @@ Compare TXD texture entries against exported PNG dimensions:
 python tools\txd_texture_report.py --check
 ```
 
+Import a PNG into a linear 16bpp TXD texture entry:
+
+```text
+python tools\txd_import_png.py --input-txd game_dump\DATA\TITLE.TXD --texture title_00_03 --png textures_en\EXPORT_TXD\TITLE_title_00_03.png --output-txd rebuilt_en\DATA\TITLE.TXD
+```
+
 Stage rebuilt text and texture files:
 
 ```text
