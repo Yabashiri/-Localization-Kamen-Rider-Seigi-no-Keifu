@@ -32,12 +32,12 @@
   {
     "idx": 6,
     "text_jp": "　　　→はい　　　　いいえ{END}",
-    "text_en": "→ Yes        No{END}"
+    "text_en": "　　　→Yes　　　　No{END}"
   },
   {
     "idx": 7,
     "text_jp": "　　　　はい　　　→いいえ{END}",
-    "text_en": "   Yes     → No{END}"
+    "text_en": "　　　　Yes　　　→No{END}"
   },
   {
     "idx": 8,

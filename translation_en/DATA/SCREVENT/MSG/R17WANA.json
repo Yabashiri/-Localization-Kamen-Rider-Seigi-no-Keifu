@@ -17,12 +17,12 @@
   {
     "idx": 3,
     "text_jp": "　　　→はい　　いいえ{END}",
-    "text_en": "→ Yes        No{END}"
+    "text_en": "　　　→Yes　　No{END}"
   },
   {
     "idx": 4,
     "text_jp": "　　　　はい　→いいえ{END}",
-    "text_en": "   Yes     → No{END}"
+    "text_en": "　　　　Yes　→No{END}"
   },
   {
     "idx": 5,
