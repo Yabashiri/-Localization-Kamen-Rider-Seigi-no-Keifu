@@ -7,7 +7,7 @@
   {
     "idx": 1,
     "text_jp": "お前は！？{END}",
-    "text_en": "You are...!?{END}"
+    "text_en": "You are…!?{END}"
   },
   {
     "idx": 2,
@@ -17,6 +17,6 @@
   {
     "idx": 3,
     "text_jp": "ゴルゴム？\n何のことだ…死ね！！{END}",
-    "text_en": "Gorgom?\nWhat are you talking about... Die!!{END}"
+    "text_en": "Gorgom?\nWhat are you talking about… Die!!{END}"
   }
 ]

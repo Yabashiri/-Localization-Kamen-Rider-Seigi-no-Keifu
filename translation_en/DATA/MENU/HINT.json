@@ -227,7 +227,7 @@
   {
     "offset": "0x1103",
     "text_jp": "……………………………",
-    "text_en": "..........................."
+    "text_en": "………………………"
   },
   {
     "offset": "0x111A",
@@ -322,7 +322,7 @@
   {
     "offset": "0x12B8",
     "text_jp": "……………………………",
-    "text_en": "..........................."
+    "text_en": "………………………"
   },
   {
     "offset": "0x12CF",
@@ -532,7 +532,7 @@
   {
     "offset": "0x1C36",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　　仮面ライダーの強い味方…　　\\n　　ライダーバイクの乗り方を　　\\n　　　　君に教えよう…　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "The Rider Machine is\nKamen Rider's trusted ally...\nNow you will learn\nhow to ride it..."
+    "text_en": "The Rider Machine is\nKamen Rider's trusted ally…\nNow you will learn\nhow to ride it…"
   },
   {
     "offset": "0x1D01",
@@ -547,7 +547,7 @@
   {
     "offset": "0x1E97",
     "text_jp": "　そして最後の秘密を教えよう…　\\n　○ボタンを押すとステージごと　\\n　にちがう専用アクションを出す　\\n　ことができるんだ…　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　あとは君のウデ次第だ！　　",
-    "text_en": "And here is the final secret...\nPress the Circle button\nto perform a special action\nthat changes by stage."
+    "text_en": "And here is the final secret…\nPress the Circle button\nto perform a special action\nthat changes by stage."
   },
   {
     "offset": "0x1F62",
@@ -557,7 +557,7 @@
   {
     "offset": "0x202D",
     "text_jp": "　だが、ライダーで攻撃すると　　\\n　傷つけてしまうかもしれない…　\\n　変身を解いてからショックを　　\\n　　　与えて助けだそう！　　　　\\n　　　君の助けになる物を　　　　\\n　　くれるかもしれないぞ！　　　",
-    "text_en": "If you attack as a Rider,\nyou may hurt them...\nCancel your transformation,\nthen shock them and rescue them!\nThey may give you something useful."
+    "text_en": "If you attack as a Rider,\nyou may hurt them…\nCancel your transformation,\nthen shock them and rescue them!\nThey may give you something useful."
   },
   {
     "offset": "0x20F8",
@@ -637,7 +637,7 @@
   {
     "offset": "0x2B57",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　…中心に穴がある　　　　　　\\n　　特殊な鍵が必要なようだ　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "...It looks like a special key\nwith a hole in the center\nis required."
+    "text_en": "…It looks like a special key\nwith a hole in the center\nis required."
   },
   {
     "offset": "0x2C22",
@@ -652,7 +652,7 @@
   {
     "offset": "0x2CF5",
     "text_jp": "　　　　　１・・・「＋」　　　　\\n　　　　　２・・・「−」　　　　\\n　　　　　３・・・「＋」　　　　\\n　　　　　４・・・「−」　　　　\\n　　　　　５・・・「＋」　　　　\\n　　　　　６・・・「＋」　　　　",
-    "text_en": "1 ... +\n2 ... -\n3 ... +\n4 ... -\n5 ... +\n6 ... +"
+    "text_en": "1 … +\n2 … -\n3 … +\n4 … -\n5 … +\n6 … +"
   },
   {
     "offset": "0x2DC0",
@@ -722,17 +722,17 @@
   {
     "offset": "0x3689",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　おおっ、遂に…遂に出来たぞ！　\\n　　これこそが我が完全なる　　　\\n　　新生命体の遺伝子設計図！！　\\n　これで私の長年の夢が…かなう　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "Oh... at last... at last!\nThis is the genetic blueprint\nfor my perfect new life-form!\nWith this, my lifelong dream\nwill finally come true..."
+    "text_en": "Oh… at last… at last!\nThis is the genetic blueprint\nfor my perfect new life-form!\nWith this, my lifelong dream\nwill finally come true…"
   },
   {
     "offset": "0x3754",
     "text_jp": "２００１年　１月　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n何ということだ。　　　　　　　　\\n全てが分かったというのに　　　　\\nまさかこんな事になろうとは…。　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "January 2001\n\nWhat has happened?\nJust when I finally understood everything,\nI never imagined it would come to this..."
+    "text_en": "January 2001\n\nWhat has happened?\nJust when I finally understood everything,\nI never imagined it would come to this…"
   },
   {
     "offset": "0x381F",
     "text_jp": "　　　　　　　　　　　　　　　　\\n時間が…時間が足りない…。　　　\\n新生命体を作るために「３０年」　\\nという時間が必要とは…。　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "Time... I do not have enough time...\nTo create the new life-form,\nI need thirty years..."
+    "text_en": "Time… I do not have enough time…\nTo create the new life-form,\nI need thirty years…"
   },
   {
     "offset": "0x38EA",
@@ -762,17 +762,17 @@
   {
     "offset": "0x3C1E",
     "text_jp": "………　　　　　　　　　　　　　\\n私が復活するまでは誰にも　　　　\\n邪魔はさせぬ。　　　　　　　　　\\nその為には今一度我が下僕に　　　\\n働いてもらおう。　　　　　　　　\\n………　　　　　　　　　　　　　",
-    "text_en": "...\nUntil I am revived,\nno one will interfere.\nFor that purpose,\nI shall have my servant\nwork for me once more.\n..."
+    "text_en": "…\nUntil I am revived,\nno one will interfere.\nFor that purpose,\nI shall have my servant\nwork for me once more.\n…"
   },
   {
     "offset": "0x3CE9",
     "text_jp": "　　　　　　　　　　　　　　　　\\n…………　　　　　　　　　　　　\\n…………………　　　　　　　　　\\n…………………………　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "...\n......\n.........\n............"
+    "text_en": "…\n……\n………\n…………"
   },
   {
     "offset": "0x3DB4",
     "text_jp": "　　　　　　　　　　　　　　　　\\n…これは私だけのものだ…　　　　\\n誰にも触らせはしない。　そうだ　\\n「バリア」を「時空転移制御装置」\\nに連結させよう。　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "...This is mine alone...\nI will not let anyone touch it.\nYes. I will link the barrier\nto the space-time transfer control device."
+    "text_en": "…This is mine alone…\nI will not let anyone touch it.\nYes. I will link the barrier\nto the space-time transfer control device."
   },
   {
     "offset": "0x3E7F",
@@ -782,7 +782,7 @@
   {
     "offset": "0x3F4A",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　解除のための「パスワード」は　\\n私「１人」が分かるものにする　　\\n　　忘れないよう…　ここに…　　\\n書きとめて…　　おくことにする　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "The password to release it\nwill be something only I know.\nSo I do not forget...\nI will write it down here..."
+    "text_en": "The password to release it\nwill be something only I know.\nSo I do not forget…\nI will write it down here…"
   },
   {
     "offset": "0x4015",
@@ -792,7 +792,7 @@
   {
     "offset": "0x40E0",
     "text_jp": "　　「バリア」が解かれる時……　\\n　　　　　　　　　　　　　　　　\\n　とうとう私の夢が……　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　かなう……　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "When the barrier is undone...\n\nAt last, my dream...\n\nwill come true..."
+    "text_en": "When the barrier is undone…\n\nAt last, my dream…\n\nwill come true…"
   },
   {
     "offset": "0x41AB",
@@ -847,7 +847,7 @@
   {
     "offset": "0x4999",
     "text_jp": "　　　　　　　　　　　　　　　　\\n私の夢を叶える為にはバラバラの　\\n情報ではなく全てが必要だ。　　　\\nアレの中にある全てを引き出す　　\\nことが……。　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "To fulfill my dream,\nI need all of the information,\nnot scattered fragments.\nI must draw out everything\ninside that thing..."
+    "text_en": "To fulfill my dream,\nI need all of the information,\nnot scattered fragments.\nI must draw out everything\ninside that thing…"
   },
   {
     "offset": "0x4A64",
@@ -857,7 +857,7 @@
   {
     "offset": "0x4B2F",
     "text_jp": "　　　　　　　　　　　　　　　　\\nだが、失敗すれば……　　　　　　\\n　　　　　　　　　　　　　　　　\\n全てが終わる……。　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "But if it fails...\n\nEverything will end..."
+    "text_en": "But if it fails…\n\nEverything will end…"
   },
   {
     "offset": "0x4BFA",
@@ -952,7 +952,7 @@
   {
     "offset": "0x597D",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　博士がこの間もっていた　　　　\\n　「バーコード」がプリント　　　\\n　されたカード　　　　　　　　　\\n　あれがあやしいと思うのだが……\\n　　　　　　　　　　　　　　　　",
-    "text_en": "The card the doctor had recently,\nwith a barcode printed on it...\nI think that is suspicious."
+    "text_en": "The card the doctor had recently,\nwith a barcode printed on it…\nI think that is suspicious."
   },
   {
     "offset": "0x5A48",
@@ -992,12 +992,12 @@
   {
     "offset": "0x5E4F",
     "text_jp": "　　　　　　　　　　　　　　　　\\n　成功だ！融合は成功だ。　　　　\\n　　　　　　　　　　　　　　　　\\n　これで全てが上手くいく！　　　\\n　　　　　　　　　　　　　　　　\\n　……　　　　　　　　　　　　　",
-    "text_en": "Success! The fusion succeeded!\n\nNow everything will go well!\n\n..."
+    "text_en": "Success! The fusion succeeded!\n\nNow everything will go well!\n\n…"
   },
   {
     "offset": "0x5F1A",
     "text_jp": "　ふ、ふははは…　　　　　　　　\\n　これで新たな生命体を　　　　　\\n　創り出せるのだ！　　　　　　　\\n　後は「ＫＩＮＧＳＴＯＮＥ」さえ\\n　あれば！…全ての生命を従える　\\n　王となる日も近い！　　　　　　",
-    "text_en": "Heh... heh heh heh...\nNow I can create a new life-form!\nAll I need is KINGSTONE!\nThe day I become king,\ncommanding all life, is near!"
+    "text_en": "Heh… heh heh heh…\nNow I can create a new life-form!\nAll I need is KINGSTONE!\nThe day I become king,\ncommanding all life, is near!"
   },
   {
     "offset": "0x5FE5",
@@ -1027,7 +1027,7 @@
   {
     "offset": "0x63DC",
     "text_jp": "…（中略）…　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　僕はある研究機関から加わって　\\n　欲しいと誘われています。　　　\\n　その研究機関はまだ世間に　　　\\n　知られてはいませんが　　　　　",
-    "text_en": "...<omitted>...\n\nI have been invited to join\na certain research institute.\nThe institute is not yet known\nto the public, but..."
+    "text_en": "…<omitted>…\n\nI have been invited to join\na certain research institute.\nThe institute is not yet known\nto the public, but…"
   },
   {
     "offset": "0x64A7",
@@ -1052,17 +1052,17 @@
   {
     "offset": "0x67D3",
     "text_jp": "　　　　　　　　　　　　　　　　\\n次に行われる実験が　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "The next experiment is..."
+    "text_en": "The next experiment is…"
   },
   {
     "offset": "0x689E",
     "text_jp": "ゲルショッカーが壊滅した……　　\\nだが、私は研究を続けるつもりだ。\\n完全なる新生命体の創造は私の　　\\n長年の夢なのだ。　　　　　　　　\\n何があろうとも止める訳には　　　\\nいかない。　　　　　　　　　　　",
-    "text_en": "Gel-Shocker has been destroyed...\nEven so, I intend to continue my research.\nCreating a perfect new life-form\nhas been my lifelong dream.\nNothing can make me stop."
+    "text_en": "Gel-Shocker has been destroyed…\nEven so, I intend to continue my research.\nCreating a perfect new life-form\nhas been my lifelong dream.\nNothing can make me stop."
   },
   {
     "offset": "0x6969",
     "text_jp": "　助手たちの中には賛同して　　　\\n残ると言ってくれている者もいる。\\n　　　　　　　　　　　　　　　　\\n結城君が私の元を去ってしまった　\\nのは残念だが……　　　　　　　　\\n　　　　　　　　　　　　　　　　",
-    "text_en": "Some of my assistants agree with me\nand have said they will remain.\n\nIt is regrettable\nthat Yuki has left me, but..."
+    "text_en": "Some of my assistants agree with me\nand have said they will remain.\n\nIt is regrettable\nthat Yuki has left me, but…"
   },
   {
     "offset": "0x6A34",
@@ -1147,7 +1147,7 @@
   {
     "offset": "0x76E4",
     "text_jp": "……　　　　　　　　　　　　　　\\n　こ、これは！？　　　　　　　　\\n遺伝子の配列情報ではないのか？　\\n一体何故こんな情報が　　　　　　\\n「ＴＩＥＲＲＡ」　　　　　　　　\\nから流れ込んでくるのだ…？　　　",
-    "text_en": "...\nWh-what is this!?\nIs this genetic sequence data?\nWhy is this information\nflowing in from TIERRA...?"
+    "text_en": "…\nWh-what is this!?\nIs this genetic sequence data?\nWhy is this information\nflowing in from TIERRA…?"
   },
   {
     "offset": "0x77AF",
@@ -1157,12 +1157,12 @@
   {
     "offset": "0x787A",
     "text_jp": "　　　　　　　　　　　　　　　　\\n……今日も気を失っていたらしい。\\n　　　　　　　　　　　　　　　　\\nアレから情報を得るとき　　　　　\\n決まって意識を失ってしまうようだ\\n　　　　　　　　　　　　　　　　",
-    "text_en": "...It seems I lost consciousness\nagain today.\n\nWhenever I obtain information\nfrom that thing,\nI always seem to black out."
+    "text_en": "…It seems I lost consciousness\nagain today.\n\nWhenever I obtain information\nfrom that thing,\nI always seem to black out."
   },
   {
     "offset": "0x7945",
     "text_jp": "　　　　　　　　　　　　　　　　\\n私は疲れているのだろうか？　　　\\n　　　　　　　　　　　　　　　　\\n……それとも、副作用なのか？　　\\n　　　　　　　　　　　　　　　　\\n…自分では、よくわからない…　　",
-    "text_en": "Am I simply exhausted?\n\n...Or is this a side effect?\n\n...I do not really know myself..."
+    "text_en": "Am I simply exhausted?\n\n…Or is this a side effect?\n\n…I do not really know myself…"
   },
   {
     "offset": "0x7A10",
@@ -1307,7 +1307,7 @@
   {
     "offset": "0x8DFB",
     "text_jp": "………この「ＴＩＥＲＲＡ」は　　\\n脳波に反応して微弱なエネルギー　\\nを放出していること　　　　　　　\\n更には生物の脳の思考力を高める　\\n効果があることがこれまでの調査　\\nから判明している。　　　　　　　",
-    "text_en": "...Our investigation so far\nhas shown that TIERRA reacts\nto brain waves and emits faint energy.\nIt also appears to enhance\nthe thinking power of living brains."
+    "text_en": "…Our investigation so far\nhas shown that TIERRA reacts\nto brain waves and emits faint energy.\nIt also appears to enhance\nthe thinking power of living brains."
   },
   {
     "offset": "0x8EC6",

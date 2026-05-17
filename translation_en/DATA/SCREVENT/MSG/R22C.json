@@ -37,12 +37,12 @@
   {
     "idx": 7,
     "text_jp": "ここでもガスの実験を\n行っているのだろうか……{END}",
-    "text_en": "I wonder if gas experiments\nare being done here too...{END}"
+    "text_en": "I wonder if gas experiments\nare being done here too…{END}"
   },
   {
     "idx": 8,
     "text_jp": "ガスの調合装置だろうか……\n特に操作の必要は無さそうだ{END}",
-    "text_en": "Could be a gas mixing device...\nNo need to operate it.{END}"
+    "text_en": "Could be a gas mixing device…\nNo need to operate it.{END}"
   },
   {
     "idx": 9,
@@ -52,7 +52,7 @@
   {
     "idx": 10,
     "text_jp": "ブラック将軍の計画は阻止した……{END}",
-    "text_en": "General Black's plan has been stopped...{END}"
+    "text_en": "General Black's plan has been stopped…{END}"
   },
   {
     "idx": 11,

@@ -57,7 +57,7 @@
   {
     "idx": 11,
     "text_jp": "パソコンの操作が必要なようだ…{END}",
-    "text_en": "A computer operation seems necessary...{END}"
+    "text_en": "A computer operation seems necessary…{END}"
   },
   {
     "idx": 12,
@@ -87,27 +87,27 @@
   {
     "idx": 17,
     "text_jp": "何かの装置で厳重に閉められている…\nいくつかのスロットがついている…{END}",
-    "text_en": "It is sealed tightly by some device...\nThere are several slots...{END}"
+    "text_en": "It is sealed tightly by some device…\nThere are several slots…{END}"
   },
   {
     "idx": 18,
     "text_jp": "壁にわずかなスキマがある…\n…だが動かせないようだ{END}",
-    "text_en": "There is a slight gap in the wall...\n...but it does not seem to move.{END}"
+    "text_en": "There is a slight gap in the wall… but it does not seem to move.{END}"
   },
   {
     "idx": 19,
     "text_jp": "扉はロックされている\n鍵穴のようなものは見当たらない…{END}",
-    "text_en": "The door is locked.\nThere is no sign of a keyhole...{END}"
+    "text_en": "The door is locked.\nThere is no sign of a keyhole…{END}"
   },
   {
     "idx": 20,
     "text_jp": "扉がなくなっている…\nこちらから開けることはできない{END}",
-    "text_en": "The door is gone...\nIt cannot be opened from this side.{END}"
+    "text_en": "The door is gone…\nIt cannot be opened from this side.{END}"
   },
   {
     "idx": 21,
     "text_jp": "…反応がない\nここでは操作できないようだ{END}",
-    "text_en": "...No response.\nIt cannot be operated from here.{END}"
+    "text_en": "…No response.\nIt cannot be operated from here.{END}"
   },
   {
     "idx": 22,
@@ -117,7 +117,7 @@
   {
     "idx": 23,
     "text_jp": "…中心に穴がある\n特殊な鍵が必要なようだ{END}",
-    "text_en": "...There is a hole in the center.\nA special key seems necessary.{END}"
+    "text_en": "…There is a hole in the center.\nA special key seems necessary.{END}"
   },
   {
     "idx": 24,
@@ -127,7 +127,7 @@
   {
     "idx": 25,
     "text_jp": "…スロットにそれぞれ色がついている{END}",
-    "text_en": "...Each slot has a color.{END}"
+    "text_en": "…Each slot has a color.{END}"
   },
   {
     "idx": 26,
@@ -137,17 +137,17 @@
   {
     "idx": 27,
     "text_jp": "…落盤でふさがれている\nこの先は行くことができない{END}",
-    "text_en": "...A cave-in blocks the way.\nYou cannot go any farther.{END}"
+    "text_en": "…A cave-in blocks the way.\nYou cannot go any farther.{END}"
   },
   {
     "idx": 28,
     "text_jp": "…床が落ちている\n闇の奥にわずかな光がみえる…{END}",
-    "text_en": "...The floor has collapsed.\nA faint light glimmers below...{END}"
+    "text_en": "…The floor has collapsed.\nA faint light glimmers below…{END}"
   },
   {
     "idx": 29,
     "text_jp": "どこかで同じモノを見た気がするが…{END}",
-    "text_en": "This feels familiar somehow...{END}"
+    "text_en": "This feels familiar somehow…{END}"
   },
   {
     "idx": 30,
@@ -167,12 +167,12 @@
   {
     "idx": 33,
     "text_jp": "今は先に進まなければ…{END}",
-    "text_en": "I have to keep going now...{END}"
+    "text_en": "I have to keep going now…{END}"
   },
   {
     "idx": 34,
     "text_jp": "反応が無い…どうやら開かないようだ{END}",
-    "text_en": "No response... It does not seem to open.{END}"
+    "text_en": "No response… It does not seem to open.{END}"
   },
   {
     "idx": 35,
@@ -197,7 +197,7 @@
   {
     "idx": 39,
     "text_jp": "この傷はいったい……{END}",
-    "text_en": "What is this mark...?{END}"
+    "text_en": "What is this mark…?{END}"
   },
   {
     "idx": 40,

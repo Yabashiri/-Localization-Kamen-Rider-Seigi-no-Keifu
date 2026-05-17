@@ -2,12 +2,12 @@
   {
     "idx": 0,
     "text_jp": "パイプやコードがむき出しになっている\n…何かを設置する場所のようだ{END}",
-    "text_en": "Pipes and cables are exposed.\n...Something seems installed here.{END}"
+    "text_en": "Pipes and cables are exposed.\n…Something seems installed here.{END}"
   },
   {
     "idx": 1,
     "text_jp": "たくさんの計器がならんでいる\n…何かの調整パネルのようだ{END}",
-    "text_en": "Many meters are lined up.\n...Some kind of adjustment panel.{END}"
+    "text_en": "Many meters are lined up.\n…Some kind of adjustment panel.{END}"
   },
   {
     "idx": 2,
@@ -17,7 +17,7 @@
   {
     "idx": 3,
     "text_jp": "中にあやしげな生物が入っている\nバリアに守られているようだ……{END}",
-    "text_en": "A suspicious creature is inside.\nIt seems protected by a barrier...{END}"
+    "text_en": "A suspicious creature is inside.\nIt seems protected by a barrier…{END}"
   },
   {
     "idx": 4,

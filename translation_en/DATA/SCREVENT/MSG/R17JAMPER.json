@@ -7,12 +7,12 @@
   {
     "idx": 1,
     "text_jp": "ケーブルが切断されている\n老朽化していたようだ…{END}",
-    "text_en": "The cable is severed.\nIt seems to have deteriorated...{END}"
+    "text_en": "The cable is severed.\nIt seems to have deteriorated…{END}"
   },
   {
     "idx": 2,
     "text_jp": "今は安全装置が働いているようだ\nしばらく放置しておくしかない……{END}",
-    "text_en": "The safety device seems active.\nNo choice but to leave it for now...{END}"
+    "text_en": "The safety device seems active.\nNo choice but to leave it for now…{END}"
   },
   {
     "idx": 3,
@@ -57,7 +57,7 @@
   {
     "idx": 11,
     "text_jp": "放電が止んでいる……\n修理することができそうだ{END}",
-    "text_en": "The discharge has stopped...\nIt seems repairable.{END}"
+    "text_en": "The discharge has stopped…\nIt seems repairable.{END}"
   },
   {
     "idx": 1000,

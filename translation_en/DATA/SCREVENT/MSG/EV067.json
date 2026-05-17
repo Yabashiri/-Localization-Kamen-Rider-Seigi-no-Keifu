@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "ここにまだ何かあるのか…{END}",
-    "text_en": "Is there still\nsomething here...?{END}"
+    "text_en": "Is there still\nsomething here…?{END}"
   },
   {
     "idx": 1,
@@ -17,12 +17,12 @@
   {
     "idx": 3,
     "text_jp": "くっ…{END}",
-    "text_en": "Ngh...{END}"
+    "text_en": "Ngh…{END}"
   },
   {
     "idx": 4,
     "text_jp": "よくも計画の邪魔をしてくれたな…{END}",
-    "text_en": "How dare you interfere\nwith the plan...{END}"
+    "text_en": "How dare you interfere\nwith the plan…{END}"
   },
   {
     "idx": 5,

@@ -2,12 +2,12 @@
   {
     "idx": 0,
     "text_jp": "閉まっている…\nこちらから開けることはできない{END}",
-    "text_en": "It is closed...\nIt cannot be opened from this side.{END}"
+    "text_en": "It is closed…\nIt cannot be opened from this side.{END}"
   },
   {
     "idx": 1,
     "text_jp": "水槽がある\n中で何かがうごめいているようだ…{END}",
-    "text_en": "There is a tank.\nSomething seems to be moving inside...{END}"
+    "text_en": "There is a tank.\nSomething seems to be moving inside…{END}"
   },
   {
     "idx": 2,
@@ -22,7 +22,7 @@
   {
     "idx": 4,
     "text_jp": "何かの研究資料のようだが…{END}",
-    "text_en": "It seems to be research material...{END}"
+    "text_en": "It seems to be research material…{END}"
   },
   {
     "idx": 5,

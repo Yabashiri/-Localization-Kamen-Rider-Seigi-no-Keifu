@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "パイプやコードがむき出しになっている\n…何かを設置する場所のようだ{END}",
-    "text_en": "Pipes and cables are exposed.\n...Something seems installed here.{END}"
+    "text_en": "Pipes and cables are exposed.\n…Something seems installed here.{END}"
   },
   {
     "idx": 1,
@@ -12,7 +12,7 @@
   {
     "idx": 2,
     "text_jp": "たくさんの計器が並んでいる\n…何かの調整パネルのようだ{END}",
-    "text_en": "Many meters are lined up.\n...Some kind of adjustment panel.{END}"
+    "text_en": "Many meters are lined up.\n…Some kind of adjustment panel.{END}"
   },
   {
     "idx": 3,

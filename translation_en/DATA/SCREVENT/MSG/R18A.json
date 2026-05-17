@@ -2,12 +2,12 @@
   {
     "idx": 0,
     "text_jp": "奇妙な装置だ…\n狼のマークがかかれている{END}",
-    "text_en": "It is a strange device...\nA wolf mark is drawn on it.{END}"
+    "text_en": "It is a strange device…\nA wolf mark is drawn on it.{END}"
   },
   {
     "idx": 1,
     "text_jp": "何かの装置のようだが…{END}",
-    "text_en": "It seems to be some kind of device...{END}"
+    "text_en": "It seems to be some kind of device…{END}"
   },
   {
     "idx": 2,
@@ -17,7 +17,7 @@
   {
     "idx": 3,
     "text_jp": "この部屋のコントロール装置だろうか…{END}",
-    "text_en": "Could it control this room...{END}"
+    "text_en": "Could it control this room…{END}"
   },
   {
     "idx": 4,

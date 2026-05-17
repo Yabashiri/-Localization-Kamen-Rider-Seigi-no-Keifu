@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "何の装置だろうか\n画面に何か映し出されている…{END}",
-    "text_en": "What kind of device is this?\nSomething is shown on the screen...{END}"
+    "text_en": "What kind of device is this?\nSomething is shown on the screen…{END}"
   },
   {
     "idx": 1,
@@ -32,7 +32,7 @@
   {
     "idx": 6,
     "text_jp": "閉まっている…\n再びパソコンの操作が必要なようだ{END}",
-    "text_en": "It is closed...\nThe computer must be operated again.{END}"
+    "text_en": "It is closed…\nThe computer must be operated again.{END}"
   },
   {
     "idx": 7,

@@ -17,7 +17,7 @@
   {
     "idx": 3,
     "text_jp": "電圧が安定している…\n今ならケーブルを取り外せそうだ{END}",
-    "text_en": "The voltage is stable...\nThe cable can be removed now.{END}"
+    "text_en": "The voltage is stable…\nThe cable can be removed now.{END}"
   },
   {
     "idx": 4,
@@ -47,12 +47,12 @@
   {
     "idx": 9,
     "text_jp": "変電器だ\nケーブルが切断されている…{END}",
-    "text_en": "It is a transformer.\nThe cable is cut...{END}"
+    "text_en": "It is a transformer.\nThe cable is cut…{END}"
   },
   {
     "idx": 10,
     "text_jp": "今はまだ電圧が安定していない…\nケーブルは抜かない方がよさそうだ{END}",
-    "text_en": "The voltage is not stable yet...\nBetter not remove the cable.{END}"
+    "text_en": "The voltage is not stable yet…\nBetter not remove the cable.{END}"
   },
   {
     "idx": 1000,

@@ -42,22 +42,22 @@
   {
     "idx": 8,
     "text_jp": "壊れている…片方は使用できそうだが…\n操作しても意味が無い{END}",
-    "text_en": "It is broken... one side may work,\nbut operating it would be pointless.{END}"
+    "text_en": "It is broken… one side may work,\nbut operating it would be pointless.{END}"
   },
   {
     "idx": 9,
     "text_jp": "換気システムの電源が落ちている…\n使用することはできない{END}",
-    "text_en": "The ventilation system power is off...\nIt cannot be used.{END}"
+    "text_en": "The ventilation system power is off…\nIt cannot be used.{END}"
   },
   {
     "idx": 10,
     "text_jp": "換気システムが壊れている……\n使用することはできない{END}",
-    "text_en": "The ventilation system is broken...\nIt cannot be used.{END}"
+    "text_en": "The ventilation system is broken…\nIt cannot be used.{END}"
   },
   {
     "idx": 11,
     "text_jp": "片方は壊れている…\nもう片方は操作できそうだ{END}",
-    "text_en": "One side is broken...\nThe other side seems operable.{END}"
+    "text_en": "One side is broken…\nThe other side seems operable.{END}"
   },
   {
     "idx": 1000,

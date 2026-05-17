@@ -17,7 +17,7 @@
   {
     "idx": 3,
     "text_jp": "何か置かれている…{END}",
-    "text_en": "Something has been placed here...{END}"
+    "text_en": "Something has been placed here…{END}"
   },
   {
     "idx": 4,
@@ -27,7 +27,7 @@
   {
     "idx": 5,
     "text_jp": "もう何もない…{END}",
-    "text_en": "There is nothing left...{END}"
+    "text_en": "There is nothing left…{END}"
   },
   {
     "idx": 6,

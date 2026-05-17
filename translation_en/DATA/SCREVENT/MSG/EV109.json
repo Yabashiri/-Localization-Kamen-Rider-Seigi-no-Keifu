@@ -7,7 +7,7 @@
   {
     "idx": 1,
     "text_jp": "…次は我々の番だ\nお前との決着を楽しみにしている{END}",
-    "text_en": "...Next, it is our turn.\nI look forward to settling things\nwith you.{END}"
+    "text_en": "…Next, it is our turn.\nI look forward to settling things\nwith you.{END}"
   },
   {
     "idx": 2,
@@ -27,12 +27,12 @@
   {
     "idx": 5,
     "text_jp": "？…{END}",
-    "text_en": "?...{END}"
+    "text_en": "?…{END}"
   },
   {
     "idx": 6,
     "text_jp": "争う運命は、どちらか一方が\nそれを受け入れたとき…{END}",
-    "text_en": "When either side accepts\na fate of conflict...{END}"
+    "text_en": "When either side accepts\na fate of conflict…{END}"
   },
   {
     "idx": 7,
@@ -42,11 +42,11 @@
   {
     "idx": 8,
     "text_jp": "信彦…それでも…\nそれでも僕は運命を変えてみせる！{END}",
-    "text_en": "Nobuhiko... Even so...\neven so, I will change fate!{END}"
+    "text_en": "Nobuhiko… Even so…\neven so, I will change fate!{END}"
   },
   {
     "idx": 9,
     "text_jp": "…また会おう{END}",
-    "text_en": "...We will meet again.{END}"
+    "text_en": "…We will meet again.{END}"
   }
 ]

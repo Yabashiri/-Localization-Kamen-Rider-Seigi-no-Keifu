@@ -7,7 +7,7 @@
   {
     "idx": 1,
     "text_jp": "…博士、何故こんな事に…{END}",
-    "text_en": "...Doctor, why did this happen...?{END}"
+    "text_en": "…Doctor, why did this happen…?{END}"
   },
   {
     "idx": 2,
@@ -17,7 +17,7 @@
   {
     "idx": 3,
     "text_jp": "Ｖ３…お前こそ{END}",
-    "text_en": "V3... Why are you here?{END}"
+    "text_en": "V3… Why are you here?{END}"
   },
   {
     "idx": 4,
@@ -27,11 +27,11 @@
   {
     "idx": 5,
     "text_jp": "たのむ…俺に構わないでくれ{END}",
-    "text_en": "Please... do not worry about me.{END}"
+    "text_en": "Please… do not worry about me.{END}"
   },
   {
     "idx": 6,
     "text_jp": "…{END}",
-    "text_en": "...{END}"
+    "text_en": "…{END}"
   }
 ]

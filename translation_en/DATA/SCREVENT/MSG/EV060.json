@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "うっ…{END}",
-    "text_en": "Ugh...{END}"
+    "text_en": "Ugh…{END}"
   },
   {
     "idx": 1,
@@ -27,12 +27,12 @@
   {
     "idx": 5,
     "text_jp": "本郷！…まだガスの影響が{END}",
-    "text_en": "Hongo! ...The gas is still\naffecting you.{END}"
+    "text_en": "Hongo! …The gas is still\naffecting you.{END}"
   },
   {
     "idx": 6,
     "text_jp": "すまん…もう大丈夫だ{END}",
-    "text_en": "Sorry... I am all right now.{END}"
+    "text_en": "Sorry… I am all right now.{END}"
   },
   {
     "idx": 7,
@@ -67,7 +67,7 @@
   {
     "idx": 13,
     "text_jp": "イーッ…{END}",
-    "text_en": "Eee...{END}"
+    "text_en": "Eee…{END}"
   },
   {
     "idx": 14,

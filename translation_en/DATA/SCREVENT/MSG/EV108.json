@@ -7,27 +7,27 @@
   {
     "idx": 1,
     "text_jp": "終わったのか？\n…あいつら煙のように消えていったぞ{END}",
-    "text_en": "Is it over?\n...They vanished like smoke.{END}"
+    "text_en": "Is it over?\n…They vanished like smoke.{END}"
   },
   {
     "idx": 2,
     "text_jp": "はい、全部…終わりました{END}",
-    "text_en": "Yes. Everything... is over.{END}"
+    "text_en": "Yes. Everything… is over.{END}"
   },
   {
     "idx": 3,
     "text_jp": "…そうか{END}",
-    "text_en": "...I see.{END}"
+    "text_en": "…I see.{END}"
   },
   {
     "idx": 4,
     "text_jp": "あ…{END}",
-    "text_en": "Ah...{END}"
+    "text_en": "Ah…{END}"
   },
   {
     "idx": 5,
     "text_jp": "…そうだ！聞いて下さい！{END}",
-    "text_en": "...That's right! Listen!{END}"
+    "text_en": "…That's right! Listen!{END}"
   },
   {
     "idx": 6,
@@ -37,32 +37,32 @@
   {
     "idx": 7,
     "text_jp": "それも、幾つもの時代に…{END}",
-    "text_en": "Across many eras, too...{END}"
+    "text_en": "Across many eras, too…{END}"
   },
   {
     "idx": 8,
     "text_jp": "そして分かったんです\nアギトの力を持つ俺の役目…{END}",
-    "text_en": "And now I understand\nmy role as someone\nwho carries Agito's power...{END}"
+    "text_en": "And now I understand\nmy role as someone\nwho carries Agito's power…{END}"
   },
   {
     "idx": 9,
     "text_jp": "運命は、この力を未来に\n伝える事なんじゃないかって…{END}",
-    "text_en": "Maybe my fate is\nto pass this power\non to the future...{END}"
+    "text_en": "Maybe my fate is\nto pass this power\non to the future…{END}"
   },
   {
     "idx": 10,
     "text_jp": "お前は俺に、運命は変えられる\nという事を教えてくれた…{END}",
-    "text_en": "You taught me\nthat fate can be changed...{END}"
+    "text_en": "You taught me\nthat fate can be changed…{END}"
   },
   {
     "idx": 11,
     "text_jp": "だから俺は、新しい自分の運命を\n探す事にした…{END}",
-    "text_en": "So I have decided\nto search for my own new fate...{END}"
+    "text_en": "So I have decided\nto search for my own new fate…{END}"
   },
   {
     "idx": 12,
     "text_jp": "お前のその話、本当なら…俺にも{END}",
-    "text_en": "If what you say is true...\nthen maybe I can too...{END}"
+    "text_en": "If what you say is true…\nthen maybe I can too…{END}"
   },
   {
     "idx": 13,
@@ -72,6 +72,6 @@
   {
     "idx": 14,
     "text_jp": "…ああ、そうだな{END}",
-    "text_en": "...Yes. I suppose so.{END}"
+    "text_en": "…Yes. I suppose so.{END}"
   }
 ]

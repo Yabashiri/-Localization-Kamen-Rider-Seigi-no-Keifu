@@ -32,7 +32,7 @@
   {
     "idx": 6,
     "text_jp": "ラインが切り換わったようだ…{END}",
-    "text_en": "The line seems to have switched...{END}"
+    "text_en": "The line seems to have switched…{END}"
   },
   {
     "idx": 7,
@@ -52,7 +52,7 @@
   {
     "idx": 10,
     "text_jp": "ロックされている\n切り換えるには鍵が必要なようだが…{END}",
-    "text_en": "It is locked.\nA key seems needed to switch it...{END}"
+    "text_en": "It is locked.\nA key seems needed to switch it…{END}"
   },
   {
     "idx": 11,

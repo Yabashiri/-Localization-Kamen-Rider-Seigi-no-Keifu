@@ -57,7 +57,7 @@
   {
     "idx": 11,
     "text_jp": "ひどく汚れている……\n中はよく見えない{END}",
-    "text_en": "It is terribly dirty...\nYou cannot see inside well.{END}"
+    "text_en": "It is terribly dirty…\nYou cannot see inside well.{END}"
   },
   {
     "idx": 12,
@@ -77,7 +77,7 @@
   {
     "idx": 15,
     "text_jp": "打ち合わせに使うのだろうか……{END}",
-    "text_en": "Maybe it was used for meetings...{END}"
+    "text_en": "Maybe it was used for meetings…{END}"
   },
   {
     "idx": 16,

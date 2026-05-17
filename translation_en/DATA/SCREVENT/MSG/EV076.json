@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "まだ人が…{END}",
-    "text_en": "There are still people...{END}"
+    "text_en": "There are still people…{END}"
   },
   {
     "idx": 1,
@@ -12,7 +12,7 @@
   {
     "idx": 2,
     "text_jp": "大丈夫か！？早く…{END}",
-    "text_en": "Are you all right!? Hurry...{END}"
+    "text_en": "Are you all right!? Hurry…{END}"
   },
   {
     "idx": 3,
@@ -22,17 +22,17 @@
   {
     "idx": 4,
     "text_jp": "ぐっ…う…{END}",
-    "text_en": "Guh... ugh...{END}"
+    "text_en": "Guh… ugh…{END}"
   },
   {
     "idx": 5,
     "text_jp": "ハハハハ…馬鹿め\n性懲りもなく、また現れたな{END}",
-    "text_en": "Ha ha ha ha... fool.\nYou never learn, do you?\nHere you are again.{END}"
+    "text_en": "Ha ha ha ha… fool.\nYou never learn, do you?\nHere you are again.{END}"
   },
   {
     "idx": 6,
     "text_jp": "くっ…きさ…ま{END}",
-    "text_en": "Ngh... you...{END}"
+    "text_en": "Ngh… you…{END}"
   },
   {
     "idx": 7,
@@ -42,7 +42,7 @@
   {
     "idx": 8,
     "text_jp": "…これ…が{END}",
-    "text_en": "...This... is...{END}"
+    "text_en": "…This… is…{END}"
   },
   {
     "idx": 9,
@@ -52,7 +52,7 @@
   {
     "idx": 10,
     "text_jp": "…そうは…させん！{END}",
-    "text_en": "...I will... not let you!{END}"
+    "text_en": "…I will… not let you!{END}"
   },
   {
     "idx": 11,
@@ -67,6 +67,6 @@
   {
     "idx": 13,
     "text_jp": "ぐおっ！…ええいよくも…やれ！{END}",
-    "text_en": "Guoh! ...Damn you... Do it!{END}"
+    "text_en": "Guoh! …Damn you… Do it!{END}"
   }
 ]

@@ -87,7 +87,7 @@
   {
     "idx": 17,
     "text_jp": "ファイル『……………………………』を\n入手した{END}",
-    "text_en": "Obtained file\n'...........................'.{END}"
+    "text_en": "Obtained file\n'………………………'.{END}"
   },
   {
     "idx": 18,
@@ -227,12 +227,12 @@
   {
     "idx": 46,
     "text_jp": "足元に何か落ちている……{END}",
-    "text_en": "Something is lying at your feet...{END}"
+    "text_en": "Something is lying at your feet…{END}"
   },
   {
     "idx": 47,
     "text_jp": "壊れたカプセルの下に何か埋まっている……{END}",
-    "text_en": "Something is buried\nunder the broken capsule...{END}"
+    "text_en": "Something is buried\nunder the broken capsule…{END}"
   },
   {
     "idx": 1000,
