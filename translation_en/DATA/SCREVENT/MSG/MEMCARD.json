@@ -137,17 +137,17 @@
   {
     "idx": 28,
     "text_jp": "　番のプレイデータを上書きしますか？{END}",
-    "text_en": "Overwrite play data No. ?{END}"
+    "text_en": "　Overwrite play data No. ?{END}"
   },
   {
     "idx": 29,
     "text_jp": "　番にセーブしますか？{END}",
-    "text_en": "Save to slot No. ?{END}"
+    "text_en": "　Save to slot No. ?{END}"
   },
   {
     "idx": 30,
     "text_jp": "　番のプレイデータをロードしますか？{END}",
-    "text_en": "Load play data No. ?{END}"
+    "text_en": "　Load play data No. ?{END}"
   },
   {
     "idx": 31,
