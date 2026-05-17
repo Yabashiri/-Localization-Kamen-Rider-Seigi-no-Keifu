@@ -22,14 +22,8 @@ __pycache__/
 venv/
 
 # Local/generated working output
-reports/*
-!reports/.gitkeep
-!reports/font_usage.tsv
-!reports/font_map_corrections.md
-dump_jp/*
-!dump_jp/.gitkeep
-rebuilt_jp/*
-!rebuilt_jp/.gitkeep
+dump_jp/
+rebuilt_jp/
 rebuilt_en/*
 external_tools/
 build/
