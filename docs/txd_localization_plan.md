@@ -155,3 +155,16 @@ native headers, but the PNG index stream is not always byte-identical to the
 native pixel region.  A direct check on `TEX_K_IT_001` matched 14434 of 16384
 positions, so importer work must handle PS2/native swizzle or the external
 exporter's unswizzle behavior instead of copying PNG scanlines directly.
+
+The `TEX_K_IT_001` CLUT comparison confirms the usual PS2 8bpp palette order
+inside each 32-color block:
+
+```text
+PNG order -> native CLUT order:
+0..7, 16..23, 8..15, 24..31
+```
+
+Converting native alpha from PS2's 0..128 range to PNG 0..255 with
+`round(alpha * 255 / 128)` makes the native and PNG palette sets match, but
+palette remapping alone does not make native pixels equal PNG scanlines.  The
+pixel region needs its own swizzle/deswizzle mapping.
