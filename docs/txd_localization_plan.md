@@ -68,6 +68,16 @@ Import a PNG into a linear 16bpp TXD texture entry:
 python tools\txd_import_png.py --input-txd game_dump\DATA\TITLE.TXD --texture title_00_03 --png textures_en\EXPORT_TXD\TITLE_title_00_03.png --output-txd rebuilt_en\DATA\TITLE.TXD
 ```
 
+Confirmed smoke test:
+
+```text
+2026-05-17
+DATA/TITLE.TXD title_00_03
+Imported from textures_en/EXPORT_TXD/MENU/TITLE_title_00_03.png
+Built into build/out/kamen_rider_full_translation.iso
+PCSX2/in-game result: replacement texture is visible on the title screen.
+```
+
 Stage rebuilt text and texture files:
 
 ```text
