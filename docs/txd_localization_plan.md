@@ -12,6 +12,12 @@ those texture payloads need PS2/native swizzle and CLUT handling.
 Existing PNGs under `dump_jp/EXPORT_TXD` were extracted with an external GUI
 tool and are treated as Japanese reference assets.
 
+Important scope note: `dump_jp/EXPORT_TXD` currently covers only the 83 direct
+`game_dump/DATA/**/*.TXD` files.  A later audit found many additional TXD/DFF
+payloads nested inside `RSC` and `TRA` containers.  See
+`reports/nested_resource_inventory.md` before starting any broad texture
+coverage work.
+
 Original TXD files stay in `game_dump/DATA`.  Localized or test rebuilt TXD
 files should be written to `rebuilt_en/DATA/...` so the existing DATA.CVM/ISO
 pipeline can stage them without touching the original dump.
@@ -220,6 +226,16 @@ python tools\txd_texture_report.py --check
     4 rows:   8bpp, header 0xa0, CLUT 0x200
     95 rows:  16bpp, header 0x50, no CLUT
     1 row:    32bpp, header 0x50, no CLUT
+```
+
+Nested resource audit:
+
+```text
+2026-05-21
+Direct TXD coverage is not complete texture coverage.
+RSC/TRA containers contain 2949 embedded TXD payloads, 2832 unique.
+Those embedded TXDs contain 13154 texture entries and are not exported yet.
+Details: reports/nested_resource_inventory.md
 ```
 
 For indexed textures, the exported PNG dimensions and palette type match the
