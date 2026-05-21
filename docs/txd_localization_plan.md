@@ -2,9 +2,15 @@
 
 ## Current status
 
-The project has no trusted PNG -> PS2 TXD importer yet.  Existing PNGs under
-`dump_jp/EXPORT_TXD` were extracted with an external GUI tool and are treated as
-Japanese reference assets.
+The project now has a trusted narrow PNG -> PS2 TXD importer for linear 16bpp
+textures.  It has been used successfully for the title-screen background
+textures in `DATA/TITLE.TXD`.
+
+Indexed 4bpp/8bpp texture replacement is still a separate future task because
+those texture payloads need PS2/native swizzle and CLUT handling.
+
+Existing PNGs under `dump_jp/EXPORT_TXD` were extracted with an external GUI
+tool and are treated as Japanese reference assets.
 
 Original TXD files stay in `game_dump/DATA`.  Localized or test rebuilt TXD
 files should be written to `rebuilt_en/DATA/...` so the existing DATA.CVM/ISO
@@ -22,6 +28,52 @@ rebuilt_en/DATA/.../*.TXD    rebuilt TXD files ready for staging
 `textures_en` is a workspace for image editing and experiments.  Keep
 `dump_jp/EXPORT_TXD` unchanged so visual regressions can be compared against the
 original export.
+
+## Completed title-screen texture localization
+
+Status: completed and promoted out of draft/test work.
+
+The localized title-screen background is finalized as five trackable PNG tiles:
+
+```text
+textures_en/EXPORT_TXD/TITLE_title_00_00.png
+textures_en/EXPORT_TXD/TITLE_title_00_01.png
+textures_en/EXPORT_TXD/TITLE_title_00_02.png
+textures_en/EXPORT_TXD/TITLE_title_00_03.png
+textures_en/EXPORT_TXD/TITLE_title_00_04.png
+```
+
+The only retained full-size source/backup image for this title background is:
+
+```text
+textures_en/EXPORT_TXD/59b2d66b-922e-49e1-b4cf-16cbf4a38c45.png
+```
+
+All draft folders, diagnostic previews, temporary TXD import folders, and
+scratch backups from the title-screen iteration were intentionally removed.
+
+Important `TITLE_title_00_04.png` detail:
+
+```text
+left half, x=0..127     -> screen strip x=512..639, y=0..255
+right half, x=128..255  -> screen strip x=512..639, y=256..511
+```
+
+This is not a normal full 256x256 screen tile.  The game draws it as two
+128-pixel-wide vertical strips on the right side of the title background.
+
+Final verified build:
+
+```text
+2026-05-17
+Imported TITLE_title_00_00..00_04 into rebuilt_en/DATA/TITLE.TXD.
+Built build/out/kamen_rider_full_translation.iso.
+Verified embedded ELF patch bytes: 6041033c.
+Verified ISO size: 3915405312 bytes.
+```
+
+Future work should treat the title-screen background tiles as production assets,
+not as draft textures still needing the earlier crop/packing investigation.
 
 ## Commands
 

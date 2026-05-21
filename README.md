@@ -50,7 +50,9 @@ ELF-side text layout patch used for English scenario text.
 
 ## Texture Work
 
-Texture localization is still experimental. See `docs/txd_localization_plan.md` for the current TXD notes and safe test order.
+The title-screen background texture is localized and has a known-good 16bpp
+TXD import path. Other indexed texture replacement work is still experimental.
+See `docs/txd_localization_plan.md` for the current TXD notes and status.
 
 ## Requirements
 
