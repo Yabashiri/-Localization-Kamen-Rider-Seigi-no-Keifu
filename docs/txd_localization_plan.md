@@ -33,6 +33,10 @@ original export.
 
 Status: completed and promoted out of draft/test work.
 
+In-game verification: passed.  The finalized title-screen texture set was
+checked in-game by the project owner multiple times on 2026-05-21 and should be
+treated as accepted work.
+
 The localized title-screen background is finalized as five trackable PNG tiles:
 
 ```text
