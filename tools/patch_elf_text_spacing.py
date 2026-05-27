@@ -1,4 +1,4 @@
-"""Patch English text layout behavior in the game ELF.
+"""Patch English text layout behavior and hardcoded UI strings in the game ELF.
 
 The custom message font advances the X cursor by a fixed 28.0 pixels after each
 glyph. That matches Japanese full-width cells, but it makes Latin text render as
@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import shutil
 import struct
+from dataclasses import dataclass
 from pathlib import Path
 
 from font_mapping import project_path
@@ -60,6 +61,144 @@ SCENARIO_CENTERING_REPLACEMENT = bytes.fromhex(
 )
 
 
+@dataclass(frozen=True)
+class SjisTextPatch:
+    offset: int
+    slot_size: int
+    expected: str
+    replacement: str
+    label: str
+
+
+SJIS_TEXT_PATCHES = (
+    SjisTextPatch(0x2F7DA0, 16, "ＰＡＵＳＥ", "PAUSE", "pause label"),
+    SjisTextPatch(
+        0x2FC640,
+        64,
+        "　　　　　怪人ファイル『ガラガランダ』\\n　　　　　を入手した",
+        "Obtained kaijin file\\nGaragaranda",
+        "Garagaranda file pickup",
+    ),
+    SjisTextPatch(
+        0x2FC680,
+        64,
+        "　　　　怪人ファイル『ヒルカメレオン』\\n　　　　を入手した",
+        "Obtained kaijin file\\nHiruchameleon",
+        "Hiruchameleon file pickup",
+    ),
+    SjisTextPatch(
+        0x2FC6C0,
+        64,
+        "　　　怪人ファイル『ヒルカメレオン転生体』\\n　　　を入手した",
+        "Obtained kaijin file\\nHiruchameleon Reborn",
+        "Hiruchameleon Reborn file pickup",
+    ),
+    SjisTextPatch(
+        0x2FC700,
+        64,
+        "　　怪人ファイル『イソギンジャガー転生体』\\n　　を入手した",
+        "Obtained kaijin file\\nIsoginjaguar Reborn",
+        "Isoginjaguar Reborn file pickup",
+    ),
+    SjisTextPatch(
+        0x2FC740,
+        64,
+        "　　　怪人ファイル『サソリトカゲス転生体』\\n　　　を入手した",
+        "Obtained kaijin file\\nSasoritokages Reborn",
+        "Sasoritokages Reborn file pickup",
+    ),
+    SjisTextPatch(
+        0x2FC780,
+        64,
+        "　　　　　怪人ファイル『イカデビル』\\n　　　　　を入手した",
+        "Obtained kaijin file\\nIkadevil",
+        "Ikadevil file pickup",
+    ),
+    SjisTextPatch(
+        0x2FC7C0,
+        64,
+        "　　　　　怪人ファイル『ザンジオー』\\n　　　　　を入手した",
+        "Obtained kaijin file\\nZanji-O",
+        "Zanji-O file pickup",
+    ),
+    SjisTextPatch(
+        0x2FC800,
+        64,
+        "　　　　怪人ファイル『ザンジオー強化体』\\n　　　　を入手した",
+        "Obtained kaijin file\\nEnhanced Zanji-O",
+        "Enhanced Zanji-O file pickup",
+    ),
+    SjisTextPatch(
+        0x2FC840,
+        64,
+        "　　　　　　怪人ファイル『狼男』\\n　　　　　　を入手した",
+        "Obtained kaijin file\\nWolf Man",
+        "Wolf Man file pickup",
+    ),
+    SjisTextPatch(
+        0x2FC880,
+        64,
+        "　　　　　怪人ファイル『サボテグロン』\\n　　　　　を入手した",
+        "Obtained kaijin file\\nSabotegron",
+        "Sabotegron file pickup",
+    ),
+    SjisTextPatch(
+        0x2FC8C0,
+        64,
+        "　　　　怪人ファイル『邪眼完全体』\\n　　　　を入手した",
+        "Obtained kaijin file\\nJagan Complete Form",
+        "Jagan Complete Form file pickup",
+    ),
+    SjisTextPatch(
+        0x2FC900,
+        64,
+        "　　　　怪人ファイル『邪眼究極体』\\n　　　　を入手した",
+        "Obtained kaijin file\\nJagan Ultimate Form",
+        "Jagan Ultimate Form file pickup",
+    ),
+    SjisTextPatch(0x2FCBF0, 48, "ＰＲＥＳＳ　ＳＴＡＲＴ　ＢＵＴＴＯＮ", "PRESS START BUTTON", "press start label"),
+    SjisTextPatch(0x2FD360, 32, "仮面ライダー正義の系譜", "Kamen Rider: Seigi no Keifu", "game title label"),
+    SjisTextPatch(0x2FDB30, 48, "　　　オプションの設定をセーブしますか？", "      Save option settings?", "option save prompt"),
+    SjisTextPatch(0x2FDB60, 40, "　　　　　　　　はい　　　いいえ", "        Yes        No", "option save choices"),
+    SjisTextPatch(0x2FE160, 32, "残り時間　%02d:%02d:%02d", "Time Left %02d:%02d:%02d", "remaining time label"),
+    SjisTextPatch(0x2FE3A0, 48, "\\n\\n　　リンクボタンを選択して下さい　　", "\\n\\n    Select a link button", "link button prompt"),
+    SjisTextPatch(0x2FE410, 8, "Ｌ３", "L3", "L3 button label"),
+    SjisTextPatch(0x2FE418, 8, "Ｒ３", "R3", "R3 button label"),
+    SjisTextPatch(0x2FE420, 8, "Ｌ１", "L1", "L1 button label"),
+    SjisTextPatch(0x2FE428, 8, "Ｌ２", "L2", "L2 button label"),
+    SjisTextPatch(0x2FE430, 8, "Ｒ１", "R1", "R1 button label"),
+    SjisTextPatch(0x2FE438, 8, "Ｒ２", "R2", "R2 button label"),
+    SjisTextPatch(0x2FE440, 16, "スタート", "Start", "Start button label"),
+    SjisTextPatch(0x2FE450, 16, "セレクト", "Select", "Select button label"),
+    SjisTextPatch(0x2FE7C8, 16, "クリアタイム", "Clear Time", "clear time result label"),
+    SjisTextPatch(0x2FE7D8, 24, "倒した戦闘員数", "Troops Defeated", "defeated soldiers result label"),
+    SjisTextPatch(0x2FE7F0, 32, "必殺技で倒した怪人数", "Kaijin Finisher KOs", "special kaijin result label"),
+    SjisTextPatch(0x2FE810, 32, "バイクアクションランキング", "Bike Action Ranking", "bike ranking result label"),
+    SjisTextPatch(0x2FE830, 8, "Ｖ３", "V3", "V3 label"),
+    SjisTextPatch(0x2FE838, 8, "１号", "No1", "No1 label"),
+    SjisTextPatch(0x2FE840, 16, "ランキング", "Ranking", "ranking label"),
+    SjisTextPatch(0x2FE880, 16, "%02d：%02d", "%02d:%02d", "result time format"),
+    SjisTextPatch(0x2FE890, 8, "%04d体", "%04d", "result four-digit count format"),
+    SjisTextPatch(0x2FE898, 8, "%02d体", "%02d", "result two-digit count format"),
+    SjisTextPatch(0x2FEF20, 48, "　　　　どちらの１号で戦いますか？", "    Which No1 Rider will fight?", "No1 rider select prompt"),
+    SjisTextPatch(0x2FEF50, 32, "\t\t\t　　　旧１号　　　新１号", "\t\t\tOld No1    New No1", "No1 rider select choices"),
+    SjisTextPatch(0x2FEF70, 48, "　　　　どちらの２号で戦いますか？", "    Which No2 Rider will fight?", "No2 rider select prompt"),
+    SjisTextPatch(0x2FEFA0, 32, "\t\t\t　　　旧２号　　　新２号", "\t\t\tOld No2    New No2", "No2 rider select choices"),
+    SjisTextPatch(0x2FEFD0, 48, "　　　この仮面ライダーで戦いますか？", "    Fight as this Kamen Rider?", "rider confirm prompt"),
+    SjisTextPatch(0x2FF000, 32, "\t\t\t　　　　はい　　　いいえ", "\t\t\t        Yes        No", "rider confirm choices"),
+    SjisTextPatch(0x2FF020, 48, "使用する仮面ライダーを選んでください", "Select the Kamen Rider to use", "rider select instruction"),
+    SjisTextPatch(0x2FF070, 16, "倒した戦闘員数", "Troops Defeated", "defeated soldiers record label"),
+    SjisTextPatch(0x2FF080, 24, "必殺技で倒した怪人数", "Kaijin Finisher KOs", "special kaijin record label"),
+    SjisTextPatch(0x2FF098, 16, "トータルタイム", "Total Time", "total time record label"),
+    SjisTextPatch(0x2FF0A8, 16, "ベストタイム", "Best Time", "best time record label"),
+    SjisTextPatch(0x2FF0B8, 16, "ベストランク", "Best Rank", "best rank record label"),
+    SjisTextPatch(0x2FF0C8, 8, "コース", "Course", "course record label"),
+    SjisTextPatch(0x2FF0E0, 16, "%02d：%02d", "%02d:%02d", "record time format"),
+    SjisTextPatch(0x2FF0F0, 8, "%04d体", "%04d", "record four-digit count format"),
+    SjisTextPatch(0x2FF0F8, 8, "%03d体", "%03d", "record three-digit count format"),
+)
+
+
 def patch_expected_bytes(handle, offset: int, expected: bytes, replacement: bytes, label: str, dry_run: bool) -> None:
     handle.seek(offset)
     current = handle.read(len(expected))
@@ -72,11 +211,37 @@ def patch_expected_bytes(handle, offset: int, expected: bytes, replacement: byte
         handle.write(replacement)
 
 
+def patch_embedded_sjis_text(handle, dry_run: bool) -> None:
+    encoding = "shift_jis"
+    for patch in SJIS_TEXT_PATCHES:
+        expected = patch.expected.encode(encoding)
+        replacement = patch.replacement.encode(encoding)
+        if len(replacement) >= patch.slot_size:
+            raise ValueError(
+                f"{patch.label} replacement is too long for 0x{patch.offset:X}: "
+                f"{len(replacement)} >= {patch.slot_size}"
+            )
+
+        handle.seek(patch.offset)
+        current = handle.read(len(expected))
+        if current != expected:
+            raise ValueError(
+                f"Unexpected bytes for {patch.label} at 0x{patch.offset:X}: "
+                f"{current.hex()} != {expected.hex()}"
+            )
+
+        if not dry_run:
+            handle.seek(patch.offset)
+            handle.write(replacement)
+            handle.write(bytes(patch.slot_size - len(replacement)))
+
+
 def patch_elf(
     input_elf: Path,
     output_elf: Path,
     advance: float,
     patch_scenario_anchor: bool,
+    patch_hardcoded_ui_text: bool,
     dry_run: bool,
 ) -> None:
     if not 1.0 <= advance <= 28.0:
@@ -113,11 +278,15 @@ def patch_elf(
                 "afScenarioMsgKind centering clamp",
                 dry_run,
             )
+        if patch_hardcoded_ui_text:
+            patch_embedded_sjis_text(handle, dry_run)
 
     action = "Would patch" if dry_run else "Patched"
     print(f"{action} afMsgDrawString X advance to {advance:g}: {output_elf}")
     if patch_scenario_anchor:
         print(f"{action} afScenarioMsgKind centering clamp for long lower-textbox lines")
+    if patch_hardcoded_ui_text:
+        print(f"{action} {len(SJIS_TEXT_PATCHES)} hardcoded ELF UI strings")
 
 
 def main() -> int:
@@ -130,6 +299,11 @@ def main() -> int:
         action="store_true",
         help="Only patch glyph advance; leave scenario message centering unchanged",
     )
+    parser.add_argument(
+        "--keep-hardcoded-ui-text",
+        action="store_true",
+        help="Leave hardcoded ELF UI strings unchanged",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Validate expected ELF bytes without writing output")
     args = parser.parse_args()
 
@@ -138,6 +312,7 @@ def main() -> int:
         project_path(args.output_elf),
         args.advance,
         not args.keep_scenario_centering,
+        not args.keep_hardcoded_ui_text,
         args.dry_run,
     )
     return 0
