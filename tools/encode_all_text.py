@@ -45,7 +45,31 @@ ASCII_PUNCTUATION_FALLBACKS = {
     "/": "／",
     '"': "“",
 }
-SKIPPED_ASCII_CHARS = {"'", "’", "‘", "`"}
+ASCII_DIRECT_FONT_CODES = {
+    **{str(digit): digit for digit in range(10)},
+    **{chr(ord("A") + index): 0x0037 + index for index in range(26)},
+    **{chr(ord("a") + index): 0x0100 + index for index in range(26)},
+    " ": 0x000A,
+    "+": 0x000B,
+    "-": 0x000C,
+    ":": 0x000D,
+    ",": 0x000E,
+    ".": 0x0010,
+    "?": 0x0012,
+    "!": 0x0013,
+    '"': 0x0018,
+    "'": 0x0019,
+    "’": 0x0019,
+    "‘": 0x0019,
+    "`": 0x0019,
+    "(": 0x001A,
+    ")": 0x001B,
+    "%": 0x0022,
+    ";": 0x002D,
+    "/": 0x002F,
+    "$": 0x0031,
+    "=": 0x0036,
+}
 
 DEFAULT_WRAP_COLUMNS = 0
 
@@ -128,11 +152,15 @@ def load_reverse_font_map(path: Path = CORRECTED_FONT_MAP_PATH) -> dict[str, int
     char_to_code: dict[str, int] = {}
     for code_text, char in sorted(data.items(), key=lambda item: int(item[0], 16)):
         char_to_code.setdefault(char, int(code_text, 16))
+    char_to_code.update(ASCII_DIRECT_FONT_CODES)
     return char_to_code
 
 
 def normalize_ascii_char_for_font(char: str, char_to_code: dict[str, int]) -> str:
     """Convert one prototype ASCII translation character to an in-game glyph."""
+
+    if char in ASCII_DIRECT_FONT_CODES and char in char_to_code:
+        return char
 
     replacement = char
     if "A" <= char <= "Z":
@@ -175,8 +203,6 @@ def encode_text(text: str, char_to_code: dict[str, int], source_label: str) -> l
         char = normalized[pos]
         if char == "\n":
             codes.append(CONTROL_NEWLINE)
-        elif char in SKIPPED_ASCII_CHARS:
-            pass
         else:
             char = normalize_ascii_char_for_font(char, char_to_code)
             if char in char_to_code:

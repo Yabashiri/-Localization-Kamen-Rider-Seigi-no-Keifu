@@ -22,6 +22,10 @@ from font_mapping import project_path
 
 
 ADVANCE_OFFSET = 0x169F7C - 0x100000 + 0x80
+PROPORTIONAL_ADVANCE_CAVE_OFFSET = 0x24EED0
+PROPORTIONAL_ADVANCE_CAVE_VADDR = PROPORTIONAL_ADVANCE_CAVE_OFFSET - 0x80 + 0x100000
+PROPORTIONAL_ADVANCE_TABLE_SIZE = 0x200
+PROPORTIONAL_ADVANCE_TABLE_VADDR = PROPORTIONAL_ADVANCE_CAVE_VADDR + 0x50
 
 SCENARIO_CENTERING_OFFSET = 0x171180 - 0x100000 + 0x80
 SCENARIO_CENTERING_EXPECTED = bytes.fromhex(
@@ -211,6 +215,147 @@ def patch_expected_bytes(handle, offset: int, expected: bytes, replacement: byte
         handle.write(replacement)
 
 
+def encode_r(rs: int, rt: int, rd: int, shamt: int, funct: int) -> bytes:
+    return struct.pack("<I", (rs << 21) | (rt << 16) | (rd << 11) | (shamt << 6) | funct)
+
+
+def encode_i(opcode: int, rs: int, rt: int, immediate: int) -> bytes:
+    return struct.pack("<I", (opcode << 26) | (rs << 21) | (rt << 16) | (immediate & 0xFFFF))
+
+
+def encode_j(opcode: int, target_vaddr: int) -> bytes:
+    return struct.pack("<I", (opcode << 26) | ((target_vaddr >> 2) & 0x03FFFFFF))
+
+
+def encode_beq(rs: int, rt: int, pc: int, target_vaddr: int) -> bytes:
+    offset = (target_vaddr - (pc + 4)) // 4
+    if target_vaddr != pc + 4 + offset * 4:
+        raise ValueError(f"Unaligned branch target: 0x{target_vaddr:X}")
+    if not -0x8000 <= offset <= 0x7FFF:
+        raise ValueError(f"Branch target out of range: 0x{pc:X} -> 0x{target_vaddr:X}")
+    return encode_i(0x04, rs, rt, offset)
+
+
+def encode_lui(rt: int, value: int) -> bytes:
+    return encode_i(0x0F, 0, rt, value)
+
+
+def split_hi_lo(address: int) -> tuple[int, int]:
+    return (address + 0x8000) >> 16, address & 0xFFFF
+
+
+def build_proportional_width_table(atlas_root: Path, fallback_advance: int) -> bytes:
+    if not 1 <= fallback_advance <= 28:
+        raise ValueError(f"Fallback advance should stay in a conservative range: {fallback_advance}")
+
+    from PIL import Image
+    from build_font_atlas_prototype import (
+        CELL_SIZE,
+        page0_positions,
+        page1_positions,
+        proportional_advance,
+    )
+    from encode_all_text import ASCII_DIRECT_FONT_CODES
+
+    positions: dict[str, tuple[int, int, int]] = {}
+    for char, (col, row) in page0_positions().items():
+        positions[char] = (0, col, row)
+    for char, (col, row) in page1_positions().items():
+        positions[char] = (1, col, row)
+
+    pages = {
+        0: Image.open(atlas_root / "FONT_font_00.png").convert("RGBA"),
+        1: Image.open(atlas_root / "FONT_font_01.png").convert("RGBA"),
+    }
+    table = bytearray([fallback_advance] * PROPORTIONAL_ADVANCE_TABLE_SIZE)
+    for char, code in ASCII_DIRECT_FONT_CODES.items():
+        if code >= len(table):
+            continue
+        if char not in positions:
+            continue
+        page, col, row = positions[char]
+        glyph = pages[page].crop((col * CELL_SIZE, row * CELL_SIZE, (col + 1) * CELL_SIZE, (row + 1) * CELL_SIZE))
+        table[code] = proportional_advance(char, glyph)
+    table[ASCII_DIRECT_FONT_CODES[" "]] = 6
+    return bytes(table)
+
+
+def build_proportional_advance_payload(atlas_root: Path, fallback_advance: int) -> bytes:
+    zero = 0
+    at = 1
+    v0 = 2
+    v1 = 3
+    s1 = 17
+    f0 = 0
+    f21 = 21
+
+    default_vaddr = PROPORTIONAL_ADVANCE_CAVE_VADDR + 0x2C
+    convert_vaddr = PROPORTIONAL_ADVANCE_CAVE_VADDR + 0x30
+    table_hi, table_lo = split_hi_lo(PROPORTIONAL_ADVANCE_TABLE_VADDR)
+
+    code = bytearray()
+    pc = PROPORTIONAL_ADVANCE_CAVE_VADDR
+
+    def emit(instruction: bytes) -> None:
+        nonlocal pc
+        code.extend(instruction)
+        pc += 4
+
+    emit(encode_i(0x25, s1, v0, 0))  # lhu v0,0(s1)
+    emit(encode_i(0x09, s1, s1, 2))  # addiu s1,s1,2
+    emit(encode_i(0x0B, v0, at, PROPORTIONAL_ADVANCE_TABLE_SIZE))  # sltiu at,v0,0x200
+    emit(encode_beq(at, zero, pc, default_vaddr))
+    emit(struct.pack("<I", 0))  # nop
+    emit(encode_lui(v1, table_hi))
+    emit(encode_i(0x09, v1, v1, table_lo))
+    emit(encode_r(v1, v0, v1, 0, 0x21))  # addu v1,v1,v0
+    emit(encode_i(0x24, v1, v1, 0))  # lbu v1,0(v1)
+    emit(encode_beq(zero, zero, pc, convert_vaddr))
+    emit(struct.pack("<I", 0))  # nop
+    emit(encode_i(0x09, zero, v1, fallback_advance))  # addiu v1,zero,fallback
+    emit(struct.pack("<I", (0x11 << 26) | (4 << 21) | (v1 << 16) | (f0 << 11)))  # mtc1 v1,f0
+    emit(struct.pack("<I", 0))  # nop
+    emit(struct.pack("<I", 0x46800020))  # cvt.s.w f0,f0
+    emit(struct.pack("<I", 0))  # nop
+    emit(struct.pack("<I", 0x4600AD40))  # add.s f21,f21,f0
+    emit(encode_j(0x02, 0x00169F90))
+    emit(struct.pack("<I", 0))  # nop
+
+    if len(code) > 0x50:
+        raise ValueError(f"Proportional advance code is too large: 0x{len(code):X}")
+    code.extend(bytes(0x50 - len(code)))
+    code.extend(build_proportional_width_table(atlas_root, fallback_advance))
+    return bytes(code)
+
+
+def patch_proportional_advance(handle, atlas_root: Path, fallback_advance: int, dry_run: bool) -> None:
+    expected = bytes.fromhex(
+        "e041033c"  # lui v1,0x41e0
+        "02003126"  # addiu s1,s1,2
+    )
+    replacement = encode_j(0x02, PROPORTIONAL_ADVANCE_CAVE_VADDR) + bytes(4)
+    patch_expected_bytes(
+        handle,
+        ADVANCE_OFFSET,
+        expected,
+        replacement,
+        "afMsgDrawString proportional X advance jump",
+        dry_run,
+    )
+
+    payload = build_proportional_advance_payload(atlas_root, fallback_advance)
+    handle.seek(PROPORTIONAL_ADVANCE_CAVE_OFFSET)
+    current = handle.read(len(payload))
+    if current != bytes(len(payload)):
+        raise ValueError(
+            "Proportional advance code cave is not empty at "
+            f"0x{PROPORTIONAL_ADVANCE_CAVE_OFFSET:X}"
+        )
+    if not dry_run:
+        handle.seek(PROPORTIONAL_ADVANCE_CAVE_OFFSET)
+        handle.write(payload)
+
+
 def patch_embedded_sjis_text(handle, dry_run: bool) -> None:
     encoding = "shift_jis"
     for patch in SJIS_TEXT_PATCHES:
@@ -240,6 +385,8 @@ def patch_elf(
     input_elf: Path,
     output_elf: Path,
     advance: float,
+    proportional_font_atlas: Path | None,
+    fallback_advance: int,
     patch_scenario_anchor: bool,
     patch_hardcoded_ui_text: bool,
     dry_run: bool,
@@ -261,14 +408,17 @@ def patch_elf(
     open_path = input_elf if dry_run else output_elf
     open_mode = "rb" if dry_run else "r+b"
     with open_path.open(open_mode) as handle:
-        patch_expected_bytes(
-            handle,
-            ADVANCE_OFFSET,
-            advance_expected,
-            advance_replacement,
-            "afMsgDrawString X advance",
-            dry_run,
-        )
+        if proportional_font_atlas is not None:
+            patch_proportional_advance(handle, proportional_font_atlas, fallback_advance, dry_run)
+        else:
+            patch_expected_bytes(
+                handle,
+                ADVANCE_OFFSET,
+                advance_expected,
+                advance_replacement,
+                "afMsgDrawString X advance",
+                dry_run,
+            )
         if patch_scenario_anchor:
             patch_expected_bytes(
                 handle,
@@ -282,7 +432,13 @@ def patch_elf(
             patch_embedded_sjis_text(handle, dry_run)
 
     action = "Would patch" if dry_run else "Patched"
-    print(f"{action} afMsgDrawString X advance to {advance:g}: {output_elf}")
+    if proportional_font_atlas is not None:
+        print(
+            f"{action} afMsgDrawString proportional X advance from {proportional_font_atlas}: "
+            f"{output_elf}"
+        )
+    else:
+        print(f"{action} afMsgDrawString X advance to {advance:g}: {output_elf}")
     if patch_scenario_anchor:
         print(f"{action} afScenarioMsgKind centering clamp for long lower-textbox lines")
     if patch_hardcoded_ui_text:
@@ -294,6 +450,13 @@ def main() -> int:
     parser.add_argument("--input-elf", default="game_dump/SLPS_253.02")
     parser.add_argument("--output-elf", default="build/stage/SLPS_253.02")
     parser.add_argument("--advance", type=float, default=14.0)
+    parser.add_argument(
+        "--proportional-font",
+        action="store_true",
+        help="Patch afMsgDrawString to use per-glyph Latin widths from the current font atlas",
+    )
+    parser.add_argument("--font-atlas-root", default="textures_en/EXPORT_TXD/font_prototype")
+    parser.add_argument("--fallback-advance", type=int, default=14)
     parser.add_argument(
         "--keep-scenario-centering",
         action="store_true",
@@ -311,6 +474,8 @@ def main() -> int:
         project_path(args.input_elf),
         project_path(args.output_elf),
         args.advance,
+        project_path(args.font_atlas_root) if args.proportional_font else None,
+        args.fallback_advance,
         not args.keep_scenario_centering,
         not args.keep_hardcoded_ui_text,
         args.dry_run,
