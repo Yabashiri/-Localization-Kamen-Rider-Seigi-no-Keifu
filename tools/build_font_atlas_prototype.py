@@ -1,9 +1,9 @@
-"""Build a Latin font atlas prototype from an external reference sheet.
+"""Build a Latin font atlas prototype.
 
-This is an experiment for the PS2 message font.  It keeps the original Japanese
-font pages untouched, replaces only digits and Latin letters in copied PNG
-pages, and emits quick sample renders that approximate the fixed-advance game
-renderer.
+This is an experiment for the PS2 message font.  The preferred path reuses the
+original clean font bitmaps, normalizes their bearings, and emits quick sample
+renders that approximate the fixed-advance game renderer.  The older external
+reference-sheet path remains available for comparison.
 """
 
 from __future__ import annotations
@@ -20,6 +20,19 @@ from font_mapping import project_path
 
 CELL_SIZE = 28
 TARGET_BACKGROUND = (0, 0, 0, 255)
+BACKGROUND_BRIGHTNESS_CUTOFF = 40
+NOISE_COMPONENT_MAX_PIXELS = 4
+ORIGINAL_FONT_SCALE = 0.85
+ORIGINAL_FONT_LEFT_BEARING = 1
+
+RESAMPLE_FILTERS = {
+    "nearest": Image.Resampling.NEAREST,
+    "box": Image.Resampling.BOX,
+    "bilinear": Image.Resampling.BILINEAR,
+    "hamming": Image.Resampling.HAMMING,
+    "bicubic": Image.Resampling.BICUBIC,
+    "lanczos": Image.Resampling.LANCZOS,
+}
 
 # Per-glyph adjustments are intentionally boring data: dx, extra dy, scale.
 # They let us tune visual bearings before touching the in-game renderer again.
@@ -164,16 +177,89 @@ def remap_reference_colors(image: Image.Image, palette: list[tuple[int, int, int
     in_pixels = image.load()
     out_pixels = output.load()
 
-    def distance(left: tuple[int, int, int, int], right: tuple[int, int, int, int]) -> int:
-        return sum((left[i] - right[i]) ** 2 for i in range(3))
-
     for y in range(image.height):
         for x in range(image.width):
             r, g, b, a = in_pixels[x, y]
             if not a or not (r or g or b):
                 continue
-            closest = min((color for color in palette if color != TARGET_BACKGROUND), key=lambda color: distance((r, g, b, a), color))
+            closest = nearest_palette_color((r, g, b, a), palette)
             out_pixels[x, y] = closest
+    return output
+
+
+def color_distance(left: tuple[int, int, int, int], right: tuple[int, int, int, int]) -> int:
+    return sum((left[index] - right[index]) ** 2 for index in range(3))
+
+
+def foreground_palette(palette: list[tuple[int, int, int, int]]) -> list[tuple[int, int, int, int]]:
+    return [color for color in palette if color != TARGET_BACKGROUND]
+
+
+def nearest_palette_color(
+    color: tuple[int, int, int, int],
+    palette: list[tuple[int, int, int, int]],
+) -> tuple[int, int, int, int]:
+    return min(foreground_palette(palette), key=lambda palette_color: color_distance(color, palette_color))
+
+
+def quantize_font_cell(
+    image: Image.Image,
+    palette: list[tuple[int, int, int, int]],
+    background_cutoff: int,
+) -> Image.Image:
+    """Constrain a glyph cell to the game's 4bpp font colors."""
+
+    output = Image.new("RGBA", image.size, TARGET_BACKGROUND)
+    in_pixels = image.load()
+    out_pixels = output.load()
+    for y in range(image.height):
+        for x in range(image.width):
+            r, g, b, a = in_pixels[x, y]
+            if a < 128 or max(r, g, b) < background_cutoff:
+                continue
+            out_pixels[x, y] = nearest_palette_color((r, g, b, a), palette)
+    return output
+
+
+def foreground_points(image: Image.Image) -> set[tuple[int, int]]:
+    pixels = image.load()
+    points: set[tuple[int, int]] = set()
+    for y in range(image.height):
+        for x in range(image.width):
+            r, g, b, a = pixels[x, y]
+            if a and (r or g or b):
+                points.add((x, y))
+    return points
+
+
+def remove_small_components(image: Image.Image, max_component_pixels: int) -> Image.Image:
+    """Drop tiny detached antialias specks without touching real punctuation dots."""
+
+    if max_component_pixels <= 0:
+        return image
+
+    output = image.copy()
+    pixels = output.load()
+    remaining = foreground_points(output)
+    while remaining:
+        start = remaining.pop()
+        component = [start]
+        stack = [start]
+        while stack:
+            x, y = stack.pop()
+            for dy in (-1, 0, 1):
+                for dx in (-1, 0, 1):
+                    if dx == 0 and dy == 0:
+                        continue
+                    point = (x + dx, y + dy)
+                    if point in remaining:
+                        remaining.remove(point)
+                        component.append(point)
+                        stack.append(point)
+
+        if len(component) <= max_component_pixels:
+            for x, y in component:
+                pixels[x, y] = TARGET_BACKGROUND
     return output
 
 
@@ -192,6 +278,10 @@ def paste_glyph(
     scale: float,
     cap_dy: int,
     bearing_mode: str,
+    palette: list[tuple[int, int, int, int]],
+    resample_filter: Image.Resampling,
+    background_cutoff: int,
+    noise_component_max_pixels: int,
 ) -> None:
     bbox = visible_bbox(glyph)
     if bbox is None:
@@ -205,7 +295,7 @@ def paste_glyph(
             max(1, round(glyph.size[0] * scale)),
             max(1, round(glyph.size[1] * scale)),
         )
-        glyph = glyph.resize(scaled_size, Image.Resampling.LANCZOS)
+        glyph = glyph.resize(scaled_size, resample_filter)
     width, height = glyph.size
     if bearing_mode == "left":
         x = 2 + dx
@@ -222,6 +312,9 @@ def paste_glyph(
 
     cell.paste(TARGET_BACKGROUND, (0, 0, CELL_SIZE, CELL_SIZE))
     cell.alpha_composite(glyph, (x, y))
+    cleaned = quantize_font_cell(cell, palette, background_cutoff)
+    cleaned = remove_small_components(cleaned, noise_component_max_pixels)
+    cell.paste(cleaned, (0, 0))
 
 
 def font_palette(*images: Image.Image) -> list[tuple[int, int, int, int]]:
@@ -273,6 +366,9 @@ def apply_replacements(
     scale: float,
     cap_dy: int,
     bearing_mode: str,
+    resample_filter: Image.Resampling,
+    background_cutoff: int,
+    noise_component_max_pixels: int,
 ) -> tuple[Path, Path]:
     page0_path = project_path("dump_jp/EXPORT_TXD/FONT_font_00.png")
     page1_path = project_path("dump_jp/EXPORT_TXD/FONT_font_01.png")
@@ -287,7 +383,19 @@ def apply_replacements(
         raw = reference.crop((source.box[0], source.box[1], source.box[2] + 1, source.box[3] + 1))
         glyph = remap_reference_colors(raw, palette)
         cell = page0.crop((col * CELL_SIZE, row * CELL_SIZE, (col + 1) * CELL_SIZE, (row + 1) * CELL_SIZE))
-        paste_glyph(cell, char, glyph, source.trim_y, scale, cap_dy, bearing_mode)
+        paste_glyph(
+            cell,
+            char,
+            glyph,
+            source.trim_y,
+            scale,
+            cap_dy,
+            bearing_mode,
+            palette,
+            resample_filter,
+            background_cutoff,
+            noise_component_max_pixels,
+        )
         page0.paste(cell, (col * CELL_SIZE, row * CELL_SIZE))
 
     for char, (col, row) in page1_positions().items():
@@ -295,7 +403,19 @@ def apply_replacements(
         raw = reference.crop((source.box[0], source.box[1], source.box[2] + 1, source.box[3] + 1))
         glyph = remap_reference_colors(raw, palette)
         cell = page1.crop((col * CELL_SIZE, row * CELL_SIZE, (col + 1) * CELL_SIZE, (row + 1) * CELL_SIZE))
-        paste_glyph(cell, char, glyph, source.trim_y, scale, cap_dy, bearing_mode)
+        paste_glyph(
+            cell,
+            char,
+            glyph,
+            source.trim_y,
+            scale,
+            cap_dy,
+            bearing_mode,
+            palette,
+            resample_filter,
+            background_cutoff,
+            noise_component_max_pixels,
+        )
         page1.paste(cell, (col * CELL_SIZE, row * CELL_SIZE))
 
     output_root.mkdir(parents=True, exist_ok=True)
@@ -306,13 +426,118 @@ def apply_replacements(
     return out0, out1
 
 
-def physical_positions() -> dict[str, tuple[int, int, int]]:
+def page_positions() -> dict[str, tuple[int, int, int]]:
     positions: dict[str, tuple[int, int, int]] = {}
     for char, (col, row) in page0_positions().items():
         positions[char] = (0, col, row)
     for char, (col, row) in page1_positions().items():
         positions[char] = (1, col, row)
     return positions
+
+
+def synthetic_apostrophe_cell(palette: list[tuple[int, int, int, int]]) -> Image.Image:
+    """Draw a single ASCII apostrophe; the original slot is a paired quote."""
+
+    colors = sorted(foreground_palette(palette), key=lambda color: sum(color[:3]))
+    dark = colors[0]
+    mid = colors[3]
+    light = colors[-1]
+    cell = Image.new("RGBA", (CELL_SIZE, CELL_SIZE), TARGET_BACKGROUND)
+    pixels = cell.load()
+    pattern = {
+        (3, 2): dark,
+        (4, 2): mid,
+        (5, 2): dark,
+        (3, 3): mid,
+        (4, 3): light,
+        (5, 3): mid,
+        (3, 4): mid,
+        (4, 4): light,
+        (5, 4): mid,
+        (2, 5): dark,
+        (3, 5): mid,
+        (4, 5): light,
+        (2, 6): dark,
+        (3, 6): mid,
+    }
+    for point, color in pattern.items():
+        pixels[point] = color
+    return cell
+
+
+def transform_original_font_cell(
+    source_cell: Image.Image,
+    char: str,
+    palette: list[tuple[int, int, int, int]],
+    scale: float,
+    left_bearing: int,
+    resample_filter: Image.Resampling,
+    background_cutoff: int,
+    noise_component_max_pixels: int,
+) -> Image.Image:
+    if char == "'":
+        return synthetic_apostrophe_cell(palette)
+
+    bbox = visible_bbox(source_cell)
+    output = Image.new("RGBA", (CELL_SIZE, CELL_SIZE), TARGET_BACKGROUND)
+    if bbox is None:
+        return output
+
+    x0, y0, x1, y1 = bbox
+    glyph = source_cell.crop((x0, y0, x1 + 1, y1 + 1))
+    if scale != 1.0:
+        scaled_size = (
+            max(1, round(glyph.size[0] * scale)),
+            max(1, round(glyph.size[1] * scale)),
+        )
+        glyph = glyph.resize(scaled_size, resample_filter)
+
+    x = max(0, min(CELL_SIZE - glyph.width, left_bearing))
+    baseline = 24
+    y = round(baseline - (baseline - y0) * scale)
+    y = max(0, min(CELL_SIZE - glyph.height, y))
+    output.alpha_composite(glyph, (x, y))
+    output = quantize_font_cell(output, palette, background_cutoff)
+    return remove_small_components(output, noise_component_max_pixels)
+
+
+def apply_original_font_replacements(
+    output_root: Path,
+    scale: float,
+    left_bearing: int,
+    resample_filter: Image.Resampling,
+    background_cutoff: int,
+    noise_component_max_pixels: int,
+) -> tuple[Path, Path]:
+    pages = {
+        page: Image.open(project_path(f"dump_jp/EXPORT_TXD/FONT_font_{page:02d}.png")).convert("RGBA")
+        for page in range(14)
+    }
+    palette = font_palette(pages[0], pages[1])
+
+    for char, (page, col, row) in page_positions().items():
+        box = (col * CELL_SIZE, row * CELL_SIZE, (col + 1) * CELL_SIZE, (row + 1) * CELL_SIZE)
+        source_cell = pages[page].crop(box)
+        replacement = transform_original_font_cell(
+            source_cell,
+            char,
+            palette,
+            scale,
+            left_bearing,
+            resample_filter,
+            background_cutoff,
+            noise_component_max_pixels,
+        )
+        pages[page].paste(replacement, box)
+
+    output_root.mkdir(parents=True, exist_ok=True)
+    for page, image in pages.items():
+        image.save(output_root / f"FONT_font_{page:02d}.png")
+    return output_root / "FONT_font_00.png", output_root / "FONT_font_01.png"
+
+
+def physical_positions() -> dict[str, tuple[int, int, int]]:
+    return page_positions()
 
 
 def render_sample(pages: dict[int, Image.Image], text: str, advance: int, output_path: Path) -> None:
@@ -550,19 +775,48 @@ def build_proportional_preview_sheet(pages: dict[int, Image.Image], output_path:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--source-mode", choices=("original", "reference"), default="original")
     parser.add_argument("--reference", default=r"E:\Download\11\257365.png")
     parser.add_argument("--output-root", default="textures_en/EXPORT_TXD/font_prototype")
     parser.add_argument("--preview-root", default="build/font_preview")
-    parser.add_argument("--scale", type=float, default=0.74)
+    parser.add_argument("--scale", type=float)
+    parser.add_argument("--left-bearing", type=int, default=ORIGINAL_FONT_LEFT_BEARING)
     parser.add_argument("--cap-dy", type=int, default=1)
     parser.add_argument("--bearing-mode", choices=("center", "left"), default="left")
+    parser.add_argument("--resample", choices=sorted(RESAMPLE_FILTERS), default="hamming")
+    parser.add_argument("--background-cutoff", type=int, default=BACKGROUND_BRIGHTNESS_CUTOFF)
+    parser.add_argument("--noise-component-max-pixels", type=int, default=NOISE_COMPONENT_MAX_PIXELS)
     parser.add_argument("--copy-unchanged-pages", action="store_true")
     args = parser.parse_args()
 
     output_root = project_path(args.output_root)
     preview_root = project_path(args.preview_root)
-    out0, out1 = apply_replacements(Path(args.reference), output_root, args.scale, args.cap_dy, args.bearing_mode)
-    if args.copy_unchanged_pages:
+    scale = args.scale
+    if scale is None:
+        scale = ORIGINAL_FONT_SCALE if args.source_mode == "original" else 0.74
+
+    if args.source_mode == "original":
+        out0, out1 = apply_original_font_replacements(
+            output_root,
+            scale,
+            args.left_bearing,
+            RESAMPLE_FILTERS[args.resample],
+            args.background_cutoff,
+            args.noise_component_max_pixels,
+        )
+    else:
+        out0, out1 = apply_replacements(
+            Path(args.reference),
+            output_root,
+            scale,
+            args.cap_dy,
+            args.bearing_mode,
+            RESAMPLE_FILTERS[args.resample],
+            args.background_cutoff,
+            args.noise_component_max_pixels,
+        )
+
+    if args.copy_unchanged_pages and args.source_mode != "original":
         for page in range(2, 14):
             shutil.copy2(project_path(f"dump_jp/EXPORT_TXD/FONT_font_{page:02d}.png"), output_root / f"FONT_font_{page:02d}.png")
     build_previews(output_root, preview_root)
