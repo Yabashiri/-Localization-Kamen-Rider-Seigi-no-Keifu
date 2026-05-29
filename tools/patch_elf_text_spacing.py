@@ -1,8 +1,10 @@
 """Patch English text layout behavior and hardcoded UI strings in the game ELF.
 
-The custom message font advances the X cursor by a fixed 28.0 pixels after each
+The original renderer advances the X cursor by a fixed 28.0 pixels after each
 glyph. That matches Japanese full-width cells, but it makes Latin text render as
-widely spaced letters. This smoke-test patch lowers that fixed X advance.
+widely spaced letters. The default patch injects a proportional per-glyph width
+table generated from the current font atlas. The legacy fixed-advance mode is
+kept only for diagnostics via ``--fixed-advance``.
 
 The scenario message renderer also centers text with ``(18 - maxLineLen) * 14``.
 For English lines longer than 18 glyphs that correction becomes negative and
@@ -466,11 +468,20 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input-elf", default="game_dump/SLPS_253.02")
     parser.add_argument("--output-elf", default="build/stage/SLPS_253.02")
-    parser.add_argument("--advance", type=float, default=14.0)
-    parser.add_argument(
+    parser.add_argument("--advance", type=float, default=14.0, help="Legacy fixed advance used with --fixed-advance")
+    advance_mode = parser.add_mutually_exclusive_group()
+    advance_mode.add_argument(
         "--proportional-font",
+        dest="proportional_font",
         action="store_true",
-        help="Patch afMsgDrawString to use per-glyph Latin widths from the current font atlas",
+        default=True,
+        help="Patch afMsgDrawString to use per-glyph Latin widths from the current font atlas (default)",
+    )
+    advance_mode.add_argument(
+        "--fixed-advance",
+        dest="proportional_font",
+        action="store_false",
+        help="Use the legacy fixed --advance value instead of the proportional table",
     )
     parser.add_argument("--font-atlas-root", default="textures_en/EXPORT_TXD/font_prototype")
     parser.add_argument("--fallback-advance", type=int, default=14)

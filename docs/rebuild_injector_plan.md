@@ -448,7 +448,9 @@ run_pcsx2_smoke.py
 - QuickBMS reimport не подходит как основной путь из-за увеличения DAT.
 - PCSX2 CLI может отличаться между версиями.
 - `mkisofs` может переименовать файлы при неподходящих ISO options; это уже проявилось на `-iso-level 1`.
-- Apostrophe glyph (`'`, `’`, `‘`, `` ` ``) в текущей font map не найден. Encoder сейчас пропускает эти символы, чтобы сборка не падала. Для финального качества лучше переписывать фразы без апострофов или добавить glyph/font mapping отдельно.
+- Apostrophe glyph поддержан через синтетический ASCII slot `0x0019`.
+  DAT encoder пишет `'`, `’`, `‘`, `` ` `` в этот slot; `HINT.BIN` при
+  сборке хранит ASCII apostrophe через рабочий SJIS quote slot.
 - `+` и `%` мапятся на fullwidth fallbacks (`＋`, `％`).
 - Японские даты вида `１１月` надо переводить смыслом: `November`, а не `Month 11`.
 - Плейсхолдеры вроде `Check this place` нельзя оставлять в `translation_en`; это временный черновик, который должен быть заменен нормальным переводом.
@@ -463,17 +465,18 @@ python tools\hint_bin.py build
 python tools\stage_rebuilt_text.py
 python tools\build_data_iso.py
 python tools\build_data_cvm.py
-python tools\patch_elf_text_spacing.py --advance 14
+python tools\patch_elf_text_spacing.py --proportional-font
 python tools\build_patched_iso.py --patched-elf build/stage/SLPS_253.02 --output-iso build/out/kamen_rider_full_translation.iso
 ```
 
 Проверка ELF spacing patch внутри итогового ISO:
 
 ```text
-6041033c
+943b0d0800000000
 ```
 
-Это ожидаемые 4 байта инструкции для `advance 14.0` на текущем месте патча.
+Это ожидаемые 8 байт jump+nop для proportional width-table patch на текущем
+месте патча. Legacy fixed-advance mode больше не является штатным путем.
 
 Проверка ELF scenario anchor clamp внутри итогового ISO:
 
@@ -491,7 +494,11 @@ python tools\build_patched_iso.py --patched-elf build/stage/SLPS_253.02 --output
 Если нужен быстрый menu smoke:
 
 ```text
-python tools\build_text_smoke_iso.py --profile menu-smoke --patch-latin-spacing --latin-advance 14
+python tools\stage_rebuilt_text.py --profile menu-smoke
+python tools\build_data_iso.py
+python tools\build_data_cvm.py
+python tools\patch_elf_text_spacing.py --proportional-font
+python tools\build_patched_iso.py --patched-elf build/stage/SLPS_253.02 --output-iso build/out/kamen_rider_menu_smoke.iso
 ```
 
 ## Журнал 2026-05-12
@@ -503,11 +510,13 @@ python tools\build_text_smoke_iso.py --profile menu-smoke --patch-latin-spacing 
 - рабочий build path переведен на patch-in-place поверх оригинального ISO;
 - меню успешно локализовано сначала через uppercase, затем через lowercase;
 - найдена причина больших пробелов между латинскими буквами: fixed X advance `28.0` в `afMsgDrawString`;
-- добавлен `tools/patch_elf_text_spacing.py`, рабочий параметр сейчас `--advance 14`;
+- добавлен `tools/patch_elf_text_spacing.py`; первый рабочий вариант был
+  legacy fixed-advance mode, но он позднее заменен штатным proportional font
+  patch;
 - добавлен word-wrap английских `text_en` в `tools/encode_all_text.py`;
 - текущий wrap возвращен/оставлен на `20`;
 - добавлены fallbacks для части ASCII punctuation;
-- апострофы временно пропускаются encoder-ом из-за отсутствующего glyph;
+- апострофы позднее добавлены в font/encoder path через slot `0x0019`;
 - `HINT.BIN` вынесен в отдельный Shift-JIS builder;
 - `stage_rebuilt_text.py` расширен на `.BIN`;
 - `translation_en/` перестал быть ignored, потому что это исходники перевода.
@@ -526,7 +535,7 @@ python tools\build_text_smoke_iso.py --profile menu-smoke --patch-latin-spacing 
 - найдена причина смещения нижнего event/cutscene textbox: в `afScenarioMsgKind`
   игра добавляла к X `(18 - maxLineLen) * 14`, что для длинного английского
   текста становилось отрицательным сдвигом влево;
-- `tools/patch_elf_text_spacing.py` расширен: вместе с `--advance 14` он теперь
+- `tools/patch_elf_text_spacing.py` расширен: вместе с Latin advance patch он теперь
   патчит scenario centering clamp;
 - подтвержден рабочий full build с переводом через `--wrap-profile game`;
 - проверено в PCSX2: длинные нижние строки больше не уезжают влево и остаются
@@ -537,7 +546,32 @@ python tools\build_text_smoke_iso.py --profile menu-smoke --patch-latin-spacing 
 ```text
 build/out/kamen_rider_full_translation.iso
 iso_size 3915411456
-advance_14 6041033c OK
+legacy_fixed_advance_patch OK
+scenario_anchor_clamp 232085002a0880000019040023186400231864000b180100000883446008804606080046 OK
+```
+
+## Журнал 2026-05-29
+
+Сделано:
+
+- штатный ELF-патч переведен с legacy fixed-advance mode на proportional
+  width table, построенную из `textures_en/EXPORT_TXD/font_prototype`;
+- `tools/patch_elf_text_spacing.py` теперь по умолчанию использует
+  proportional font patch; старый fixed advance доступен только явно через
+  `--fixed-advance`;
+- для Latin font выбран более плотный tracking: буквы идут на 1px плотнее,
+  пробелы не ужаты;
+- `HINT.BIN` builder хранит проблемную ASCII punctuation через рабочие SJIS
+  glyph slots: comma, apostrophe, `<`, `>`;
+- width table резервирует реальные ширины для `<`, `>`, `×`, `○`, `□`, `△`,
+  чтобы они не прилипали к следующим буквам.
+
+Проверенная default-сборка:
+
+```text
+build/out/kamen_rider_full_translation.iso
+iso_size 3915409408
+proportional_jump 943b0d0800000000 OK
 scenario_anchor_clamp 232085002a0880000019040023186400231864000b180100000883446008804606080046 OK
 ```
 

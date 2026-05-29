@@ -72,14 +72,14 @@ right half, x=128..255  -> screen strip x=512..639, y=256..511
 This is not a normal full 256x256 screen tile.  The game draws it as two
 128-pixel-wide vertical strips on the right side of the title background.
 
-Final verified build:
+Current default verified build:
 
 ```text
-2026-05-17
+2026-05-29
 Imported TITLE_title_00_00..00_04 into rebuilt_en/DATA/TITLE.TXD.
 Built build/out/kamen_rider_full_translation.iso.
-Verified embedded ELF patch bytes: 6041033c.
-Verified ISO size: 3915405312 bytes.
+Verified embedded proportional ELF patch bytes: 943b0d0800000000.
+Verified ISO size: 3915409408 bytes.
 ```
 
 Future work should treat the title-screen background tiles as production assets,

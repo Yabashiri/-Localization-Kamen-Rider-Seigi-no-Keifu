@@ -1,6 +1,6 @@
 # Current text layout status
 
-Date: 2026-05-15
+Date: 2026-05-29
 
 ## Short version
 
@@ -53,11 +53,11 @@ you our true power.
   spacing patch.
 - Diagnostic no-spacing ELF byte at the known advance patch location was:
   `e041033c`.
-- Full Latin-spacing patch changes that same location to:
-  `6041033c`.
+- Current proportional Latin-spacing patch changes that same location to an ELF
+  jump plus nop:
+  `943b0d0800000000`.
 - Because the no-spacing diagnostic still clipped the left side, the lower
-  textbox issue is not caused only by `tools/patch_elf_text_spacing.py
-  --advance 14`.
+  textbox issue is not caused only by the Latin advance patch.
 - A temporary ELF-only diagnostic ISO used original `game_dump/DATA.CVM`; that
   image has no translation and should not be used to verify translated text.
 - The confirmed working image was rebuilt from `translation_en` with
@@ -95,7 +95,8 @@ profiles or manual line breaks instead of changing the scenario anchor patch.
 Known ELF investigation notes:
 
 - Central text draw-ish function appears near vaddr `0x169b20`.
-- Current Latin advance patch touches file offset `0x69ffc`, vaddr `0x169f7c`.
+- Current Latin advance patch touches file offset `0x69ffc`, vaddr `0x169f7c`,
+  and jumps to a proportional width-table cave at `0x24eed0`.
 - Original `lui`/float-28 pattern `e041033c` appears at nearby offsets:
   `0x69f88`, `0x69fb0`, `0x69ffc`.
 - Other occurrences include:
@@ -115,7 +116,9 @@ Known ELF investigation notes:
 
 ## Build caveat
 
-The current known-good translated ISO was built on 2026-05-15:
+The current default translated ISO was built on 2026-05-29. Use the
+proportional font path; do not return to legacy fixed-advance mode unless you
+are making a diagnostic build on purpose.
 
 ```text
 python tools\encode_all_text.py --input-root translation_en --output-root rebuilt_en --wrap-profile game
@@ -123,14 +126,14 @@ python tools\hint_bin.py build
 python tools\stage_rebuilt_text.py
 python tools\build_data_iso.py
 python tools\build_data_cvm.py
-python tools\patch_elf_text_spacing.py --advance 14
+python tools\patch_elf_text_spacing.py --proportional-font
 python tools\build_patched_iso.py --patched-elf build/stage/SLPS_253.02 --output-iso build/out/kamen_rider_full_translation.iso
 ```
 
 Final verification:
 
 ```text
-iso_size 3915411456
-advance_14 6041033c OK
+iso_size 3915409408
+proportional_jump 943b0d0800000000 OK
 scenario_anchor_clamp 232085002a0880000019040023186400231864000b180100000883446008804606080046 OK
 ```

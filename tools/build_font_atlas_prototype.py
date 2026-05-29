@@ -2,7 +2,7 @@
 
 This is an experiment for the PS2 message font.  The preferred path reuses the
 original clean font bitmaps, normalizes their bearings, and emits quick sample
-renders that approximate the fixed-advance game renderer.  The older external
+renders for fixed and proportional spacing checks. The older external
 reference-sheet path remains available for comparison.
 """
 
@@ -659,15 +659,15 @@ def proportional_advance(char: str, glyph: Image.Image) -> int:
         return PROPORTIONAL_ADVANCE_OVERRIDES[" "]
     x0, _y0, x1, _y1 = bbox
     width = x1 - x0 + 1
+    if "A" <= char <= "Z":
+        return max(8, min(20, width - 1))
+    if "a" <= char <= "z":
+        return max(7, min(18, width - 1))
     if char in PROPORTIONAL_ADVANCE_OVERRIDES:
         advance = PROPORTIONAL_ADVANCE_OVERRIDES[char]
         if char in {"'", ".", ",", ":", ";", "!"}:
             return max(advance, width)
         return max(advance, width + 1)
-    if "A" <= char <= "Z":
-        return max(8, min(20, width + 1))
-    if "a" <= char <= "z":
-        return max(7, min(18, width + 1))
     if "0" <= char <= "9":
         return max(9, min(13, width + 1))
     return max(5, min(18, width + 1))
