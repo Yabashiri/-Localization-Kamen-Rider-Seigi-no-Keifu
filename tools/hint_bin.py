@@ -20,6 +20,16 @@ DEFAULT_INPUT = Path("game_dump/DATA/MENU/HINT.BIN")
 DEFAULT_JSON = Path("translation_en/DATA/MENU/HINT.json")
 DEFAULT_OUTPUT = Path("rebuilt_en/DATA/MENU/HINT.BIN")
 STRING_POINTER_BIAS = 8
+HINT_STORAGE_TRANSLATION = str.maketrans(
+    {
+        ",": "、",
+        "'": "”",
+        "’": "”",
+        "‘": "”",
+        "<": "＜",
+        ">": "＞",
+    }
+)
 
 
 def read_u32(data: bytes, offset: int) -> int:
@@ -68,6 +78,12 @@ def iter_strings(data: bytes, start: int, end: int) -> list[tuple[int, str]]:
     return strings
 
 
+def normalize_hint_text_for_storage(text: str) -> str:
+    """Route ASCII punctuation through SJIS glyphs the game already maps."""
+
+    return text.translate(HINT_STORAGE_TRANSLATION)
+
+
 def dump_hint(input_bin: Path, output_json: Path) -> None:
     data = input_bin.read_bytes()
     if data[:4] != b"CSVS":
@@ -107,6 +123,7 @@ def build_hint(input_bin: Path, input_json: Path, output_bin: Path) -> None:
     for record in records:
         old_offset = int(str(record["offset"]), 16)
         text = str(record.get("text_en") or record["text_jp"]).replace("\r\n", "\n").replace("\r", "\n")
+        text = normalize_hint_text_for_storage(text)
         text = text.replace("\n", "\\n")
         new_offset = string_start + len(string_pool)
         offset_map[old_offset] = new_offset

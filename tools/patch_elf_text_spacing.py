@@ -254,6 +254,7 @@ def build_proportional_width_table(atlas_root: Path, fallback_advance: int) -> b
         page0_positions,
         page1_positions,
         proportional_advance,
+        visible_bbox,
     )
     from encode_all_text import ASCII_DIRECT_FONT_CODES
 
@@ -277,6 +278,22 @@ def build_proportional_width_table(atlas_root: Path, fallback_advance: int) -> b
         glyph = pages[page].crop((col * CELL_SIZE, row * CELL_SIZE, (col + 1) * CELL_SIZE, (row + 1) * CELL_SIZE))
         table[code] = proportional_advance(char, glyph)
     table[ASCII_DIRECT_FONT_CODES[" "]] = 6
+
+    def page0_glyph_advance(code: int, padding: int = 2) -> int:
+        col = code % 9
+        row = code // 9
+        glyph = pages[0].crop((col * CELL_SIZE, row * CELL_SIZE, (col + 1) * CELL_SIZE, (row + 1) * CELL_SIZE))
+        bbox = visible_bbox(glyph)
+        if bbox is None:
+            return fallback_advance
+        x0, _y0, x1, _y1 = bbox
+        return max(1, min(28, x1 - x0 + 1 + padding))
+
+    # HINT.BIN can emit these through fullwidth SJIS punctuation and button
+    # placeholders. They are wider than the Latin fallback, so reserve their
+    # real cell width to keep following letters from touching them.
+    for code in (0x0020, 0x0021, 0x0027, 0x002A, 0x002B, 0x002C):
+        table[code] = page0_glyph_advance(code)
     return bytes(table)
 
 
