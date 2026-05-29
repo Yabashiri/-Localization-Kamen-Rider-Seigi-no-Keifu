@@ -234,9 +234,31 @@ Nested resource audit:
 2026-05-21
 Direct TXD coverage is not complete texture coverage.
 RSC/TRA containers contain 2949 embedded TXD payloads, 2832 unique.
-Those embedded TXDs contain 13154 texture entries and are not exported yet.
+Those embedded TXDs contain 13154 texture entries and are not covered by the
+direct TXD export/replacement path yet.
 Details: reports/nested_resource_inventory.md
 ```
+
+Known embedded localization targets found on 2026-05-29:
+
+```text
+DATA/TSCENE/EV126_00.TRA .. DATA/TSCENE/EV131_00.TRA
+  Chapter/interstitial title cards.
+  Embedded TXD offset: 0x40.
+  Layout: five 256x256 16bpp tiles, same 640x512 composition as other TSCENE
+  tile cards.
+
+DATA/MENU/SUB_ST_A.RSC .. DATA/MENU/SUB_ST_E.RSC
+  Status/upgrade UI labels.
+  Embedded RSC/TXD path; not direct DATA/MENU/*.TXD.
+
+DATA/KFI_*.RSC and DATA/KFI_KIJIN_01.RSC .. DATA/KFI_KIJIN_50.RSC
+  Museum record pages, strongest text candidates are tex_kfi_tx_* textures.
+```
+
+Replacement work for these targets must write the rebuilt TXD back into the
+owning `RSC` or `TRA` container, then stage that rebuilt container.  The direct
+TXD importer/staging path is not enough for these files.
 
 For indexed textures, the exported PNG dimensions and palette type match the
 native headers, but the PNG index stream is not always byte-identical to the

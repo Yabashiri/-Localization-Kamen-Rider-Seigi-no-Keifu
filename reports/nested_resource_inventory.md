@@ -175,6 +175,26 @@ Notes:
 .BIN/.DAT/.CLI  mostly script/control/data tables, no valid TXD/DFF payloads found
 ```
 
+## Known localization candidates found after audit
+
+The 2026-05-29 embedded TXD visual pass found these production candidates:
+
+```text
+DATA/TSCENE/EV126_00.TRA .. DATA/TSCENE/EV131_00.TRA
+  Chapter/interstitial title cards.
+  Embedded TXD offset: 0x40.
+  Five 256x256 16bpp tiles per file.
+
+DATA/MENU/SUB_ST_A.RSC .. DATA/MENU/SUB_ST_E.RSC
+  Status/upgrade UI labels.
+
+DATA/KFI_*.RSC and DATA/KFI_KIJIN_01.RSC .. DATA/KFI_KIJIN_50.RSC
+  Museum record pages, especially tex_kfi_tx_* texture entries.
+```
+
+Detailed candidate notes and diagnostic contact-sheet paths are tracked in
+`reports/texture_localization_candidates.md`.
+
 ## Future work
 
 1. Add tools to recursively list and extract `RSC` entries without modifying
@@ -186,8 +206,8 @@ Notes:
 dump_jp/EXPORT_EMBEDDED_TXD/
 ```
 
-4. Generate visual contact sheets for embedded TXDs and audit them for Japanese
-   text, the same way the direct TXD export was reviewed.
+4. Continue visual contact-sheet review for embedded TXDs; chapter title cards,
+   `SUB_ST_*`, and `KFI_*` are already recorded as candidates.
 5. Keep replacement work separate from direct TXD replacement.  Repacking
    embedded TXDs requires writing them back into their owning `RSC` or `TRA`
    container, then staging the rebuilt container file.

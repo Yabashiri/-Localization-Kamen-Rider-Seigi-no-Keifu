@@ -41,6 +41,56 @@ dump_jp/EXPORT_TXD/WARNING_03.png
 dump_jp/EXPORT_TXD/WARNING_04.png
 ```
 
+### Chapter title cards
+
+Large chapter/interstitial title cards with brush-style kanji.  Found during
+the embedded TXD search on 2026-05-29.  These are not direct TXD files; each
+`TRA` contains one embedded TXD at offset `0x40`, split into five 256x256
+16bpp tiles named `_00` through `_04`.
+
+Owning containers:
+
+```text
+DATA/TSCENE/EV126_00.TRA
+DATA/TSCENE/EV127_00.TRA
+DATA/TSCENE/EV128_00.TRA
+DATA/TSCENE/EV129_00.TRA
+DATA/TSCENE/EV130_00.TRA
+DATA/TSCENE/EV131_00.TRA
+```
+
+Embedded texture names:
+
+```text
+EV126_00.TRA: ev126_00_00 .. ev126_00_04
+EV127_00.TRA: ev127_00_00 .. ev127_00_04
+EV128_00.TRA: ev128_00_00 .. ev128_00_04
+EV129_00.TRA: ev129_00_00 .. ev129_00_04
+EV130_00.TRA: ev130_00_00 .. ev130_00_04
+EV131_00.TRA: ev131_00_00 .. ev131_00_04
+```
+
+Working diagnostic sheet:
+
+```text
+build/embedded_txd_probe/chapter_title_cards_contact.png
+```
+
+Visible text:
+
+```text
+EV126_00: 1章 発電所に潜む謎を探れ!
+EV127_00: 2章 廃墟に蠢く悪の正体を暴け!
+EV128_00: 3章 悪の陰謀を暴き阻止せよ!
+EV129_00: 4章 作業員を操る黒幕を倒せ!
+EV130_00: 何者かのもくろみにより、作り上げられた時空間。...
+EV131_00: 6章 邪眼の復活を阻止し悪を殲滅せよ!
+```
+
+Notes: `EV130_00` is part of the same title-card range but is not a numbered
+chapter card.  Replacement will require the embedded-TRA texture path rather
+than direct TXD staging.
+
 ### Mission / event telops
 
 Large Japanese splash text, likely shown during scenario or objective changes.
@@ -195,6 +245,85 @@ dump_jp/EXPORT_TXD/BIKE/RESOURCEBC_r33b0074.png
 Visible text appears to be `セメント`.  This is probably an in-world material or
 sign texture, not UI.  Localize only if environmental text localization is in
 scope.
+
+### Embedded status / upgrade UI
+
+Found during the embedded TXD search on 2026-05-29.  These are not chapter
+title cards, but they contain status/upgrade UI graphics and should remain on
+the future texture-localization candidate list.
+
+Owning containers:
+
+```text
+DATA/MENU/SUB_ST_A.RSC
+DATA/MENU/SUB_ST_B.RSC
+DATA/MENU/SUB_ST_C.RSC
+DATA/MENU/SUB_ST_D.RSC
+DATA/MENU/SUB_ST_E.RSC
+```
+
+Embedded texture names:
+
+```text
+SUB_ST_A.RSC: tex_st_a03, tex_st_a02, tex_st_a01
+SUB_ST_B.RSC: tex_st_b03, tex_st_a02, tex_st_a01
+SUB_ST_C.RSC: tex_st_c03, tex_st_a02, tex_st_a01
+SUB_ST_D.RSC: tex_st_d03, tex_st_a02, tex_st_a01
+SUB_ST_E.RSC: tex_st_e03, tex_st_a02, tex_st_a01
+```
+
+Working diagnostic sheet:
+
+```text
+build/embedded_txd_probe/menu_sub_st_contact.png
+```
+
+Notes: `tex_st_*03` appears to contain Japanese status/upgrade labels;
+`tex_st_a02` contains already-English labels such as `LOW POWER`,
+`HIGH POWER`, and `POWER CHARGE`; `tex_st_a01` is mostly panel/number UI.
+Replacement will require the embedded-RSC texture path rather than direct
+TXD staging.
+
+### Embedded museum records
+
+Found during the embedded TXD search on 2026-05-29.  These appear to be museum
+or collection record pages, not chapter title cards, but several textures
+contain visible Japanese writeups and should be kept as future localization
+candidates.
+
+Likely owning container families:
+
+```text
+DATA/KFI_BG_TEX.RSC
+DATA/KFI_IC_TEX.RSC
+DATA/KFI_IS_TEX.RSC
+DATA/KFI_NA_TEX.RSC
+DATA/KFI_KIJIN_01.RSC .. DATA/KFI_KIJIN_50.RSC
+```
+
+Embedded texture groups:
+
+```text
+KFI_BG_TEX.RSC: tex_kfi_bg_001 .. tex_kfi_bg_018, tex_kfi_ic_003
+KFI_IC_TEX.RSC: tex_kfi_ic_001 .. tex_kfi_ic_003
+KFI_IS_TEX.RSC: tex_kfi_is_001 .. tex_kfi_is_003
+KFI_NA_TEX.RSC: tex_kfi_na_000 .. tex_kfi_na_008
+KFI_KIJIN_01.RSC .. KFI_KIJIN_50.RSC:
+  tex_kfi_ch_NN00a/b, tex_kfi_sh_NN00a/b, tex_kfi_tx_NN00a/b
+```
+
+Working diagnostic sheet:
+
+```text
+build/embedded_txd_probe/group_contacts/kfi.png
+```
+
+Notes: `tex_kfi_tx_*` are the strongest museum-record text candidates.
+Several shared `tex_kfi_bg_*` / `tex_kfi_na_*` sheets also show Japanese UI or
+record text and should be audited with the museum pass.
+
+Replacement will require the embedded-RSC texture path rather than direct TXD
+staging.
 
 ## Probably not localization targets
 

@@ -292,14 +292,20 @@ DATA/SCREVENT/MSG/EV001.DAT
 Только после успешного текстового pipeline переходить к остальному:
 
 1. Графический текст в `.TXD` / `.RSC`.
-2. Меню и telop-текстуры:
+2. Меню, telop, музейные записи и title-card текстуры:
 
 ```text
 DATA/MENU/TELOP_*.TXD
 DATA/MENU/SUB_*.RSC
 DATA/MENU/OPT_*.RSC
+DATA/TSCENE/EV126_00.TRA .. DATA/TSCENE/EV131_00.TRA
+DATA/KFI_*.RSC
+DATA/KFI_KIJIN_*.RSC
 DATA/EXPORT_TXD/MENU/
 ```
+
+Для `RSC` / `TRA` это embedded TXD-задачи: замену нужно писать обратно в
+контейнер, а не только в прямой `DATA/**/*.TXD` файл.
 
 3. Видео `.PSS`, если в них есть вшитые японские титры.
 4. Проверка упаковки обратно в `DATA.CVM` / ISO.
