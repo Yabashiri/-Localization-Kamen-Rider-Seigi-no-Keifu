@@ -1,8 +1,7 @@
 """Import a PNG into one texture entry of a PS2 RenderWare TXD.
 
-Initial scope is intentionally narrow: linear 16bpp native textures.  This is
-enough for TITLE title_00_* smoke tests and avoids pretending that indexed PS2
-pixel swizzle is solved.
+Initial scope is intentionally narrow: linear 16bpp native textures plus the
+8bpp indexed PS2 layout used by MENU telop cards.
 """
 
 from __future__ import annotations
@@ -18,8 +17,32 @@ from txd_inspect import inspect_txd, texture_summaries
 
 
 NATIVE_DATA_HEADER_SIZE = {
+    8: 0x50,
     16: 0x50,
 }
+
+
+def png_index_to_native_index(index: int) -> int:
+    """Map exported PNG palette order back to PS2 8bpp CLUT order."""
+
+    base = index & ~0x1F
+    offset = index & 0x1F
+    if 8 <= offset <= 15:
+        return base + offset + 8
+    if 16 <= offset <= 23:
+        return base + offset - 8
+    return index
+
+
+def psmt8_swizzled_offset(x: int, y: int, width: int) -> int:
+    """Return the PS2 PSMT8 native byte offset for one linear texel."""
+
+    block_location = (y & ~0xF) * width + (x & ~0xF) * 2
+    swap_selector = (((y + 2) >> 2) & 0x1) * 4
+    pos_y = (((y & ~0x3) >> 1) + (y & 1)) & 0x7
+    column_location = pos_y * width * 2 + ((x + swap_selector) & 0x7) * 4
+    byte_num = ((y >> 1) & 1) + ((x >> 2) & 2)
+    return block_location + column_location + byte_num
 
 
 def encode_rgba5551_pixel(r: int, g: int, b: int, a: int) -> bytes:
@@ -32,6 +55,28 @@ def encode_16bpp_rgba5551(image_path: Path, width: int, height: int) -> bytes:
     if image.size != (width, height):
         raise ValueError(f"PNG size {image.size} does not match TXD texture size {(width, height)}")
     return b"".join(encode_rgba5551_pixel(*pixel) for pixel in image.getdata())
+
+
+def encode_8bpp_psmt8(image_path: Path, width: int, height: int) -> bytes:
+    image = Image.open(image_path)
+    if image.size != (width, height):
+        raise ValueError(f"PNG size {image.size} does not match TXD texture size {(width, height)}")
+
+    if image.mode == "P":
+        linear = [png_index_to_native_index(index) for index in image.getdata()]
+    else:
+        rgba = image.convert("RGBA")
+        linear = []
+        for r, g, b, a in rgba.getdata():
+            luma = (r * 299 + g * 587 + b * 114) // 1000
+            linear.append(255 if a >= 128 and luma >= 32 else 0)
+
+    swizzled = bytearray(width * height)
+    for y in range(height):
+        row = y * width
+        for x in range(width):
+            swizzled[psmt8_swizzled_offset(x, y, width)] = linear[row + x]
+    return bytes(swizzled)
 
 
 def import_png(input_txd: Path, texture_name: str, png_path: Path, output_txd: Path) -> None:
@@ -48,7 +93,10 @@ def import_png(input_txd: Path, texture_name: str, png_path: Path, output_txd: P
     if bpp not in NATIVE_DATA_HEADER_SIZE:
         raise NotImplementedError(f"PNG import for {bpp}bpp textures is not implemented yet")
 
-    replacement = encode_16bpp_rgba5551(png_path, texture["width"], texture["height"])
+    if bpp == 8:
+        replacement = encode_8bpp_psmt8(png_path, texture["width"], texture["height"])
+    else:
+        replacement = encode_16bpp_rgba5551(png_path, texture["width"], texture["height"])
     expected_size = texture["width"] * texture["height"] * bpp // 8
     if len(replacement) != expected_size:
         raise ValueError(f"Encoded PNG size {len(replacement)} != expected {expected_size}")
