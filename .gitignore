@@ -39,6 +39,10 @@ textures_en/EXPORT_TXD/MENU/*
 !textures_en/EXPORT_TXD/BIKE/
 textures_en/EXPORT_TXD/BIKE/*
 !textures_en/EXPORT_TXD/BIKE/.gitkeep
+!textures_en/embedded_txd/
+textures_en/embedded_txd/*
+!textures_en/embedded_txd/**/
+!textures_en/embedded_txd/**/*.png
 
 # Editor / OS noise
 .vscode/
