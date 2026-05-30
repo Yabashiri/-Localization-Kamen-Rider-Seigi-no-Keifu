@@ -253,6 +253,7 @@ def build_proportional_width_table(atlas_root: Path, fallback_advance: int) -> b
     from PIL import Image
     from build_font_atlas_prototype import (
         CELL_SIZE,
+        ELLIPSIS_CODE,
         page0_positions,
         page1_positions,
         proportional_advance,
@@ -291,10 +292,10 @@ def build_proportional_width_table(atlas_root: Path, fallback_advance: int) -> b
         x0, _y0, x1, _y1 = bbox
         return max(1, min(28, x1 - x0 + 1 + padding))
 
-    # HINT.BIN can emit these through fullwidth SJIS punctuation and button
-    # placeholders. They are wider than the Latin fallback, so reserve their
-    # real cell width to keep following letters from touching them.
-    for code in (0x0020, 0x0021, 0x0027, 0x002A, 0x002B, 0x002C):
+    # HINT.BIN can emit these through fullwidth SJIS punctuation, ellipsis, and
+    # button placeholders. They are wider than the Latin fallback, so reserve
+    # their real cell width to keep following letters from touching them.
+    for code in (ELLIPSIS_CODE, 0x0020, 0x0021, 0x0027, 0x002A, 0x002B, 0x002C):
         table[code] = page0_glyph_advance(code)
     return bytes(table)
 

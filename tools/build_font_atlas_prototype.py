@@ -24,6 +24,15 @@ BACKGROUND_BRIGHTNESS_CUTOFF = 40
 NOISE_COMPONENT_MAX_PIXELS = 4
 ORIGINAL_FONT_SCALE = 0.85
 ORIGINAL_FONT_LEFT_BEARING = 1
+PERIOD_CODE = 0x0010
+ELLIPSIS_CODE = 0x0017
+LATIN_ELLIPSIS_LEFT_BEARING = 1
+LATIN_ELLIPSIS_DOT_ADVANCE = 5
+LATIN_ELLIPSIS_Y_OFFSET = 1
+ORIGINAL_FONT_DY_ADJUSTMENTS = {
+    ".": -1,
+    "?": -1,
+}
 
 RESAMPLE_FILTERS = {
     "nearest": Image.Resampling.NEAREST,
@@ -263,6 +272,47 @@ def remove_small_components(image: Image.Image, max_component_pixels: int) -> Im
     return output
 
 
+def cell_box_for_code(code: int) -> tuple[int, int, int, int]:
+    col = code % 9
+    row = code // 9
+    return col * CELL_SIZE, row * CELL_SIZE, (col + 1) * CELL_SIZE, (row + 1) * CELL_SIZE
+
+
+def visible_only(image: Image.Image) -> Image.Image:
+    output = Image.new("RGBA", image.size, (0, 0, 0, 0))
+    pixels = image.load()
+    out_pixels = output.load()
+    for y in range(image.height):
+        for x in range(image.width):
+            r, g, b, a = pixels[x, y]
+            if a and (r or g or b):
+                out_pixels[x, y] = (r, g, b, a)
+    return output
+
+
+def latin_ellipsis_cell(period_cell: Image.Image) -> Image.Image:
+    """Build a baseline ellipsis from the adjusted Latin period glyph."""
+
+    output = Image.new("RGBA", (CELL_SIZE, CELL_SIZE), TARGET_BACKGROUND)
+    bbox = visible_bbox(period_cell)
+    if bbox is None:
+        return output
+
+    x0, y0, x1, y1 = bbox
+    dot = visible_only(period_cell.crop((x0, y0, x1 + 1, y1 + 1)))
+    for index in range(3):
+        output.alpha_composite(
+            dot,
+            (LATIN_ELLIPSIS_LEFT_BEARING + index * LATIN_ELLIPSIS_DOT_ADVANCE, y0 + LATIN_ELLIPSIS_Y_OFFSET),
+        )
+    return output
+
+
+def replace_latin_ellipsis(page0: Image.Image) -> None:
+    period_cell = page0.crop(cell_box_for_code(PERIOD_CODE))
+    page0.paste(latin_ellipsis_cell(period_cell), cell_box_for_code(ELLIPSIS_CODE))
+
+
 def glyph_adjustment(source_char: str, cap_dy: int) -> tuple[int, int, float]:
     dx, dy, scale = GLYPH_ADJUSTMENTS.get(source_char, (0, 0, 1.0))
     if "A" <= source_char <= "Z":
@@ -398,6 +448,8 @@ def apply_replacements(
         )
         page0.paste(cell, (col * CELL_SIZE, row * CELL_SIZE))
 
+    replace_latin_ellipsis(page0)
+
     for char, (col, row) in page1_positions().items():
         source = glyph_map[char]
         raw = reference.crop((source.box[0], source.box[1], source.box[2] + 1, source.box[3] + 1))
@@ -495,6 +547,7 @@ def transform_original_font_cell(
     x = max(0, min(CELL_SIZE - glyph.width, left_bearing))
     baseline = 24
     y = round(baseline - (baseline - y0) * scale)
+    y += ORIGINAL_FONT_DY_ADJUSTMENTS.get(char, 0)
     y = max(0, min(CELL_SIZE - glyph.height, y))
     output.alpha_composite(glyph, (x, y))
     output = quantize_font_cell(output, palette, background_cutoff)
@@ -530,6 +583,8 @@ def apply_original_font_replacements(
         )
         pages[page].paste(replacement, box)
 
+    replace_latin_ellipsis(pages[0])
+
     output_root.mkdir(parents=True, exist_ok=True)
     for page, image in pages.items():
         image.save(output_root / f"FONT_font_{page:02d}.png")
@@ -537,7 +592,9 @@ def apply_original_font_replacements(
 
 
 def physical_positions() -> dict[str, tuple[int, int, int]]:
-    return page_positions()
+    positions = page_positions()
+    positions["…"] = (0, ELLIPSIS_CODE % 9, ELLIPSIS_CODE // 9)
+    return positions
 
 
 def render_sample(pages: dict[int, Image.Image], text: str, advance: int, output_path: Path) -> None:
@@ -716,6 +773,7 @@ def build_preview_sheet(pages: dict[int, Image.Image], advance: int, output_path
         "Power Plant Central Control Room",
         "No data",
         "Loading...",
+        "This feeling… what is it?",
         "Old No1 - New No1",
         "(Test) A/B + 50%",
         "Garagaranda's file was obtained.",
@@ -751,6 +809,7 @@ def build_proportional_preview_sheet(pages: dict[int, Image.Image], output_path:
         "Power Plant Central Control Room",
         "No data",
         "Loading...",
+        "This feeling… what is it?",
         "Old No1 - New No1",
         "(Test) A/B + 50%",
         "Garagaranda's file was obtained.",
