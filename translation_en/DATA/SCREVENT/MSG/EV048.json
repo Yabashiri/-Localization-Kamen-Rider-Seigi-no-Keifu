@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "text_jp": "我々全員の時代に計画があって、どれか\n一つでも成功すると歴史が変わるって…{END}",
-    "text_en": "If even one plan succeeds, history will change.{END}"
+    "text_en": "They have plans in all of our eras,\nand if even one succeeds,\nhistory will change…{END}"
   },
   {
     "idx": 1,
@@ -12,7 +12,7 @@
   {
     "idx": 2,
     "text_jp": "待って下さい\nもし過去の計画が成功しているなら{END}",
-    "text_en": "If even one plan succeeds, history will change.{END}"
+    "text_en": "Wait.\nIf a plan in the past\nhad succeeded,{END}"
   },
   {
     "idx": 3,
@@ -152,7 +152,7 @@
   {
     "idx": 30,
     "text_jp": "私も見た。…本郷先輩、あれは{END}",
-    "text_en": "I saw it as well.\nSenior Hongo, that was…{END}"
+    "text_en": "I saw it as well.\nHongo-senpai, that was…{END}"
   },
   {
     "idx": 31,
