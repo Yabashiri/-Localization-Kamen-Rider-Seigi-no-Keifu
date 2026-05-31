@@ -91,7 +91,7 @@ WRAP_PROFILES = {
         # Cutscene/event subtitles need an ELF-side X/start-position fix.
         # Keep this only as a guard against very long single lines; do not use
         # aggressive wrapping to hide the renderer bug.
-        ("DATA/SCREVENT/MSG/EV", 42),
+        ("DATA/SCREVENT/MSG/EV", 48),
         ("DATA/SCREVENT/MSG/", 32),
         ("DATA/MEMCARD.json", 24),
     ),

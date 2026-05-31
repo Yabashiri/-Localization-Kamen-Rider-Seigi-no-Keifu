@@ -12,17 +12,17 @@
   {
     "idx": 2,
     "text_jp": "そうか！\nこれが、この時代の計画なんだ{END}",
-    "text_en": "I see!\nThis is the plan for this era.{END}"
+    "text_en": "I see! This is the plan for this era.{END}"
   },
   {
     "idx": 3,
     "text_jp": "きっと、奴らが運んでたのは\n基地を造るための資材なんだ{END}",
-    "text_en": "The materials they were transporting\nmust be for building the base.{END}"
+    "text_en": "The materials they were transporting must be for building the base.{END}"
   },
   {
     "idx": 4,
     "text_jp": "ファイル『地獄大使の作戦計画書』を\n入手した{END}",
-    "text_en": "Obtained file\n'Ambassador Hell's Operation Plan'.{END}"
+    "text_en": "Obtained file 'Ambassador Hell's Operation Plan'.{END}"
   },
   {
     "idx": 1000,

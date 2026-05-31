@@ -7,7 +7,7 @@
   {
     "idx": 1,
     "text_jp": "戻る時が来たようだ{END}",
-    "text_en": "It seems the time has come\nto return.{END}"
+    "text_en": "It seems the time has come to return.{END}"
   },
   {
     "idx": 2,
@@ -22,6 +22,6 @@
   {
     "idx": 4,
     "text_jp": "いや。いつかまた、必ず会えるさ{END}",
-    "text_en": "No. Someday, we will surely\nmeet again.{END}"
+    "text_en": "No. Someday, we will surely meet again.{END}"
   }
 ]

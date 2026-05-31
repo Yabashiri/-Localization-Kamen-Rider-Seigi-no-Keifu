@@ -7,7 +7,7 @@
   {
     "idx": 1,
     "text_jp": "どこへ行く気だ、仮面ライダー…{END}",
-    "text_en": "Where do you think\nyou are going, Kamen Rider…?{END}"
+    "text_en": "Where do you think you are going, Kamen Rider…?{END}"
   },
   {
     "idx": 2,
@@ -17,6 +17,6 @@
   {
     "idx": 3,
     "text_jp": "貴様も邪魔しに来たか…死ね！{END}",
-    "text_en": "You came to interfere too?\nDie!{END}"
+    "text_en": "You came to interfere too? Die!{END}"
   }
 ]

@@ -22,7 +22,7 @@
   {
     "idx": 4,
     "text_jp": "…ここは我が復活の祭壇…{END}",
-    "text_en": "…This is the altar\nof my revival…{END}"
+    "text_en": "…This is the altar of my revival…{END}"
   },
   {
     "idx": 5,
@@ -32,7 +32,7 @@
   {
     "idx": 6,
     "text_jp": "…つかの間の命…好きにするがよい…{END}",
-    "text_en": "…Your life is brief…\ndo as you wish with it…{END}"
+    "text_en": "…Your life is brief… do as you wish with it…{END}"
   },
   {
     "idx": 7,
@@ -42,11 +42,11 @@
   {
     "idx": 8,
     "text_jp": "…まさか、この人が田所博士…{END}",
-    "text_en": "…Could this man be\nDr Tadokoro…?{END}"
+    "text_en": "…Could this man be Dr Tadokoro…?{END}"
   },
   {
     "idx": 9,
     "text_jp": "皆に…先輩に知らせなくては{END}",
-    "text_en": "I have to tell everyone…\ntell my seniors.{END}"
+    "text_en": "I have to tell everyone… tell my seniors.{END}"
   }
 ]

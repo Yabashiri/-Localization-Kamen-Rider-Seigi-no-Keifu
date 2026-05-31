@@ -2,12 +2,12 @@
   {
     "idx": 0,
     "text_jp": "…磁気フィールドが反転しています{END}",
-    "text_en": "…The magnetic field\nis reversing.{END}"
+    "text_en": "…The magnetic field is reversing.{END}"
   },
   {
     "idx": 1,
     "text_jp": "フィールド維持８０％まで減少…{END}",
-    "text_en": "Field stability has dropped\nto 80 percent…{END}"
+    "text_en": "Field stability has dropped to 80 percent…{END}"
   },
   {
     "idx": 2,
@@ -32,12 +32,12 @@
   {
     "idx": 6,
     "text_jp": "よくも計画を邪魔してくれたな\n貴様もそこで死ぬがよい！{END}",
-    "text_en": "How dare you interfere\nwith the plan!\nYou can die there too!{END}"
+    "text_en": "How dare you interfere with the plan! You can die there too!{END}"
   },
   {
     "idx": 7,
     "text_jp": "フィールド崩壊まで…あと３分…\nただちに退避して下さい。…危険…危険…{END}",
-    "text_en": "Field collapse in… three minutes…\nEvacuate immediately.\n…Danger… Danger…{END}"
+    "text_en": "Field collapse in… three minutes… Evacuate immediately. …Danger… Danger…{END}"
   },
   {
     "idx": 8,

@@ -32,12 +32,12 @@
   {
     "idx": 6,
     "text_jp": "この部屋のウルフビールスガスだけでは\nあれだけの数の素体に対しては少なすぎる{END}",
-    "text_en": "The Wolf Virus gas in this room\nis far too little for\nthat many base bodies.{END}"
+    "text_en": "The Wolf Virus gas in this room is far too little for that many base bodies.{END}"
   },
   {
     "idx": 7,
     "text_jp": "だとすると、どこか別の場所に\n保管されているのか？{END}",
-    "text_en": "Then is it being stored\nsomewhere else?{END}"
+    "text_en": "Then is it being stored somewhere else?{END}"
   },
   {
     "idx": 8,
@@ -57,12 +57,12 @@
   {
     "idx": 11,
     "text_jp": "ああ、俺はそこへ行ってみる{END}",
-    "text_en": "Yes. I will go there\nand check it out.{END}"
+    "text_en": "Yes. I will go there and check it out.{END}"
   },
   {
     "idx": 12,
     "text_jp": "よし\n俺はここの作業員を逃がしたら後を追う{END}",
-    "text_en": "All right.\nOnce I get the workers here out,\nI will follow you.{END}"
+    "text_en": "All right. Once I get the workers here out, I will follow you.{END}"
   },
   {
     "idx": 13,

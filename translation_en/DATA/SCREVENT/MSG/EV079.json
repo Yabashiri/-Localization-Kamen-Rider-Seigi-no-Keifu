@@ -22,17 +22,17 @@
   {
     "idx": 4,
     "text_jp": "警告…システム内に異物混入…\n警告…システム内に異物混入{END}",
-    "text_en": "Warning… Foreign matter\nin the system…\nWarning… Foreign matter\nin the system…{END}"
+    "text_en": "Warning… Foreign matter in the system… Warning… Foreign matter in the system…{END}"
   },
   {
     "idx": 5,
     "text_jp": "…汚染度…５０％…５７％…７０％{END}",
-    "text_en": "…Contamination level…\n50 percent… 57 percent… 70 percent…{END}"
+    "text_en": "…Contamination level… 50 percent… 57 percent… 70 percent…{END}"
   },
   {
     "idx": 6,
     "text_jp": "修復不可能…システム…停止{END}",
-    "text_en": "Repair impossible…\nSystem… shutting down.{END}"
+    "text_en": "Repair impossible… System… shutting down.{END}"
   },
   {
     "idx": 7,
@@ -57,7 +57,7 @@
   {
     "idx": 11,
     "text_jp": "時空を越えてまで望むものは何だ！{END}",
-    "text_en": "What are you seeking,\neven crossing time and space!?{END}"
+    "text_en": "What are you seeking, even crossing time and space!?{END}"
   },
   {
     "idx": 12,
@@ -72,7 +72,7 @@
   {
     "idx": 14,
     "text_jp": "お前と同時に出現したあの培養装置…！{END}",
-    "text_en": "That culture device\nthat appeared with you…!{END}"
+    "text_en": "That culture device that appeared with you…!{END}"
   },
   {
     "idx": 15,
@@ -82,7 +82,7 @@
   {
     "idx": 16,
     "text_jp": "その為に時空を越えたのか！{END}",
-    "text_en": "Did you cross time and space\nfor that!?{END}"
+    "text_en": "Did you cross time and space for that!?{END}"
   },
   {
     "idx": 17,
