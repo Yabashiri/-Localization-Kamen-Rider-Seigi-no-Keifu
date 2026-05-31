@@ -39,7 +39,7 @@ def iter_rebuilt_files(rebuilt_data: Path, only: list[str] | None) -> list[Path]
     return sorted(
         path.relative_to(rebuilt_data)
         for path in rebuilt_data.rglob("*")
-        if path.is_file() and path.suffix.upper() in {".DAT", ".BIN", ".TXD", ".TRA"}
+        if path.is_file() and path.suffix.upper() in {".DAT", ".BIN", ".TXD", ".TRA", ".RSC"}
     )
 
 
